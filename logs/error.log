@@ -1,0 +1,174 @@
+[2025-12-07 13:48:13] INFO  ApplicationHooks - Scenario started: Verify that the error message is displayed when the user enters an invalid username and password
+[2025-12-07 13:49:31] INFO  ApplicationHooks - Scenario started: Verify the Dashboard page text in the DsAlgo portal
+[2025-12-07 13:49:36] INFO  ApplicationHooks - Scenario passed: Verify the Dashboard page text in the DsAlgo portal
+[2025-12-07 13:49:38] INFO  ApplicationHooks - Scenario started: Verify the Get Started button in the DsAlgo portal
+[2025-12-07 13:49:42] INFO  ApplicationHooks - Scenario passed: Verify the Get Started button in the DsAlgo portal
+[2025-12-07 13:49:44] INFO  ApplicationHooks - Scenario started: Verify that the NumpyNinja is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 13:49:51] INFO  ApplicationHooks - Scenario passed: Verify that the NumpyNinja is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 13:49:53] INFO  ApplicationHooks - Scenario started: Verify that the DataStructures-dropdown is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 13:50:03] ERROR ApplicationHooks - Scenario failed: Verify that the DataStructures-dropdown is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 13:50:05] INFO  ApplicationHooks - Scenario started: Verify that the Register link is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 13:50:12] INFO  ApplicationHooks - Scenario passed: Verify that the Register link is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 13:50:14] INFO  ApplicationHooks - Scenario started: Verify that the Sign in link is displayed after clicking on the "Get Started" button of DsAlgo portal
+[2025-12-07 13:50:21] INFO  ApplicationHooks - Scenario passed: Verify that the Sign in link is displayed after clicking on the "Get Started" button of DsAlgo portal
+[2025-12-07 13:50:23] INFO  ApplicationHooks - Scenario started: Verify that the DataStructures - Introduction Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 13:50:28] ERROR ApplicationHooks - Scenario failed: Verify that the DataStructures - Introduction Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 13:50:30] INFO  ApplicationHooks - Scenario started: Verify that the Array Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 13:50:37] INFO  ApplicationHooks - Scenario passed: Verify that the Array Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 13:50:39] INFO  ApplicationHooks - Scenario started: Verify that the Linked List Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 13:50:46] INFO  ApplicationHooks - Scenario passed: Verify that the Linked List Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 13:50:48] INFO  ApplicationHooks - Scenario started: Verify that the Stack Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 13:50:52] INFO  ApplicationHooks - Scenario passed: Verify that the Stack Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 13:50:54] INFO  ApplicationHooks - Scenario started: Verify that the Queue Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 13:50:59] INFO  ApplicationHooks - Scenario passed: Verify that the Queue Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 13:51:02] INFO  ApplicationHooks - Scenario started: Verify that the Tree Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 13:51:11] INFO  ApplicationHooks - Scenario passed: Verify that the Tree Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 13:51:14] INFO  ApplicationHooks - Scenario started: Verify that the Graph Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 13:51:22] INFO  ApplicationHooks - Scenario passed: Verify that the Graph Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 14:07:24] INFO  ApplicationHooks - Scenario started: Verify that the user opens the DsAlgo portal
+[2025-12-07 14:07:29] INFO  ApplicationHooks - Scenario passed: Verify that the user opens the DsAlgo portal
+[2025-12-07 14:07:31] INFO  ApplicationHooks - Scenario started: Verify the Dashboard page text in the DsAlgo portal
+[2025-12-07 14:07:36] INFO  ApplicationHooks - Scenario passed: Verify the Dashboard page text in the DsAlgo portal
+[2025-12-07 14:07:38] INFO  ApplicationHooks - Scenario started: Verify the Get Started button in the DsAlgo portal
+[2025-12-07 14:07:42] INFO  ApplicationHooks - Scenario passed: Verify the Get Started button in the DsAlgo portal
+[2025-12-07 14:07:44] INFO  ApplicationHooks - Scenario started: Verify that the NumpyNinja is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 14:07:49] INFO  ApplicationHooks - Scenario passed: Verify that the NumpyNinja is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 14:07:51] INFO  ApplicationHooks - Scenario started: Verify that the DataStructures-dropdown is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 14:07:57] ERROR ApplicationHooks - Scenario failed: Verify that the DataStructures-dropdown is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 14:07:59] INFO  ApplicationHooks - Scenario started: Verify that the Register link is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 14:08:06] INFO  ApplicationHooks - Scenario passed: Verify that the Register link is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 14:08:08] INFO  ApplicationHooks - Scenario started: Verify that the Sign in link is displayed after clicking on the "Get Started" button of DsAlgo portal
+[2025-12-07 14:08:15] INFO  ApplicationHooks - Scenario passed: Verify that the Sign in link is displayed after clicking on the "Get Started" button of DsAlgo portal
+[2025-12-07 14:08:16] INFO  ApplicationHooks - Scenario started: Verify that the DataStructures - Introduction Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 14:08:25] ERROR ApplicationHooks - Scenario failed: Verify that the DataStructures - Introduction Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 14:08:29] INFO  ApplicationHooks - Scenario started: Verify that the Array Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 14:08:33] INFO  ApplicationHooks - Scenario passed: Verify that the Array Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 14:08:35] INFO  ApplicationHooks - Scenario started: Verify that the Linked List Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 14:08:44] INFO  ApplicationHooks - Scenario passed: Verify that the Linked List Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 14:08:45] INFO  ApplicationHooks - Scenario started: Verify that the Stack Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 14:08:51] INFO  ApplicationHooks - Scenario passed: Verify that the Stack Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 14:08:53] INFO  ApplicationHooks - Scenario started: Verify that the Queue Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 14:08:57] INFO  ApplicationHooks - Scenario passed: Verify that the Queue Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 14:08:59] INFO  ApplicationHooks - Scenario started: Verify that the Tree Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 14:09:05] INFO  ApplicationHooks - Scenario passed: Verify that the Tree Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 14:09:06] INFO  ApplicationHooks - Scenario started: Verify that the Graph Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 14:09:15] INFO  ApplicationHooks - Scenario passed: Verify that the Graph Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 14:37:37] INFO  ApplicationHooks - Scenario started: Verify that the user opens the DsAlgo portal
+[2025-12-07 14:37:40] INFO  ApplicationHooks - Scenario passed: Verify that the user opens the DsAlgo portal
+[2025-12-07 14:37:41] INFO  ApplicationHooks - Scenario started: Verify the Dashboard page text in the DsAlgo portal
+[2025-12-07 14:37:44] INFO  ApplicationHooks - Scenario passed: Verify the Dashboard page text in the DsAlgo portal
+[2025-12-07 14:37:46] INFO  ApplicationHooks - Scenario started: Verify the Get Started button in the DsAlgo portal
+[2025-12-07 14:37:48] INFO  ApplicationHooks - Scenario passed: Verify the Get Started button in the DsAlgo portal
+[2025-12-07 14:37:50] INFO  ApplicationHooks - Scenario started: Verify that the NumpyNinja is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 14:37:53] INFO  ApplicationHooks - Scenario passed: Verify that the NumpyNinja is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 14:37:56] INFO  ApplicationHooks - Scenario started: Verify that the DataStructures-dropdown is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 14:38:00] ERROR ApplicationHooks - Scenario failed: Verify that the DataStructures-dropdown is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 14:38:02] INFO  ApplicationHooks - Scenario started: Verify that the Register link is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 14:38:05] INFO  ApplicationHooks - Scenario passed: Verify that the Register link is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 14:38:07] INFO  ApplicationHooks - Scenario started: Verify that the Sign in link is displayed after clicking on the "Get Started" button of DsAlgo portal
+[2025-12-07 14:38:12] INFO  ApplicationHooks - Scenario passed: Verify that the Sign in link is displayed after clicking on the "Get Started" button of DsAlgo portal
+[2025-12-07 14:38:14] INFO  ApplicationHooks - Scenario started: Verify that the DataStructures - Introduction Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 14:38:18] ERROR ApplicationHooks - Scenario failed: Verify that the DataStructures - Introduction Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 14:38:20] INFO  ApplicationHooks - Scenario started: Verify that the Array Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 14:38:23] INFO  ApplicationHooks - Scenario passed: Verify that the Array Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 14:38:25] INFO  ApplicationHooks - Scenario started: Verify that the Linked List Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 14:38:28] INFO  ApplicationHooks - Scenario passed: Verify that the Linked List Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 14:38:29] INFO  ApplicationHooks - Scenario started: Verify that the Stack Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 14:38:33] INFO  ApplicationHooks - Scenario passed: Verify that the Stack Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 14:38:35] INFO  ApplicationHooks - Scenario started: Verify that the Queue Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 14:38:39] INFO  ApplicationHooks - Scenario passed: Verify that the Queue Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 14:38:40] INFO  ApplicationHooks - Scenario started: Verify that the Tree Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 14:38:46] INFO  ApplicationHooks - Scenario passed: Verify that the Tree Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 14:38:48] INFO  ApplicationHooks - Scenario started: Verify that the Graph Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 14:38:52] INFO  ApplicationHooks - Scenario passed: Verify that the Graph Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 14:50:36] INFO  ApplicationHooks - Scenario started: Verify that the user opens the DsAlgo portal
+[2025-12-07 14:50:47] INFO  ApplicationHooks - Scenario passed: Verify that the user opens the DsAlgo portal
+[2025-12-07 14:50:51] INFO  ApplicationHooks - Scenario started: Verify the Dashboard page text in the DsAlgo portal
+[2025-12-07 14:50:57] INFO  ApplicationHooks - Scenario passed: Verify the Dashboard page text in the DsAlgo portal
+[2025-12-07 14:50:59] INFO  ApplicationHooks - Scenario started: Verify the Get Started button in the DsAlgo portal
+[2025-12-07 14:51:02] INFO  ApplicationHooks - Scenario passed: Verify the Get Started button in the DsAlgo portal
+[2025-12-07 14:51:04] INFO  ApplicationHooks - Scenario started: Verify that the NumpyNinja is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 14:51:28] INFO  ApplicationHooks - Scenario passed: Verify that the NumpyNinja is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 14:51:29] INFO  ApplicationHooks - Scenario started: Verify that the DataStructures-dropdown is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 14:51:33] INFO  ApplicationHooks - Scenario passed: Verify that the DataStructures-dropdown is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 14:51:35] INFO  ApplicationHooks - Scenario started: Verify that the Register link is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 14:51:38] INFO  ApplicationHooks - Scenario passed: Verify that the Register link is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 14:51:40] INFO  ApplicationHooks - Scenario started: Verify that the Sign in link is displayed after clicking on the "Get Started" button of DsAlgo portal
+[2025-12-07 14:51:43] INFO  ApplicationHooks - Scenario passed: Verify that the Sign in link is displayed after clicking on the "Get Started" button of DsAlgo portal
+[2025-12-07 14:51:45] INFO  ApplicationHooks - Scenario started: Verify that the DataStructures - Introduction Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 14:51:52] INFO  ApplicationHooks - Scenario passed: Verify that the DataStructures - Introduction Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 14:51:54] INFO  ApplicationHooks - Scenario started: Verify that the Array Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 14:51:57] INFO  ApplicationHooks - Scenario passed: Verify that the Array Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 14:51:59] INFO  ApplicationHooks - Scenario started: Verify that the Linked List Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 14:52:02] INFO  ApplicationHooks - Scenario passed: Verify that the Linked List Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 14:52:04] INFO  ApplicationHooks - Scenario started: Verify that the Stack Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 14:52:07] INFO  ApplicationHooks - Scenario passed: Verify that the Stack Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 14:52:09] INFO  ApplicationHooks - Scenario started: Verify that the Queue Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 14:52:12] INFO  ApplicationHooks - Scenario passed: Verify that the Queue Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 14:52:14] INFO  ApplicationHooks - Scenario started: Verify that the Tree Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 14:52:17] INFO  ApplicationHooks - Scenario passed: Verify that the Tree Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 14:52:19] INFO  ApplicationHooks - Scenario started: Verify that the Graph Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 14:52:22] INFO  ApplicationHooks - Scenario passed: Verify that the Graph Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 15:51:18] INFO  ApplicationHooks - Scenario started: Verify that the user opens the DsAlgo portal
+[2025-12-07 15:51:20] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-07 15:51:20] INFO  DashboardSteps - Validating page title. Expected: Numpy Ninja
+[2025-12-07 15:51:20] INFO  ApplicationHooks - Scenario passed: Verify that the user opens the DsAlgo portal
+[2025-12-07 15:51:22] INFO  ApplicationHooks - Scenario started: Verify the Dashboard page text in the DsAlgo portal
+[2025-12-07 15:51:24] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-07 15:51:24] INFO  DashboardSteps - Validating the DS Algo portal - Text. Expected: Preparing for the Interviews
+[2025-12-07 15:51:24] INFO  ApplicationHooks - Scenario passed: Verify the Dashboard page text in the DsAlgo portal
+[2025-12-07 15:51:26] INFO  ApplicationHooks - Scenario started: Verify the Get Started button in the DsAlgo portal
+[2025-12-07 15:51:28] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-07 15:51:28] INFO  DashboardSteps - Validating the DS Algo portal - get started button. Expected: Get Started
+[2025-12-07 15:51:28] INFO  ApplicationHooks - Scenario passed: Verify the Get Started button in the DsAlgo portal
+[2025-12-07 15:51:29] INFO  ApplicationHooks - Scenario started: Verify that the NumpyNinja is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 15:51:31] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-07 15:51:32] INFO  DashboardSteps - Validating the NumbyNinja Logo. Expected: NumpyNinja
+[2025-12-07 15:51:32] INFO  ApplicationHooks - Scenario passed: Verify that the NumpyNinja is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 15:51:34] INFO  ApplicationHooks - Scenario started: Verify that the DataStructures-dropdown is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 15:51:36] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-07 15:51:37] INFO  DashboardSteps - Validating the DataStructures- dropdown options. Expected: [Arrays, Linked List, Stack, Queue, Tree, Graph]
+[2025-12-07 15:51:37] INFO  ApplicationHooks - Scenario passed: Verify that the DataStructures-dropdown is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 15:51:38] INFO  ApplicationHooks - Scenario started: Verify that the Register link is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 15:51:41] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-07 15:51:42] INFO  DashboardSteps - Validating the RegisterLink Text Expected: Register
+[2025-12-07 15:51:42] INFO  ApplicationHooks - Scenario passed: Verify that the Register link is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 15:51:43] INFO  ApplicationHooks - Scenario started: Verify that the Sign in link is displayed after clicking on the "Get Started" button of DsAlgo portal
+[2025-12-07 15:51:45] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-07 15:51:46] INFO  DashboardSteps - Validating the SignInLink Text Expected: Sign in
+[2025-12-07 15:51:46] INFO  ApplicationHooks - Scenario passed: Verify that the Sign in link is displayed after clicking on the "Get Started" button of DsAlgo portal
+[2025-12-07 15:51:48] INFO  ApplicationHooks - Scenario started: Verify that the DataStructures - Introduction Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 15:51:50] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-07 15:51:51] INFO  DashboardSteps - Validating the Data structures introduction module label. Expected: Data Structures-Introduction
+[2025-12-07 15:51:51] INFO  DashboardSteps - Validating the Data structures introduction module label with get started button text. Expected: Get Started
+[2025-12-07 15:51:51] INFO  ApplicationHooks - Scenario passed: Verify that the DataStructures - Introduction Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 15:51:53] INFO  ApplicationHooks - Scenario started: Verify that the Array Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 15:51:54] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-07 15:51:55] INFO  DashboardSteps - Validating the Data structures introduction module label. Expected: Array
+[2025-12-07 15:51:55] INFO  DashboardSteps - Validating the Data structures introduction module label with get started button text. Expected: Get Started
+[2025-12-07 15:51:55] INFO  ApplicationHooks - Scenario passed: Verify that the Array Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 15:51:57] INFO  ApplicationHooks - Scenario started: Verify that the Linked List Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 15:51:59] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-07 15:52:00] INFO  DashboardSteps - Validating the Data structures introduction module label. Expected: Linked List
+[2025-12-07 15:52:00] INFO  DashboardSteps - Validating the Data structures introduction module label with get started button text. Expected: Get Started
+[2025-12-07 15:52:00] INFO  ApplicationHooks - Scenario passed: Verify that the Linked List Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 15:52:02] INFO  ApplicationHooks - Scenario started: Verify that the Stack Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 15:52:05] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-07 15:52:06] INFO  DashboardSteps - Validating the Data structures introduction module label. Expected: Stack
+[2025-12-07 15:52:06] INFO  DashboardSteps - Validating the Data structures introduction module label with get started button text. Expected: Get Started
+[2025-12-07 15:52:06] INFO  ApplicationHooks - Scenario passed: Verify that the Stack Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 15:52:07] INFO  ApplicationHooks - Scenario started: Verify that the Queue Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 15:52:10] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-07 15:52:11] INFO  DashboardSteps - Validating the Data structures introduction module label. Expected: Queue
+[2025-12-07 15:52:11] INFO  DashboardSteps - Validating the Data structures introduction module label with get started button text. Expected: Get Started
+[2025-12-07 15:52:11] INFO  ApplicationHooks - Scenario passed: Verify that the Queue Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 15:52:12] INFO  ApplicationHooks - Scenario started: Verify that the Tree Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 15:52:15] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-07 15:52:16] INFO  DashboardSteps - Validating the Data structures introduction module label. Expected: Tree
+[2025-12-07 15:52:16] INFO  DashboardSteps - Validating the Data structures introduction module label with get started button text. Expected: Get Started
+[2025-12-07 15:52:16] INFO  ApplicationHooks - Scenario passed: Verify that the Tree Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 15:52:17] INFO  ApplicationHooks - Scenario started: Verify that the Graph Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 15:52:19] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-07 15:52:20] INFO  DashboardSteps - Validating the Data structures introduction module label. Expected: Graph
+[2025-12-07 15:52:20] INFO  DashboardSteps - Validating the Data structures introduction module label with get started button text. Expected: Get Started
+[2025-12-07 15:52:20] INFO  ApplicationHooks - Scenario passed: Verify that the Graph Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal

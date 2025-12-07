@@ -9,11 +9,6 @@ public class DSIntroductionSteps {
 
     }
 
-    @When("user clicks on Login button")
-    public void user_clicks_on_login_button() {
-
-    }
-
     @When("the user clicks on Get Started button below Data Structures - Introduction module")
     public void the_user_clicks_on_get_started_button_below_data_structures_introduction_module() {
 

@@ -1,9 +1,10 @@
 Feature: Dashboard Functionality in DsAlgo Portal
+
   Background:
     Given User launches the browser and enters the DsAlgo application url
 
   Scenario: Verify that the user opens the DsAlgo portal
-    Then the page title should be displayed as "NumpyNinja"
+    Then the page title should be displayed as "Numpy Ninja"
 
   Scenario: Verify the Dashboard page text in the DsAlgo portal
     Then the user should see text on DsAlgo portal as "Preparing for the Interviews"
@@ -17,7 +18,13 @@ Feature: Dashboard Functionality in DsAlgo Portal
 
   Scenario: Verify that the DataStructures-dropdown is displayed after clicking on the Get Started button of DsAlgo portal
     When the user clicks on Get Started button in the DsAlgo Portal
-    Then the user should be navigated to the Home page which displays the DataStructures - dropdown on the top left corner
+    Then the user should be navigated to the Home page which displays the DataStructures - dropdown with the following options on the top left corner
+      | Arrays      |
+      | Linked List |
+      | Stack       |
+      | Queue       |
+      | Tree        |
+      | Graph       |
 
   Scenario: Verify that the Register link is displayed after clicking on the Get Started button of DsAlgo portal
     When the user clicks on Get Started button in the DsAlgo Portal
@@ -29,7 +36,7 @@ Feature: Dashboard Functionality in DsAlgo Portal
 
   Scenario: Verify that the DataStructures - Introduction Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
     When the user clicks on Get Started button in the DsAlgo Portal
-    Then the user should be navigated to the Home page which displays the "DataStructures-Introduction" module with "Get Started" button
+    Then the user should be navigated to the Home page which displays the "Data Structures-Introduction" module with "Get Started" button
 
   Scenario: Verify that the Array Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
     When the user clicks on Get Started button in the DsAlgo Portal

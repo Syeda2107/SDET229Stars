@@ -10,11 +10,6 @@ public class HomeSteps {
 
     }
 
-    @Then("the page title should be displayed as {string}")
-    public void the_page_title_should_be_displayed_as(String string) {
-
-    }
-
     @When("the user clicks on Data Structures dropdown in the Home page")
     public void the_user_clicks_on_data_structures_dropdown_in_the_home_page() {
 

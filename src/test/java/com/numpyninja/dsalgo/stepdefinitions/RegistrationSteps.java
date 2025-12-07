@@ -10,11 +10,6 @@ public class RegistrationSteps {
 
     }
 
-    @Then("the page title should be displayed as {string}")
-    public void the_page_title_should_be_displayed_as(String string) {
-
-    }
-
     @When("the user enters {string},{string} and {string} in the register form")
     public void the_user_enters_and_in_the_register_form(String string, String string2, String string3) {
 
@@ -22,11 +17,6 @@ public class RegistrationSteps {
 
     @When("user clicks on Register button with all fields empty")
     public void user_clicks_on_register_button_with_all_fields_empty() {
-
-    }
-
-    @Then("the user should get tooltip message as {string} below Username textbox")
-    public void the_user_should_get_tooltip_message_as_below_username_textbox(String string) {
 
     }
 
@@ -67,11 +57,6 @@ public class RegistrationSteps {
 
     @When("user clicks on Register button after entering mismatched passwords in the password and password confirmation fields")
     public void user_clicks_on_register_button_after_entering_mismatched_passwords_in_the_password_and_password_confirmation_fields() {
-
-    }
-
-    @Then("the user should get error message as {string}")
-    public void the_user_should_get_error_message_as(String string) {
 
     }
 

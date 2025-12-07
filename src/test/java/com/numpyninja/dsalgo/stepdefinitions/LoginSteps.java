@@ -9,11 +9,6 @@ public class LoginSteps {
 
     }
 
-    @Then("the page title should be displayed as {string}")
-    public void the_page_title_should_be_displayed_as(String string) {
-
-    }
-
     @When("the user enters valid {string} and {string} in the Login form")
     public void the_user_enters_valid_and_in_the_login_form(String string, String string2) {
 
@@ -45,7 +40,7 @@ public class LoginSteps {
     }
 
     @Then("the user should get error message as {string}")
-    public void the_user_should_get_error_message_as(String string) {
+    public void the_user_should_get_invalid_error_message_as(String string) {
 
     }
 
@@ -56,11 +51,6 @@ public class LoginSteps {
 
     @Then("the user should get tooltip message as {string} below Username textbox")
     public void the_user_should_get_tooltip_message_as_below_username_textbox(String string) {
-
-    }
-
-    @Then("the user should get tooltip message as {string} below Password textbox")
-    public void the_user_should_get_tooltip_message_as_below_password_textbox(String string) {
 
     }
 

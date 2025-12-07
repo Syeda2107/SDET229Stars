@@ -20,7 +20,7 @@ Feature: Login Functionality of DsAlgo Application
   Scenario Outline: Verify that the error message is displayed when the user enters an invalid username and password
     When the user enters invalid "<Username>" and "<Password>" in the Login form
     And user clicks on Login button
-    Then the user should get error message as "<Error Message>"
+    Then the user should get invalid error message as "<Error Message>"
     Examples:
       | Username      | Password  | Error Message                 |
       | yth@gmail.com | kkk[[@123 | Invalid Username and Password |
@@ -44,7 +44,7 @@ Feature: Login Functionality of DsAlgo Application
   Scenario Outline: Verify that the tooltip message is displayed when user clicks on Login button after entering valid Username field and invalid Password field
     When the user enters "<Username>" and "<Password>" in the Login form
     And user clicks on Login button
-    Then the user should get error message as "<Error Message>"
+    Then the user should get invalid error message as "<Error Message>"
     Examples:
       | Username         | Password      | Error Message                 |
       | sgs123@gmail.com | KK%%EEE!!!### | Invalid Username and Password |
@@ -52,7 +52,7 @@ Feature: Login Functionality of DsAlgo Application
   Scenario Outline: Verify that the tooltip message is displayed when user clicks on Login button after entering invalid Username field and valid Password field
     When the user enters "<Username>" and "<Password>" in the Login form
     And user clicks on Login button
-    Then the user should get error message as "<Error Message>"
+    Then the user should get invalid error message as "<Error Message>"
     Examples:
       | Username        | Password  | Error Message                 |
       | UU***))))$$$$$$ | Stars@123 | Invalid Username and Password |
