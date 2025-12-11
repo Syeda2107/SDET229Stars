@@ -10,15 +10,18 @@ import java.time.Duration;
 
 public class BasePage {
     protected WebDriver driver;
+    protected TestContext context;
 
-    public BasePage(WebDriver driver) {
+
+    public BasePage(WebDriver driver,TestContext context) {
         this.driver = driver;
         PageFactory.initElements(driver, this);
+        this.context=context;
     }
 
     public void waitForElementToClick(WebElement element, long timeOutInSec) {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(timeOutInSec));
-        wait.until(ExpectedConditions.elementToBeClickable(element));
+        wait.until(ExpectedConditions.elementToBeClickable(element)).click();
     }
 
 }

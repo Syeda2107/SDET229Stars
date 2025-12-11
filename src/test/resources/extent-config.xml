@@ -27,6 +27,10 @@
 
         <testViewChartLocation>bottom</testViewChartLocation>
         <!-- custom javascript -->
+        <!-- ENABLE SYSTEM INFO DISPLAY -->
+                <systemInfo>
+                    <display>true</display>
+                </systemInfo>
 
         <scripts>
 

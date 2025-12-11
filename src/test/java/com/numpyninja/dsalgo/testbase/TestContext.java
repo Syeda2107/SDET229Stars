@@ -18,8 +18,8 @@ public class TestContext {
     //public static String browserName;
 
     public void initializePageObjects() {
-        this.dashboardPage = new DashboardPage(driver);
-        this.homePage = new HomePage(driver);
+        this.dashboardPage = new DashboardPage(driver,this);
+        this.homePage = new HomePage(driver,this);
         this.registrationPage = new RegistrationPage(driver);
         this.loginPage = new LoginPage(driver);
         this.dsIntroductionPage = new DSIntroductionPage(driver);

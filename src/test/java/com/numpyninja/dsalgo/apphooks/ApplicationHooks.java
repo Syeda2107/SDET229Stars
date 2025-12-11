@@ -33,7 +33,7 @@ public class ApplicationHooks {
     private final TestContext context;
     String browserName;
 
-    private static ExtentReports extent = ExtentReportManager.createInstance();
+    private static ExtentReports extent;
     private static ThreadLocal<ExtentTest> test = new ThreadLocal<>();
 
     public ApplicationHooks(TestContext context) {
@@ -44,7 +44,8 @@ public class ApplicationHooks {
     public void getProperty() throws IOException {
         cr = new ConfigReader();
         browserName = cr.initProp("browser");
-
+        // Load ONE SINGLE instance from manager
+        extent = ExtentReportManager.getInstance();
     }
 
     @Before(order = 1)
@@ -58,6 +59,7 @@ public class ApplicationHooks {
         ExtentTest extentTest = extent.createTest(scenario.getName())
                 .assignCategory(browserName);
         test.set(extentTest);
+        System.out.println("**********************************User env: "+System.getenv("AUTOMATION_USER"));
 
         log.info("Scenario started: {}", scenario.getName());
     }
@@ -100,6 +102,11 @@ public class ApplicationHooks {
     @After(order = 0)
     public void quitBrowser() {
         DriverFactory.quitDriver();
+    }
+
+    @After(order = -1)
+    public void flushExtent() throws IOException {
+        ExtentReportManager.getInstance().flush();
     }
 }
 

@@ -1,6 +1,7 @@
 package com.numpyninja.dsalgo.pageobjects;
 
 import com.numpyninja.dsalgo.testbase.BasePage;
+import com.numpyninja.dsalgo.testbase.TestContext;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -9,8 +10,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class DashboardPage extends BasePage {
-    public DashboardPage(WebDriver driver) {
-        super(driver);
+    public DashboardPage(WebDriver driver, TestContext context)
+    {
+        super(driver,context);
     }
 
     @FindBy(xpath = "//div[@class='content']/h1")
@@ -110,12 +112,12 @@ public class DashboardPage extends BasePage {
 
     public void clickGetStartedBtn() {
         waitForElementToClick(btnGetStarted, 10);
-        btnGetStarted.click();
+        //btnGetStarted.click();
     }
 
     public List<String> getAllOptions() {
         waitForElementToClick(drpdwnDS, 10);
-        drpdwnDS.click();
+       // drpdwnDS.click();
         List<String> options = new ArrayList<>();
         for (WebElement option : drpdwnDSOptions) {
             options.add(option.getText().trim());

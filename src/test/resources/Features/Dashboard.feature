@@ -3,6 +3,7 @@ Feature: Dashboard Functionality in DsAlgo Portal
   Background:
     Given User launches the browser and enters the DsAlgo application url
 
+  @DBP-1
   Scenario: Verify that the user opens the DsAlgo portal
     Then the page title should be displayed as "Numpy Ninja"
 

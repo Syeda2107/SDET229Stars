@@ -5,9 +5,9 @@ import io.cucumber.junit.CucumberOptions;
 import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features = {"src/test/resources/Features/Dashboard.feature"},
+@CucumberOptions(features = {"src/test/resources/Features/Home.feature"},
         glue = {"com.numpyninja.dsalgo.stepdefinitions","com.numpyninja.dsalgo.apphooks"},
-        //tags = "@SmokeTest or @RegressionTest or OC-1",
+        //tags = "@SmokeTest or @RegressionTest or @DBP-1",
         dryRun = false,
         monochrome = true,
         publish=true,

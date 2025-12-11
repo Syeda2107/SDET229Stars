@@ -172,3 +172,645 @@
 [2025-12-07 15:52:20] INFO  DashboardSteps - Validating the Data structures introduction module label. Expected: Graph
 [2025-12-07 15:52:20] INFO  DashboardSteps - Validating the Data structures introduction module label with get started button text. Expected: Get Started
 [2025-12-07 15:52:20] INFO  ApplicationHooks - Scenario passed: Verify that the Graph Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 18:28:18] INFO  ApplicationHooks - Scenario started: Verify that the user opens the DsAlgo portal
+[2025-12-07 18:28:27] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-07 18:28:27] INFO  DashboardSteps - Validating page title. Expected: Numpy Ninja
+[2025-12-07 18:28:27] INFO  ApplicationHooks - Scenario passed: Verify that the user opens the DsAlgo portal
+[2025-12-07 18:28:34] INFO  ApplicationHooks - Scenario started: Verify the Dashboard page text in the DsAlgo portal
+[2025-12-07 18:28:36] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-07 18:28:36] INFO  DashboardSteps - Validating the DS Algo portal - Text. Expected: Preparing for the Interviews
+[2025-12-07 18:28:36] INFO  ApplicationHooks - Scenario passed: Verify the Dashboard page text in the DsAlgo portal
+[2025-12-07 18:28:39] INFO  ApplicationHooks - Scenario started: Verify the Get Started button in the DsAlgo portal
+[2025-12-07 18:28:40] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-07 18:28:40] INFO  DashboardSteps - Validating the DS Algo portal - get started button. Expected: Get Started
+[2025-12-07 18:28:40] INFO  ApplicationHooks - Scenario passed: Verify the Get Started button in the DsAlgo portal
+[2025-12-07 18:28:43] INFO  ApplicationHooks - Scenario started: Verify that the NumpyNinja is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 18:28:46] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-07 18:28:48] INFO  DashboardSteps - Validating the NumbyNinja Logo. Expected: NumpyNinja
+[2025-12-07 18:28:48] INFO  ApplicationHooks - Scenario passed: Verify that the NumpyNinja is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 18:28:49] INFO  ApplicationHooks - Scenario started: Verify that the DataStructures-dropdown is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 18:28:52] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-07 18:28:54] INFO  DashboardSteps - Validating the DataStructures- dropdown options. Expected: [Arrays, Linked List, Stack, Queue, Tree, Graph]
+[2025-12-07 18:28:54] INFO  ApplicationHooks - Scenario passed: Verify that the DataStructures-dropdown is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 18:28:56] INFO  ApplicationHooks - Scenario started: Verify that the Register link is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 18:28:58] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-07 18:28:59] INFO  DashboardSteps - Validating the RegisterLink Text Expected: Register
+[2025-12-07 18:28:59] INFO  ApplicationHooks - Scenario passed: Verify that the Register link is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 18:29:01] INFO  ApplicationHooks - Scenario started: Verify that the Sign in link is displayed after clicking on the "Get Started" button of DsAlgo portal
+[2025-12-07 18:29:03] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-07 18:29:04] INFO  DashboardSteps - Validating the SignInLink Text Expected: Sign in
+[2025-12-07 18:29:04] INFO  ApplicationHooks - Scenario passed: Verify that the Sign in link is displayed after clicking on the "Get Started" button of DsAlgo portal
+[2025-12-07 18:29:06] INFO  ApplicationHooks - Scenario started: Verify that the DataStructures - Introduction Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 18:29:08] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-07 18:29:09] INFO  DashboardSteps - Validating the Data structures introduction module label. Expected: Data Structures-Introduction
+[2025-12-07 18:29:09] INFO  DashboardSteps - Validating the Data structures introduction module label with get started button text. Expected: Get Started
+[2025-12-07 18:29:09] INFO  ApplicationHooks - Scenario passed: Verify that the DataStructures - Introduction Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 18:29:11] INFO  ApplicationHooks - Scenario started: Verify that the Array Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 18:29:13] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-07 18:29:14] INFO  DashboardSteps - Validating the Data structures introduction module label. Expected: Array
+[2025-12-07 18:29:14] INFO  DashboardSteps - Validating the Data structures introduction module label with get started button text. Expected: Get Started
+[2025-12-07 18:29:14] INFO  ApplicationHooks - Scenario passed: Verify that the Array Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 18:29:16] INFO  ApplicationHooks - Scenario started: Verify that the Linked List Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 18:29:18] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-07 18:29:19] INFO  DashboardSteps - Validating the Data structures introduction module label. Expected: Linked List
+[2025-12-07 18:29:19] INFO  DashboardSteps - Validating the Data structures introduction module label with get started button text. Expected: Get Started
+[2025-12-07 18:29:20] INFO  ApplicationHooks - Scenario passed: Verify that the Linked List Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 18:29:21] INFO  ApplicationHooks - Scenario started: Verify that the Stack Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 18:29:23] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-07 18:29:24] INFO  DashboardSteps - Validating the Data structures introduction module label. Expected: Stack
+[2025-12-07 18:29:24] INFO  DashboardSteps - Validating the Data structures introduction module label with get started button text. Expected: Get Started
+[2025-12-07 18:29:24] INFO  ApplicationHooks - Scenario passed: Verify that the Stack Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 18:29:26] INFO  ApplicationHooks - Scenario started: Verify that the Queue Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 18:29:28] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-07 18:29:29] INFO  DashboardSteps - Validating the Data structures introduction module label. Expected: Queue
+[2025-12-07 18:29:29] INFO  DashboardSteps - Validating the Data structures introduction module label with get started button text. Expected: Get Started
+[2025-12-07 18:29:29] INFO  ApplicationHooks - Scenario passed: Verify that the Queue Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 18:29:31] INFO  ApplicationHooks - Scenario started: Verify that the Tree Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 18:29:33] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-07 18:29:34] INFO  DashboardSteps - Validating the Data structures introduction module label. Expected: Tree
+[2025-12-07 18:29:34] INFO  DashboardSteps - Validating the Data structures introduction module label with get started button text. Expected: Get Started
+[2025-12-07 18:29:34] INFO  ApplicationHooks - Scenario passed: Verify that the Tree Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 18:29:36] INFO  ApplicationHooks - Scenario started: Verify that the Graph Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 18:29:38] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-07 18:29:39] INFO  DashboardSteps - Validating the Data structures introduction module label. Expected: Graph
+[2025-12-07 18:29:40] INFO  DashboardSteps - Validating the Data structures introduction module label with get started button text. Expected: Get Started
+[2025-12-07 18:29:40] INFO  ApplicationHooks - Scenario passed: Verify that the Graph Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 18:40:10] INFO  ApplicationHooks - Scenario started: Verify that the user opens the DsAlgo portal
+[2025-12-07 18:40:14] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-07 18:40:14] INFO  DashboardSteps - Validating page title. Expected: Numpy Ninja
+[2025-12-07 18:40:14] INFO  ApplicationHooks - Scenario passed: Verify that the user opens the DsAlgo portal
+[2025-12-07 18:40:17] INFO  ApplicationHooks - Scenario started: Verify the Dashboard page text in the DsAlgo portal
+[2025-12-07 18:40:19] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-07 18:40:19] INFO  DashboardSteps - Validating the DS Algo portal - Text. Expected: Preparing for the Interviews
+[2025-12-07 18:40:19] INFO  ApplicationHooks - Scenario passed: Verify the Dashboard page text in the DsAlgo portal
+[2025-12-07 18:40:22] INFO  ApplicationHooks - Scenario started: Verify the Get Started button in the DsAlgo portal
+[2025-12-07 18:40:24] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-07 18:40:24] INFO  DashboardSteps - Validating the DS Algo portal - get started button. Expected: Get Started
+[2025-12-07 18:40:24] INFO  ApplicationHooks - Scenario passed: Verify the Get Started button in the DsAlgo portal
+[2025-12-07 18:40:31] INFO  ApplicationHooks - Scenario started: Verify that the NumpyNinja is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 18:40:32] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-07 18:40:33] INFO  DashboardSteps - Validating the NumbyNinja Logo. Expected: NumpyNinja
+[2025-12-07 18:40:33] INFO  ApplicationHooks - Scenario passed: Verify that the NumpyNinja is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 18:40:35] INFO  ApplicationHooks - Scenario started: Verify that the DataStructures-dropdown is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 18:40:37] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-07 18:40:39] INFO  DashboardSteps - Validating the DataStructures- dropdown options. Expected: [Arrays, Linked List, Stack, Queue, Tree, Graph]
+[2025-12-07 18:40:39] INFO  ApplicationHooks - Scenario passed: Verify that the DataStructures-dropdown is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 18:40:41] INFO  ApplicationHooks - Scenario started: Verify that the Register link is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 18:40:43] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-07 18:40:45] INFO  DashboardSteps - Validating the RegisterLink Text Expected: Register
+[2025-12-07 18:40:45] INFO  ApplicationHooks - Scenario passed: Verify that the Register link is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 18:40:47] INFO  ApplicationHooks - Scenario started: Verify that the Sign in link is displayed after clicking on the "Get Started" button of DsAlgo portal
+[2025-12-07 18:40:49] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-07 18:40:50] INFO  DashboardSteps - Validating the SignInLink Text Expected: Sign in
+[2025-12-07 18:40:50] INFO  ApplicationHooks - Scenario passed: Verify that the Sign in link is displayed after clicking on the "Get Started" button of DsAlgo portal
+[2025-12-07 18:40:52] INFO  ApplicationHooks - Scenario started: Verify that the DataStructures - Introduction Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 18:40:54] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-07 18:40:55] INFO  DashboardSteps - Validating the Data structures introduction module label. Expected: Data Structures-Introduction
+[2025-12-07 18:40:55] INFO  DashboardSteps - Validating the Data structures introduction module label with get started button text. Expected: Get Started
+[2025-12-07 18:40:55] INFO  ApplicationHooks - Scenario passed: Verify that the DataStructures - Introduction Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 18:40:58] INFO  ApplicationHooks - Scenario started: Verify that the Array Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 18:41:00] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-07 18:41:01] INFO  DashboardSteps - Validating the Data structures introduction module label. Expected: Array
+[2025-12-07 18:41:01] INFO  DashboardSteps - Validating the Data structures introduction module label with get started button text. Expected: Get Started
+[2025-12-07 18:41:01] INFO  ApplicationHooks - Scenario passed: Verify that the Array Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 18:41:03] INFO  ApplicationHooks - Scenario started: Verify that the Linked List Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 18:41:04] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-07 18:41:06] INFO  DashboardSteps - Validating the Data structures introduction module label. Expected: Linked List
+[2025-12-07 18:41:06] INFO  DashboardSteps - Validating the Data structures introduction module label with get started button text. Expected: Get Started
+[2025-12-07 18:41:06] INFO  ApplicationHooks - Scenario passed: Verify that the Linked List Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 18:41:08] INFO  ApplicationHooks - Scenario started: Verify that the Stack Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 18:41:10] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-07 18:41:11] INFO  DashboardSteps - Validating the Data structures introduction module label. Expected: Stack
+[2025-12-07 18:41:11] INFO  DashboardSteps - Validating the Data structures introduction module label with get started button text. Expected: Get Started
+[2025-12-07 18:41:11] INFO  ApplicationHooks - Scenario passed: Verify that the Stack Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 18:41:14] INFO  ApplicationHooks - Scenario started: Verify that the Queue Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 18:41:16] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-07 18:41:17] INFO  DashboardSteps - Validating the Data structures introduction module label. Expected: Queue
+[2025-12-07 18:41:17] INFO  DashboardSteps - Validating the Data structures introduction module label with get started button text. Expected: Get Started
+[2025-12-07 18:41:17] INFO  ApplicationHooks - Scenario passed: Verify that the Queue Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 18:41:24] INFO  ApplicationHooks - Scenario started: Verify that the Tree Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 18:41:26] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-07 18:41:27] INFO  DashboardSteps - Validating the Data structures introduction module label. Expected: Tree
+[2025-12-07 18:41:28] INFO  DashboardSteps - Validating the Data structures introduction module label with get started button text. Expected: Get Started
+[2025-12-07 18:41:28] INFO  ApplicationHooks - Scenario passed: Verify that the Tree Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 18:41:30] INFO  ApplicationHooks - Scenario started: Verify that the Graph Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 18:41:32] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-07 18:41:33] INFO  DashboardSteps - Validating the Data structures introduction module label. Expected: Graph
+[2025-12-07 18:41:33] INFO  DashboardSteps - Validating the Data structures introduction module label with get started button text. Expected: Get Started
+[2025-12-07 18:41:33] INFO  ApplicationHooks - Scenario passed: Verify that the Graph Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-07 18:55:34] INFO  ApplicationHooks - Scenario started: Verify that the user opens the DsAlgo portal
+[2025-12-07 18:55:38] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-07 18:55:38] INFO  DashboardSteps - Validating page title. Expected: Numpy Ninja
+[2025-12-07 18:55:38] INFO  ApplicationHooks - Scenario passed: Verify that the user opens the DsAlgo portal
+[2025-12-07 19:14:12] INFO  ApplicationHooks - Scenario started: Verify that the user opens the DsAlgo portal
+[2025-12-07 19:14:14] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-07 19:14:14] INFO  DashboardSteps - Validating page title. Expected: Numpy Ninja
+[2025-12-07 19:14:14] INFO  ApplicationHooks - Scenario passed: Verify that the user opens the DsAlgo portal
+[2025-12-07 19:52:06] INFO  ApplicationHooks - Scenario started: Verify that the user opens the DsAlgo portal
+[2025-12-07 19:52:08] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-07 19:52:08] INFO  DashboardSteps - Validating page title. Expected: Numpy Ninja
+[2025-12-07 19:52:08] INFO  ApplicationHooks - Scenario passed: Verify that the user opens the DsAlgo portal
+[2025-12-07 20:02:55] INFO  ApplicationHooks - Scenario started: Verify that the user opens the DsAlgo portal
+[2025-12-07 20:02:57] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-07 20:02:57] INFO  DashboardSteps - Validating page title. Expected: Numpy Ninja
+[2025-12-07 20:02:57] INFO  ApplicationHooks - Scenario passed: Verify that the user opens the DsAlgo portal
+[2025-12-07 20:09:36] INFO  ApplicationHooks - Scenario started: Verify that the user opens the DsAlgo portal
+[2025-12-07 20:09:38] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-07 20:09:38] INFO  DashboardSteps - Validating page title. Expected: Numpy Ninja
+[2025-12-07 20:09:38] INFO  ApplicationHooks - Scenario passed: Verify that the user opens the DsAlgo portal
+[2025-12-07 22:20:59] INFO  ApplicationHooks - Scenario started: Verify that the user opens the DsAlgo portal
+[2025-12-07 22:21:01] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-07 22:21:01] INFO  DashboardSteps - Validating page title. Expected: Numpy Ninja
+[2025-12-07 22:21:01] INFO  ApplicationHooks - Scenario passed: Verify that the user opens the DsAlgo portal
+[2025-12-07 22:25:14] INFO  ApplicationHooks - Scenario started: Verify that the user opens the DsAlgo portal
+[2025-12-07 22:25:16] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-07 22:25:16] INFO  DashboardSteps - Validating page title. Expected: Numpy Ninja
+[2025-12-07 22:25:16] INFO  ApplicationHooks - Scenario passed: Verify that the user opens the DsAlgo portal
+[2025-12-07 22:29:20] INFO  ApplicationHooks - Scenario started: Verify that the user opens the DsAlgo portal
+[2025-12-07 22:29:22] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-07 22:29:22] INFO  DashboardSteps - Validating page title. Expected: Numpy Ninja
+[2025-12-07 22:29:22] INFO  ApplicationHooks - Scenario passed: Verify that the user opens the DsAlgo portal
+[2025-12-07 22:31:57] INFO  ApplicationHooks - Scenario started: Verify that the user opens the DsAlgo portal
+[2025-12-07 22:31:59] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-07 22:31:59] INFO  DashboardSteps - Validating page title. Expected: Numpy Ninja
+[2025-12-07 22:31:59] INFO  ApplicationHooks - Scenario passed: Verify that the user opens the DsAlgo portal
+[2025-12-07 22:33:30] INFO  ApplicationHooks - Scenario started: Verify that the user opens the DsAlgo portal
+[2025-12-07 22:33:32] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-07 22:33:32] INFO  DashboardSteps - Validating page title. Expected: Numpy Ninja
+[2025-12-07 22:33:32] INFO  ApplicationHooks - Scenario passed: Verify that the user opens the DsAlgo portal
+[2025-12-07 22:46:20] INFO  ApplicationHooks - Scenario started: Verify that the user opens the DsAlgo portal
+[2025-12-07 22:46:23] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-07 22:46:23] INFO  DashboardSteps - Validating page title. Expected: Numpy Ninja
+[2025-12-07 22:46:23] INFO  ApplicationHooks - Scenario passed: Verify that the user opens the DsAlgo portal
+[2025-12-08 08:27:39] INFO  ApplicationHooks - Scenario started: Verify that the user opens the DsAlgo portal
+[2025-12-08 08:27:42] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-08 08:27:42] INFO  DashboardSteps - Validating page title. Expected: Numpy Ninja
+[2025-12-08 08:27:42] INFO  ApplicationHooks - Scenario passed: Verify that the user opens the DsAlgo portal
+[2025-12-08 08:35:17] INFO  ApplicationHooks - Scenario started: Verify that the user opens the DsAlgo portal
+[2025-12-08 08:35:22] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-08 08:35:22] INFO  DashboardSteps - Validating page title. Expected: Numpy Ninja
+[2025-12-08 08:35:22] INFO  ApplicationHooks - Scenario passed: Verify that the user opens the DsAlgo portal
+[2025-12-08 08:50:37] INFO  ApplicationHooks - Scenario started: Verify that the user opens the DsAlgo portal
+[2025-12-08 08:50:40] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-08 08:50:40] INFO  DashboardSteps - Validating page title. Expected: Numpy Ninja
+[2025-12-08 08:50:40] INFO  ApplicationHooks - Scenario passed: Verify that the user opens the DsAlgo portal
+[2025-12-08 09:00:21] INFO  ApplicationHooks - Scenario started: Verify that the user opens the DsAlgo portal
+[2025-12-08 09:00:23] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-08 09:00:23] INFO  DashboardSteps - Validating page title. Expected: Numpy Ninja
+[2025-12-08 09:00:23] INFO  ApplicationHooks - Scenario passed: Verify that the user opens the DsAlgo portal
+[2025-12-08 09:04:22] INFO  ApplicationHooks - Scenario started: Verify that the user opens the DsAlgo portal
+[2025-12-08 09:04:24] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-08 09:04:24] INFO  DashboardSteps - Validating page title. Expected: Numpy Ninja
+[2025-12-08 09:04:24] INFO  ApplicationHooks - Scenario passed: Verify that the user opens the DsAlgo portal
+[2025-12-08 09:15:05] INFO  ApplicationHooks - Scenario started: Verify that the user opens the DsAlgo portal
+[2025-12-08 09:15:08] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-08 09:15:08] INFO  DashboardSteps - Validating page title. Expected: Numpy Ninja
+[2025-12-08 09:15:08] INFO  ApplicationHooks - Scenario passed: Verify that the user opens the DsAlgo portal
+[2025-12-08 09:20:42] INFO  ApplicationHooks - Scenario started: Verify that the user opens the DsAlgo portal
+[2025-12-08 09:20:44] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-08 09:20:44] INFO  DashboardSteps - Validating page title. Expected: Numpy Ninja
+[2025-12-08 09:20:44] INFO  ApplicationHooks - Scenario passed: Verify that the user opens the DsAlgo portal
+[2025-12-09 19:54:38] INFO  ApplicationHooks - Scenario started: Verify that the user opens the DsAlgo portal
+[2025-12-09 19:54:41] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-09 19:54:41] INFO  DashboardSteps - Validating page title. Expected: Numpy Ninja
+[2025-12-09 19:54:41] INFO  ApplicationHooks - Scenario passed: Verify that the user opens the DsAlgo portal
+[2025-12-09 19:57:33] INFO  ApplicationHooks - Scenario started: Verify that the user opens the DsAlgo portal
+[2025-12-09 19:57:35] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-09 19:57:35] INFO  DashboardSteps - Validating page title. Expected: Numpy Ninja
+[2025-12-09 19:57:35] INFO  ApplicationHooks - Scenario passed: Verify that the user opens the DsAlgo portal
+[2025-12-09 20:00:46] INFO  ApplicationHooks - Scenario started: Verify that the user opens the DsAlgo portal
+[2025-12-09 20:00:48] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-09 20:00:48] INFO  DashboardSteps - Validating page title. Expected: Numpy Ninja
+[2025-12-09 20:00:48] INFO  ApplicationHooks - Scenario passed: Verify that the user opens the DsAlgo portal
+[2025-12-09 20:01:14] INFO  ApplicationHooks - Scenario started: Verify that the user opens the DsAlgo portal
+[2025-12-09 20:01:17] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-09 20:01:17] INFO  DashboardSteps - Validating page title. Expected: Numpy Ninja
+[2025-12-09 20:01:17] INFO  ApplicationHooks - Scenario passed: Verify that the user opens the DsAlgo portal
+[2025-12-09 20:10:25] INFO  ApplicationHooks - Scenario started: Verify that the user opens the DsAlgo portal
+[2025-12-09 20:10:30] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-09 20:10:30] INFO  DashboardSteps - Validating page title. Expected: Numpy Ninja
+[2025-12-09 20:10:30] INFO  ApplicationHooks - Scenario passed: Verify that the user opens the DsAlgo portal
+[2025-12-09 20:13:18] INFO  ApplicationHooks - Scenario started: Verify that the user opens the DsAlgo portal
+[2025-12-09 20:13:20] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-09 20:13:20] INFO  DashboardSteps - Validating page title. Expected: Numpy Ninja
+[2025-12-09 20:13:20] INFO  ApplicationHooks - Scenario passed: Verify that the user opens the DsAlgo portal
+[2025-12-09 22:13:35] INFO  ApplicationHooks - Scenario started: Verify that the user opens the DsAlgo portal
+[2025-12-09 22:13:37] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-09 22:13:37] INFO  DashboardSteps - Validating page title. Expected: Numpy Ninja
+[2025-12-09 22:13:37] INFO  ApplicationHooks - Scenario passed: Verify that the user opens the DsAlgo portal
+[2025-12-09 22:20:24] INFO  ApplicationHooks - Scenario started: Verify that the user opens the DsAlgo portal
+[2025-12-09 22:20:26] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-09 22:20:26] INFO  DashboardSteps - Validating page title. Expected: Numpy Ninja
+[2025-12-09 22:20:26] INFO  ApplicationHooks - Scenario passed: Verify that the user opens the DsAlgo portal
+[2025-12-09 22:23:53] INFO  ApplicationHooks - Scenario started: Verify that the user opens the DsAlgo portal
+[2025-12-09 22:23:55] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-09 22:23:55] INFO  DashboardSteps - Validating page title. Expected: Numpy Ninja
+[2025-12-09 22:23:55] INFO  ApplicationHooks - Scenario passed: Verify that the user opens the DsAlgo portal
+[2025-12-09 22:29:27] INFO  ApplicationHooks - Scenario started: Verify that the user opens the DsAlgo portal
+[2025-12-09 22:29:29] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-09 22:29:29] INFO  DashboardSteps - Validating page title. Expected: Numpy Ninja
+[2025-12-09 22:29:29] INFO  ApplicationHooks - Scenario passed: Verify that the user opens the DsAlgo portal
+[2025-12-10 15:51:48] INFO  ApplicationHooks - Scenario started: Verify that the warning message is displayed when selecting Arrays option from the Data Structures dropdown without signin
+[2025-12-10 15:51:58] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-10 15:51:59] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-10 15:52:11] ERROR ApplicationHooks - Scenario failed: Verify that the warning message is displayed when selecting Arrays option from the Data Structures dropdown without signin
+[2025-12-10 15:52:14] INFO  ApplicationHooks - Scenario started: Verify that the warning message is displayed when selecting Linked List option from the Data Structures dropdown without signin
+[2025-12-10 15:52:16] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-10 15:52:17] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-10 15:52:29] ERROR ApplicationHooks - Scenario failed: Verify that the warning message is displayed when selecting Linked List option from the Data Structures dropdown without signin
+[2025-12-10 15:52:31] INFO  ApplicationHooks - Scenario started: Verify that the warning message is displayed when selecting Stack option from the Data Structures dropdown without signin
+[2025-12-10 15:52:34] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-10 15:52:35] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-10 15:52:36] ERROR ApplicationHooks - Error while taking screenshot: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=142.0.7444.176)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [722f18f68c3af37293433f1c7cd76747, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\gayat\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51898}, goog:processID: 40700, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51898/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 722f18f68c3af37293433f1c7cd76747
+[2025-12-10 20:07:33] INFO  ApplicationHooks - Scenario started: Verify that the warning message is displayed when selecting Arrays option from the Data Structures dropdown without signin
+[2025-12-10 20:07:37] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-10 20:07:48] ERROR ApplicationHooks - Scenario failed: Verify that the warning message is displayed when selecting Arrays option from the Data Structures dropdown without signin
+[2025-12-10 20:07:51] INFO  ApplicationHooks - Scenario started: Verify that the warning message is displayed when selecting Linked List option from the Data Structures dropdown without signin
+[2025-12-10 20:07:54] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-10 20:12:34] INFO  ApplicationHooks - Scenario started: Verify that the warning message is displayed when selecting Arrays option from the Data Structures dropdown without signin
+[2025-12-10 20:12:37] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-10 20:12:49] ERROR ApplicationHooks - Scenario failed: Verify that the warning message is displayed when selecting Arrays option from the Data Structures dropdown without signin
+[2025-12-10 20:12:52] INFO  ApplicationHooks - Scenario started: Verify that the warning message is displayed when selecting Linked List option from the Data Structures dropdown without signin
+[2025-12-10 20:12:53] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-10 20:13:03] ERROR ApplicationHooks - Error while taking screenshot: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=142.0.7444.176)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fdc333b53415b6472e25828c3f190e60, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\gayat\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52771}, goog:processID: 23140, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52771/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fdc333b53415b6472e25828c3f190e60
+[2025-12-10 20:13:05] INFO  ApplicationHooks - Scenario started: Verify that the warning message is displayed when selecting Stack option from the Data Structures dropdown without signin
+[2025-12-10 20:13:07] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-10 20:15:57] INFO  ApplicationHooks - Scenario started: Verify that the warning message is displayed when selecting Arrays option from the Data Structures dropdown without signin
+[2025-12-10 20:15:59] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-10 20:16:11] ERROR ApplicationHooks - Scenario failed: Verify that the warning message is displayed when selecting Arrays option from the Data Structures dropdown without signin
+[2025-12-10 20:16:14] INFO  ApplicationHooks - Scenario started: Verify that the warning message is displayed when selecting Linked List option from the Data Structures dropdown without signin
+[2025-12-10 20:16:16] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-11 11:32:48] INFO  ApplicationHooks - Scenario started: Verify that the warning message is displayed when selecting Arrays option from the Data Structures dropdown without signin
+[2025-12-11 11:32:50] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-11 11:33:02] ERROR ApplicationHooks - Scenario failed: Verify that the warning message is displayed when selecting Arrays option from the Data Structures dropdown without signin
+[2025-12-11 11:46:03] INFO  ApplicationHooks - Scenario started: Verify that the user opens the DsAlgo portal
+[2025-12-11 11:46:06] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-11 11:46:06] INFO  DashboardSteps - Validating page title. Expected: Numpy Ninja
+[2025-12-11 11:46:06] INFO  ApplicationHooks - Scenario passed: Verify that the user opens the DsAlgo portal
+[2025-12-11 11:46:08] INFO  ApplicationHooks - Scenario started: Verify the Dashboard page text in the DsAlgo portal
+[2025-12-11 11:46:11] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-11 11:46:11] INFO  DashboardSteps - Validating the DS Algo portal - Text. Expected: Preparing for the Interviews
+[2025-12-11 11:46:11] INFO  ApplicationHooks - Scenario passed: Verify the Dashboard page text in the DsAlgo portal
+[2025-12-11 11:46:13] INFO  ApplicationHooks - Scenario started: Verify the Get Started button in the DsAlgo portal
+[2025-12-11 11:46:15] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-11 11:46:15] INFO  DashboardSteps - Validating the DS Algo portal - get started button. Expected: Get Started
+[2025-12-11 11:46:15] INFO  ApplicationHooks - Scenario passed: Verify the Get Started button in the DsAlgo portal
+[2025-12-11 11:46:17] INFO  ApplicationHooks - Scenario started: Verify that the NumpyNinja is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-11 11:46:19] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-11 11:46:31] ERROR ApplicationHooks - Scenario failed: Verify that the NumpyNinja is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-11 11:46:35] INFO  ApplicationHooks - Scenario started: Verify that the DataStructures-dropdown is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-11 11:46:37] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-11 11:46:49] ERROR ApplicationHooks - Scenario failed: Verify that the DataStructures-dropdown is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-11 11:46:52] INFO  ApplicationHooks - Scenario started: Verify that the Register link is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-11 11:46:54] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-11 11:47:06] ERROR ApplicationHooks - Scenario failed: Verify that the Register link is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-11 11:47:08] INFO  ApplicationHooks - Scenario started: Verify that the Sign in link is displayed after clicking on the "Get Started" button of DsAlgo portal
+[2025-12-11 11:47:11] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-11 11:47:22] ERROR ApplicationHooks - Error while taking screenshot: C:\Users\gayat\intellij-learning\SDET229Stars\test-output\Reports\Failed\Verify_that_the_Sign_in_link_is_displayed_after_clicking_on_the_"Get_Started"_button_of_DsAlgo_portal_11-12-2025_11-47-22.png (The filename, directory name, or volume label syntax is incorrect)
+[2025-12-11 11:47:25] INFO  ApplicationHooks - Scenario started: Verify that the DataStructures - Introduction Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-11 11:47:27] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-11 11:47:39] ERROR ApplicationHooks - Scenario failed: Verify that the DataStructures - Introduction Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-11 11:47:43] INFO  ApplicationHooks - Scenario started: Verify that the Array Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-11 11:47:45] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-11 11:47:56] ERROR ApplicationHooks - Scenario failed: Verify that the Array Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-11 11:47:59] INFO  ApplicationHooks - Scenario started: Verify that the Linked List Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-11 11:48:01] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-11 11:48:13] ERROR ApplicationHooks - Scenario failed: Verify that the Linked List Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-11 11:48:17] INFO  ApplicationHooks - Scenario started: Verify that the Stack Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-11 11:48:19] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-11 11:48:31] ERROR ApplicationHooks - Scenario failed: Verify that the Stack Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-11 11:48:33] INFO  ApplicationHooks - Scenario started: Verify that the Queue Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-11 11:48:36] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-11 11:48:47] ERROR ApplicationHooks - Scenario failed: Verify that the Queue Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-11 11:48:51] INFO  ApplicationHooks - Scenario started: Verify that the Tree Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-11 11:48:53] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-11 11:49:05] ERROR ApplicationHooks - Scenario failed: Verify that the Tree Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-11 11:49:07] INFO  ApplicationHooks - Scenario started: Verify that the Graph Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-11 11:49:09] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-11 11:49:20] ERROR ApplicationHooks - Scenario failed: Verify that the Graph Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-11 12:03:43] INFO  ApplicationHooks - Scenario started: Verify that the user opens the DsAlgo portal
+[2025-12-11 12:03:45] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-11 12:03:45] INFO  DashboardSteps - Validating page title. Expected: Numpy Ninja
+[2025-12-11 12:03:45] INFO  ApplicationHooks - Scenario passed: Verify that the user opens the DsAlgo portal
+[2025-12-11 12:03:47] INFO  ApplicationHooks - Scenario started: Verify the Dashboard page text in the DsAlgo portal
+[2025-12-11 12:03:49] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-11 12:03:49] INFO  DashboardSteps - Validating the DS Algo portal - Text. Expected: Preparing for the Interviews
+[2025-12-11 12:03:49] INFO  ApplicationHooks - Scenario passed: Verify the Dashboard page text in the DsAlgo portal
+[2025-12-11 12:03:50] INFO  ApplicationHooks - Scenario started: Verify the Get Started button in the DsAlgo portal
+[2025-12-11 12:03:52] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-11 12:03:52] INFO  DashboardSteps - Validating the DS Algo portal - get started button. Expected: Get Started
+[2025-12-11 12:03:52] INFO  ApplicationHooks - Scenario passed: Verify the Get Started button in the DsAlgo portal
+[2025-12-11 12:03:53] INFO  ApplicationHooks - Scenario started: Verify that the NumpyNinja is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-11 12:03:55] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-11 12:03:56] INFO  DashboardSteps - Validating the NumbyNinja Logo. Expected: NumpyNinja
+[2025-12-11 12:03:56] INFO  ApplicationHooks - Scenario passed: Verify that the NumpyNinja is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-11 12:03:57] INFO  ApplicationHooks - Scenario started: Verify that the DataStructures-dropdown is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-11 12:03:59] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-11 12:04:00] ERROR ApplicationHooks - Scenario failed: Verify that the DataStructures-dropdown is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-11 12:04:02] INFO  ApplicationHooks - Scenario started: Verify that the Register link is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-11 12:04:04] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-11 12:04:05] INFO  DashboardSteps - Validating the RegisterLink Text Expected: Register
+[2025-12-11 12:04:05] INFO  ApplicationHooks - Scenario passed: Verify that the Register link is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-11 12:04:06] INFO  ApplicationHooks - Scenario started: Verify that the Sign in link is displayed after clicking on the "Get Started" button of DsAlgo portal
+[2025-12-11 12:04:08] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-11 12:04:08] INFO  DashboardSteps - Validating the SignInLink Text Expected: Sign in
+[2025-12-11 12:04:08] INFO  ApplicationHooks - Scenario passed: Verify that the Sign in link is displayed after clicking on the "Get Started" button of DsAlgo portal
+[2025-12-11 12:04:09] INFO  ApplicationHooks - Scenario started: Verify that the DataStructures - Introduction Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-11 12:04:11] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-11 12:04:12] INFO  DashboardSteps - Validating the Data structures introduction module label. Expected: Data Structures-Introduction
+[2025-12-11 12:04:12] INFO  DashboardSteps - Validating the Data structures introduction module label with get started button text. Expected: Get Started
+[2025-12-11 12:04:12] INFO  ApplicationHooks - Scenario passed: Verify that the DataStructures - Introduction Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-11 12:04:14] INFO  ApplicationHooks - Scenario started: Verify that the Array Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-11 12:04:16] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-11 12:04:16] INFO  DashboardSteps - Validating the Data structures introduction module label. Expected: Array
+[2025-12-11 12:04:16] INFO  DashboardSteps - Validating the Data structures introduction module label with get started button text. Expected: Get Started
+[2025-12-11 12:04:16] INFO  ApplicationHooks - Scenario passed: Verify that the Array Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-11 12:04:18] INFO  ApplicationHooks - Scenario started: Verify that the Linked List Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-11 12:04:19] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-11 12:04:20] INFO  DashboardSteps - Validating the Data structures introduction module label. Expected: Linked List
+[2025-12-11 12:04:20] INFO  DashboardSteps - Validating the Data structures introduction module label with get started button text. Expected: Get Started
+[2025-12-11 12:04:20] INFO  ApplicationHooks - Scenario passed: Verify that the Linked List Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-11 12:04:21] INFO  ApplicationHooks - Scenario started: Verify that the Stack Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-11 12:04:23] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-11 12:04:24] INFO  DashboardSteps - Validating the Data structures introduction module label. Expected: Stack
+[2025-12-11 12:04:24] INFO  DashboardSteps - Validating the Data structures introduction module label with get started button text. Expected: Get Started
+[2025-12-11 12:04:24] INFO  ApplicationHooks - Scenario passed: Verify that the Stack Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-11 12:04:31] INFO  ApplicationHooks - Scenario started: Verify that the Queue Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-11 12:04:32] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-11 12:04:33] INFO  DashboardSteps - Validating the Data structures introduction module label. Expected: Queue
+[2025-12-11 12:04:33] INFO  DashboardSteps - Validating the Data structures introduction module label with get started button text. Expected: Get Started
+[2025-12-11 12:04:33] INFO  ApplicationHooks - Scenario passed: Verify that the Queue Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-11 12:04:35] INFO  ApplicationHooks - Scenario started: Verify that the Tree Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-11 12:04:36] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-11 12:04:37] INFO  DashboardSteps - Validating the Data structures introduction module label. Expected: Tree
+[2025-12-11 12:04:37] INFO  DashboardSteps - Validating the Data structures introduction module label with get started button text. Expected: Get Started
+[2025-12-11 12:04:37] INFO  ApplicationHooks - Scenario passed: Verify that the Tree Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-11 12:04:38] INFO  ApplicationHooks - Scenario started: Verify that the Graph Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-11 12:04:40] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-11 12:04:41] INFO  DashboardSteps - Validating the Data structures introduction module label. Expected: Graph
+[2025-12-11 12:04:41] INFO  DashboardSteps - Validating the Data structures introduction module label with get started button text. Expected: Get Started
+[2025-12-11 12:04:41] INFO  ApplicationHooks - Scenario passed: Verify that the Graph Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-11 12:12:38] INFO  ApplicationHooks - Scenario started: Verify that the user opens the DsAlgo portal
+[2025-12-11 12:12:40] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-11 12:12:40] INFO  DashboardSteps - Validating page title. Expected: Numpy Ninja
+[2025-12-11 12:12:40] INFO  ApplicationHooks - Scenario passed: Verify that the user opens the DsAlgo portal
+[2025-12-11 12:12:41] INFO  ApplicationHooks - Scenario started: Verify the Dashboard page text in the DsAlgo portal
+[2025-12-11 12:12:43] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-11 12:12:43] INFO  DashboardSteps - Validating the DS Algo portal - Text. Expected: Preparing for the Interviews
+[2025-12-11 12:12:43] INFO  ApplicationHooks - Scenario passed: Verify the Dashboard page text in the DsAlgo portal
+[2025-12-11 12:12:45] INFO  ApplicationHooks - Scenario started: Verify the Get Started button in the DsAlgo portal
+[2025-12-11 12:12:46] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-11 12:12:47] INFO  DashboardSteps - Validating the DS Algo portal - get started button. Expected: Get Started
+[2025-12-11 12:12:47] INFO  ApplicationHooks - Scenario passed: Verify the Get Started button in the DsAlgo portal
+[2025-12-11 12:12:53] INFO  ApplicationHooks - Scenario started: Verify that the NumpyNinja is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-11 12:12:55] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-11 12:12:56] INFO  DashboardSteps - Validating the NumbyNinja Logo. Expected: NumpyNinja
+[2025-12-11 12:12:56] INFO  ApplicationHooks - Scenario passed: Verify that the NumpyNinja is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-11 12:12:57] INFO  ApplicationHooks - Scenario started: Verify that the DataStructures-dropdown is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-11 12:12:59] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-11 12:13:00] INFO  DashboardSteps - Validating the DataStructures- dropdown options. Expected: [Arrays, Linked List, Stack, Queue, Tree, Graph]
+[2025-12-11 12:13:00] INFO  ApplicationHooks - Scenario passed: Verify that the DataStructures-dropdown is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-11 12:13:01] INFO  ApplicationHooks - Scenario started: Verify that the Register link is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-11 12:13:03] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-11 12:13:04] INFO  DashboardSteps - Validating the RegisterLink Text Expected: Register
+[2025-12-11 12:13:04] INFO  ApplicationHooks - Scenario passed: Verify that the Register link is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-11 12:13:05] INFO  ApplicationHooks - Scenario started: Verify that the Sign in link is displayed after clicking on the "Get Started" button of DsAlgo portal
+[2025-12-11 12:13:06] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-11 12:13:07] INFO  DashboardSteps - Validating the SignInLink Text Expected: Sign in
+[2025-12-11 12:13:07] INFO  ApplicationHooks - Scenario passed: Verify that the Sign in link is displayed after clicking on the "Get Started" button of DsAlgo portal
+[2025-12-11 12:13:09] INFO  ApplicationHooks - Scenario started: Verify that the DataStructures - Introduction Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-11 12:13:11] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-11 12:13:11] INFO  DashboardSteps - Validating the Data structures introduction module label. Expected: Data Structures-Introduction
+[2025-12-11 12:13:11] INFO  DashboardSteps - Validating the Data structures introduction module label with get started button text. Expected: Get Started
+[2025-12-11 12:13:11] INFO  ApplicationHooks - Scenario passed: Verify that the DataStructures - Introduction Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-11 12:13:12] INFO  ApplicationHooks - Scenario started: Verify that the Array Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-11 12:13:14] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-11 12:13:15] INFO  DashboardSteps - Validating the Data structures introduction module label. Expected: Array
+[2025-12-11 12:13:15] INFO  DashboardSteps - Validating the Data structures introduction module label with get started button text. Expected: Get Started
+[2025-12-11 12:13:15] INFO  ApplicationHooks - Scenario passed: Verify that the Array Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-11 12:13:16] INFO  ApplicationHooks - Scenario started: Verify that the Linked List Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-11 12:13:18] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-11 12:13:19] INFO  DashboardSteps - Validating the Data structures introduction module label. Expected: Linked List
+[2025-12-11 12:13:19] INFO  DashboardSteps - Validating the Data structures introduction module label with get started button text. Expected: Get Started
+[2025-12-11 12:13:19] INFO  ApplicationHooks - Scenario passed: Verify that the Linked List Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-11 12:13:20] INFO  ApplicationHooks - Scenario started: Verify that the Stack Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-11 12:13:22] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-11 12:13:23] INFO  DashboardSteps - Validating the Data structures introduction module label. Expected: Stack
+[2025-12-11 12:13:23] INFO  DashboardSteps - Validating the Data structures introduction module label with get started button text. Expected: Get Started
+[2025-12-11 12:13:23] INFO  ApplicationHooks - Scenario passed: Verify that the Stack Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-11 12:13:24] INFO  ApplicationHooks - Scenario started: Verify that the Queue Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-11 12:13:26] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-11 12:13:26] INFO  DashboardSteps - Validating the Data structures introduction module label. Expected: Queue
+[2025-12-11 12:13:26] INFO  DashboardSteps - Validating the Data structures introduction module label with get started button text. Expected: Get Started
+[2025-12-11 12:13:26] INFO  ApplicationHooks - Scenario passed: Verify that the Queue Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-11 12:13:28] INFO  ApplicationHooks - Scenario started: Verify that the Tree Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-11 12:13:30] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-11 12:13:30] INFO  DashboardSteps - Validating the Data structures introduction module label. Expected: Tree
+[2025-12-11 12:13:30] INFO  DashboardSteps - Validating the Data structures introduction module label with get started button text. Expected: Get Started
+[2025-12-11 12:13:30] INFO  ApplicationHooks - Scenario passed: Verify that the Tree Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-11 12:13:31] INFO  ApplicationHooks - Scenario started: Verify that the Graph Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-11 12:13:33] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-11 12:13:34] INFO  DashboardSteps - Validating the Data structures introduction module label. Expected: Graph
+[2025-12-11 12:13:34] INFO  DashboardSteps - Validating the Data structures introduction module label with get started button text. Expected: Get Started
+[2025-12-11 12:13:34] INFO  ApplicationHooks - Scenario passed: Verify that the Graph Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-11 12:38:17] INFO  ApplicationHooks - Scenario started: Verify that the warning message is displayed when selecting Arrays option from the Data Structures dropdown without signin
+[2025-12-11 12:38:19] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-11 12:38:20] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-11 12:38:32] ERROR ApplicationHooks - Scenario failed: Verify that the warning message is displayed when selecting Arrays option from the Data Structures dropdown without signin
+[2025-12-11 12:38:34] INFO  ApplicationHooks - Scenario started: Verify that the warning message is displayed when selecting Linked List option from the Data Structures dropdown without signin
+[2025-12-11 12:38:36] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-11 12:38:37] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-11 12:38:48] ERROR ApplicationHooks - Scenario failed: Verify that the warning message is displayed when selecting Linked List option from the Data Structures dropdown without signin
+[2025-12-11 12:38:50] INFO  ApplicationHooks - Scenario started: Verify that the warning message is displayed when selecting Stack option from the Data Structures dropdown without signin
+[2025-12-11 12:38:52] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-11 12:38:52] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-11 13:26:54] INFO  ApplicationHooks - Scenario started: Verify that the warning message is displayed when selecting Arrays option from the Data Structures dropdown without signin
+[2025-12-11 13:26:57] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-11 13:26:57] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-11 13:27:10] ERROR ApplicationHooks - Scenario failed: Verify that the warning message is displayed when selecting Arrays option from the Data Structures dropdown without signin
+[2025-12-11 13:27:11] INFO  ApplicationHooks - Scenario started: Verify that the warning message is displayed when selecting Linked List option from the Data Structures dropdown without signin
+[2025-12-11 13:27:13] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-11 13:27:14] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-11 13:27:26] ERROR ApplicationHooks - Scenario failed: Verify that the warning message is displayed when selecting Linked List option from the Data Structures dropdown without signin
+[2025-12-11 13:27:28] INFO  ApplicationHooks - Scenario started: Verify that the warning message is displayed when selecting Stack option from the Data Structures dropdown without signin
+[2025-12-11 13:27:30] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-11 13:27:51] ERROR ApplicationHooks - Scenario failed: Verify that the warning message is displayed when selecting Stack option from the Data Structures dropdown without signin
+[2025-12-11 13:27:52] INFO  ApplicationHooks - Scenario started: Verify that the warning message is displayed when selecting Queue option from the Data Structures dropdown without signin
+[2025-12-11 13:27:54] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-11 13:27:55] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-11 13:28:06] ERROR ApplicationHooks - Scenario failed: Verify that the warning message is displayed when selecting Queue option from the Data Structures dropdown without signin
+[2025-12-11 13:28:08] INFO  ApplicationHooks - Scenario started: Verify that the warning message is displayed when selecting Tree option from the Data Structures dropdown without signin
+[2025-12-11 13:28:10] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-11 13:28:11] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-11 13:28:23] ERROR ApplicationHooks - Scenario failed: Verify that the warning message is displayed when selecting Tree option from the Data Structures dropdown without signin
+[2025-12-11 13:28:24] INFO  ApplicationHooks - Scenario started: Verify that the warning message is displayed when selecting Graph option from the Data Structures dropdown without signin
+[2025-12-11 13:28:27] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-11 13:28:27] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-11 13:28:29] ERROR ApplicationHooks - Scenario failed: Verify that the warning message is displayed when selecting Graph option from the Data Structures dropdown without signin
+[2025-12-11 13:28:30] INFO  ApplicationHooks - Scenario started: Verify that the warning message is displayed when user clicks on Get Started button of Data Structures - Introduction module without signin
+[2025-12-11 13:28:34] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-11 13:28:35] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-11 13:28:43] ERROR ApplicationHooks - Scenario failed: Verify that the warning message is displayed when user clicks on Get Started button of Data Structures - Introduction module without signin
+[2025-12-11 13:28:44] INFO  ApplicationHooks - Scenario started: Verify that the warning message is displayed when user clicks on Get Started button of Array module without signin
+[2025-12-11 13:28:46] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-11 13:28:47] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-11 13:28:53] ERROR ApplicationHooks - Scenario failed: Verify that the warning message is displayed when user clicks on Get Started button of Array module without signin
+[2025-12-11 13:28:55] INFO  ApplicationHooks - Scenario started: Verify that the warning message is displayed when user clicks on Get Started button of Linked List module without signin
+[2025-12-11 13:28:57] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-11 13:28:58] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-11 13:29:03] ERROR ApplicationHooks - Scenario failed: Verify that the warning message is displayed when user clicks on Get Started button of Linked List module without signin
+[2025-12-11 13:29:05] INFO  ApplicationHooks - Scenario started: Verify that the warning message is displayed when user clicks on Get Started button of Stack module without signin
+[2025-12-11 13:29:07] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-11 13:29:08] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-11 13:29:12] ERROR ApplicationHooks - Scenario failed: Verify that the warning message is displayed when user clicks on Get Started button of Stack module without signin
+[2025-12-11 13:29:13] INFO  ApplicationHooks - Scenario started: Verify that the warning message is displayed when user clicks on Get Started button of Queue module without signin
+[2025-12-11 13:29:16] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-11 13:29:16] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-11 13:29:20] ERROR ApplicationHooks - Scenario failed: Verify that the warning message is displayed when user clicks on Get Started button of Queue module without signin
+[2025-12-11 13:29:21] INFO  ApplicationHooks - Scenario started: Verify that the warning message is displayed when user clicks on Get Started button of Tree module without signin
+[2025-12-11 13:29:23] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-11 13:29:24] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-11 13:29:26] ERROR ApplicationHooks - Scenario failed: Verify that the warning message is displayed when user clicks on Get Started button of Tree module without signin
+[2025-12-11 13:29:27] INFO  ApplicationHooks - Scenario started: Verify that the warning message is displayed when user clicks on Get Started button of Graph module without signin
+[2025-12-11 13:29:29] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-11 13:29:30] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-11 13:29:31] ERROR ApplicationHooks - Scenario failed: Verify that the warning message is displayed when user clicks on Get Started button of Graph module without signin
+[2025-12-11 13:40:29] INFO  ApplicationHooks - Scenario started: Verify that the warning message is displayed when selecting Arrays option from the Data Structures dropdown without signin
+[2025-12-11 13:40:31] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-11 13:40:32] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-11 13:40:35] INFO  ApplicationHooks - Scenario passed: Verify that the warning message is displayed when selecting Arrays option from the Data Structures dropdown without signin
+[2025-12-11 13:40:37] INFO  ApplicationHooks - Scenario started: Verify that the warning message is displayed when selecting Linked List option from the Data Structures dropdown without signin
+[2025-12-11 13:40:39] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-11 13:40:40] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-11 13:40:42] INFO  ApplicationHooks - Scenario passed: Verify that the warning message is displayed when selecting Linked List option from the Data Structures dropdown without signin
+[2025-12-11 13:40:44] INFO  ApplicationHooks - Scenario started: Verify that the warning message is displayed when selecting Stack option from the Data Structures dropdown without signin
+[2025-12-11 13:40:46] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-11 13:40:47] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-11 13:40:49] INFO  ApplicationHooks - Scenario passed: Verify that the warning message is displayed when selecting Stack option from the Data Structures dropdown without signin
+[2025-12-11 13:40:51] INFO  ApplicationHooks - Scenario started: Verify that the warning message is displayed when selecting Queue option from the Data Structures dropdown without signin
+[2025-12-11 13:40:53] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-11 13:40:54] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-11 13:40:57] INFO  ApplicationHooks - Scenario passed: Verify that the warning message is displayed when selecting Queue option from the Data Structures dropdown without signin
+[2025-12-11 13:40:59] INFO  ApplicationHooks - Scenario started: Verify that the warning message is displayed when selecting Tree option from the Data Structures dropdown without signin
+[2025-12-11 13:41:01] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-11 13:41:02] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-11 13:41:04] INFO  ApplicationHooks - Scenario passed: Verify that the warning message is displayed when selecting Tree option from the Data Structures dropdown without signin
+[2025-12-11 13:41:06] INFO  ApplicationHooks - Scenario started: Verify that the warning message is displayed when selecting Graph option from the Data Structures dropdown without signin
+[2025-12-11 13:41:08] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-11 13:41:09] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-11 13:41:11] INFO  ApplicationHooks - Scenario passed: Verify that the warning message is displayed when selecting Graph option from the Data Structures dropdown without signin
+[2025-12-11 13:41:13] INFO  ApplicationHooks - Scenario started: Verify that the warning message is displayed when user clicks on Get Started button of Data Structures - Introduction module without signin
+[2025-12-11 13:41:15] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-11 13:41:16] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-11 13:41:18] INFO  ApplicationHooks - Scenario passed: Verify that the warning message is displayed when user clicks on Get Started button of Data Structures - Introduction module without signin
+[2025-12-11 13:41:19] INFO  ApplicationHooks - Scenario started: Verify that the warning message is displayed when user clicks on Get Started button of Array module without signin
+[2025-12-11 13:41:22] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-11 13:41:23] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-11 13:41:24] INFO  ApplicationHooks - Scenario passed: Verify that the warning message is displayed when user clicks on Get Started button of Array module without signin
+[2025-12-11 13:41:26] INFO  ApplicationHooks - Scenario started: Verify that the warning message is displayed when user clicks on Get Started button of Linked List module without signin
+[2025-12-11 13:41:28] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-11 13:41:29] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-11 13:41:31] INFO  ApplicationHooks - Scenario passed: Verify that the warning message is displayed when user clicks on Get Started button of Linked List module without signin
+[2025-12-11 13:41:32] INFO  ApplicationHooks - Scenario started: Verify that the warning message is displayed when user clicks on Get Started button of Stack module without signin
+[2025-12-11 13:41:35] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-11 13:41:36] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-11 13:41:38] INFO  ApplicationHooks - Scenario passed: Verify that the warning message is displayed when user clicks on Get Started button of Stack module without signin
+[2025-12-11 13:41:39] INFO  ApplicationHooks - Scenario started: Verify that the warning message is displayed when user clicks on Get Started button of Queue module without signin
+[2025-12-11 13:41:41] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-11 13:41:42] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-11 13:41:44] INFO  ApplicationHooks - Scenario passed: Verify that the warning message is displayed when user clicks on Get Started button of Queue module without signin
+[2025-12-11 13:41:45] INFO  ApplicationHooks - Scenario started: Verify that the warning message is displayed when user clicks on Get Started button of Tree module without signin
+[2025-12-11 13:41:47] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-11 13:41:50] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-11 13:41:51] INFO  ApplicationHooks - Scenario passed: Verify that the warning message is displayed when user clicks on Get Started button of Tree module without signin
+[2025-12-11 13:41:53] INFO  ApplicationHooks - Scenario started: Verify that the warning message is displayed when user clicks on Get Started button of Graph module without signin
+[2025-12-11 13:41:55] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-11 13:41:56] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-11 13:41:58] INFO  ApplicationHooks - Scenario passed: Verify that the warning message is displayed when user clicks on Get Started button of Graph module without signin
+[2025-12-11 13:47:29] INFO  ApplicationHooks - Scenario started: Verify that the warning message is displayed when selecting Arrays option from the Data Structures dropdown without signin
+[2025-12-11 13:47:32] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-11 13:47:33] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-11 13:47:35] INFO  HomeSteps - User clicks on dropdown option. Expected option: Arrays 
+[2025-12-11 13:47:36] INFO  HomeSteps - Validating warning message. Expected: You are not logged in 
+[2025-12-11 13:47:36] INFO  ApplicationHooks - Scenario passed: Verify that the warning message is displayed when selecting Arrays option from the Data Structures dropdown without signin
+[2025-12-11 13:47:38] INFO  ApplicationHooks - Scenario started: Verify that the warning message is displayed when selecting Linked List option from the Data Structures dropdown without signin
+[2025-12-11 13:47:40] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-11 13:47:41] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-11 13:47:43] INFO  HomeSteps - User clicks on dropdown option. Expected option: Linked List 
+[2025-12-11 13:47:43] INFO  HomeSteps - Validating warning message. Expected: You are not logged in 
+[2025-12-11 13:47:43] INFO  ApplicationHooks - Scenario passed: Verify that the warning message is displayed when selecting Linked List option from the Data Structures dropdown without signin
+[2025-12-11 13:47:45] INFO  ApplicationHooks - Scenario started: Verify that the warning message is displayed when selecting Stack option from the Data Structures dropdown without signin
+[2025-12-11 13:47:47] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-11 13:47:48] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-11 13:47:50] INFO  HomeSteps - User clicks on dropdown option. Expected option: Stack 
+[2025-12-11 13:47:50] INFO  HomeSteps - Validating warning message. Expected: You are not logged in 
+[2025-12-11 13:47:50] INFO  ApplicationHooks - Scenario passed: Verify that the warning message is displayed when selecting Stack option from the Data Structures dropdown without signin
+[2025-12-11 13:47:52] INFO  ApplicationHooks - Scenario started: Verify that the warning message is displayed when selecting Queue option from the Data Structures dropdown without signin
+[2025-12-11 13:47:54] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-11 13:47:55] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-11 13:47:57] INFO  HomeSteps - User clicks on dropdown option. Expected option: Queue 
+[2025-12-11 13:47:57] INFO  HomeSteps - Validating warning message. Expected: You are not logged in 
+[2025-12-11 13:47:57] INFO  ApplicationHooks - Scenario passed: Verify that the warning message is displayed when selecting Queue option from the Data Structures dropdown without signin
+[2025-12-11 13:47:59] INFO  ApplicationHooks - Scenario started: Verify that the warning message is displayed when selecting Tree option from the Data Structures dropdown without signin
+[2025-12-11 13:48:00] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-11 13:48:02] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-11 13:48:03] INFO  HomeSteps - User clicks on dropdown option. Expected option: Tree 
+[2025-12-11 13:48:03] INFO  HomeSteps - Validating warning message. Expected: You are not logged in 
+[2025-12-11 13:48:03] INFO  ApplicationHooks - Scenario passed: Verify that the warning message is displayed when selecting Tree option from the Data Structures dropdown without signin
+[2025-12-11 13:48:05] INFO  ApplicationHooks - Scenario started: Verify that the warning message is displayed when selecting Graph option from the Data Structures dropdown without signin
+[2025-12-11 13:48:07] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-11 13:48:08] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-11 13:48:10] INFO  HomeSteps - User clicks on dropdown option. Expected option: Graph 
+[2025-12-11 13:48:10] INFO  HomeSteps - Validating warning message. Expected: You are not logged in 
+[2025-12-11 13:48:10] INFO  ApplicationHooks - Scenario passed: Verify that the warning message is displayed when selecting Graph option from the Data Structures dropdown without signin
+[2025-12-11 13:48:12] INFO  ApplicationHooks - Scenario started: Verify that the warning message is displayed when user clicks on Get Started button of Data Structures - Introduction module without signin
+[2025-12-11 13:48:14] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-11 13:48:15] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-11 13:48:17] INFO  HomeSteps - Validating warning message. Expected: You are not logged in 
+[2025-12-11 13:48:17] INFO  ApplicationHooks - Scenario passed: Verify that the warning message is displayed when user clicks on Get Started button of Data Structures - Introduction module without signin
+[2025-12-11 13:48:18] INFO  ApplicationHooks - Scenario started: Verify that the warning message is displayed when user clicks on Get Started button of Array module without signin
+[2025-12-11 13:48:20] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-11 13:48:22] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-11 13:48:23] INFO  HomeSteps - Validating warning message. Expected: You are not logged in 
+[2025-12-11 13:48:23] INFO  ApplicationHooks - Scenario passed: Verify that the warning message is displayed when user clicks on Get Started button of Array module without signin
+[2025-12-11 13:48:25] INFO  ApplicationHooks - Scenario started: Verify that the warning message is displayed when user clicks on Get Started button of Linked List module without signin
+[2025-12-11 13:48:27] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-11 13:48:28] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-11 13:48:30] INFO  HomeSteps - Validating warning message. Expected: You are not logged in 
+[2025-12-11 13:48:30] INFO  ApplicationHooks - Scenario passed: Verify that the warning message is displayed when user clicks on Get Started button of Linked List module without signin
+[2025-12-11 13:48:32] INFO  ApplicationHooks - Scenario started: Verify that the warning message is displayed when user clicks on Get Started button of Stack module without signin
+[2025-12-11 13:48:34] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-11 13:48:35] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-11 13:48:37] INFO  HomeSteps - Validating warning message. Expected: You are not logged in 
+[2025-12-11 13:48:37] INFO  ApplicationHooks - Scenario passed: Verify that the warning message is displayed when user clicks on Get Started button of Stack module without signin
+[2025-12-11 13:48:38] INFO  ApplicationHooks - Scenario started: Verify that the warning message is displayed when user clicks on Get Started button of Queue module without signin
+[2025-12-11 13:48:41] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-11 13:48:42] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-11 13:48:43] INFO  HomeSteps - Validating warning message. Expected: You are not logged in 
+[2025-12-11 13:48:43] INFO  ApplicationHooks - Scenario passed: Verify that the warning message is displayed when user clicks on Get Started button of Queue module without signin
+[2025-12-11 13:48:45] INFO  ApplicationHooks - Scenario started: Verify that the warning message is displayed when user clicks on Get Started button of Tree module without signin
+[2025-12-11 13:48:47] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-11 13:48:49] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-11 13:48:50] INFO  HomeSteps - Validating warning message. Expected: You are not logged in 
+[2025-12-11 13:48:50] INFO  ApplicationHooks - Scenario passed: Verify that the warning message is displayed when user clicks on Get Started button of Tree module without signin
+[2025-12-11 13:48:52] INFO  ApplicationHooks - Scenario started: Verify that the warning message is displayed when user clicks on Get Started button of Graph module without signin
+[2025-12-11 13:48:54] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-11 13:48:55] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-11 13:48:57] INFO  HomeSteps - Validating warning message. Expected: You are not logged in 
+[2025-12-11 13:48:57] INFO  ApplicationHooks - Scenario passed: Verify that the warning message is displayed when user clicks on Get Started button of Graph module without signin
