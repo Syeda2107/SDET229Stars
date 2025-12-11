@@ -39,22 +39,16 @@ public class HomePage extends BasePage {
     public void clickDropdownElements(String drpEle){
         switch (drpEle){
             case "Arrays":waitForElementToClick(dropdwnArrayElement,10);
-                System.out.println("*********************************"+dropdwnArrayElement.getText());
                 break;
             case "Linked List":waitForElementToClick(dropdwnListElement,10);
-                System.out.println(dropdwnListElement.getText());
-                break;
+                 break;
             case "Stack":waitForElementToClick(dropdwnStackElement,10);
-                System.out.println(dropdwnStackElement.getText());
-                break;
+                 break;
             case "Queue":waitForElementToClick(dropdwnQueElement,10);
-                System.out.println(dropdwnQueElement.getText());
-                break;
+                 break;
             case "Tree":waitForElementToClick(dropdwnTreeElement,10);
-                System.out.println(dropdwnTreeElement.getText());
-                break;
+                 break;
             case "Graph":waitForElementToClick(dropdwnGraphElement,10);
-                System.out.println(dropdwnGraphElement.getText());
                 break;
             default:
                 throw new IllegalArgumentException("Invalid Element");
