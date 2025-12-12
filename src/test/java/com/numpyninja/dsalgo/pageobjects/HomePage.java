@@ -30,7 +30,7 @@ public class HomePage extends BasePage {
     WebElement dropdwnGraphElement;
 
     @FindBy(xpath = "//div[@class='alert alert-primary']")
-    WebElement alertMsgNotLog;
+    WebElement alertMsg;
 
     public void clickDropdownDS(){
         waitForElementToClick(context.dashboardPage.drpdwnDS,10);
@@ -77,8 +77,8 @@ public class HomePage extends BasePage {
 
     }
 
-    public String alertMsgNotLoggedIn(){
-       return alertMsgNotLog.getText();
+    public String getAlertMsg(){
+       return alertMsg.getText();
     }
 
 

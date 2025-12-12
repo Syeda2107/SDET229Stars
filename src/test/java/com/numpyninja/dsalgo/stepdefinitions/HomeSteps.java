@@ -30,7 +30,7 @@ public class HomeSteps {
 
     @Then("the user should able to see the warning message as {string}")
     public void the_user_should_able_to_see_the_warning_message_as(String expectedAlertMsg) {
-        String actualAlertMsg=homePage.alertMsgNotLoggedIn();
+        String actualAlertMsg=homePage.getAlertMsg();
         Assert.assertEquals(actualAlertMsg,expectedAlertMsg);
         log.info("Validating warning message. Expected: {} ",expectedAlertMsg);
     }

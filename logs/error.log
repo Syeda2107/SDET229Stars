@@ -948,3 +948,296 @@ Session ID: fdc333b53415b6472e25828c3f190e60
 [2025-12-11 14:05:43] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
 [2025-12-11 14:05:44] INFO  HomeSteps - Validating warning message. Expected: You are not logged in 
 [2025-12-11 14:05:44] INFO  ApplicationHooks - Scenario passed: Verify that the warning message is displayed when user clicks on Get Started button of Graph module without signin
+[2025-12-12 22:07:56] INFO  ApplicationHooks - Scenario started: Verify that the tooltip message is displayed when user clicks on Register button by leaving all the fields empty
+[2025-12-12 22:07:59] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-12 22:08:01] ERROR ApplicationHooks - Scenario failed: Verify that the tooltip message is displayed when user clicks on Register button by leaving all the fields empty
+[2025-12-12 22:08:04] INFO  ApplicationHooks - Scenario started: Verify that the tooltip message is displayed when user clicks on Register button after entering Username field and leaving other fields empty
+[2025-12-12 22:08:06] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-12 22:08:08] ERROR ApplicationHooks - Scenario failed: Verify that the tooltip message is displayed when user clicks on Register button after entering Username field and leaving other fields empty
+[2025-12-12 22:08:10] INFO  ApplicationHooks - Scenario started: Verify that the tooltip message is displayed when user clicks on Register button after entering Username field and Password field by leaving Password confirmation field empty
+[2025-12-12 22:08:12] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-12 22:08:13] ERROR ApplicationHooks - Scenario failed: Verify that the tooltip message is displayed when user clicks on Register button after entering Username field and Password field by leaving Password confirmation field empty
+[2025-12-12 22:08:15] INFO  ApplicationHooks - Scenario started: Verify that the error message is displayed when user clicks on Register button after entering mismatched passwords in the password and password confirmation fields
+[2025-12-12 22:08:22] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-12 22:08:23] ERROR ApplicationHooks - Scenario failed: Verify that the error message is displayed when user clicks on Register button after entering mismatched passwords in the password and password confirmation fields
+[2025-12-12 22:08:25] INFO  ApplicationHooks - Scenario started: Verify that the error message is displayed when user clicks on Register button after entering invalid values in Username field with matched password and password confirmation values
+[2025-12-12 22:08:27] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-12 22:08:29] ERROR ApplicationHooks - Scenario failed: Verify that the error message is displayed when user clicks on Register button after entering invalid values in Username field with matched password and password confirmation values
+[2025-12-12 22:08:30] INFO  ApplicationHooks - Scenario started: Verify that the error message is displayed when user clicks on Register button after entering invalid values in Username field with matched password and password confirmation values
+[2025-12-12 22:08:33] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-12 22:08:34] ERROR ApplicationHooks - Scenario failed: Verify that the error message is displayed when user clicks on Register button after entering invalid values in Username field with matched password and password confirmation values
+[2025-12-12 22:08:36] INFO  ApplicationHooks - Scenario started: Verify that the error message is displayed when user clicks on Register button after entering invalid values in Username field with matched password and password confirmation values
+[2025-12-12 22:08:39] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-12 22:08:40] ERROR ApplicationHooks - Scenario failed: Verify that the error message is displayed when user clicks on Register button after entering invalid values in Username field with matched password and password confirmation values
+[2025-12-12 22:08:42] INFO  ApplicationHooks - Scenario started: Verify that the error message is displayed when user clicks on Register button after entering invalid values in Username field with matched password and password confirmation values
+[2025-12-12 22:08:44] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-12 22:08:46] ERROR ApplicationHooks - Scenario failed: Verify that the error message is displayed when user clicks on Register button after entering invalid values in Username field with matched password and password confirmation values
+[2025-12-12 22:08:48] INFO  ApplicationHooks - Scenario started: Verify that the user can able to create a new account successfully after entering valid Username,Password and Password Confirmation
+[2025-12-12 22:08:49] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-12 22:08:51] ERROR ApplicationHooks - Scenario failed: Verify that the user can able to create a new account successfully after entering valid Username,Password and Password Confirmation
+[2025-12-12 22:08:53] INFO  ApplicationHooks - Scenario started: Verify that the user navigates to Login page from Register Page
+[2025-12-12 22:08:55] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-12 22:08:57] ERROR ApplicationHooks - Scenario failed: Verify that the user navigates to Login page from Register Page
+[2025-12-12 22:18:46] INFO  ApplicationHooks - Scenario started: Verify that the tooltip message is displayed when user clicks on Register button by leaving all the fields empty
+[2025-12-12 22:18:49] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-12 22:18:51] INFO  DashboardSteps - Validating page title. Expected: Registration
+[2025-12-12 22:18:53] ERROR ApplicationHooks - Scenario failed: Verify that the tooltip message is displayed when user clicks on Register button by leaving all the fields empty
+[2025-12-12 22:18:55] INFO  ApplicationHooks - Scenario started: Verify that the tooltip message is displayed when user clicks on Register button after entering Username field and leaving other fields empty
+[2025-12-12 22:18:57] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-12 22:18:59] INFO  DashboardSteps - Validating page title. Expected: Registration
+[2025-12-12 22:19:01] ERROR ApplicationHooks - Scenario failed: Verify that the tooltip message is displayed when user clicks on Register button after entering Username field and leaving other fields empty
+[2025-12-12 22:19:02] INFO  ApplicationHooks - Scenario started: Verify that the tooltip message is displayed when user clicks on Register button after entering Username field and Password field by leaving Password confirmation field empty
+[2025-12-12 22:19:05] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-12 22:19:07] INFO  DashboardSteps - Validating page title. Expected: Registration
+[2025-12-12 22:19:08] ERROR ApplicationHooks - Scenario failed: Verify that the tooltip message is displayed when user clicks on Register button after entering Username field and Password field by leaving Password confirmation field empty
+[2025-12-12 22:19:15] INFO  ApplicationHooks - Scenario started: Verify that the error message is displayed when user clicks on Register button after entering mismatched passwords in the password and password confirmation fields
+[2025-12-12 22:19:17] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-12 22:19:19] INFO  DashboardSteps - Validating page title. Expected: Registration
+[2025-12-12 22:19:20] INFO  ApplicationHooks - Scenario passed: Verify that the error message is displayed when user clicks on Register button after entering mismatched passwords in the password and password confirmation fields
+[2025-12-12 22:19:22] INFO  ApplicationHooks - Scenario started: Verify that the error message is displayed when user clicks on Register button after entering invalid values in Username field with matched password and password confirmation values
+[2025-12-12 22:19:24] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-12 22:19:26] INFO  DashboardSteps - Validating page title. Expected: Registration
+[2025-12-12 22:19:27] INFO  ApplicationHooks - Scenario passed: Verify that the error message is displayed when user clicks on Register button after entering invalid values in Username field with matched password and password confirmation values
+[2025-12-12 22:19:29] INFO  ApplicationHooks - Scenario started: Verify that the error message is displayed when user clicks on Register button after entering invalid values in Username field with matched password and password confirmation values
+[2025-12-12 22:19:31] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-12 22:19:33] INFO  DashboardSteps - Validating page title. Expected: Registration
+[2025-12-12 22:19:35] INFO  ApplicationHooks - Scenario passed: Verify that the error message is displayed when user clicks on Register button after entering invalid values in Username field with matched password and password confirmation values
+[2025-12-12 22:19:37] INFO  ApplicationHooks - Scenario started: Verify that the error message is displayed when user clicks on Register button after entering invalid values in Username field with matched password and password confirmation values
+[2025-12-12 22:19:39] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-12 22:19:41] INFO  DashboardSteps - Validating page title. Expected: Registration
+[2025-12-12 22:19:43] INFO  ApplicationHooks - Scenario passed: Verify that the error message is displayed when user clicks on Register button after entering invalid values in Username field with matched password and password confirmation values
+[2025-12-12 22:19:44] INFO  ApplicationHooks - Scenario started: Verify that the error message is displayed when user clicks on Register button after entering invalid values in Username field with matched password and password confirmation values
+[2025-12-12 22:19:46] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-12 22:19:48] INFO  DashboardSteps - Validating page title. Expected: Registration
+[2025-12-12 22:19:49] INFO  ApplicationHooks - Scenario passed: Verify that the error message is displayed when user clicks on Register button after entering invalid values in Username field with matched password and password confirmation values
+[2025-12-12 22:19:51] INFO  ApplicationHooks - Scenario started: Verify that the user can able to create a new account successfully after entering valid Username,Password and Password Confirmation
+[2025-12-12 22:19:53] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-12 22:19:56] INFO  DashboardSteps - Validating page title. Expected: Registration
+[2025-12-12 22:20:00] ERROR ApplicationHooks - Scenario failed: Verify that the user can able to create a new account successfully after entering valid Username,Password and Password Confirmation
+[2025-12-12 22:20:02] INFO  ApplicationHooks - Scenario started: Verify that the user navigates to Login page from Register Page
+[2025-12-12 22:20:04] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-12 22:20:06] INFO  DashboardSteps - Validating page title. Expected: Registration
+[2025-12-12 22:20:07] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-12 22:20:07] INFO  ApplicationHooks - Scenario passed: Verify that the user navigates to Login page from Register Page
+[2025-12-12 22:36:54] INFO  ApplicationHooks - Scenario started: Verify that the tooltip message is displayed when user clicks on Register button by leaving all the fields empty
+[2025-12-12 22:36:57] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-12 22:36:59] INFO  DashboardSteps - Validating page title. Expected: Registration
+[2025-12-12 22:37:00] INFO  ApplicationHooks - Scenario passed: Verify that the tooltip message is displayed when user clicks on Register button by leaving all the fields empty
+[2025-12-12 22:37:02] INFO  ApplicationHooks - Scenario started: Verify that the tooltip message is displayed when user clicks on Register button after entering Username field and leaving other fields empty
+[2025-12-12 22:37:04] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-12 22:37:06] INFO  DashboardSteps - Validating page title. Expected: Registration
+[2025-12-12 22:37:07] INFO  ApplicationHooks - Scenario passed: Verify that the tooltip message is displayed when user clicks on Register button after entering Username field and leaving other fields empty
+[2025-12-12 22:37:08] INFO  ApplicationHooks - Scenario started: Verify that the tooltip message is displayed when user clicks on Register button after entering Username field and Password field by leaving Password confirmation field empty
+[2025-12-12 22:37:11] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-12 22:37:13] INFO  DashboardSteps - Validating page title. Expected: Registration
+[2025-12-12 22:37:14] INFO  ApplicationHooks - Scenario passed: Verify that the tooltip message is displayed when user clicks on Register button after entering Username field and Password field by leaving Password confirmation field empty
+[2025-12-12 22:37:15] INFO  ApplicationHooks - Scenario started: Verify that the error message is displayed when user clicks on Register button after entering mismatched passwords in the password and password confirmation fields
+[2025-12-12 22:37:17] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-12 22:37:20] INFO  DashboardSteps - Validating page title. Expected: Registration
+[2025-12-12 22:37:21] INFO  ApplicationHooks - Scenario passed: Verify that the error message is displayed when user clicks on Register button after entering mismatched passwords in the password and password confirmation fields
+[2025-12-12 22:37:23] INFO  ApplicationHooks - Scenario started: Verify that the error message is displayed when user clicks on Register button after entering invalid values in Username field with matched password and password confirmation values
+[2025-12-12 22:37:24] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-12 22:37:27] INFO  DashboardSteps - Validating page title. Expected: Registration
+[2025-12-12 22:37:28] INFO  ApplicationHooks - Scenario passed: Verify that the error message is displayed when user clicks on Register button after entering invalid values in Username field with matched password and password confirmation values
+[2025-12-12 22:37:30] INFO  ApplicationHooks - Scenario started: Verify that the error message is displayed when user clicks on Register button after entering invalid values in Username field with matched password and password confirmation values
+[2025-12-12 22:37:32] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-12 22:37:34] INFO  DashboardSteps - Validating page title. Expected: Registration
+[2025-12-12 22:37:35] INFO  ApplicationHooks - Scenario passed: Verify that the error message is displayed when user clicks on Register button after entering invalid values in Username field with matched password and password confirmation values
+[2025-12-12 22:37:37] INFO  ApplicationHooks - Scenario started: Verify that the error message is displayed when user clicks on Register button after entering invalid values in Username field with matched password and password confirmation values
+[2025-12-12 22:37:39] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-12 22:37:41] INFO  DashboardSteps - Validating page title. Expected: Registration
+[2025-12-12 22:37:43] INFO  ApplicationHooks - Scenario passed: Verify that the error message is displayed when user clicks on Register button after entering invalid values in Username field with matched password and password confirmation values
+[2025-12-12 22:37:44] INFO  ApplicationHooks - Scenario started: Verify that the error message is displayed when user clicks on Register button after entering invalid values in Username field with matched password and password confirmation values
+[2025-12-12 22:37:46] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-12 22:37:48] INFO  DashboardSteps - Validating page title. Expected: Registration
+[2025-12-12 22:37:50] INFO  ApplicationHooks - Scenario passed: Verify that the error message is displayed when user clicks on Register button after entering invalid values in Username field with matched password and password confirmation values
+[2025-12-12 22:37:51] INFO  ApplicationHooks - Scenario started: Verify that the user can able to create a new account successfully after entering valid Username,Password and Password Confirmation
+[2025-12-12 22:37:53] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-12 22:37:55] INFO  DashboardSteps - Validating page title. Expected: Registration
+[2025-12-12 22:37:56] INFO  RegistrationSteps - Username enters auto
+[2025-12-12 22:37:58] INFO  ApplicationHooks - Scenario passed: Verify that the user can able to create a new account successfully after entering valid Username,Password and Password Confirmation
+[2025-12-12 22:38:00] INFO  ApplicationHooks - Scenario started: Verify that the user navigates to Login page from Register Page
+[2025-12-12 22:38:03] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-12 22:38:05] INFO  DashboardSteps - Validating page title. Expected: Registration
+[2025-12-12 22:38:06] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-12 22:38:06] INFO  ApplicationHooks - Scenario passed: Verify that the user navigates to Login page from Register Page
+[2025-12-12 22:44:17] INFO  ApplicationHooks - Scenario started: Verify that the user opens the DsAlgo portal
+[2025-12-12 22:44:20] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-12 22:44:20] INFO  DashboardSteps - Validating page title. Expected: Numpy Ninja
+[2025-12-12 22:44:20] INFO  ApplicationHooks - Scenario passed: Verify that the user opens the DsAlgo portal
+[2025-12-12 22:44:22] INFO  ApplicationHooks - Scenario started: Verify the Dashboard page text in the DsAlgo portal
+[2025-12-12 22:44:24] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-12 22:44:24] INFO  DashboardSteps - Validating the DS Algo portal - Text. Expected: Preparing for the Interviews
+[2025-12-12 22:44:24] INFO  ApplicationHooks - Scenario passed: Verify the Dashboard page text in the DsAlgo portal
+[2025-12-12 22:44:26] INFO  ApplicationHooks - Scenario started: Verify the Get Started button in the DsAlgo portal
+[2025-12-12 22:44:29] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-12 22:44:29] INFO  DashboardSteps - Validating the DS Algo portal - get started button. Expected: Get Started
+[2025-12-12 22:44:29] INFO  ApplicationHooks - Scenario passed: Verify the Get Started button in the DsAlgo portal
+[2025-12-12 22:44:31] INFO  ApplicationHooks - Scenario started: Verify that the NumpyNinja is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-12 22:44:33] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-12 22:44:35] INFO  DashboardSteps - Validating the NumbyNinja Logo. Expected: NumpyNinja
+[2025-12-12 22:44:35] INFO  ApplicationHooks - Scenario passed: Verify that the NumpyNinja is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-12 22:44:37] INFO  ApplicationHooks - Scenario started: Verify that the DataStructures-dropdown is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-12 22:44:39] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-12 22:44:41] INFO  DashboardSteps - Validating the DataStructures- dropdown options. Expected: [Arrays, Linked List, Stack, Queue, Tree, Graph]
+[2025-12-12 22:44:41] INFO  ApplicationHooks - Scenario passed: Verify that the DataStructures-dropdown is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-12 22:44:44] INFO  ApplicationHooks - Scenario started: Verify that the Register link is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-12 22:44:46] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-12 22:44:47] INFO  DashboardSteps - Validating the RegisterLink Text Expected: Register
+[2025-12-12 22:44:47] INFO  ApplicationHooks - Scenario passed: Verify that the Register link is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-12 22:44:49] INFO  ApplicationHooks - Scenario started: Verify that the Sign in link is displayed after clicking on the "Get Started" button of DsAlgo portal
+[2025-12-12 22:44:51] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-12 22:44:52] INFO  DashboardSteps - Validating the SignInLink Text Expected: Sign in
+[2025-12-12 22:44:52] INFO  ApplicationHooks - Scenario passed: Verify that the Sign in link is displayed after clicking on the "Get Started" button of DsAlgo portal
+[2025-12-12 22:44:54] INFO  ApplicationHooks - Scenario started: Verify that the DataStructures - Introduction Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-12 22:44:56] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-12 22:44:57] INFO  DashboardSteps - Validating the Data structures introduction module label. Expected: Data Structures-Introduction
+[2025-12-12 22:44:57] INFO  DashboardSteps - Validating the Data structures introduction module label with get started button text. Expected: Get Started
+[2025-12-12 22:44:57] INFO  ApplicationHooks - Scenario passed: Verify that the DataStructures - Introduction Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-12 22:44:59] INFO  ApplicationHooks - Scenario started: Verify that the Array Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-12 22:45:01] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-12 22:45:02] INFO  DashboardSteps - Validating the Data structures introduction module label. Expected: Array
+[2025-12-12 22:45:02] INFO  DashboardSteps - Validating the Data structures introduction module label with get started button text. Expected: Get Started
+[2025-12-12 22:45:02] INFO  ApplicationHooks - Scenario passed: Verify that the Array Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-12 22:45:04] INFO  ApplicationHooks - Scenario started: Verify that the Linked List Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-12 22:45:07] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-12 22:45:09] INFO  DashboardSteps - Validating the Data structures introduction module label. Expected: Linked List
+[2025-12-12 22:45:09] INFO  DashboardSteps - Validating the Data structures introduction module label with get started button text. Expected: Get Started
+[2025-12-12 22:45:09] INFO  ApplicationHooks - Scenario passed: Verify that the Linked List Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-12 22:45:10] INFO  ApplicationHooks - Scenario started: Verify that the Stack Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-12 22:45:12] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-12 22:45:14] INFO  DashboardSteps - Validating the Data structures introduction module label. Expected: Stack
+[2025-12-12 22:45:14] INFO  DashboardSteps - Validating the Data structures introduction module label with get started button text. Expected: Get Started
+[2025-12-12 22:45:14] INFO  ApplicationHooks - Scenario passed: Verify that the Stack Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-12 22:45:16] INFO  ApplicationHooks - Scenario started: Verify that the Queue Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-12 22:45:18] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-12 22:45:19] INFO  DashboardSteps - Validating the Data structures introduction module label. Expected: Queue
+[2025-12-12 22:45:19] INFO  DashboardSteps - Validating the Data structures introduction module label with get started button text. Expected: Get Started
+[2025-12-12 22:45:19] INFO  ApplicationHooks - Scenario passed: Verify that the Queue Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-12 22:45:21] INFO  ApplicationHooks - Scenario started: Verify that the Tree Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-12 22:45:23] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-12 22:45:24] INFO  DashboardSteps - Validating the Data structures introduction module label. Expected: Tree
+[2025-12-12 22:45:24] INFO  DashboardSteps - Validating the Data structures introduction module label with get started button text. Expected: Get Started
+[2025-12-12 22:45:24] INFO  ApplicationHooks - Scenario passed: Verify that the Tree Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-12 22:45:26] INFO  ApplicationHooks - Scenario started: Verify that the Graph Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-12 22:45:28] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-12 22:45:30] INFO  DashboardSteps - Validating the Data structures introduction module label. Expected: Graph
+[2025-12-12 22:45:30] INFO  DashboardSteps - Validating the Data structures introduction module label with get started button text. Expected: Get Started
+[2025-12-12 22:45:30] INFO  ApplicationHooks - Scenario passed: Verify that the Graph Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-12 22:45:31] INFO  ApplicationHooks - Scenario started: Verify that the warning message is displayed when selecting Arrays option from the Data Structures dropdown without signin
+[2025-12-12 22:45:34] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-12 22:45:35] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-12 22:45:37] INFO  HomeSteps - User clicks on dropdown option. Expected option: Arrays 
+[2025-12-12 22:45:37] INFO  HomeSteps - Validating warning message. Expected: You are not logged in 
+[2025-12-12 22:45:37] INFO  ApplicationHooks - Scenario passed: Verify that the warning message is displayed when selecting Arrays option from the Data Structures dropdown without signin
+[2025-12-12 22:45:39] INFO  ApplicationHooks - Scenario started: Verify that the warning message is displayed when selecting Linked List option from the Data Structures dropdown without signin
+[2025-12-12 22:45:41] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-12 22:45:42] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-12 22:45:44] INFO  HomeSteps - User clicks on dropdown option. Expected option: Linked List 
+[2025-12-12 22:45:44] INFO  HomeSteps - Validating warning message. Expected: You are not logged in 
+[2025-12-12 22:45:44] INFO  ApplicationHooks - Scenario passed: Verify that the warning message is displayed when selecting Linked List option from the Data Structures dropdown without signin
+[2025-12-12 22:45:46] INFO  ApplicationHooks - Scenario started: Verify that the warning message is displayed when selecting Stack option from the Data Structures dropdown without signin
+[2025-12-12 22:45:48] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-12 22:45:49] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-12 22:45:51] INFO  HomeSteps - User clicks on dropdown option. Expected option: Stack 
+[2025-12-12 22:45:51] INFO  HomeSteps - Validating warning message. Expected: You are not logged in 
+[2025-12-12 22:45:51] INFO  ApplicationHooks - Scenario passed: Verify that the warning message is displayed when selecting Stack option from the Data Structures dropdown without signin
+[2025-12-12 22:45:53] INFO  ApplicationHooks - Scenario started: Verify that the warning message is displayed when selecting Queue option from the Data Structures dropdown without signin
+[2025-12-12 22:45:55] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-12 22:45:56] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-12 22:45:59] INFO  HomeSteps - User clicks on dropdown option. Expected option: Queue 
+[2025-12-12 22:45:59] INFO  HomeSteps - Validating warning message. Expected: You are not logged in 
+[2025-12-12 22:45:59] INFO  ApplicationHooks - Scenario passed: Verify that the warning message is displayed when selecting Queue option from the Data Structures dropdown without signin
+[2025-12-12 22:46:00] INFO  ApplicationHooks - Scenario started: Verify that the warning message is displayed when selecting Tree option from the Data Structures dropdown without signin
+[2025-12-12 22:46:02] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-12 22:46:04] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-12 22:46:06] INFO  HomeSteps - User clicks on dropdown option. Expected option: Tree 
+[2025-12-12 22:46:06] INFO  HomeSteps - Validating warning message. Expected: You are not logged in 
+[2025-12-12 22:46:06] INFO  ApplicationHooks - Scenario passed: Verify that the warning message is displayed when selecting Tree option from the Data Structures dropdown without signin
+[2025-12-12 22:46:07] INFO  ApplicationHooks - Scenario started: Verify that the warning message is displayed when selecting Graph option from the Data Structures dropdown without signin
+[2025-12-12 22:46:09] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-12 22:46:11] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-12 22:46:12] INFO  HomeSteps - User clicks on dropdown option. Expected option: Graph 
+[2025-12-12 22:46:13] INFO  HomeSteps - Validating warning message. Expected: You are not logged in 
+[2025-12-12 22:46:13] INFO  ApplicationHooks - Scenario passed: Verify that the warning message is displayed when selecting Graph option from the Data Structures dropdown without signin
+[2025-12-12 22:46:14] INFO  ApplicationHooks - Scenario started: Verify that the warning message is displayed when user clicks on Get Started button of Data Structures - Introduction module without signin
+[2025-12-12 22:46:16] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-12 22:46:17] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-12 22:46:19] INFO  HomeSteps - Validating warning message. Expected: You are not logged in 
+[2025-12-12 22:46:19] INFO  ApplicationHooks - Scenario passed: Verify that the warning message is displayed when user clicks on Get Started button of Data Structures - Introduction module without signin
+[2025-12-12 22:46:21] INFO  ApplicationHooks - Scenario started: Verify that the warning message is displayed when user clicks on Get Started button of Array module without signin
+[2025-12-12 22:46:23] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-12 22:46:24] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-12 22:46:25] INFO  HomeSteps - Validating warning message. Expected: You are not logged in 
+[2025-12-12 22:46:25] INFO  ApplicationHooks - Scenario passed: Verify that the warning message is displayed when user clicks on Get Started button of Array module without signin
+[2025-12-12 22:46:27] INFO  ApplicationHooks - Scenario started: Verify that the warning message is displayed when user clicks on Get Started button of Linked List module without signin
+[2025-12-12 22:46:29] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-12 22:46:30] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-12 22:46:32] INFO  HomeSteps - Validating warning message. Expected: You are not logged in 
+[2025-12-12 22:46:32] INFO  ApplicationHooks - Scenario passed: Verify that the warning message is displayed when user clicks on Get Started button of Linked List module without signin
+[2025-12-12 22:46:33] INFO  ApplicationHooks - Scenario started: Verify that the warning message is displayed when user clicks on Get Started button of Stack module without signin
+[2025-12-12 22:46:35] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-12 22:46:36] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-12 22:46:38] INFO  HomeSteps - Validating warning message. Expected: You are not logged in 
+[2025-12-12 22:46:39] INFO  ApplicationHooks - Scenario passed: Verify that the warning message is displayed when user clicks on Get Started button of Stack module without signin
+[2025-12-12 22:46:45] INFO  ApplicationHooks - Scenario started: Verify that the warning message is displayed when user clicks on Get Started button of Queue module without signin
+[2025-12-12 22:46:47] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-12 22:46:48] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-12 22:46:49] INFO  HomeSteps - Validating warning message. Expected: You are not logged in 
+[2025-12-12 22:46:49] INFO  ApplicationHooks - Scenario passed: Verify that the warning message is displayed when user clicks on Get Started button of Queue module without signin
+[2025-12-12 22:46:51] INFO  ApplicationHooks - Scenario started: Verify that the warning message is displayed when user clicks on Get Started button of Tree module without signin
+[2025-12-12 22:46:53] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-12 22:46:55] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-12 22:46:56] INFO  HomeSteps - Validating warning message. Expected: You are not logged in 
+[2025-12-12 22:46:56] INFO  ApplicationHooks - Scenario passed: Verify that the warning message is displayed when user clicks on Get Started button of Tree module without signin
+[2025-12-12 22:46:58] INFO  ApplicationHooks - Scenario started: Verify that the warning message is displayed when user clicks on Get Started button of Graph module without signin
+[2025-12-12 22:47:00] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-12 22:47:01] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-12 22:47:03] INFO  HomeSteps - Validating warning message. Expected: You are not logged in 
+[2025-12-12 22:47:03] INFO  ApplicationHooks - Scenario passed: Verify that the warning message is displayed when user clicks on Get Started button of Graph module without signin
+[2025-12-12 22:47:04] INFO  ApplicationHooks - Scenario started: Verify that the tooltip message is displayed when user clicks on Register button by leaving all the fields empty
+[2025-12-12 22:47:07] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-12 22:47:09] INFO  DashboardSteps - Validating page title. Expected: Registration
+[2025-12-12 22:47:10] INFO  RegistrationSteps - Validating the tooltip message Expected: Please fill out this field. 
+[2025-12-12 22:47:10] INFO  ApplicationHooks - Scenario passed: Verify that the tooltip message is displayed when user clicks on Register button by leaving all the fields empty
+[2025-12-12 22:47:12] INFO  ApplicationHooks - Scenario started: Verify that the tooltip message is displayed when user clicks on Register button after entering Username field and leaving other fields empty
+[2025-12-12 22:47:14] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-12 22:47:16] INFO  DashboardSteps - Validating page title. Expected: Registration
+[2025-12-12 22:47:16] INFO  RegistrationSteps - Validating the tooltip message Expected: Please fill out this field. 
+[2025-12-12 22:47:16] INFO  ApplicationHooks - Scenario passed: Verify that the tooltip message is displayed when user clicks on Register button after entering Username field and leaving other fields empty
+[2025-12-12 22:47:18] INFO  ApplicationHooks - Scenario started: Verify that the tooltip message is displayed when user clicks on Register button after entering Username field and Password field by leaving Password confirmation field empty
+[2025-12-12 22:47:20] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-12 22:47:23] INFO  DashboardSteps - Validating page title. Expected: Registration
+[2025-12-12 22:47:24] INFO  RegistrationSteps - Validating the tooltip message Expected: Please fill out this field. 
+[2025-12-12 22:47:24] INFO  ApplicationHooks - Scenario passed: Verify that the tooltip message is displayed when user clicks on Register button after entering Username field and Password field by leaving Password confirmation field empty
+[2025-12-12 22:47:30] INFO  ApplicationHooks - Scenario started: Verify that the error message is displayed when user clicks on Register button after entering mismatched passwords in the password and password confirmation fields
+[2025-12-12 22:47:32] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-12 22:47:35] INFO  DashboardSteps - Validating page title. Expected: Registration
+[2025-12-12 22:47:36] INFO  ApplicationHooks - Scenario passed: Verify that the error message is displayed when user clicks on Register button after entering mismatched passwords in the password and password confirmation fields
+[2025-12-12 22:47:38] INFO  ApplicationHooks - Scenario started: Verify that the error message is displayed when user clicks on Register button after entering invalid values in Username field with matched password and password confirmation values
+[2025-12-12 22:47:40] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-12 22:47:42] INFO  DashboardSteps - Validating page title. Expected: Registration
+[2025-12-12 22:47:44] INFO  ApplicationHooks - Scenario passed: Verify that the error message is displayed when user clicks on Register button after entering invalid values in Username field with matched password and password confirmation values
+[2025-12-12 22:47:47] INFO  ApplicationHooks - Scenario started: Verify that the error message is displayed when user clicks on Register button after entering invalid values in Username field with matched password and password confirmation values
+[2025-12-12 22:47:48] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-12 22:47:51] INFO  DashboardSteps - Validating page title. Expected: Registration
+[2025-12-12 22:47:52] INFO  ApplicationHooks - Scenario passed: Verify that the error message is displayed when user clicks on Register button after entering invalid values in Username field with matched password and password confirmation values
+[2025-12-12 22:47:54] INFO  ApplicationHooks - Scenario started: Verify that the error message is displayed when user clicks on Register button after entering invalid values in Username field with matched password and password confirmation values
+[2025-12-12 22:47:56] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-12 22:47:58] INFO  DashboardSteps - Validating page title. Expected: Registration
+[2025-12-12 22:48:00] INFO  ApplicationHooks - Scenario passed: Verify that the error message is displayed when user clicks on Register button after entering invalid values in Username field with matched password and password confirmation values
+[2025-12-12 22:48:02] INFO  ApplicationHooks - Scenario started: Verify that the error message is displayed when user clicks on Register button after entering invalid values in Username field with matched password and password confirmation values
+[2025-12-12 22:48:04] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-12 22:48:06] INFO  DashboardSteps - Validating page title. Expected: Registration
+[2025-12-12 22:48:08] INFO  ApplicationHooks - Scenario passed: Verify that the error message is displayed when user clicks on Register button after entering invalid values in Username field with matched password and password confirmation values
+[2025-12-12 22:48:10] INFO  ApplicationHooks - Scenario started: Verify that the user can able to create a new account successfully after entering valid Username,Password and Password Confirmation
+[2025-12-12 22:48:12] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-12 22:48:14] INFO  DashboardSteps - Validating page title. Expected: Registration
+[2025-12-12 22:48:14] INFO  RegistrationSteps - Username enters boris.konopelski@gmail.com
+[2025-12-12 22:48:17] INFO  RegistrationSteps - Validating the success message Expected: New Account Created. You are logged in as boris.konopelski@gmail.com 
+[2025-12-12 22:48:17] INFO  ApplicationHooks - Scenario passed: Verify that the user can able to create a new account successfully after entering valid Username,Password and Password Confirmation
+[2025-12-12 22:48:19] INFO  ApplicationHooks - Scenario started: Verify that the user navigates to Login page from Register Page
+[2025-12-12 22:48:21] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-12 22:48:23] INFO  DashboardSteps - Validating page title. Expected: Registration
+[2025-12-12 22:48:25] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-12 22:48:25] INFO  ApplicationHooks - Scenario passed: Verify that the user navigates to Login page from Register Page

@@ -49,11 +49,6 @@ public class LoginSteps {
 
     }
 
-    @Then("the user should get tooltip message as {string} below Username textbox")
-    public void the_user_should_get_tooltip_message_as_below_username_textbox(String string) {
-
-    }
-
     @When("the user clicks on Register link from login page")
     public void the_user_clicks_on_register_link_from_login_page() {
 
