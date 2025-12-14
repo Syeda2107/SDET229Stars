@@ -6,7 +6,8 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(features = {"src/test/resources/Features/Dashboard.feature","src/test/resources/Features/Home.feature",
-        "src/test/resources/Features/Registration.feature"},
+        "src/test/resources/Features/Registration.feature", "src/test/resources/Features/Login.feature",
+        "src/test/resources/Features/DSIntroduction.feature"},
         glue = {"com.numpyninja.dsalgo.stepdefinitions","com.numpyninja.dsalgo.apphooks"},
         //tags = "@SmokeTest or @RegressionTest or @DBP-1",
         dryRun = false,

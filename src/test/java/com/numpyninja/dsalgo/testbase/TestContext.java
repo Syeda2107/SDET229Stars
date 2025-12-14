@@ -23,8 +23,8 @@ public class TestContext {
         this.dashboardPage = new DashboardPage(driver,this);
         this.homePage = new HomePage(driver,this);
         this.registrationPage = new RegistrationPage(driver,this);
-        this.loginPage = new LoginPage(driver);
-        this.dsIntroductionPage = new DSIntroductionPage(driver);
+        this.loginPage = new LoginPage(driver,this);
+        this.dsIntroductionPage = new DSIntroductionPage(driver,this);
         this.faker=new Faker();
     }
 }

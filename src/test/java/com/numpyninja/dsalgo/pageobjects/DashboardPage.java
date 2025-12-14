@@ -82,31 +82,27 @@ public class DashboardPage extends BasePage {
     WebElement btnGraphGetStarted;
 
     public String validateTextPrepare() {
-        String prepareText = labelTxtH1.getText();
-        return prepareText;
+        return labelTxtH1.getText();
     }
 
     public String validateGetStartedbtn() {
-        String getStartedbtnText = btnGetStarted.getText();
-        return getStartedbtnText;
+        return btnGetStarted.getText();
     }
 
     public String validateNumpyNinjaText() {
-        String NNText = NumpyNinjaText.getText();
-        return NNText;
+        return NumpyNinjaText.getText();
     }
 
     public String validateregisterText() {
-        String regText = registerText.getText();
-        return regText;
+        return registerText.getText();
     }
 
     public String validateSignInText() {
-        String signText = signInText.getText();
-        return signText;
+        return signInText.getText();
     }
 
     public String validatePageTitle() {
+        waitForTitle(driver.getTitle(),10);
         return driver.getTitle();
     }
 
@@ -126,30 +122,28 @@ public class DashboardPage extends BasePage {
     }
 
     public String getModuleText(String moduleText){
-        switch(moduleText){
-            case "Data Structures-Introduction":return dsLabel.getText();
-            case "Array":return arrayLabel.getText();
-            case "Linked List":return listLabel.getText();
-            case "Stack":return stackLabel.getText();
-            case "Queue":return queueLabel.getText();
-            case "Tree":return  treeLabel.getText();
-            case "Graph":return graphLabel.getText();
-            default:
-                throw new IllegalArgumentException("Invalid element");
-        }
+        return switch (moduleText) {
+            case "Data Structures-Introduction" -> dsLabel.getText();
+            case "Array" -> arrayLabel.getText();
+            case "Linked List" -> listLabel.getText();
+            case "Stack" -> stackLabel.getText();
+            case "Queue" -> queueLabel.getText();
+            case "Tree" -> treeLabel.getText();
+            case "Graph" -> graphLabel.getText();
+            default -> throw new IllegalArgumentException("Invalid element");
+        };
     }
     public String getModuleButtonText(String moduleText){
-        switch(moduleText){
-            case "Data Structures-Introduction":return btnDsGetStarted.getText();
-            case "Array":return btnArrGetStarted.getText();
-            case "Linked List":return btnlistGetStarted.getText();
-            case "Stack":return btnStackGetStarted.getText();
-            case "Queue":return btnQueGetStarted.getText();
-            case "Tree":return  btnTreeGetStarted.getText();
-            case "Graph":return btnGraphGetStarted.getText();
-            default:
-                throw new IllegalArgumentException("Invalid element");
-        }
+        return switch (moduleText) {
+            case "Data Structures-Introduction" -> btnDsGetStarted.getText();
+            case "Array" -> btnArrGetStarted.getText();
+            case "Linked List" -> btnlistGetStarted.getText();
+            case "Stack" -> btnStackGetStarted.getText();
+            case "Queue" -> btnQueGetStarted.getText();
+            case "Tree" -> btnTreeGetStarted.getText();
+            case "Graph" -> btnGraphGetStarted.getText();
+            default -> throw new IllegalArgumentException("Invalid element");
+        };
     }
 
 }

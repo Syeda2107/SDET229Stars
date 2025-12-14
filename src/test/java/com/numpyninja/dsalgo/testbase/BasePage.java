@@ -30,4 +30,24 @@ public class BasePage {
         return toolTipMsg;
     }
 
+    public void waitForUrl(String urlText,long timeOutInSec){
+        WebDriverWait wait=new WebDriverWait(driver,Duration.ofSeconds(timeOutInSec));
+        wait.until(ExpectedConditions.urlToBe(urlText));
+    }
+
+    public void enterCodeInEditor(String code) {
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        js.executeScript(
+                "document.querySelector('.CodeMirror').CodeMirror.setValue(arguments[0]);",
+                code
+        );
+    }
+
+    public void waitForTitle(String title,long timeOutInSec){
+        WebDriverWait wait=new WebDriverWait(driver,Duration.ofSeconds(timeOutInSec));
+        wait.until(ExpectedConditions.titleIs(title));
+    }
+
+
+
 }

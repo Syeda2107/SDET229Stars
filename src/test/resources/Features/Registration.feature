@@ -33,7 +33,7 @@ Feature: Registration Functionality of DsAlgo Application
   Scenario Outline: Verify that the error message is displayed when user clicks on Register button after entering mismatched passwords in the password and password confirmation fields
     When the user enters "<Username>","<Password>" and "<Password confirmation>" in the register form
     And user clicks on Register button
-    Then the user should get error message as "<Error Message>"
+    Then the user should get invalid error message as "<Error Message>"
     Examples:
       | Username  | Password | Password confirmation | Error Message                                           |
       | Sgs@gmail | Stars123 | strr234               | password_mismatch:The two password fields didn’t match. |
@@ -41,7 +41,7 @@ Feature: Registration Functionality of DsAlgo Application
   Scenario Outline: Verify that the error message is displayed when user clicks on Register button after entering invalid values in Username field with matched password and password confirmation values
     When the user enters "<Username>","<Password>" and "<Password confirmation>" in the register form
     And user clicks on Register button
-    Then the user should get error message as "<Error Message>"
+    Then the user should get invalid error message as "<Error Message>"
     Examples:
       | Username        | Password                | Password confirmation   | Error Message                                           |
       | }}}}}}}}}}}}}}} | Stars@123               | Stars@123               | password_mismatch:The two password fields didn’t match. |
