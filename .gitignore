@@ -37,3 +37,13 @@ build/
 
 ### Mac OS ###
 .DS_Store
+
+# Test & automation artifacts
+test-output/
+Reports/
+logs/
+
+# Report files
+*.png
+*.pdf
+*.html
