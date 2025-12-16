@@ -2,8 +2,8 @@ package com.numpyninja.dsalgo.stepdefinitions;
 import io.cucumber.java.en.*;
 import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
-import pages.*;
-import utils.DriverFactory;
+import com.numpyninja.dsalgo.pageobjects.*;
+import com.numpyninja.dsalgo.testbase.DriverFactory;
 
 public class ArraySteps {
 
