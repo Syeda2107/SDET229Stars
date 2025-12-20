@@ -1,0 +1,20 @@
+[
+  {
+    "testCaseId": "TC_Dashboard_001",
+    "runMode": "Y",
+    "pageTitle": "Numpy Ninja",
+    "validateText": ""
+  },
+  {
+    "testCaseId": "TC_Dashboard_002",
+    "runMode": "Y",
+    "pageTitle": "",
+    "validateText": "Get Started"
+  },
+  {
+    "testCaseId": "TC_Dashboard_003",
+    "runMode": "Y",
+    "pageTitle": "",
+    "validateText": "Preparing for the Interviews"
+  }
+]
