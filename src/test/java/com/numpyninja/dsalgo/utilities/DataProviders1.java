@@ -6,7 +6,7 @@ import org.testng.annotations.DataProvider;
 import java.util.ArrayList;
 import java.util.List;
 
-public class DataProviders {
+public class DataProviders1 {
 
     private static final String EXCEL_PATH = Constants.DASHBOARD_EXCEL;
 

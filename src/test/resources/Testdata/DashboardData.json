@@ -16,5 +16,107 @@
     "runMode": "Y",
     "pageTitle": "",
     "validateText": "Preparing for the Interviews"
+  },
+  {
+    "testCaseId": "TC_Dashboard_004",
+    "runMode": "Y",
+    "pageTitle": "",
+    "validateText": ""
+  },
+  {
+    "testCaseId": "TC_Dashboard_005",
+    "runMode": "Y",
+    "pageTitle": "NumpyNinja",
+    "validateText": "NumpyNinja"
+  },
+  {
+    "testCaseId": "TC_Dashboard_006",
+    "runMode": "Y",
+    "pageTitle": "",
+    "validateText": "Arrays"
+  },
+  {
+    "testCaseId": "TC_Dashboard_007",
+    "runMode": "Y",
+    "pageTitle": "",
+    "validateText": "Linked List"
+  },
+  {
+    "testCaseId": "TC_Dashboard_008",
+    "runMode": "Y",
+    "pageTitle": "",
+    "validateText": "Stack"
+  },
+  {
+    "testCaseId": "TC_Dashboard_009",
+    "runMode": "Y",
+    "pageTitle": "",
+    "validateText": "Queue"
+  },
+  {
+    "testCaseId": "TC_Dashboard_010",
+    "runMode": "Y",
+    "pageTitle": "",
+    "validateText": "Tree"
+  },
+  {
+    "testCaseId": "TC_Dashboard_011",
+    "runMode": "Y",
+    "pageTitle": "",
+    "validateText": "Graph"
+  },
+  {
+    "testCaseId": "TC_Dashboard_012",
+    "runMode": "Y",
+    "pageTitle": "",
+    "validateText": "Register"
+  },
+  {
+    "testCaseId": "TC_Dashboard_013",
+    "runMode": "Y",
+    "pageTitle": "",
+    "validateText": "Sign in"
+  },
+  {
+    "testCaseId": "TC_Dashboard_014",
+    "runMode": "Y",
+    "pageTitle": "",
+    "validateText": "Data Structures-Introduction,Get Started"
+  },
+  {
+    "testCaseId": "TC_Dashboard_015",
+    "runMode": "Y",
+    "pageTitle": "",
+    "validateText": "Array,Get Started"
+  },
+  {
+    "testCaseId": "TC_Dashboard_016",
+    "runMode": "Y",
+    "pageTitle": "",
+    "validateText": "Linked List,Get Started"
+  },
+  {
+    "testCaseId": "TC_Dashboard_017",
+    "runMode": "Y",
+    "pageTitle": "",
+    "validateText": "Stack,Get Started"
+  },
+  {
+    "testCaseId": "TC_Dashboard_018",
+    "runMode": "Y",
+    "pageTitle": "",
+    "validateText": "Queue,Get Started"
+  },
+  {
+    "testCaseId": "TC_Dashboard_019",
+    "runMode": "Y",
+    "pageTitle": "",
+    "validateText": "Tree,Get Started"
+  },
+  {
+    "testCaseId": "TC_Dashboard_020",
+    "runMode": "Y",
+    "pageTitle": "",
+    "validateText": "Graph,Get Started"
   }
 ]
