@@ -5,8 +5,8 @@ import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
         features = "src/test/resources/Features",
-        glue = "com.numpyninja.dsalgo.stepdefinitions",  // <-- package, not path
-        plugin = {"pretty","html:target/cucumber-report.html"},
+        glue = "com.numpyninja.dsalgo.stepdefinitions",
+        plugin = {"pretty"},
         monochrome = true
 )
 public class TestRunner extends AbstractTestNGCucumberTests {
