@@ -2,11 +2,18 @@ package com.numpyninja.dsalgo.stepdefinitions;
 
 import com.numpyninja.dsalgo.pageobjects.LoginPage;
 import com.numpyninja.dsalgo.testbase.TestContext;
+import io.cucumber.java.PendingException;
+import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import lombok.extern.slf4j.Slf4j;
+import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
+
+import java.io.IOException;
+import java.util.List;
+import java.util.Map;
 
 @Slf4j
 public class LoginSteps {
@@ -90,4 +97,73 @@ public class LoginSteps {
         log.info("Validating the tooltip message Expected: {} ",expectedPwdTooltipMsg);
     }
 
+    @When("the user enters valid Username and Password from {string} and {int} in the Login form")
+    public void theUserEntersValidUsernameAndPasswordFromAndInTheLoginForm(String sheetName, int rowNumber) throws IOException, InvalidFormatException {
+        List<Map<String, String>> testData=loginPage.readDataFromExcel(sheetName,rowNumber);
+        String username=testData.get(rowNumber).get("Username");
+        String password=testData.get(rowNumber).get("Password");
+        this.username=username;
+        loginPage.enterCredentials(username,password);
+    }
+
+    @And("user should successfully logged in and get success message from {string} and {int}")
+    public void userShouldSuccessfullyLoggedInAndGetSuccessMessageFromAnd(String sheetName, int rowNumber) throws IOException, InvalidFormatException {
+        List<Map<String, String>> testData=loginPage.readDataFromExcel(sheetName,rowNumber);
+        String expectedSuccessMsg=testData.get(rowNumber).get("SuccessMessage");
+        String actualLoggedInSuccessMsg=context.homePage.getAlertMsg();
+        Assert.assertEquals(actualLoggedInSuccessMsg,expectedSuccessMsg);
+        log.info("Validating the logged in success message,  Expected: {} ",expectedSuccessMsg);
+    }
+
+    @Then("the user should be able to logged out and get success message from {string} and {int}")
+    public void theUserShouldBeAbleToLoggedOutAndGetSuccessMessageFromAnd(String sheetName, int rowNumber) throws IOException, InvalidFormatException {
+        List<Map<String,String>> testData=loginPage.readDataFromExcel(sheetName,rowNumber);
+        String expectedLogoutMsg=testData.get(rowNumber).get("LogoutMessage");
+        String actualLogoutMsg=context.homePage.getAlertMsg();
+        Assert.assertEquals(actualLogoutMsg,expectedLogoutMsg);
+        log.info("Validating the log out message,  Expected: {} ",expectedLogoutMsg);
+    }
+
+    @When("the user enters invalid Username and Password from {string} and {int} in the Login form")
+    public void theUserEntersInvalidUsernameAndPasswordFromAndInTheLoginForm(String sheetName, int rowNumber) throws IOException, InvalidFormatException {
+        List<Map<String, String>> testData=loginPage.readDataFromExcel(sheetName,rowNumber);
+        String username=testData.get(rowNumber).get("Username");
+        String password=testData.get(rowNumber).get("Password");
+        loginPage.enterCredentials(username,password);
+    }
+
+    @Then("the user should get invalid error message from {string} and {int}")
+    public void theUserShouldGetInvalidErrorMessageFromAnd(String sheetName, int rowNumber) throws IOException, InvalidFormatException {
+        List<Map<String,String>> testData=loginPage.readDataFromExcel(sheetName,rowNumber);
+        String expectedErrorMsg=testData.get(rowNumber).get("ErrorMessage");
+        String actualErrorMsg=context.homePage.getAlertMsg();
+        Assert.assertEquals(actualErrorMsg,expectedErrorMsg);
+        log.info("Validating the Error message Expected: {} ",expectedErrorMsg);
+    }
+
+    @When("the user enters Username and Password from {string} and {int} in the Login form")
+    public void theUserEntersUsernameAndPasswordFromAndInTheLoginForm(String sheetName, int rowNumber) throws IOException, InvalidFormatException {
+        List<Map<String,String>> testData=loginPage.readDataFromExcel(sheetName,rowNumber);
+        String username=testData.get(rowNumber).get("Username");
+        String password=testData.get(rowNumber).get("Password");
+        loginPage.enterCredentials(username,password);
+    }
+
+    @Then("the user should get tooltip message below Username textbox and data fetch from {string} and {int}")
+    public void theUserShouldGetTooltipMessageBelowUsernameTextboxAndDataFetchFromAnd(String sheetName, int rowNumber) throws IOException, InvalidFormatException {
+        List<Map<String,String>> testData=loginPage.readDataFromExcel(sheetName,rowNumber);
+        String expectedUsernameTooltipMsg=testData.get(rowNumber).get("ErrorMessage");
+        String actualUsernameTooltipMsg = context.registrationPage.validateUsernameTooltipMsg();
+        Assert.assertEquals(actualUsernameTooltipMsg, expectedUsernameTooltipMsg);
+        log.info("Validating the tooltip message Expected: {} ",expectedUsernameTooltipMsg);
+    }
+
+    @Then("the user should get tooltip message below Password textbox and data fetch from {string} and {int}")
+    public void theUserShouldGetTooltipMessageBelowPasswordTextboxAndDataFetchFromAnd(String sheetName, int rowNumber) throws IOException, InvalidFormatException {
+        List<Map<String,String>> testData=loginPage.readDataFromExcel(sheetName,rowNumber);
+        String expectedPwdTooltipMsg=testData.get(rowNumber).get("ErrorMessage");
+        String actualPwdTooltipMsg = loginPage.getPwdTooltipMsg();
+        Assert.assertEquals(actualPwdTooltipMsg, expectedPwdTooltipMsg);
+        log.info("Validating the tooltip message Expected: {} ",expectedPwdTooltipMsg);
+    }
 }

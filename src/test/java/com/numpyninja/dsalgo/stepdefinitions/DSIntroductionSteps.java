@@ -3,12 +3,16 @@ package com.numpyninja.dsalgo.stepdefinitions;
 import com.numpyninja.dsalgo.pageobjects.DSIntroductionPage;
 import com.numpyninja.dsalgo.testbase.TestContext;
 import io.cucumber.datatable.DataTable;
+import io.cucumber.java.PendingException;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import lombok.extern.slf4j.Slf4j;
+import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 
+import java.io.IOException;
+import java.util.List;
 import java.util.Map;
 
 @Slf4j
@@ -102,5 +106,37 @@ public class DSIntroductionSteps {
     public void theUserEntersWithprefixSpace(String pythonCode) {
         dsIntroductionPage.enterPythonCodeWithSpace(pythonCode);
         log.info("User enters python code in try editor,  Expected: {} ",pythonCode);
+    }
+
+    @When("the user enters Python Code from {string} and {int} in try editor")
+    public void theUserEntersPythonCodeFromAndInTryEditor(String sheetName, int rowNumber) throws IOException, InvalidFormatException {
+        List<Map<String,String>> testData=dsIntroductionPage.readDataFromExcel(sheetName,rowNumber);
+        String pythonCode=testData.get(rowNumber).get("PythonCode");
+        dsIntroductionPage.enterPythonCode(pythonCode);
+    }
+
+    @Then("the user should get pop up message from {string} and {int}")
+    public void theUserShouldGetPopUpMessageFromAnd(String sheetName, int rowNumber) throws IOException, InvalidFormatException {
+        List<Map<String,String>> testData=dsIntroductionPage.readDataFromExcel(sheetName,rowNumber);
+        String expectedAlertMsg=testData.get(rowNumber).get("Popup Message");
+        String actualAlertMsg = dsIntroductionPage.getPopUpMsg();
+        Assert.assertEquals(actualAlertMsg,expectedAlertMsg);
+        log.info("Validating try editor alert message,  Expected: {} ",expectedAlertMsg);
+    }
+
+    @Then("the user should get output from {string} and {int} below Run button")
+    public void theUserShouldGetOutputFromAndBelowRunButton(String sheetName, int rowNumber) throws IOException, InvalidFormatException {
+        List<Map<String,String>> testData=dsIntroductionPage.readDataFromExcel(sheetName,rowNumber);
+        String expectedOutput = testData.get(rowNumber).get("Output");
+        String actualOutput = dsIntroductionPage.getValue();
+        Assert.assertEquals(actualOutput,expectedOutput);
+        log.info("Validating try editor output,  Expected: {} ",expectedOutput);
+    }
+
+    @When("the user enters Python Code from {string} and {int} with prefix space")
+    public void theUserEntersPythonCodeFromAndWithPrefixSpace(String sheetName, int rowNumber) throws IOException, InvalidFormatException {
+        List<Map<String,String>> testData=dsIntroductionPage.readDataFromExcel(sheetName,rowNumber);
+        String pythonCode=testData.get(rowNumber).get("PythonCode");
+        dsIntroductionPage.enterPythonCodeWithSpace(pythonCode);
     }
 }
