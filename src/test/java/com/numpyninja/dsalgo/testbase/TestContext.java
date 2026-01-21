@@ -16,6 +16,8 @@ public class TestContext {
     public RegistrationPage registrationPage;
     public LoginPage loginPage;
     public DSIntroductionPage dsIntroductionPage;
+    public StackPage stackPage;
+    public QueuePage queuePage;
     public Faker faker;
     //public static String browserName;
 
@@ -25,6 +27,11 @@ public class TestContext {
         this.registrationPage = new RegistrationPage(driver,this);
         this.loginPage = new LoginPage(driver,this);
         this.dsIntroductionPage = new DSIntroductionPage(driver,this);
+        this.stackPage = new StackPage(driver, this);
+        this.queuePage = new QueuePage(driver, this);
         this.faker=new Faker();
+    }
+
+    public void launchApplication() {
     }
 }

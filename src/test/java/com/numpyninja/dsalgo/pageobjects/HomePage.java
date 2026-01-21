@@ -82,13 +82,6 @@ public class HomePage extends BasePage {
     }
 
 
-
-
-
-
-
-
-
-
-
+    public void clickSignInLink() {
+    }
 }
