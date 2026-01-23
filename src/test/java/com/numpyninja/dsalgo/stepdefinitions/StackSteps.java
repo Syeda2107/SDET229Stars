@@ -73,4 +73,21 @@ public class StackSteps {
     public void the_user_should_be_directed_to_data_structure_page(String expectedUrl) {
         Assert.assertEquals(driver.getCurrentUrl(), expectedUrl);
     }
+
+    @When("The user enters Python code {string} in the Try Editor")
+    public void the_user_enters_python_code_in_the_try_editor(String pythonCode) {
+        stackPage.enterPythonCode(pythonCode);
+    }
+
+    @When("The user enters Python code with a space {string} in the Try Editor")
+    public void the_user_enters_python_code_with_space_in_the_try_editor(String pythonCode) {
+        stackPage.enterPythonCodeWithSpace(pythonCode);
+    }
+
+//    @When("the user enters Python Code from {string} and {int} with prefix space")
+//    public void theUserEntersPythonCodeFromAndWithPrefixSpace(String sheetName, int rowNumber) throws IOException {
+//        List<Map<String, String>> testData = stackPage.readDataFromExcel(sheetName, rowNumber);
+//        String pythonCode = testData.get(rowNumber).get("PythonCode");
+//        stackPage.enterPythonCodeWithSpace(pythonCode);
+//    }  to read data from excel sheet
 }

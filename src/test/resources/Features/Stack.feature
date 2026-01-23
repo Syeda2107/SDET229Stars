@@ -43,3 +43,6 @@ Feature: Stack - Functionality of DsAlgo Application
 
   Scenario: Verify that user navigates to "Try editor" for "Applications" page
     Given The user is
+
+    When The user enters Python code "print('Hi')" in the Try Editor
+    When The user enters Python code with a space "print('Hi')" in the Try Editor
