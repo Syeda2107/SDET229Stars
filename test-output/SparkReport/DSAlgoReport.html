@@ -1,0 +1,3595 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Extent</title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa bdd-report ">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">DSAlgo Application Report</span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Dec 14, 2025 05:55:36 PM</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('category-view')">
+<a id="nav-category" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-tag"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Dec 14, 2025 05:55:36 PM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Dec 14, 2025 06:02:51 PM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Features Passed</p>
+<h3>5</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Features Failed</p>
+<h3>0</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Features</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'>
+<b>5</b> features passed
+</small>
+</div>
+<div>
+<small data-tooltip='0%'><b>0</b> features failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Scenarios</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='child-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'><b>55</b> scenarios passed</small></div>
+<div>
+<small data-tooltip='0%'><b>0</b> scenarios failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Steps</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='grandchild-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'><b>453</b> steps passed</small></div>
+<div>
+<small data-tooltip='0%'><b>0</b> steps failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"Data Structures-Introduction Functionality of DsAlgo Application":144.913,"Dashboard Functionality in DsAlgo Portal":80.457,"Home Page Functionality of DsAlgo Application":88.746,"Login Functionality of DsAlgo Application":50.504,"Registration Functionality of DsAlgo Application":69.13
+};
+</script>
+<div class="row">
+<div class="col-lg-6 col-md-12 category-container">
+<div class="card">
+<div class="card-header"><p>Tags</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
+<tr>
+<td>@DBP-1</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 5,
+failParent: 0,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 55,
+failChild: 0,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 453,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+};
+</script><div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
+<ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">@DBP-1</a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="pass" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Data Structures-Introduction Functionality of DsAlgo Application</p>
+            <p class="text-sm">
+              <span>5:55:37 PM</span> / <span>00:02:24:913</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Data Structures-Introduction Functionality of DsAlgo Application</h5>
+<span class='badge badge-success'>12.14.2025 5:55:37 PM</span>
+<span class='badge badge-danger'>12.14.2025 5:58:02 PM</span>
+<span class='badge badge-default'>00:02:24:913</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="2"><span class="badge log pass-bg mr-2">Pass</span>Verify that the user is navigated to the Data Structures-Introduction page</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="BEFORE">
+                <span>com.numpyninja.dsalgo.apphooks.ApplicationHooks.beforeScenario(io.cucumber.java.Scenario)</span>
+      <div>************************************** Launching on browser: chrome **************************************
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.user_launches_the_browser_and_enters_the_ds_algo_application_url()">
+                <span>Given User launches the browser and enters the DsAlgo application url</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_user_clicks_on_Get_Started_button_in_the_ds_algo_portal()">
+                <span>When the user clicks on Get Started button in the DsAlgo Portal</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.LoginSteps.user_clicks_on_sign_in_link_in_the_home_page()">
+                <span>And user clicks on Sign in link in the Home page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_page_title_should_be_displayed_as(java.lang.String)">
+                <span>Then the page title should be displayed as "Login"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DSIntroductionSteps.the_user_enters_valid_username_and_password_in_the_login_form(io.cucumber.datatable.DataTable)">
+                <span>When the user enters valid Username and Password in the Login form</span>
+      <div><table class='markup-table table '><tr><td>Username</td><td>sgs123@gmail.com</td></tr><tr><td>Password</td><td>Stars@123</td></tr></table>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.LoginSteps.user_clicks_on_login_button()">
+                <span>And user clicks on Login button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_page_title_should_be_displayed_as(java.lang.String)">
+                <span>Then the page title should be displayed as "NumpyNinja"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DSIntroductionSteps.the_user_clicks_on_get_started_button_below_data_structures_introduction_module()">
+                <span>When the user clicks on Get Started button below Data Structures - Introduction module</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_page_title_should_be_displayed_as(java.lang.String)">
+                <span>Then the page title should be displayed as "Data Structures-Introduction"</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="18"><span class="badge log pass-bg mr-2">Pass</span>Verify that the user is navigated to the time-complexity page</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="BEFORE">
+                <span>com.numpyninja.dsalgo.apphooks.ApplicationHooks.beforeScenario(io.cucumber.java.Scenario)</span>
+      <div>************************************** Launching on browser: chrome **************************************
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.user_launches_the_browser_and_enters_the_ds_algo_application_url()">
+                <span>Given User launches the browser and enters the DsAlgo application url</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_user_clicks_on_Get_Started_button_in_the_ds_algo_portal()">
+                <span>When the user clicks on Get Started button in the DsAlgo Portal</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.LoginSteps.user_clicks_on_sign_in_link_in_the_home_page()">
+                <span>And user clicks on Sign in link in the Home page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_page_title_should_be_displayed_as(java.lang.String)">
+                <span>Then the page title should be displayed as "Login"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DSIntroductionSteps.the_user_enters_valid_username_and_password_in_the_login_form(io.cucumber.datatable.DataTable)">
+                <span>When the user enters valid Username and Password in the Login form</span>
+      <div><table class='markup-table table '><tr><td>Username</td><td>sgs123@gmail.com</td></tr><tr><td>Password</td><td>Stars@123</td></tr></table>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.LoginSteps.user_clicks_on_login_button()">
+                <span>And user clicks on Login button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_page_title_should_be_displayed_as(java.lang.String)">
+                <span>Then the page title should be displayed as "NumpyNinja"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DSIntroductionSteps.the_user_clicks_on_get_started_button_below_data_structures_introduction_module()">
+                <span>When the user clicks on Get Started button below Data Structures - Introduction module</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_page_title_should_be_displayed_as(java.lang.String)">
+                <span>Then the page title should be displayed as "Data Structures-Introduction"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DSIntroductionSteps.the_user_clicks_on_time_complexity_link_in_data_structures_introduction_page()">
+                <span>When the user clicks on time-complexity link in Data Structures - Introduction page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_page_title_should_be_displayed_as(java.lang.String)">
+                <span>Then the page title should be displayed as "Time Complexity"</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="36"><span class="badge log pass-bg mr-2">Pass</span>Verify that the user is navigated to the try editor page</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="37"><span class="badge log pass-bg mr-2">Pass</span>Verify that the user is navigated to the try editor page</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>com.numpyninja.dsalgo.apphooks.ApplicationHooks.beforeScenario(io.cucumber.java.Scenario)</span>
+      <div>************************************** Launching on browser: chrome **************************************
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given User launches the browser and enters the DsAlgo application url</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks on Get Started button in the DsAlgo Portal</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user clicks on Sign in link in the Home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Login"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user enters valid Username and Password in the Login form</span>
+      <div><table class='markup-table table '><tr><td>Username</td><td>sgs123@gmail.com</td></tr><tr><td>Password</td><td>Stars@123</td></tr></table>
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user clicks on Login button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "NumpyNinja"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks on Get Started button below Data Structures - Introduction module</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Data Structures-Introduction"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks on time-complexity link in Data Structures - Introduction page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Time Complexity"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks on Try here button after scrolling down in time-complexity page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Assessment"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the page url should be displayed as "https://dsportalapp.herokuapp.com/tryEditor"</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="58"><span class="badge log pass-bg mr-2">Pass</span>Verify that the user is able to see an output for valid python code</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="59"><span class="badge log pass-bg mr-2">Pass</span>Verify that the user is able to see an output for valid python code</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>com.numpyninja.dsalgo.apphooks.ApplicationHooks.beforeScenario(io.cucumber.java.Scenario)</span>
+      <div>************************************** Launching on browser: chrome **************************************
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given User launches the browser and enters the DsAlgo application url</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks on Get Started button in the DsAlgo Portal</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user clicks on Sign in link in the Home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Login"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user enters valid Username and Password in the Login form</span>
+      <div><table class='markup-table table '><tr><td>Username</td><td>sgs123@gmail.com</td></tr><tr><td>Password</td><td>Stars@123</td></tr></table>
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user clicks on Login button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "NumpyNinja"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks on Get Started button below Data Structures - Introduction module</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Data Structures-Introduction"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks on time-complexity link in Data Structures - Introduction page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Time Complexity"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks on Try here button after scrolling down in time-complexity page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Assessment"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the page url should be displayed as "https://dsportalapp.herokuapp.com/tryEditor"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user enters "print 'Hello'"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user clicks on Run button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the user should get output as "Hello" below Run button</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="83"><span class="badge log pass-bg mr-2">Pass</span>Verify that the popup is displayed with error message for invalid python code with spaces in try editor</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="84"><span class="badge log pass-bg mr-2">Pass</span>Verify that the popup is displayed with error message for invalid python code with spaces in try editor</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>com.numpyninja.dsalgo.apphooks.ApplicationHooks.beforeScenario(io.cucumber.java.Scenario)</span>
+      <div>************************************** Launching on browser: chrome **************************************
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given User launches the browser and enters the DsAlgo application url</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks on Get Started button in the DsAlgo Portal</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user clicks on Sign in link in the Home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Login"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user enters valid Username and Password in the Login form</span>
+      <div><table class='markup-table table '><tr><td>Username</td><td>sgs123@gmail.com</td></tr><tr><td>Password</td><td>Stars@123</td></tr></table>
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user clicks on Login button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "NumpyNinja"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks on Get Started button below Data Structures - Introduction module</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Data Structures-Introduction"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks on time-complexity link in Data Structures - Introduction page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Time Complexity"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks on Try here button after scrolling down in time-complexity page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Assessment"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the page url should be displayed as "https://dsportalapp.herokuapp.com/tryEditor"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user enters "print 'Hello'" with prefix space</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user clicks on Run button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the user should get pop up message as "SyntaxError: bad input on line 1"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user clicks on OK button in the popup</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="109"><span class="badge log pass-bg mr-2">Pass</span>Verify that the popup is displayed with error message after entering letters or any characters in try editor</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="110"><span class="badge log pass-bg mr-2">Pass</span>Verify that the popup is displayed with error message after entering letters or any characters in try editor</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>com.numpyninja.dsalgo.apphooks.ApplicationHooks.beforeScenario(io.cucumber.java.Scenario)</span>
+      <div>************************************** Launching on browser: chrome **************************************
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given User launches the browser and enters the DsAlgo application url</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks on Get Started button in the DsAlgo Portal</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user clicks on Sign in link in the Home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Login"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user enters valid Username and Password in the Login form</span>
+      <div><table class='markup-table table '><tr><td>Username</td><td>sgs123@gmail.com</td></tr><tr><td>Password</td><td>Stars@123</td></tr></table>
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user clicks on Login button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "NumpyNinja"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks on Get Started button below Data Structures - Introduction module</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Data Structures-Introduction"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks on time-complexity link in Data Structures - Introduction page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Time Complexity"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks on Try here button after scrolling down in time-complexity page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Assessment"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the page url should be displayed as "https://dsportalapp.herokuapp.com/tryEditor"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user enters "print Hello"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user clicks on Run button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the user should get pop up message as "NameError: name 'Hello' is not defined on line 1"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user clicks on OK button in the popup</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="135"><span class="badge log pass-bg mr-2">Pass</span>Verify that the popup is displayed with error message after entering "$$$$$" in try editor</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="136"><span class="badge log pass-bg mr-2">Pass</span>Verify that the popup is displayed with error message after entering "$$$$$" in try editor</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>com.numpyninja.dsalgo.apphooks.ApplicationHooks.beforeScenario(io.cucumber.java.Scenario)</span>
+      <div>************************************** Launching on browser: chrome **************************************
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given User launches the browser and enters the DsAlgo application url</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks on Get Started button in the DsAlgo Portal</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user clicks on Sign in link in the Home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Login"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user enters valid Username and Password in the Login form</span>
+      <div><table class='markup-table table '><tr><td>Username</td><td>sgs123@gmail.com</td></tr><tr><td>Password</td><td>Stars@123</td></tr></table>
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user clicks on Login button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "NumpyNinja"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks on Get Started button below Data Structures - Introduction module</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Data Structures-Introduction"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks on time-complexity link in Data Structures - Introduction page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Time Complexity"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks on Try here button after scrolling down in time-complexity page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Assessment"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the page url should be displayed as "https://dsportalapp.herokuapp.com/tryEditor"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user enters "$$$$$"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user clicks on Run button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the user should get pop up message as "SyntaxError: bad token T_OP on line 1"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user clicks on OK button in the popup</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="161"><span class="badge log pass-bg mr-2">Pass</span>Verify that the popup is displayed with error message after entering "((((((" in try editor</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="162"><span class="badge log pass-bg mr-2">Pass</span>Verify that the popup is displayed with error message after entering "((((((" in try editor</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>com.numpyninja.dsalgo.apphooks.ApplicationHooks.beforeScenario(io.cucumber.java.Scenario)</span>
+      <div>************************************** Launching on browser: chrome **************************************
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given User launches the browser and enters the DsAlgo application url</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks on Get Started button in the DsAlgo Portal</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user clicks on Sign in link in the Home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Login"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user enters valid Username and Password in the Login form</span>
+      <div><table class='markup-table table '><tr><td>Username</td><td>sgs123@gmail.com</td></tr><tr><td>Password</td><td>Stars@123</td></tr></table>
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user clicks on Login button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "NumpyNinja"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks on Get Started button below Data Structures - Introduction module</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Data Structures-Introduction"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks on time-complexity link in Data Structures - Introduction page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Time Complexity"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks on Try here button after scrolling down in time-complexity page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Assessment"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the page url should be displayed as "https://dsportalapp.herokuapp.com/tryEditor"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user enters "(((((("</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user clicks on Run button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the user should get pop up message as "SyntaxError: EOF in multi-line statement on line 2"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user clicks on OK button in the popup</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="187"><span class="badge log pass-bg mr-2">Pass</span>Verify that the user is not able to see output after entering "12345" in try editor</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="188"><span class="badge log pass-bg mr-2">Pass</span>Verify that the user is not able to see output after entering "12345" in try editor</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>com.numpyninja.dsalgo.apphooks.ApplicationHooks.beforeScenario(io.cucumber.java.Scenario)</span>
+      <div>************************************** Launching on browser: chrome **************************************
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given User launches the browser and enters the DsAlgo application url</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks on Get Started button in the DsAlgo Portal</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user clicks on Sign in link in the Home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Login"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user enters valid Username and Password in the Login form</span>
+      <div><table class='markup-table table '><tr><td>Username</td><td>sgs123@gmail.com</td></tr><tr><td>Password</td><td>Stars@123</td></tr></table>
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user clicks on Login button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "NumpyNinja"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks on Get Started button below Data Structures - Introduction module</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Data Structures-Introduction"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks on time-complexity link in Data Structures - Introduction page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Time Complexity"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks on Try here button after scrolling down in time-complexity page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Assessment"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the page url should be displayed as "https://dsportalapp.herokuapp.com/tryEditor"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user enters "12345"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user clicks on Run button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the user should not able to see output below Run button</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="212"><span class="badge log pass-bg mr-2">Pass</span>Verify that the user is not able to see output without entering code in the try editor</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="213"><span class="badge log pass-bg mr-2">Pass</span>Verify that the user is not able to see output without entering code in the try editor</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>com.numpyninja.dsalgo.apphooks.ApplicationHooks.beforeScenario(io.cucumber.java.Scenario)</span>
+      <div>************************************** Launching on browser: chrome **************************************
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given User launches the browser and enters the DsAlgo application url</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks on Get Started button in the DsAlgo Portal</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user clicks on Sign in link in the Home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Login"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user enters valid Username and Password in the Login form</span>
+      <div><table class='markup-table table '><tr><td>Username</td><td>sgs123@gmail.com</td></tr><tr><td>Password</td><td>Stars@123</td></tr></table>
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user clicks on Login button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "NumpyNinja"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks on Get Started button below Data Structures - Introduction module</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Data Structures-Introduction"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks on time-complexity link in Data Structures - Introduction page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Time Complexity"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks on Try here button after scrolling down in time-complexity page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Assessment"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the page url should be displayed as "https://dsportalapp.herokuapp.com/tryEditor"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user enters ""</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user clicks on Run button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the user should not able to see output below Run button</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="237"><span class="badge log pass-bg mr-2">Pass</span>Verify that the user is navigated to the Practice page url</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="238"><span class="badge log pass-bg mr-2">Pass</span>Verify that the user is navigated to the Practice page url</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>com.numpyninja.dsalgo.apphooks.ApplicationHooks.beforeScenario(io.cucumber.java.Scenario)</span>
+      <div>************************************** Launching on browser: chrome **************************************
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given User launches the browser and enters the DsAlgo application url</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks on Get Started button in the DsAlgo Portal</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user clicks on Sign in link in the Home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Login"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user enters valid Username and Password in the Login form</span>
+      <div><table class='markup-table table '><tr><td>Username</td><td>sgs123@gmail.com</td></tr><tr><td>Password</td><td>Stars@123</td></tr></table>
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user clicks on Login button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "NumpyNinja"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks on Get Started button below Data Structures - Introduction module</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Data Structures-Introduction"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks on time-complexity link in Data Structures - Introduction page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Time Complexity"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks on Practice Questions link in Time Complexity page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Practice Questions"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the page url should be displayed as "https://dsportalapp.herokuapp.com/data-structures-introduction/practice"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks on Sign out link</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the user should be able to logged out and get success message as "Logged out successfully"</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="261"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Dashboard Functionality in DsAlgo Portal</p>
+            <p class="text-sm">
+              <span>5:58:02 PM</span> / <span>00:01:20:457</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Dashboard Functionality in DsAlgo Portal</h5>
+<span class='badge badge-success'>12.14.2025 5:58:02 PM</span>
+<span class='badge badge-danger'>12.14.2025 5:59:22 PM</span>
+<span class='badge badge-default'>00:01:20:457</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=261</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="262"><span class="badge log pass-bg mr-2">Pass</span>Verify that the user opens the DsAlgo portal</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="BEFORE">
+                <span>com.numpyninja.dsalgo.apphooks.ApplicationHooks.beforeScenario(io.cucumber.java.Scenario)</span>
+      <div>************************************** Launching on browser: chrome **************************************
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.user_launches_the_browser_and_enters_the_ds_algo_application_url()">
+                <span>Given User launches the browser and enters the DsAlgo application url</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_page_title_should_be_displayed_as(java.lang.String)">
+                <span>Then the page title should be displayed as "Numpy Ninja"</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="271"><span class="badge log pass-bg mr-2">Pass</span>Verify the Dashboard page text in the DsAlgo portal</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="BEFORE">
+                <span>com.numpyninja.dsalgo.apphooks.ApplicationHooks.beforeScenario(io.cucumber.java.Scenario)</span>
+      <div>************************************** Launching on browser: chrome **************************************
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.user_launches_the_browser_and_enters_the_ds_algo_application_url()">
+                <span>Given User launches the browser and enters the DsAlgo application url</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_user_should_see_text_on_ds_algo_portal_as(java.lang.String)">
+                <span>Then the user should see text on DsAlgo portal as "Preparing for the Interviews"</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="280"><span class="badge log pass-bg mr-2">Pass</span>Verify the Get Started button in the DsAlgo portal</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="BEFORE">
+                <span>com.numpyninja.dsalgo.apphooks.ApplicationHooks.beforeScenario(io.cucumber.java.Scenario)</span>
+      <div>************************************** Launching on browser: chrome **************************************
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.user_launches_the_browser_and_enters_the_ds_algo_application_url()">
+                <span>Given User launches the browser and enters the DsAlgo application url</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_user_should_see_button_on_the_ds_algo_portal(java.lang.String)">
+                <span>Then the user should see "Get Started" button on the DsAlgo portal</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="289"><span class="badge log pass-bg mr-2">Pass</span>Verify that the NumpyNinja is displayed after clicking on the Get Started button of DsAlgo portal</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="BEFORE">
+                <span>com.numpyninja.dsalgo.apphooks.ApplicationHooks.beforeScenario(io.cucumber.java.Scenario)</span>
+      <div>************************************** Launching on browser: chrome **************************************
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.user_launches_the_browser_and_enters_the_ds_algo_application_url()">
+                <span>Given User launches the browser and enters the DsAlgo application url</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_user_clicks_on_Get_Started_button_in_the_ds_algo_portal()">
+                <span>When the user clicks on Get Started button in the DsAlgo Portal</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_user_should_be_navigated_to_the_home_page_which_displays_the_on_the_top_left_corner(java.lang.String)">
+                <span>Then the user should be navigated to the Home page which displays the "NumpyNinja" on the top left corner</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="299"><span class="badge log pass-bg mr-2">Pass</span>Verify that the DataStructures-dropdown is displayed after clicking on the Get Started button of DsAlgo portal</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="BEFORE">
+                <span>com.numpyninja.dsalgo.apphooks.ApplicationHooks.beforeScenario(io.cucumber.java.Scenario)</span>
+      <div>************************************** Launching on browser: chrome **************************************
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.user_launches_the_browser_and_enters_the_ds_algo_application_url()">
+                <span>Given User launches the browser and enters the DsAlgo application url</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_user_clicks_on_Get_Started_button_in_the_ds_algo_portal()">
+                <span>When the user clicks on Get Started button in the DsAlgo Portal</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_user_should_be_navigated_to_the_home_page_which_displays_the_data_structures_dropdown_with_the_following_options_on_the_top_left_corner(io.cucumber.datatable.DataTable)">
+                <span>Then the user should be navigated to the Home page which displays the DataStructures - dropdown with the following options on the top left corner</span>
+      <div><table class='markup-table table '><tr><td>Arrays</td></tr><tr><td>Linked List</td></tr><tr><td>Stack</td></tr><tr><td>Queue</td></tr><tr><td>Tree</td></tr><tr><td>Graph</td></tr></table>
+      </div>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="309"><span class="badge log pass-bg mr-2">Pass</span>Verify that the Register link is displayed after clicking on the Get Started button of DsAlgo portal</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="BEFORE">
+                <span>com.numpyninja.dsalgo.apphooks.ApplicationHooks.beforeScenario(io.cucumber.java.Scenario)</span>
+      <div>************************************** Launching on browser: chrome **************************************
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.user_launches_the_browser_and_enters_the_ds_algo_application_url()">
+                <span>Given User launches the browser and enters the DsAlgo application url</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_user_clicks_on_Get_Started_button_in_the_ds_algo_portal()">
+                <span>When the user clicks on Get Started button in the DsAlgo Portal</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_user_should_be_navigated_to_the_home_page_which_displays_the_link_on_the_top_right_corner(java.lang.String)">
+                <span>Then the user should be navigated to the Home page which displays the "Register" link on the top right corner</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="319"><span class="badge log pass-bg mr-2">Pass</span>Verify that the Sign in link is displayed after clicking on the "Get Started" button of DsAlgo portal</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="BEFORE">
+                <span>com.numpyninja.dsalgo.apphooks.ApplicationHooks.beforeScenario(io.cucumber.java.Scenario)</span>
+      <div>************************************** Launching on browser: chrome **************************************
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.user_launches_the_browser_and_enters_the_ds_algo_application_url()">
+                <span>Given User launches the browser and enters the DsAlgo application url</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_user_clicks_on_Get_Started_button_in_the_ds_algo_portal()">
+                <span>When the user clicks on Get Started button in the DsAlgo Portal</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_user_should_be_navigated_to_the_home_page_which_displays_the_link_on_the_top_right_corner(java.lang.String)">
+                <span>Then the user should be navigated to the Home page which displays the "Sign in" link on the top right corner</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="329"><span class="badge log pass-bg mr-2">Pass</span>Verify that the DataStructures - Introduction Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="BEFORE">
+                <span>com.numpyninja.dsalgo.apphooks.ApplicationHooks.beforeScenario(io.cucumber.java.Scenario)</span>
+      <div>************************************** Launching on browser: chrome **************************************
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.user_launches_the_browser_and_enters_the_ds_algo_application_url()">
+                <span>Given User launches the browser and enters the DsAlgo application url</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_user_clicks_on_Get_Started_button_in_the_ds_algo_portal()">
+                <span>When the user clicks on Get Started button in the DsAlgo Portal</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_user_should_be_navigated_to_the_home_page_which_displays_the_module_with_button(java.lang.String,java.lang.String)">
+                <span>Then the user should be navigated to the Home page which displays the "Data Structures-Introduction" module with "Get Started" button</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="339"><span class="badge log pass-bg mr-2">Pass</span>Verify that the Array Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="BEFORE">
+                <span>com.numpyninja.dsalgo.apphooks.ApplicationHooks.beforeScenario(io.cucumber.java.Scenario)</span>
+      <div>************************************** Launching on browser: chrome **************************************
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.user_launches_the_browser_and_enters_the_ds_algo_application_url()">
+                <span>Given User launches the browser and enters the DsAlgo application url</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_user_clicks_on_Get_Started_button_in_the_ds_algo_portal()">
+                <span>When the user clicks on Get Started button in the DsAlgo Portal</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_user_should_be_navigated_to_the_home_page_which_displays_the_module_with_button(java.lang.String,java.lang.String)">
+                <span>Then the user should be navigated to the Home page which displays the "Array" module with "Get Started" button</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="349"><span class="badge log pass-bg mr-2">Pass</span>Verify that the Linked List Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="BEFORE">
+                <span>com.numpyninja.dsalgo.apphooks.ApplicationHooks.beforeScenario(io.cucumber.java.Scenario)</span>
+      <div>************************************** Launching on browser: chrome **************************************
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.user_launches_the_browser_and_enters_the_ds_algo_application_url()">
+                <span>Given User launches the browser and enters the DsAlgo application url</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_user_clicks_on_Get_Started_button_in_the_ds_algo_portal()">
+                <span>When the user clicks on Get Started button in the DsAlgo Portal</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_user_should_be_navigated_to_the_home_page_which_displays_the_module_with_button(java.lang.String,java.lang.String)">
+                <span>Then the user should be navigated to the Home page which displays the "Linked List" module with "Get Started" button</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="359"><span class="badge log pass-bg mr-2">Pass</span>Verify that the Stack Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="BEFORE">
+                <span>com.numpyninja.dsalgo.apphooks.ApplicationHooks.beforeScenario(io.cucumber.java.Scenario)</span>
+      <div>************************************** Launching on browser: chrome **************************************
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.user_launches_the_browser_and_enters_the_ds_algo_application_url()">
+                <span>Given User launches the browser and enters the DsAlgo application url</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_user_clicks_on_Get_Started_button_in_the_ds_algo_portal()">
+                <span>When the user clicks on Get Started button in the DsAlgo Portal</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_user_should_be_navigated_to_the_home_page_which_displays_the_module_with_button(java.lang.String,java.lang.String)">
+                <span>Then the user should be navigated to the Home page which displays the "Stack" module with "Get Started" button</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="369"><span class="badge log pass-bg mr-2">Pass</span>Verify that the Queue Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="BEFORE">
+                <span>com.numpyninja.dsalgo.apphooks.ApplicationHooks.beforeScenario(io.cucumber.java.Scenario)</span>
+      <div>************************************** Launching on browser: chrome **************************************
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.user_launches_the_browser_and_enters_the_ds_algo_application_url()">
+                <span>Given User launches the browser and enters the DsAlgo application url</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_user_clicks_on_Get_Started_button_in_the_ds_algo_portal()">
+                <span>When the user clicks on Get Started button in the DsAlgo Portal</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_user_should_be_navigated_to_the_home_page_which_displays_the_module_with_button(java.lang.String,java.lang.String)">
+                <span>Then the user should be navigated to the Home page which displays the "Queue" module with "Get Started" button</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="379"><span class="badge log pass-bg mr-2">Pass</span>Verify that the Tree Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="BEFORE">
+                <span>com.numpyninja.dsalgo.apphooks.ApplicationHooks.beforeScenario(io.cucumber.java.Scenario)</span>
+      <div>************************************** Launching on browser: chrome **************************************
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.user_launches_the_browser_and_enters_the_ds_algo_application_url()">
+                <span>Given User launches the browser and enters the DsAlgo application url</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_user_clicks_on_Get_Started_button_in_the_ds_algo_portal()">
+                <span>When the user clicks on Get Started button in the DsAlgo Portal</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_user_should_be_navigated_to_the_home_page_which_displays_the_module_with_button(java.lang.String,java.lang.String)">
+                <span>Then the user should be navigated to the Home page which displays the "Tree" module with "Get Started" button</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="389"><span class="badge log pass-bg mr-2">Pass</span>Verify that the Graph Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="BEFORE">
+                <span>com.numpyninja.dsalgo.apphooks.ApplicationHooks.beforeScenario(io.cucumber.java.Scenario)</span>
+      <div>************************************** Launching on browser: chrome **************************************
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.user_launches_the_browser_and_enters_the_ds_algo_application_url()">
+                <span>Given User launches the browser and enters the DsAlgo application url</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_user_clicks_on_Get_Started_button_in_the_ds_algo_portal()">
+                <span>When the user clicks on Get Started button in the DsAlgo Portal</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_user_should_be_navigated_to_the_home_page_which_displays_the_module_with_button(java.lang.String,java.lang.String)">
+                <span>Then the user should be navigated to the Home page which displays the "Graph" module with "Get Started" button</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="399"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Home Page Functionality of DsAlgo Application</p>
+            <p class="text-sm">
+              <span>5:59:22 PM</span> / <span>00:01:28:746</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Home Page Functionality of DsAlgo Application</h5>
+<span class='badge badge-success'>12.14.2025 5:59:22 PM</span>
+<span class='badge badge-danger'>12.14.2025 6:00:51 PM</span>
+<span class='badge badge-default'>00:01:28:746</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=399</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="400"><span class="badge log pass-bg mr-2">Pass</span>Verify that the warning message is displayed when selecting Arrays option from the Data Structures dropdown without signin</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="BEFORE">
+                <span>com.numpyninja.dsalgo.apphooks.ApplicationHooks.beforeScenario(io.cucumber.java.Scenario)</span>
+      <div>************************************** Launching on browser: chrome **************************************
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.user_launches_the_browser_and_enters_the_ds_algo_application_url()">
+                <span>Given User launches the browser and enters the DsAlgo application url</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_user_clicks_on_Get_Started_button_in_the_ds_algo_portal()">
+                <span>When the user clicks on Get Started button in the DsAlgo Portal</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_page_title_should_be_displayed_as(java.lang.String)">
+                <span>Then the page title should be displayed as "NumpyNinja"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.HomeSteps.the_user_selects_option_from_data_structures_dropdown(java.lang.String)">
+                <span>When the user selects "Arrays" option from Data Structures dropdown</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.HomeSteps.the_user_should_able_to_see_the_warning_message_as(java.lang.String)">
+                <span>Then the user should able to see the warning message as "You are not logged in"</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="412"><span class="badge log pass-bg mr-2">Pass</span>Verify that the warning message is displayed when selecting Linked List option from the Data Structures dropdown without signin</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="BEFORE">
+                <span>com.numpyninja.dsalgo.apphooks.ApplicationHooks.beforeScenario(io.cucumber.java.Scenario)</span>
+      <div>************************************** Launching on browser: chrome **************************************
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.user_launches_the_browser_and_enters_the_ds_algo_application_url()">
+                <span>Given User launches the browser and enters the DsAlgo application url</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_user_clicks_on_Get_Started_button_in_the_ds_algo_portal()">
+                <span>When the user clicks on Get Started button in the DsAlgo Portal</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_page_title_should_be_displayed_as(java.lang.String)">
+                <span>Then the page title should be displayed as "NumpyNinja"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.HomeSteps.the_user_selects_option_from_data_structures_dropdown(java.lang.String)">
+                <span>When the user selects "Linked List" option from Data Structures dropdown</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.HomeSteps.the_user_should_able_to_see_the_warning_message_as(java.lang.String)">
+                <span>Then the user should able to see the warning message as "You are not logged in"</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="424"><span class="badge log pass-bg mr-2">Pass</span>Verify that the warning message is displayed when selecting Stack option from the Data Structures dropdown without signin</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="BEFORE">
+                <span>com.numpyninja.dsalgo.apphooks.ApplicationHooks.beforeScenario(io.cucumber.java.Scenario)</span>
+      <div>************************************** Launching on browser: chrome **************************************
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.user_launches_the_browser_and_enters_the_ds_algo_application_url()">
+                <span>Given User launches the browser and enters the DsAlgo application url</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_user_clicks_on_Get_Started_button_in_the_ds_algo_portal()">
+                <span>When the user clicks on Get Started button in the DsAlgo Portal</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_page_title_should_be_displayed_as(java.lang.String)">
+                <span>Then the page title should be displayed as "NumpyNinja"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.HomeSteps.the_user_selects_option_from_data_structures_dropdown(java.lang.String)">
+                <span>When the user selects "Stack" option from Data Structures dropdown</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.HomeSteps.the_user_should_able_to_see_the_warning_message_as(java.lang.String)">
+                <span>Then the user should able to see the warning message as "You are not logged in"</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="436"><span class="badge log pass-bg mr-2">Pass</span>Verify that the warning message is displayed when selecting Queue option from the Data Structures dropdown without signin</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="BEFORE">
+                <span>com.numpyninja.dsalgo.apphooks.ApplicationHooks.beforeScenario(io.cucumber.java.Scenario)</span>
+      <div>************************************** Launching on browser: chrome **************************************
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.user_launches_the_browser_and_enters_the_ds_algo_application_url()">
+                <span>Given User launches the browser and enters the DsAlgo application url</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_user_clicks_on_Get_Started_button_in_the_ds_algo_portal()">
+                <span>When the user clicks on Get Started button in the DsAlgo Portal</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_page_title_should_be_displayed_as(java.lang.String)">
+                <span>Then the page title should be displayed as "NumpyNinja"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.HomeSteps.the_user_selects_option_from_data_structures_dropdown(java.lang.String)">
+                <span>When the user selects "Queue" option from Data Structures dropdown</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.HomeSteps.the_user_should_able_to_see_the_warning_message_as(java.lang.String)">
+                <span>Then the user should able to see the warning message as "You are not logged in"</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="448"><span class="badge log pass-bg mr-2">Pass</span>Verify that the warning message is displayed when selecting Tree option from the Data Structures dropdown without signin</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="BEFORE">
+                <span>com.numpyninja.dsalgo.apphooks.ApplicationHooks.beforeScenario(io.cucumber.java.Scenario)</span>
+      <div>************************************** Launching on browser: chrome **************************************
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.user_launches_the_browser_and_enters_the_ds_algo_application_url()">
+                <span>Given User launches the browser and enters the DsAlgo application url</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_user_clicks_on_Get_Started_button_in_the_ds_algo_portal()">
+                <span>When the user clicks on Get Started button in the DsAlgo Portal</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_page_title_should_be_displayed_as(java.lang.String)">
+                <span>Then the page title should be displayed as "NumpyNinja"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.HomeSteps.the_user_selects_option_from_data_structures_dropdown(java.lang.String)">
+                <span>When the user selects "Tree" option from Data Structures dropdown</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.HomeSteps.the_user_should_able_to_see_the_warning_message_as(java.lang.String)">
+                <span>Then the user should able to see the warning message as "You are not logged in"</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="460"><span class="badge log pass-bg mr-2">Pass</span>Verify that the warning message is displayed when selecting Graph option from the Data Structures dropdown without signin</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="BEFORE">
+                <span>com.numpyninja.dsalgo.apphooks.ApplicationHooks.beforeScenario(io.cucumber.java.Scenario)</span>
+      <div>************************************** Launching on browser: chrome **************************************
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.user_launches_the_browser_and_enters_the_ds_algo_application_url()">
+                <span>Given User launches the browser and enters the DsAlgo application url</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_user_clicks_on_Get_Started_button_in_the_ds_algo_portal()">
+                <span>When the user clicks on Get Started button in the DsAlgo Portal</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_page_title_should_be_displayed_as(java.lang.String)">
+                <span>Then the page title should be displayed as "NumpyNinja"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.HomeSteps.the_user_selects_option_from_data_structures_dropdown(java.lang.String)">
+                <span>When the user selects "Graph" option from Data Structures dropdown</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.HomeSteps.the_user_should_able_to_see_the_warning_message_as(java.lang.String)">
+                <span>Then the user should able to see the warning message as "You are not logged in"</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="472"><span class="badge log pass-bg mr-2">Pass</span>Verify that the warning message is displayed when user clicks on Get Started button of Data Structures - Introduction module without signin</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="BEFORE">
+                <span>com.numpyninja.dsalgo.apphooks.ApplicationHooks.beforeScenario(io.cucumber.java.Scenario)</span>
+      <div>************************************** Launching on browser: chrome **************************************
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.user_launches_the_browser_and_enters_the_ds_algo_application_url()">
+                <span>Given User launches the browser and enters the DsAlgo application url</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_user_clicks_on_Get_Started_button_in_the_ds_algo_portal()">
+                <span>When the user clicks on Get Started button in the DsAlgo Portal</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_page_title_should_be_displayed_as(java.lang.String)">
+                <span>Then the page title should be displayed as "NumpyNinja"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.HomeSteps.the_user_clicks_on_Get_Started_button_of_module(java.lang.String)">
+                <span>When the user clicks on Get Started button of "Data Structures - Introduction" module</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.HomeSteps.the_user_should_able_to_see_the_warning_message_as(java.lang.String)">
+                <span>Then the user should able to see the warning message as "You are not logged in"</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="484"><span class="badge log pass-bg mr-2">Pass</span>Verify that the warning message is displayed when user clicks on Get Started button of Array module without signin</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="BEFORE">
+                <span>com.numpyninja.dsalgo.apphooks.ApplicationHooks.beforeScenario(io.cucumber.java.Scenario)</span>
+      <div>************************************** Launching on browser: chrome **************************************
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.user_launches_the_browser_and_enters_the_ds_algo_application_url()">
+                <span>Given User launches the browser and enters the DsAlgo application url</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_user_clicks_on_Get_Started_button_in_the_ds_algo_portal()">
+                <span>When the user clicks on Get Started button in the DsAlgo Portal</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_page_title_should_be_displayed_as(java.lang.String)">
+                <span>Then the page title should be displayed as "NumpyNinja"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.HomeSteps.the_user_clicks_on_Get_Started_button_of_module(java.lang.String)">
+                <span>When the user clicks on Get Started button of "Array" module</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.HomeSteps.the_user_should_able_to_see_the_warning_message_as(java.lang.String)">
+                <span>Then the user should able to see the warning message as "You are not logged in"</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="496"><span class="badge log pass-bg mr-2">Pass</span>Verify that the warning message is displayed when user clicks on Get Started button of Linked List module without signin</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="BEFORE">
+                <span>com.numpyninja.dsalgo.apphooks.ApplicationHooks.beforeScenario(io.cucumber.java.Scenario)</span>
+      <div>************************************** Launching on browser: chrome **************************************
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.user_launches_the_browser_and_enters_the_ds_algo_application_url()">
+                <span>Given User launches the browser and enters the DsAlgo application url</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_user_clicks_on_Get_Started_button_in_the_ds_algo_portal()">
+                <span>When the user clicks on Get Started button in the DsAlgo Portal</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_page_title_should_be_displayed_as(java.lang.String)">
+                <span>Then the page title should be displayed as "NumpyNinja"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.HomeSteps.the_user_clicks_on_Get_Started_button_of_module(java.lang.String)">
+                <span>When the user clicks on Get Started button of "Linked List" module</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.HomeSteps.the_user_should_able_to_see_the_warning_message_as(java.lang.String)">
+                <span>Then the user should able to see the warning message as "You are not logged in"</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="508"><span class="badge log pass-bg mr-2">Pass</span>Verify that the warning message is displayed when user clicks on Get Started button of Stack module without signin</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="BEFORE">
+                <span>com.numpyninja.dsalgo.apphooks.ApplicationHooks.beforeScenario(io.cucumber.java.Scenario)</span>
+      <div>************************************** Launching on browser: chrome **************************************
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.user_launches_the_browser_and_enters_the_ds_algo_application_url()">
+                <span>Given User launches the browser and enters the DsAlgo application url</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_user_clicks_on_Get_Started_button_in_the_ds_algo_portal()">
+                <span>When the user clicks on Get Started button in the DsAlgo Portal</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_page_title_should_be_displayed_as(java.lang.String)">
+                <span>Then the page title should be displayed as "NumpyNinja"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.HomeSteps.the_user_clicks_on_Get_Started_button_of_module(java.lang.String)">
+                <span>When the user clicks on Get Started button of "Stack" module</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.HomeSteps.the_user_should_able_to_see_the_warning_message_as(java.lang.String)">
+                <span>Then the user should able to see the warning message as "You are not logged in"</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="520"><span class="badge log pass-bg mr-2">Pass</span>Verify that the warning message is displayed when user clicks on Get Started button of Queue module without signin</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="BEFORE">
+                <span>com.numpyninja.dsalgo.apphooks.ApplicationHooks.beforeScenario(io.cucumber.java.Scenario)</span>
+      <div>************************************** Launching on browser: chrome **************************************
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.user_launches_the_browser_and_enters_the_ds_algo_application_url()">
+                <span>Given User launches the browser and enters the DsAlgo application url</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_user_clicks_on_Get_Started_button_in_the_ds_algo_portal()">
+                <span>When the user clicks on Get Started button in the DsAlgo Portal</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_page_title_should_be_displayed_as(java.lang.String)">
+                <span>Then the page title should be displayed as "NumpyNinja"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.HomeSteps.the_user_clicks_on_Get_Started_button_of_module(java.lang.String)">
+                <span>When the user clicks on Get Started button of "Queue" module</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.HomeSteps.the_user_should_able_to_see_the_warning_message_as(java.lang.String)">
+                <span>Then the user should able to see the warning message as "You are not logged in"</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="532"><span class="badge log pass-bg mr-2">Pass</span>Verify that the warning message is displayed when user clicks on Get Started button of Tree module without signin</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="BEFORE">
+                <span>com.numpyninja.dsalgo.apphooks.ApplicationHooks.beforeScenario(io.cucumber.java.Scenario)</span>
+      <div>************************************** Launching on browser: chrome **************************************
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.user_launches_the_browser_and_enters_the_ds_algo_application_url()">
+                <span>Given User launches the browser and enters the DsAlgo application url</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_user_clicks_on_Get_Started_button_in_the_ds_algo_portal()">
+                <span>When the user clicks on Get Started button in the DsAlgo Portal</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_page_title_should_be_displayed_as(java.lang.String)">
+                <span>Then the page title should be displayed as "NumpyNinja"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.HomeSteps.the_user_clicks_on_Get_Started_button_of_module(java.lang.String)">
+                <span>When the user clicks on Get Started button of "Tree" module</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.HomeSteps.the_user_should_able_to_see_the_warning_message_as(java.lang.String)">
+                <span>Then the user should able to see the warning message as "You are not logged in"</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="544"><span class="badge log pass-bg mr-2">Pass</span>Verify that the warning message is displayed when user clicks on Get Started button of Graph module without signin</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="BEFORE">
+                <span>com.numpyninja.dsalgo.apphooks.ApplicationHooks.beforeScenario(io.cucumber.java.Scenario)</span>
+      <div>************************************** Launching on browser: chrome **************************************
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.user_launches_the_browser_and_enters_the_ds_algo_application_url()">
+                <span>Given User launches the browser and enters the DsAlgo application url</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_user_clicks_on_Get_Started_button_in_the_ds_algo_portal()">
+                <span>When the user clicks on Get Started button in the DsAlgo Portal</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_page_title_should_be_displayed_as(java.lang.String)">
+                <span>Then the page title should be displayed as "NumpyNinja"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.HomeSteps.the_user_clicks_on_Get_Started_button_of_module(java.lang.String)">
+                <span>When the user clicks on Get Started button of "Graph" module</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.HomeSteps.the_user_should_able_to_see_the_warning_message_as(java.lang.String)">
+                <span>Then the user should able to see the warning message as "You are not logged in"</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="556"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Login Functionality of DsAlgo Application</p>
+            <p class="text-sm">
+              <span>6:00:51 PM</span> / <span>00:00:50:504</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Login Functionality of DsAlgo Application</h5>
+<span class='badge badge-success'>12.14.2025 6:00:51 PM</span>
+<span class='badge badge-danger'>12.14.2025 6:01:42 PM</span>
+<span class='badge badge-default'>00:00:50:504</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=556</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="557"><span class="badge log pass-bg mr-2">Pass</span>Verify that the user can able to logged in successfully after entering valid username and password</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="558"><span class="badge log pass-bg mr-2">Pass</span>Verify that the user can able to logged in successfully after entering valid username and password</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>com.numpyninja.dsalgo.apphooks.ApplicationHooks.beforeScenario(io.cucumber.java.Scenario)</span>
+      <div>************************************** Launching on browser: chrome **************************************
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given User launches the browser and enters the DsAlgo application url</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks on Get Started button in the DsAlgo Portal</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user clicks on Sign in link in the Home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Login"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user enters valid "sgs123@gmail.com" and "Stars@123" in the Login form</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user clicks on Login button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "NumpyNinja"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user should successfully logged in and get success message as "You are logged in"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the user should see the username in the top right corner</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks on Sign out link in home page after successful logged in</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the user should be able to logged out and get success message as "Logged out successfully"</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="576"><span class="badge log pass-bg mr-2">Pass</span>Verify that the error message is displayed when the user enters an invalid username and password</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="577"><span class="badge log pass-bg mr-2">Pass</span>Verify that the error message is displayed when the user enters an invalid username and password</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>com.numpyninja.dsalgo.apphooks.ApplicationHooks.beforeScenario(io.cucumber.java.Scenario)</span>
+      <div>************************************** Launching on browser: chrome **************************************
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given User launches the browser and enters the DsAlgo application url</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks on Get Started button in the DsAlgo Portal</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user clicks on Sign in link in the Home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Login"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user enters invalid "yth@gmail.com" and "kkk[[@123" in the Login form</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user clicks on Login button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the user should get invalid error message as "Invalid Username and Password"</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="591"><span class="badge log pass-bg mr-2">Pass</span>Verify that the tooltip message is displayed when user clicks on Login button by leaving Username and Password fields empty</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="592"><span class="badge log pass-bg mr-2">Pass</span>Verify that the tooltip message is displayed when user clicks on Login button by leaving Username and Password fields empty</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>com.numpyninja.dsalgo.apphooks.ApplicationHooks.beforeScenario(io.cucumber.java.Scenario)</span>
+      <div>************************************** Launching on browser: chrome **************************************
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given User launches the browser and enters the DsAlgo application url</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks on Get Started button in the DsAlgo Portal</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user clicks on Sign in link in the Home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Login"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user enters "" and "" in the Login form</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user clicks on Login button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the user should get tooltip message as "Please fill out this field." below Username textbox</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="606"><span class="badge log pass-bg mr-2">Pass</span>Verify that the tooltip message is displayed when user clicks on Login button after entering Username field and leaving Password field empty</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="607"><span class="badge log pass-bg mr-2">Pass</span>Verify that the tooltip message is displayed when user clicks on Login button after entering Username field and leaving Password field empty</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>com.numpyninja.dsalgo.apphooks.ApplicationHooks.beforeScenario(io.cucumber.java.Scenario)</span>
+      <div>************************************** Launching on browser: chrome **************************************
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given User launches the browser and enters the DsAlgo application url</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks on Get Started button in the DsAlgo Portal</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user clicks on Sign in link in the Home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Login"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user enters "sgs123@gmail.com" and "" in the Login form</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user clicks on Login button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the user should get tooltip message as "Please fill out this field." below the Password textbox</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="621"><span class="badge log pass-bg mr-2">Pass</span>Verify that the tooltip message is displayed when user clicks on Login button after entering valid Username field and invalid Password field</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="622"><span class="badge log pass-bg mr-2">Pass</span>Verify that the tooltip message is displayed when user clicks on Login button after entering valid Username field and invalid Password field</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>com.numpyninja.dsalgo.apphooks.ApplicationHooks.beforeScenario(io.cucumber.java.Scenario)</span>
+      <div>************************************** Launching on browser: chrome **************************************
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given User launches the browser and enters the DsAlgo application url</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks on Get Started button in the DsAlgo Portal</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user clicks on Sign in link in the Home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Login"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user enters "sgs123@gmail.com" and "KK%%EEE!!!###" in the Login form</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user clicks on Login button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the user should get invalid error message as "Invalid Username and Password"</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="636"><span class="badge log pass-bg mr-2">Pass</span>Verify that the tooltip message is displayed when user clicks on Login button after entering invalid Username field and valid Password field</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="637"><span class="badge log pass-bg mr-2">Pass</span>Verify that the tooltip message is displayed when user clicks on Login button after entering invalid Username field and valid Password field</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>com.numpyninja.dsalgo.apphooks.ApplicationHooks.beforeScenario(io.cucumber.java.Scenario)</span>
+      <div>************************************** Launching on browser: chrome **************************************
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given User launches the browser and enters the DsAlgo application url</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks on Get Started button in the DsAlgo Portal</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user clicks on Sign in link in the Home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Login"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user enters "UU***))))$$$$$$" and "Stars@123" in the Login form</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user clicks on Login button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the user should get invalid error message as "Invalid Username and Password"</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="651"><span class="badge log pass-bg mr-2">Pass</span>Verify that the user navigates to the Register page from Login page</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="BEFORE">
+                <span>com.numpyninja.dsalgo.apphooks.ApplicationHooks.beforeScenario(io.cucumber.java.Scenario)</span>
+      <div>************************************** Launching on browser: chrome **************************************
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.user_launches_the_browser_and_enters_the_ds_algo_application_url()">
+                <span>Given User launches the browser and enters the DsAlgo application url</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_user_clicks_on_Get_Started_button_in_the_ds_algo_portal()">
+                <span>When the user clicks on Get Started button in the DsAlgo Portal</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.LoginSteps.user_clicks_on_sign_in_link_in_the_home_page()">
+                <span>And user clicks on Sign in link in the Home page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_page_title_should_be_displayed_as(java.lang.String)">
+                <span>Then the page title should be displayed as "Login"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.LoginSteps.the_user_clicks_on_register_link_from_login_page()">
+                <span>When the user clicks on Register link from login page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_page_title_should_be_displayed_as(java.lang.String)">
+                <span>Then the page title should be displayed as "Registration"</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="664"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Registration Functionality of DsAlgo Application</p>
+            <p class="text-sm">
+              <span>6:01:42 PM</span> / <span>00:01:09:130</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Registration Functionality of DsAlgo Application</h5>
+<span class='badge badge-success'>12.14.2025 6:01:42 PM</span>
+<span class='badge badge-danger'>12.14.2025 6:02:51 PM</span>
+<span class='badge badge-default'>00:01:09:130</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=664</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="665"><span class="badge log pass-bg mr-2">Pass</span>Verify that the tooltip message is displayed when user clicks on Register button by leaving all the fields empty</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="666"><span class="badge log pass-bg mr-2">Pass</span>Verify that the tooltip message is displayed when user clicks on Register button by leaving all the fields empty</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>com.numpyninja.dsalgo.apphooks.ApplicationHooks.beforeScenario(io.cucumber.java.Scenario)</span>
+      <div>************************************** Launching on browser: chrome **************************************
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given User launches the browser and enters the DsAlgo application url</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks on Get Started button in the DsAlgo Portal</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user clicks on Register link in the Home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Registration"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user enters "","" and "" in the register form</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user clicks on Register button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the user should get tooltip message as "Please fill out this field." below Username textbox</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="680"><span class="badge log pass-bg mr-2">Pass</span>Verify that the tooltip message is displayed when user clicks on Register button after entering Username field and leaving other fields empty</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="681"><span class="badge log pass-bg mr-2">Pass</span>Verify that the tooltip message is displayed when user clicks on Register button after entering Username field and leaving other fields empty</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>com.numpyninja.dsalgo.apphooks.ApplicationHooks.beforeScenario(io.cucumber.java.Scenario)</span>
+      <div>************************************** Launching on browser: chrome **************************************
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given User launches the browser and enters the DsAlgo application url</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks on Get Started button in the DsAlgo Portal</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user clicks on Register link in the Home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Registration"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user enters only "Sgs@gmail" field in the register form</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user clicks on Register button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the user should get tooltip message as "Please fill out this field." below Password textbox</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="695"><span class="badge log pass-bg mr-2">Pass</span>Verify that the tooltip message is displayed when user clicks on Register button after entering Username field and Password field by leaving Password confirmation field empty</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="696"><span class="badge log pass-bg mr-2">Pass</span>Verify that the tooltip message is displayed when user clicks on Register button after entering Username field and Password field by leaving Password confirmation field empty</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>com.numpyninja.dsalgo.apphooks.ApplicationHooks.beforeScenario(io.cucumber.java.Scenario)</span>
+      <div>************************************** Launching on browser: chrome **************************************
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given User launches the browser and enters the DsAlgo application url</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks on Get Started button in the DsAlgo Portal</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user clicks on Register link in the Home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Registration"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user enters only "Sgs@gmail" and "Stars123" fields in the register form</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user clicks on Register button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the user should get tooltip message as "Please fill out this field." below Password confirmation textbox</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="710"><span class="badge log pass-bg mr-2">Pass</span>Verify that the error message is displayed when user clicks on Register button after entering mismatched passwords in the password and password confirmation fields</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="711"><span class="badge log pass-bg mr-2">Pass</span>Verify that the error message is displayed when user clicks on Register button after entering mismatched passwords in the password and password confirmation fields</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>com.numpyninja.dsalgo.apphooks.ApplicationHooks.beforeScenario(io.cucumber.java.Scenario)</span>
+      <div>************************************** Launching on browser: chrome **************************************
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given User launches the browser and enters the DsAlgo application url</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks on Get Started button in the DsAlgo Portal</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user clicks on Register link in the Home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Registration"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user enters "Sgs@gmail","Stars123" and "strr234" in the register form</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user clicks on Register button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the user should get invalid error message as "password_mismatch:The two password fields didn’t match."</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="725"><span class="badge log pass-bg mr-2">Pass</span>Verify that the error message is displayed when user clicks on Register button after entering invalid values in Username field with matched password and password confirmation values</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="726"><span class="badge log pass-bg mr-2">Pass</span>Verify that the error message is displayed when user clicks on Register button after entering invalid values in Username field with matched password and password confirmation values</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>com.numpyninja.dsalgo.apphooks.ApplicationHooks.beforeScenario(io.cucumber.java.Scenario)</span>
+      <div>************************************** Launching on browser: chrome **************************************
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given User launches the browser and enters the DsAlgo application url</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks on Get Started button in the DsAlgo Portal</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user clicks on Register link in the Home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Registration"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user enters "}}}}}}}}}}}}}}}","Stars@123" and "Stars@123" in the register form</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user clicks on Register button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the user should get invalid error message as "password_mismatch:The two password fields didn’t match."</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="740"><span class="badge log pass-bg mr-2">Pass</span>Verify that the error message is displayed when user clicks on Register button after entering invalid values in Username field with matched password and password confirmation values</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>com.numpyninja.dsalgo.apphooks.ApplicationHooks.beforeScenario(io.cucumber.java.Scenario)</span>
+      <div>************************************** Launching on browser: chrome **************************************
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given User launches the browser and enters the DsAlgo application url</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks on Get Started button in the DsAlgo Portal</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user clicks on Register link in the Home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Registration"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user enters "**************","Stars@123" and "Stars@123" in the register form</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user clicks on Register button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the user should get invalid error message as "password_mismatch:The two password fields didn’t match."</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="754"><span class="badge log pass-bg mr-2">Pass</span>Verify that the error message is displayed when user clicks on Register button after entering invalid values in Username field with matched password and password confirmation values</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>com.numpyninja.dsalgo.apphooks.ApplicationHooks.beforeScenario(io.cucumber.java.Scenario)</span>
+      <div>************************************** Launching on browser: chrome **************************************
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given User launches the browser and enters the DsAlgo application url</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks on Get Started button in the DsAlgo Portal</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user clicks on Register link in the Home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Registration"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user enters "%%%!!!!4555","Stars@123" and "Stars@123" in the register form</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user clicks on Register button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the user should get invalid error message as "password_mismatch:The two password fields didn’t match."</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="768"><span class="badge log pass-bg mr-2">Pass</span>Verify that the error message is displayed when user clicks on Register button after entering invalid values in Username field with matched password and password confirmation values</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>com.numpyninja.dsalgo.apphooks.ApplicationHooks.beforeScenario(io.cucumber.java.Scenario)</span>
+      <div>************************************** Launching on browser: chrome **************************************
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given User launches the browser and enters the DsAlgo application url</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks on Get Started button in the DsAlgo Portal</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user clicks on Register link in the Home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Registration"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user enters "?????????]]]]","**&^{{{{{Stars@123}}}}}" and "**&^{{{{{Stars@123}}}}}" in the register form</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user clicks on Register button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the user should get invalid error message as "password_mismatch:The two password fields didn’t match."</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="782"><span class="badge log pass-bg mr-2">Pass</span>Verify that the user can able to create a new account successfully after entering valid Username,Password and Password Confirmation</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="783"><span class="badge log pass-bg mr-2">Pass</span>Verify that the user can able to create a new account successfully after entering valid Username,Password and Password Confirmation</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>com.numpyninja.dsalgo.apphooks.ApplicationHooks.beforeScenario(io.cucumber.java.Scenario)</span>
+      <div>************************************** Launching on browser: chrome **************************************
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given User launches the browser and enters the DsAlgo application url</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks on Get Started button in the DsAlgo Portal</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user clicks on Register link in the Home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Registration"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user enters "auto","Stars@456" and "Stars@456" in the register form</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user clicks on Register button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the user should be redirected to home page with success message "New Account Created. You are logged in as <Username>"</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="797"><span class="badge log pass-bg mr-2">Pass</span>Verify that the user navigates to Login page from Register Page</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="BEFORE">
+                <span>com.numpyninja.dsalgo.apphooks.ApplicationHooks.beforeScenario(io.cucumber.java.Scenario)</span>
+      <div>************************************** Launching on browser: chrome **************************************
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.user_launches_the_browser_and_enters_the_ds_algo_application_url()">
+                <span>Given User launches the browser and enters the DsAlgo application url</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_user_clicks_on_Get_Started_button_in_the_ds_algo_portal()">
+                <span>When the user clicks on Get Started button in the DsAlgo Portal</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.RegistrationSteps.user_clicks_on_register_link_in_the_home_page()">
+                <span>And user clicks on Register link in the Home page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_page_title_should_be_displayed_as(java.lang.String)">
+                <span>Then the page title should be displayed as "Registration"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.RegistrationSteps.the_user_clickson_login_link_below_register_button()">
+                <span>When the user clicks on Login link below Register button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_page_title_should_be_displayed_as(java.lang.String)">
+                <span>Then the page title should be displayed as "Login"</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="test-wrapper row view category-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">1</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@DBP-1</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@DBP-1</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>17:58:02 PM</td>
+<td>
+<a href="#" class="linked" test-id='261' id='262'>Verify that the user opens the DsAlgo portal</a>
+<div class="">
+<span class="badge badge-default">Dashboard Functionality in DsAlgo Portal.Verify that the user opens the DsAlgo portal</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>
