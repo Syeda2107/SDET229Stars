@@ -322,3 +322,1522 @@
 [2025-12-14 18:02:50] INFO  DashboardSteps - Validating page title. Expected: Registration
 [2025-12-14 18:02:51] INFO  DashboardSteps - Validating page title. Expected: Login
 [2025-12-14 18:02:51] INFO  ApplicationHooks - Scenario passed: Verify that the user navigates to Login page from Register Page
+[2025-12-16 18:53:35] INFO  ApplicationHooks - Scenario started: Verify that the user can able to logged in successfully after entering valid username and password
+[2025-12-16 18:53:37] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-16 18:53:39] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-16 18:53:40] ERROR ApplicationHooks - Scenario failed: Verify that the user can able to logged in successfully after entering valid username and password
+[2025-12-16 18:59:26] INFO  ApplicationHooks - Scenario started: Verify that the user can able to logged in successfully after entering valid username and password
+[2025-12-16 18:59:28] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-16 18:59:30] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-16 18:59:36] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-16 18:59:36] INFO  LoginSteps - Validating the logged in success message,  Expected: You are logged in 
+[2025-12-16 18:59:36] INFO  LoginSteps - Validating the username present in the top right corner,  Expected: null 
+[2025-12-16 18:59:37] INFO  LoginSteps - Validating the log out message,  Expected: Logged out successfully 
+[2025-12-16 18:59:37] INFO  ApplicationHooks - Scenario passed: Verify that the user can able to logged in successfully after entering valid username and password
+[2025-12-16 19:02:03] INFO  ApplicationHooks - Scenario started: Verify that the user can able to logged in successfully after entering valid username and password
+[2025-12-16 19:02:05] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-16 19:02:07] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-16 19:02:11] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-16 19:02:11] INFO  LoginSteps - Validating the logged in success message,  Expected: You are logged in 
+[2025-12-16 19:02:12] INFO  LoginSteps - Validating the username present in the top right corner,  Expected: null 
+[2025-12-16 19:02:13] INFO  LoginSteps - Validating the log out message,  Expected: Logged out successfully 
+[2025-12-16 19:02:13] INFO  ApplicationHooks - Scenario passed: Verify that the user can able to logged in successfully after entering valid username and password
+[2025-12-16 19:08:43] INFO  ApplicationHooks - Scenario started: Verify that the user can able to logged in successfully after entering valid username and password
+[2025-12-16 19:08:45] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-16 19:08:47] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-16 19:08:51] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-16 19:08:51] INFO  LoginSteps - Validating the logged in success message,  Expected: You are logged in 
+[2025-12-16 19:08:51] INFO  LoginSteps - Validating the username present in the top right corner,  Expected: sgs123@gmail.com 
+[2025-12-16 19:08:52] INFO  LoginSteps - Validating the log out message,  Expected: Logged out successfully 
+[2025-12-16 19:08:52] INFO  ApplicationHooks - Scenario passed: Verify that the user can able to logged in successfully after entering valid username and password
+[2025-12-16 19:10:58] INFO  ApplicationHooks - Scenario started: Verify that the user can able to logged in successfully after entering valid username and password
+[2025-12-16 19:11:00] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-16 19:11:02] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-16 19:11:06] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-16 19:11:06] INFO  LoginSteps - Validating the logged in success message,  Expected: You are logged in 
+[2025-12-16 19:11:06] INFO  LoginSteps - Validating the username present in the top right corner,  Expected: sgs123@gmail.com 
+[2025-12-16 19:11:08] INFO  LoginSteps - Validating the log out message,  Expected: Logged out successfully 
+[2025-12-16 19:11:08] INFO  ApplicationHooks - Scenario passed: Verify that the user can able to logged in successfully after entering valid username and password
+[2025-12-16 19:31:37] INFO  ApplicationHooks - Scenario started: Verify that the error message is displayed when the user enters an invalid username and password
+[2025-12-16 19:31:39] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-16 19:31:41] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-16 19:31:41] ERROR ApplicationHooks - Scenario failed: Verify that the error message is displayed when the user enters an invalid username and password
+[2025-12-16 19:32:18] INFO  ApplicationHooks - Scenario started: Verify that the error message is displayed when the user enters an invalid username and password
+[2025-12-16 19:32:20] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-16 19:32:21] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-16 19:32:24] INFO  LoginSteps - Validating the Error message Expected: Invalid Username and Password 
+[2025-12-16 19:32:24] INFO  ApplicationHooks - Scenario passed: Verify that the error message is displayed when the user enters an invalid username and password
+[2025-12-16 19:53:26] INFO  ApplicationHooks - Scenario started: Verify that the tooltip message is displayed when user clicks on Login button by leaving Username and Password fields empty
+[2025-12-16 19:53:29] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-16 19:53:33] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-16 19:53:34] ERROR ApplicationHooks - Scenario failed: Verify that the tooltip message is displayed when user clicks on Login button by leaving Username and Password fields empty
+[2025-12-16 19:54:04] INFO  ApplicationHooks - Scenario started: Verify that the tooltip message is displayed when user clicks on Login button by leaving Username and Password fields empty
+[2025-12-16 19:54:06] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-16 19:54:08] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-16 19:54:11] INFO  LoginSteps - Validating the tooltip message Expected: Please fill out this field. 
+[2025-12-16 19:54:11] INFO  ApplicationHooks - Scenario passed: Verify that the tooltip message is displayed when user clicks on Login button by leaving Username and Password fields empty
+[2025-12-16 20:01:59] INFO  ApplicationHooks - Scenario started: Verify that the tooltip message is displayed when user clicks on Login button by leaving Username and Password fields empty
+[2025-12-16 20:02:02] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-16 20:02:04] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-16 20:02:07] INFO  LoginSteps - Validating the tooltip message Expected: Please fill out this field. 
+[2025-12-16 20:02:07] INFO  ApplicationHooks - Scenario passed: Verify that the tooltip message is displayed when user clicks on Login button by leaving Username and Password fields empty
+[2025-12-16 20:02:09] INFO  ApplicationHooks - Scenario started: Verify that the tooltip message is displayed when user clicks on Login button after entering invalid Username field and valid Password field
+[2025-12-16 20:02:13] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-16 20:02:15] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-16 20:02:16] INFO  LoginSteps - Validating the Error message Expected: Invalid Username and Password 
+[2025-12-16 20:02:16] INFO  ApplicationHooks - Scenario passed: Verify that the tooltip message is displayed when user clicks on Login button after entering invalid Username field and valid Password field
+[2025-12-16 20:04:11] INFO  ApplicationHooks - Scenario started: Verify that the user can able to logged in successfully after entering valid username and password
+[2025-12-16 20:04:13] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-16 20:04:16] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-16 20:04:20] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-16 20:04:20] INFO  LoginSteps - Validating the logged in success message,  Expected: You are logged in 
+[2025-12-16 20:04:20] INFO  LoginSteps - Validating the username present in the top right corner,  Expected: sgs123@gmail.com 
+[2025-12-16 20:04:22] INFO  LoginSteps - Validating the log out message,  Expected: Logged out successfully 
+[2025-12-16 20:04:22] INFO  ApplicationHooks - Scenario passed: Verify that the user can able to logged in successfully after entering valid username and password
+[2025-12-16 20:04:26] INFO  ApplicationHooks - Scenario started: Verify that the error message is displayed when the user enters an invalid username and password
+[2025-12-16 20:04:33] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-16 20:04:35] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-16 20:04:36] INFO  LoginSteps - Validating the Error message Expected: Invalid Username and Password 
+[2025-12-16 20:04:36] INFO  ApplicationHooks - Scenario passed: Verify that the error message is displayed when the user enters an invalid username and password
+[2025-12-16 20:04:38] INFO  ApplicationHooks - Scenario started: Verify that the tooltip message is displayed when user clicks on Login button by leaving Username and Password fields empty
+[2025-12-16 20:04:41] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-16 20:04:44] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-16 20:04:45] INFO  LoginSteps - Validating the tooltip message Expected: Please fill out this field. 
+[2025-12-16 20:04:45] INFO  ApplicationHooks - Scenario passed: Verify that the tooltip message is displayed when user clicks on Login button by leaving Username and Password fields empty
+[2025-12-16 20:04:47] INFO  ApplicationHooks - Scenario started: Verify that the tooltip message is displayed when user clicks on Login button after entering Username field and leaving Password field empty
+[2025-12-16 20:04:50] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-16 20:04:51] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-16 20:04:52] INFO  LoginSteps - Validating the tooltip message Expected: Please fill out this field. 
+[2025-12-16 20:04:52] INFO  ApplicationHooks - Scenario passed: Verify that the tooltip message is displayed when user clicks on Login button after entering Username field and leaving Password field empty
+[2025-12-16 20:04:54] INFO  ApplicationHooks - Scenario started: Verify that the tooltip message is displayed when user clicks on Login button after entering valid Username field and invalid Password field
+[2025-12-16 20:04:56] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-16 20:04:58] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-16 20:05:00] INFO  LoginSteps - Validating the Error message Expected: Invalid Username and Password 
+[2025-12-16 20:05:00] INFO  ApplicationHooks - Scenario passed: Verify that the tooltip message is displayed when user clicks on Login button after entering valid Username field and invalid Password field
+[2025-12-16 20:05:02] INFO  ApplicationHooks - Scenario started: Verify that the tooltip message is displayed when user clicks on Login button after entering invalid Username field and valid Password field
+[2025-12-16 20:05:05] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-16 20:05:07] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-16 20:05:09] INFO  LoginSteps - Validating the Error message Expected: Invalid Username and Password 
+[2025-12-16 20:05:09] INFO  ApplicationHooks - Scenario passed: Verify that the tooltip message is displayed when user clicks on Login button after entering invalid Username field and valid Password field
+[2025-12-16 20:05:10] INFO  ApplicationHooks - Scenario started: Verify that the user navigates to the Register page from Login page
+[2025-12-16 20:05:13] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-16 20:05:15] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-16 20:05:15] INFO  DashboardSteps - Validating page title. Expected: Registration
+[2025-12-16 20:05:15] INFO  ApplicationHooks - Scenario passed: Verify that the user navigates to the Register page from Login page
+[2025-12-16 20:27:18] INFO  ApplicationHooks - Scenario started: Verify that the user can able to logged in successfully after entering valid username and password
+[2025-12-16 20:27:21] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-16 20:27:24] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-16 20:27:29] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-16 20:27:30] INFO  LoginSteps - Validating the logged in success message,  Expected: You are logged in 
+[2025-12-16 20:27:30] INFO  LoginSteps - Validating the username present in the top right corner,  Expected: sgs123@gmail.com 
+[2025-12-16 20:27:32] INFO  LoginSteps - Validating the log out message,  Expected: Logged out successfully 
+[2025-12-16 20:27:32] INFO  ApplicationHooks - Scenario passed: Verify that the user can able to logged in successfully after entering valid username and password
+[2025-12-16 20:27:34] INFO  ApplicationHooks - Scenario started: Verify that the error message is displayed when the user enters an invalid username and password
+[2025-12-16 20:27:59] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-16 20:28:01] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-16 20:28:02] INFO  LoginSteps - Validating the Error message Expected: Invalid Username and Password 
+[2025-12-16 20:28:02] INFO  ApplicationHooks - Scenario passed: Verify that the error message is displayed when the user enters an invalid username and password
+[2025-12-16 20:28:05] INFO  ApplicationHooks - Scenario started: Verify that the tooltip message is displayed when user clicks on Login button by leaving Username and Password fields empty
+[2025-12-16 20:28:09] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-16 20:28:10] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-16 20:28:11] INFO  LoginSteps - Validating the tooltip message Expected: Please fill out this field. 
+[2025-12-16 20:28:11] INFO  ApplicationHooks - Scenario passed: Verify that the tooltip message is displayed when user clicks on Login button by leaving Username and Password fields empty
+[2025-12-16 20:28:13] INFO  ApplicationHooks - Scenario started: Verify that the tooltip message is displayed when user clicks on Login button after entering Username field and leaving Password field empty
+[2025-12-16 20:28:20] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-16 20:28:25] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-16 20:28:26] INFO  LoginSteps - Validating the tooltip message Expected: Please fill out this field. 
+[2025-12-16 20:28:26] INFO  ApplicationHooks - Scenario passed: Verify that the tooltip message is displayed when user clicks on Login button after entering Username field and leaving Password field empty
+[2025-12-16 20:28:28] INFO  ApplicationHooks - Scenario started: Verify that the tooltip message is displayed when user clicks on Login button after entering valid Username field and invalid Password field
+[2025-12-16 20:28:30] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-16 20:28:33] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-16 20:28:34] INFO  LoginSteps - Validating the Error message Expected: Invalid Username and Password 
+[2025-12-16 20:28:34] INFO  ApplicationHooks - Scenario passed: Verify that the tooltip message is displayed when user clicks on Login button after entering valid Username field and invalid Password field
+[2025-12-16 20:28:36] INFO  ApplicationHooks - Scenario started: Verify that the tooltip message is displayed when user clicks on Login button after entering invalid Username field and valid Password field
+[2025-12-16 20:28:43] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-16 20:28:45] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-16 20:28:47] INFO  LoginSteps - Validating the Error message Expected: Invalid Username and Password 
+[2025-12-16 20:28:47] INFO  ApplicationHooks - Scenario passed: Verify that the tooltip message is displayed when user clicks on Login button after entering invalid Username field and valid Password field
+[2025-12-16 20:28:49] INFO  ApplicationHooks - Scenario started: Verify that the user navigates to the Register page from Login page
+[2025-12-16 20:28:53] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-16 20:28:55] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-16 20:28:56] INFO  DashboardSteps - Validating page title. Expected: Registration
+[2025-12-16 20:28:56] INFO  ApplicationHooks - Scenario passed: Verify that the user navigates to the Register page from Login page
+[2025-12-16 22:06:04] INFO  ApplicationHooks - Scenario started: Verify that the user can able to logged in successfully after entering valid username and password
+[2025-12-16 22:06:06] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-16 22:06:07] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-16 22:06:10] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-16 22:06:10] INFO  LoginSteps - Validating the logged in success message,  Expected: You are logged in 
+[2025-12-16 22:06:10] INFO  LoginSteps - Validating the username present in the top right corner,  Expected: sgs123@gmail.com 
+[2025-12-16 22:06:11] INFO  LoginSteps - Validating the log out message,  Expected: Logged out successfully 
+[2025-12-16 22:06:11] INFO  ApplicationHooks - Scenario passed: Verify that the user can able to logged in successfully after entering valid username and password
+[2025-12-16 22:06:13] INFO  ApplicationHooks - Scenario started: Verify that the error message is displayed when the user enters an invalid username and password
+[2025-12-16 22:06:14] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-16 22:06:15] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-16 22:06:16] INFO  LoginSteps - Validating the Error message Expected: Invalid Username and Password 
+[2025-12-16 22:06:16] INFO  ApplicationHooks - Scenario passed: Verify that the error message is displayed when the user enters an invalid username and password
+[2025-12-16 22:06:18] INFO  ApplicationHooks - Scenario started: Verify that the tooltip message is displayed when user clicks on Login button by leaving Username and Password fields empty
+[2025-12-16 22:06:20] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-16 22:06:21] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-16 22:06:21] INFO  LoginSteps - Validating the tooltip message Expected: Please fill out this field. 
+[2025-12-16 22:06:21] INFO  ApplicationHooks - Scenario passed: Verify that the tooltip message is displayed when user clicks on Login button by leaving Username and Password fields empty
+[2025-12-16 22:06:22] INFO  ApplicationHooks - Scenario started: Verify that the tooltip message is displayed when user clicks on Login button after entering Username field and leaving Password field empty
+[2025-12-16 22:06:24] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-16 22:06:25] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-16 22:06:26] INFO  LoginSteps - Validating the tooltip message Expected: Please fill out this field. 
+[2025-12-16 22:06:26] INFO  ApplicationHooks - Scenario passed: Verify that the tooltip message is displayed when user clicks on Login button after entering Username field and leaving Password field empty
+[2025-12-16 22:06:27] INFO  ApplicationHooks - Scenario started: Verify that the tooltip message is displayed when user clicks on Login button after entering valid Username field and invalid Password field
+[2025-12-16 22:06:28] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-16 22:06:29] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-16 22:06:30] INFO  LoginSteps - Validating the Error message Expected: Invalid Username and Password 
+[2025-12-16 22:06:30] INFO  ApplicationHooks - Scenario passed: Verify that the tooltip message is displayed when user clicks on Login button after entering valid Username field and invalid Password field
+[2025-12-16 22:06:31] INFO  ApplicationHooks - Scenario started: Verify that the tooltip message is displayed when user clicks on Login button after entering invalid Username field and valid Password field
+[2025-12-16 22:06:32] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-16 22:06:34] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-16 22:06:35] INFO  LoginSteps - Validating the Error message Expected: Invalid Username and Password 
+[2025-12-16 22:06:35] INFO  ApplicationHooks - Scenario passed: Verify that the tooltip message is displayed when user clicks on Login button after entering invalid Username field and valid Password field
+[2025-12-16 22:06:36] INFO  ApplicationHooks - Scenario started: Verify that the user navigates to the Register page from Login page
+[2025-12-16 22:06:38] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-16 22:06:39] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-16 22:06:39] INFO  DashboardSteps - Validating page title. Expected: Registration
+[2025-12-16 22:06:39] INFO  ApplicationHooks - Scenario passed: Verify that the user navigates to the Register page from Login page
+[2025-12-16 22:20:07] ERROR ApplicationHooks - Error while taking screenshot: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[2025-12-16 22:20:08] INFO  ApplicationHooks - Scenario started: Verify that the error message is displayed when the user enters an invalid username and password
+[2025-12-16 22:20:11] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-16 22:20:12] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-16 22:20:14] INFO  LoginSteps - Validating the Error message Expected: Invalid Username and Password 
+[2025-12-16 22:20:14] INFO  ApplicationHooks - Scenario passed: Verify that the error message is displayed when the user enters an invalid username and password
+[2025-12-16 22:20:15] INFO  ApplicationHooks - Scenario started: Verify that the tooltip message is displayed when user clicks on Login button by leaving Username and Password fields empty
+[2025-12-16 22:20:17] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-16 22:20:18] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-16 22:20:19] INFO  LoginSteps - Validating the tooltip message Expected: Please fill out this field. 
+[2025-12-16 22:20:19] INFO  ApplicationHooks - Scenario passed: Verify that the tooltip message is displayed when user clicks on Login button by leaving Username and Password fields empty
+[2025-12-16 22:20:20] INFO  ApplicationHooks - Scenario started: Verify that the tooltip message is displayed when user clicks on Login button after entering Username field and leaving Password field empty
+[2025-12-16 22:20:22] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-16 22:20:23] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-16 22:20:23] INFO  LoginSteps - Validating the tooltip message Expected: Please fill out this field. 
+[2025-12-16 22:20:23] INFO  ApplicationHooks - Scenario passed: Verify that the tooltip message is displayed when user clicks on Login button after entering Username field and leaving Password field empty
+[2025-12-16 22:20:25] INFO  ApplicationHooks - Scenario started: Verify that the tooltip message is displayed when user clicks on Login button after entering valid Username field and invalid Password field
+[2025-12-16 22:20:27] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-16 22:20:28] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-16 22:20:28] INFO  LoginSteps - Validating the Error message Expected: Invalid Username and Password 
+[2025-12-16 22:20:28] INFO  ApplicationHooks - Scenario passed: Verify that the tooltip message is displayed when user clicks on Login button after entering valid Username field and invalid Password field
+[2025-12-16 22:20:30] INFO  ApplicationHooks - Scenario started: Verify that the tooltip message is displayed when user clicks on Login button after entering invalid Username field and valid Password field
+[2025-12-16 22:20:32] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-16 22:20:33] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-16 22:20:33] INFO  LoginSteps - Validating the Error message Expected: Invalid Username and Password 
+[2025-12-16 22:20:33] INFO  ApplicationHooks - Scenario passed: Verify that the tooltip message is displayed when user clicks on Login button after entering invalid Username field and valid Password field
+[2025-12-16 22:20:35] INFO  ApplicationHooks - Scenario started: Verify that the user navigates to the Register page from Login page
+[2025-12-16 22:20:36] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-16 22:20:38] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-16 22:20:38] INFO  DashboardSteps - Validating page title. Expected: Registration
+[2025-12-16 22:20:38] INFO  ApplicationHooks - Scenario passed: Verify that the user navigates to the Register page from Login page
+[2025-12-16 22:30:28] INFO  ApplicationHooks - Scenario started: Verify that the user is navigated to the Data Structures-Introduction page
+[2025-12-16 22:30:29] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-16 22:30:31] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-16 22:30:32] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-16 22:30:33] ERROR ApplicationHooks - Scenario failed: Verify that the user is navigated to the Data Structures-Introduction page
+[2025-12-16 22:30:35] INFO  ApplicationHooks - Scenario started: Verify that the user is navigated to the time-complexity page
+[2025-12-16 22:30:37] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-16 22:30:38] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-16 22:30:39] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-16 22:30:40] INFO  DashboardSteps - Validating page title. Expected: Data Structures-Introduction
+[2025-12-16 22:30:41] INFO  DashboardSteps - Validating page title. Expected: Time Complexity
+[2025-12-16 22:30:41] INFO  ApplicationHooks - Scenario passed: Verify that the user is navigated to the time-complexity page
+[2025-12-16 22:30:42] INFO  ApplicationHooks - Scenario started: Verify that the user is navigated to the try editor page
+[2025-12-16 22:30:44] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-16 22:30:45] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-16 22:30:46] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-16 22:30:47] INFO  DashboardSteps - Validating page title. Expected: Data Structures-Introduction
+[2025-12-16 22:30:48] INFO  DashboardSteps - Validating page title. Expected: Time Complexity
+[2025-12-16 22:30:50] INFO  DashboardSteps - Validating page title. Expected: Assessment
+[2025-12-16 22:30:50] INFO  DSIntroductionSteps - Validating the current page url,  Expected: https://dsportalapp.herokuapp.com/tryEditor 
+[2025-12-16 22:30:50] INFO  ApplicationHooks - Scenario passed: Verify that the user is navigated to the try editor page
+[2025-12-16 22:30:52] INFO  ApplicationHooks - Scenario started: Verify that the user is able to see an output for valid python code
+[2025-12-16 22:30:53] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-16 22:30:55] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-16 22:30:56] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-16 22:30:57] INFO  DashboardSteps - Validating page title. Expected: Data Structures-Introduction
+[2025-12-16 22:30:58] INFO  DashboardSteps - Validating page title. Expected: Time Complexity
+[2025-12-16 22:31:00] INFO  DashboardSteps - Validating page title. Expected: Assessment
+[2025-12-16 22:31:00] INFO  DSIntroductionSteps - Validating the current page url,  Expected: https://dsportalapp.herokuapp.com/tryEditor 
+[2025-12-16 22:31:00] INFO  DSIntroductionSteps - Validating try editor output,  Expected: Hello 
+[2025-12-16 22:31:00] INFO  ApplicationHooks - Scenario passed: Verify that the user is able to see an output for valid python code
+[2025-12-16 22:31:02] INFO  ApplicationHooks - Scenario started: Verify that the popup is displayed with error message for invalid python code with spaces in try editor
+[2025-12-16 22:31:04] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-16 22:31:05] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-16 22:31:06] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-16 22:31:07] INFO  DashboardSteps - Validating page title. Expected: Data Structures-Introduction
+[2025-12-16 22:31:08] INFO  DashboardSteps - Validating page title. Expected: Time Complexity
+[2025-12-16 22:31:11] INFO  DashboardSteps - Validating page title. Expected: Assessment
+[2025-12-16 22:31:11] INFO  DSIntroductionSteps - Validating the current page url,  Expected: https://dsportalapp.herokuapp.com/tryEditor 
+[2025-12-16 22:31:11] INFO  DSIntroductionSteps - User enters python code in try editor,  Expected: print 'Hello' 
+[2025-12-16 22:31:11] INFO  DSIntroductionSteps - Validating try editor alert message,  Expected: SyntaxError: bad input on line 1 
+[2025-12-16 22:31:11] INFO  ApplicationHooks - Scenario passed: Verify that the popup is displayed with error message for invalid python code with spaces in try editor
+[2025-12-16 22:31:12] INFO  ApplicationHooks - Scenario started: Verify that the popup is displayed with error message after entering letters or any characters in try editor
+[2025-12-16 22:31:14] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-16 22:31:15] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-16 22:31:16] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-16 22:31:17] INFO  DashboardSteps - Validating page title. Expected: Data Structures-Introduction
+[2025-12-16 22:31:18] INFO  DashboardSteps - Validating page title. Expected: Time Complexity
+[2025-12-16 22:31:20] INFO  DashboardSteps - Validating page title. Expected: Assessment
+[2025-12-16 22:31:20] INFO  DSIntroductionSteps - Validating the current page url,  Expected: https://dsportalapp.herokuapp.com/tryEditor 
+[2025-12-16 22:31:20] INFO  DSIntroductionSteps - Validating try editor alert message,  Expected: NameError: name 'Hello' is not defined on line 1 
+[2025-12-16 22:31:20] INFO  ApplicationHooks - Scenario passed: Verify that the popup is displayed with error message after entering letters or any characters in try editor
+[2025-12-16 22:31:22] INFO  ApplicationHooks - Scenario started: Verify that the popup is displayed with error message after entering "$$$$$" in try editor
+[2025-12-16 22:31:23] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-16 22:31:24] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-16 22:31:26] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-16 22:31:27] INFO  DashboardSteps - Validating page title. Expected: Data Structures-Introduction
+[2025-12-16 22:31:27] INFO  DashboardSteps - Validating page title. Expected: Time Complexity
+[2025-12-16 22:31:33] INFO  DashboardSteps - Validating page title. Expected: Assessment
+[2025-12-16 22:31:33] INFO  DSIntroductionSteps - Validating the current page url,  Expected: https://dsportalapp.herokuapp.com/tryEditor 
+[2025-12-16 22:31:33] INFO  DSIntroductionSteps - Validating try editor alert message,  Expected: SyntaxError: bad token T_OP on line 1 
+[2025-12-16 22:31:33] INFO  ApplicationHooks - Scenario passed: Verify that the popup is displayed with error message after entering "$$$$$" in try editor
+[2025-12-16 22:31:34] INFO  ApplicationHooks - Scenario started: Verify that the popup is displayed with error message after entering "((((((" in try editor
+[2025-12-16 22:31:36] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-16 22:31:37] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-16 22:31:38] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-16 22:31:39] INFO  DashboardSteps - Validating page title. Expected: Data Structures-Introduction
+[2025-12-16 22:31:40] INFO  DashboardSteps - Validating page title. Expected: Time Complexity
+[2025-12-16 22:31:42] INFO  DashboardSteps - Validating page title. Expected: Assessment
+[2025-12-16 22:31:42] INFO  DSIntroductionSteps - Validating the current page url,  Expected: https://dsportalapp.herokuapp.com/tryEditor 
+[2025-12-16 22:31:42] INFO  DSIntroductionSteps - Validating try editor alert message,  Expected: SyntaxError: EOF in multi-line statement on line 2 
+[2025-12-16 22:31:42] INFO  ApplicationHooks - Scenario passed: Verify that the popup is displayed with error message after entering "((((((" in try editor
+[2025-12-16 22:31:43] INFO  ApplicationHooks - Scenario started: Verify that the user is not able to see output after entering "12345" in try editor
+[2025-12-16 22:31:45] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-16 22:31:46] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-16 22:31:47] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-16 22:31:48] INFO  DashboardSteps - Validating page title. Expected: Data Structures-Introduction
+[2025-12-16 22:31:49] INFO  DashboardSteps - Validating page title. Expected: Time Complexity
+[2025-12-16 22:31:51] INFO  DashboardSteps - Validating page title. Expected: Assessment
+[2025-12-16 22:31:51] INFO  DSIntroductionSteps - Validating the current page url,  Expected: https://dsportalapp.herokuapp.com/tryEditor 
+[2025-12-16 22:31:51] INFO  ApplicationHooks - Scenario passed: Verify that the user is not able to see output after entering "12345" in try editor
+[2025-12-16 22:31:53] INFO  ApplicationHooks - Scenario started: Verify that the user is not able to see output without entering code in the try editor
+[2025-12-16 22:31:55] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-16 22:31:56] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-16 22:31:57] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-16 22:31:58] INFO  DashboardSteps - Validating page title. Expected: Data Structures-Introduction
+[2025-12-16 22:31:59] INFO  DashboardSteps - Validating page title. Expected: Time Complexity
+[2025-12-16 22:32:01] INFO  DashboardSteps - Validating page title. Expected: Assessment
+[2025-12-16 22:32:01] INFO  DSIntroductionSteps - Validating the current page url,  Expected: https://dsportalapp.herokuapp.com/tryEditor 
+[2025-12-16 22:32:01] INFO  ApplicationHooks - Scenario passed: Verify that the user is not able to see output without entering code in the try editor
+[2025-12-16 22:32:02] INFO  ApplicationHooks - Scenario started: Verify that the user is navigated to the Practice page url
+[2025-12-16 22:32:04] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-16 22:32:05] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-16 22:32:06] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-16 22:32:07] INFO  DashboardSteps - Validating page title. Expected: Data Structures-Introduction
+[2025-12-16 22:32:08] INFO  DashboardSteps - Validating page title. Expected: Time Complexity
+[2025-12-16 22:32:08] INFO  DashboardSteps - Validating page title. Expected: Practice Questions
+[2025-12-16 22:32:08] INFO  DSIntroductionSteps - Validating the current page url,  Expected: https://dsportalapp.herokuapp.com/data-structures-introduction/practice 
+[2025-12-16 22:32:09] INFO  LoginSteps - Validating the log out message,  Expected: Logged out successfully 
+[2025-12-16 22:32:09] INFO  ApplicationHooks - Scenario passed: Verify that the user is navigated to the Practice page url
+[2025-12-16 22:32:11] INFO  ApplicationHooks - Scenario started: Verify that the user can able to logged in successfully after entering valid username and password
+[2025-12-16 22:32:12] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-16 22:32:13] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-16 22:32:16] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-16 22:32:16] INFO  LoginSteps - Validating the logged in success message,  Expected: You are logged in 
+[2025-12-16 22:32:16] INFO  LoginSteps - Validating the username present in the top right corner,  Expected: sgs123@gmail.com 
+[2025-12-16 22:32:17] INFO  LoginSteps - Validating the log out message,  Expected: Logged out successfully 
+[2025-12-16 22:32:17] INFO  ApplicationHooks - Scenario passed: Verify that the user can able to logged in successfully after entering valid username and password
+[2025-12-16 22:32:18] INFO  ApplicationHooks - Scenario started: Verify that the error message is displayed when the user enters an invalid username and password
+[2025-12-16 22:32:20] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-16 22:32:21] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-16 22:32:22] INFO  LoginSteps - Validating the Error message Expected: Invalid Username and Password 
+[2025-12-16 22:32:22] INFO  ApplicationHooks - Scenario passed: Verify that the error message is displayed when the user enters an invalid username and password
+[2025-12-16 22:32:23] INFO  ApplicationHooks - Scenario started: Verify that the tooltip message is displayed when user clicks on Login button by leaving Username and Password fields empty
+[2025-12-16 22:32:25] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-16 22:32:26] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-16 22:32:26] INFO  LoginSteps - Validating the tooltip message Expected: Please fill out this field. 
+[2025-12-16 22:32:26] INFO  ApplicationHooks - Scenario passed: Verify that the tooltip message is displayed when user clicks on Login button by leaving Username and Password fields empty
+[2025-12-16 22:32:28] INFO  ApplicationHooks - Scenario started: Verify that the tooltip message is displayed when user clicks on Login button after entering Username field and leaving Password field empty
+[2025-12-16 22:32:29] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-16 22:32:31] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-16 22:32:31] INFO  LoginSteps - Validating the tooltip message Expected: Please fill out this field. 
+[2025-12-16 22:32:31] INFO  ApplicationHooks - Scenario passed: Verify that the tooltip message is displayed when user clicks on Login button after entering Username field and leaving Password field empty
+[2025-12-16 22:32:42] INFO  ApplicationHooks - Scenario started: Verify that the tooltip message is displayed when user clicks on Login button after entering valid Username field and invalid Password field
+[2025-12-16 22:32:44] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-16 22:32:45] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-16 22:32:46] INFO  LoginSteps - Validating the Error message Expected: Invalid Username and Password 
+[2025-12-16 22:32:46] INFO  ApplicationHooks - Scenario passed: Verify that the tooltip message is displayed when user clicks on Login button after entering valid Username field and invalid Password field
+[2025-12-16 22:32:47] INFO  ApplicationHooks - Scenario started: Verify that the tooltip message is displayed when user clicks on Login button after entering invalid Username field and valid Password field
+[2025-12-16 22:32:49] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-16 22:32:50] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-16 22:32:51] INFO  LoginSteps - Validating the Error message Expected: Invalid Username and Password 
+[2025-12-16 22:32:51] INFO  ApplicationHooks - Scenario passed: Verify that the tooltip message is displayed when user clicks on Login button after entering invalid Username field and valid Password field
+[2025-12-16 22:32:52] INFO  ApplicationHooks - Scenario started: Verify that the user navigates to the Register page from Login page
+[2025-12-16 22:32:54] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-16 22:32:55] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-16 22:32:55] INFO  DashboardSteps - Validating page title. Expected: Registration
+[2025-12-16 22:32:55] INFO  ApplicationHooks - Scenario passed: Verify that the user navigates to the Register page from Login page
+[2025-12-17 12:59:21] INFO  ApplicationHooks - Scenario started: Verify that the user is navigated to the Data Structures-Introduction page
+[2025-12-17 12:59:24] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 12:59:26] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-17 12:59:28] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-17 12:59:29] INFO  DashboardSteps - Validating page title. Expected: Data Structures-Introduction
+[2025-12-17 12:59:29] INFO  ApplicationHooks - Scenario passed: Verify that the user is navigated to the Data Structures-Introduction page
+[2025-12-17 12:59:31] INFO  ApplicationHooks - Scenario started: Verify that the user is navigated to the time-complexity page
+[2025-12-17 12:59:33] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 12:59:35] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-17 12:59:37] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-17 12:59:38] INFO  DashboardSteps - Validating page title. Expected: Data Structures-Introduction
+[2025-12-17 12:59:39] INFO  DashboardSteps - Validating page title. Expected: Time Complexity
+[2025-12-17 12:59:39] INFO  ApplicationHooks - Scenario passed: Verify that the user is navigated to the time-complexity page
+[2025-12-17 12:59:40] INFO  ApplicationHooks - Scenario started: Verify that the user is navigated to the try editor page
+[2025-12-17 12:59:42] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 12:59:44] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-17 12:59:47] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-17 12:59:48] INFO  DashboardSteps - Validating page title. Expected: Data Structures-Introduction
+[2025-12-17 12:59:49] INFO  DashboardSteps - Validating page title. Expected: Time Complexity
+[2025-12-17 12:59:59] INFO  DashboardSteps - Validating page title. Expected: Assessment
+[2025-12-17 12:59:59] INFO  DSIntroductionSteps - Validating the current page url,  Expected: https://dsportalapp.herokuapp.com/tryEditor 
+[2025-12-17 12:59:59] INFO  ApplicationHooks - Scenario passed: Verify that the user is navigated to the try editor page
+[2025-12-17 13:00:01] INFO  ApplicationHooks - Scenario started: Verify that the user is able to see an output for valid python code
+[2025-12-17 13:00:03] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 13:00:05] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-17 13:00:06] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-17 13:00:08] INFO  DashboardSteps - Validating page title. Expected: Data Structures-Introduction
+[2025-12-17 13:00:09] INFO  DashboardSteps - Validating page title. Expected: Time Complexity
+[2025-12-17 13:00:21] INFO  DashboardSteps - Validating page title. Expected: Assessment
+[2025-12-17 13:00:21] INFO  DSIntroductionSteps - Validating the current page url,  Expected: https://dsportalapp.herokuapp.com/tryEditor 
+[2025-12-17 13:00:22] INFO  DSIntroductionSteps - Validating try editor output,  Expected: Hello 
+[2025-12-17 13:00:22] INFO  ApplicationHooks - Scenario passed: Verify that the user is able to see an output for valid python code
+[2025-12-17 13:00:23] INFO  ApplicationHooks - Scenario started: Verify that the popup is displayed with error message for invalid python code with spaces in try editor
+[2025-12-17 13:00:25] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 13:00:27] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-17 13:00:29] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-17 13:00:30] INFO  DashboardSteps - Validating page title. Expected: Data Structures-Introduction
+[2025-12-17 13:00:31] INFO  DashboardSteps - Validating page title. Expected: Time Complexity
+[2025-12-17 13:00:39] INFO  DashboardSteps - Validating page title. Expected: Assessment
+[2025-12-17 13:00:39] INFO  DSIntroductionSteps - Validating the current page url,  Expected: https://dsportalapp.herokuapp.com/tryEditor 
+[2025-12-17 13:00:39] INFO  DSIntroductionSteps - User enters python code in try editor,  Expected: print 'Hello' 
+[2025-12-17 13:00:40] INFO  DSIntroductionSteps - Validating try editor alert message,  Expected: SyntaxError: bad input on line 1 
+[2025-12-17 13:00:40] INFO  ApplicationHooks - Scenario passed: Verify that the popup is displayed with error message for invalid python code with spaces in try editor
+[2025-12-17 13:00:41] INFO  ApplicationHooks - Scenario started: Verify that the popup is displayed with error message after entering letters or any characters in try editor
+[2025-12-17 13:00:44] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 13:00:46] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-17 13:00:47] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-17 13:00:48] INFO  DashboardSteps - Validating page title. Expected: Data Structures-Introduction
+[2025-12-17 13:00:49] INFO  DashboardSteps - Validating page title. Expected: Time Complexity
+[2025-12-17 13:01:05] INFO  DashboardSteps - Validating page title. Expected: Assessment
+[2025-12-17 13:01:05] INFO  DSIntroductionSteps - Validating the current page url,  Expected: https://dsportalapp.herokuapp.com/tryEditor 
+[2025-12-17 13:01:06] INFO  DSIntroductionSteps - Validating try editor alert message,  Expected: NameError: name 'Hello' is not defined on line 1 
+[2025-12-17 13:01:06] INFO  ApplicationHooks - Scenario passed: Verify that the popup is displayed with error message after entering letters or any characters in try editor
+[2025-12-17 13:01:07] INFO  ApplicationHooks - Scenario started: Verify that the popup is displayed with error message after entering "$$$$$" in try editor
+[2025-12-17 13:01:09] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 13:01:11] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-17 13:01:13] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-17 13:01:14] INFO  DashboardSteps - Validating page title. Expected: Data Structures-Introduction
+[2025-12-17 13:01:15] INFO  DashboardSteps - Validating page title. Expected: Time Complexity
+[2025-12-17 13:01:24] INFO  DashboardSteps - Validating page title. Expected: Assessment
+[2025-12-17 13:01:24] INFO  DSIntroductionSteps - Validating the current page url,  Expected: https://dsportalapp.herokuapp.com/tryEditor 
+[2025-12-17 13:01:24] INFO  DSIntroductionSteps - Validating try editor alert message,  Expected: SyntaxError: bad token T_OP on line 1 
+[2025-12-17 13:01:24] INFO  ApplicationHooks - Scenario passed: Verify that the popup is displayed with error message after entering "$$$$$" in try editor
+[2025-12-17 13:01:26] INFO  ApplicationHooks - Scenario started: Verify that the popup is displayed with error message after entering "((((((" in try editor
+[2025-12-17 13:01:28] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 13:01:29] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-17 13:01:31] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-17 13:01:32] INFO  DashboardSteps - Validating page title. Expected: Data Structures-Introduction
+[2025-12-17 13:01:33] INFO  DashboardSteps - Validating page title. Expected: Time Complexity
+[2025-12-17 13:01:40] INFO  DashboardSteps - Validating page title. Expected: Assessment
+[2025-12-17 13:01:40] INFO  DSIntroductionSteps - Validating the current page url,  Expected: https://dsportalapp.herokuapp.com/tryEditor 
+[2025-12-17 13:01:40] INFO  DSIntroductionSteps - Validating try editor alert message,  Expected: SyntaxError: EOF in multi-line statement on line 2 
+[2025-12-17 13:01:40] INFO  ApplicationHooks - Scenario passed: Verify that the popup is displayed with error message after entering "((((((" in try editor
+[2025-12-17 13:01:42] INFO  ApplicationHooks - Scenario started: Verify that the user is not able to see output after entering "12345" in try editor
+[2025-12-17 13:01:44] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 13:01:45] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-17 13:01:47] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-17 13:01:48] INFO  DashboardSteps - Validating page title. Expected: Data Structures-Introduction
+[2025-12-17 13:01:49] INFO  DashboardSteps - Validating page title. Expected: Time Complexity
+[2025-12-17 13:02:00] INFO  DashboardSteps - Validating page title. Expected: Assessment
+[2025-12-17 13:02:00] INFO  DSIntroductionSteps - Validating the current page url,  Expected: https://dsportalapp.herokuapp.com/tryEditor 
+[2025-12-17 13:02:00] INFO  ApplicationHooks - Scenario passed: Verify that the user is not able to see output after entering "12345" in try editor
+[2025-12-17 13:02:02] INFO  ApplicationHooks - Scenario started: Verify that the user is not able to see output without entering code in the try editor
+[2025-12-17 13:02:04] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 13:02:06] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-17 13:02:07] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-17 13:02:08] INFO  DashboardSteps - Validating page title. Expected: Data Structures-Introduction
+[2025-12-17 13:02:09] INFO  DashboardSteps - Validating page title. Expected: Time Complexity
+[2025-12-17 13:02:17] INFO  DashboardSteps - Validating page title. Expected: Assessment
+[2025-12-17 13:02:17] INFO  DSIntroductionSteps - Validating the current page url,  Expected: https://dsportalapp.herokuapp.com/tryEditor 
+[2025-12-17 13:02:17] INFO  ApplicationHooks - Scenario passed: Verify that the user is not able to see output without entering code in the try editor
+[2025-12-17 13:02:19] INFO  ApplicationHooks - Scenario started: Verify that the user is navigated to the Practice page url
+[2025-12-17 13:02:21] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 13:02:23] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-17 13:02:25] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-17 13:02:26] INFO  DashboardSteps - Validating page title. Expected: Data Structures-Introduction
+[2025-12-17 13:02:27] INFO  DashboardSteps - Validating page title. Expected: Time Complexity
+[2025-12-17 13:02:27] INFO  DashboardSteps - Validating page title. Expected: Practice Questions
+[2025-12-17 13:02:28] INFO  DSIntroductionSteps - Validating the current page url,  Expected: https://dsportalapp.herokuapp.com/data-structures-introduction/practice 
+[2025-12-17 13:02:29] INFO  LoginSteps - Validating the log out message,  Expected: Logged out successfully 
+[2025-12-17 13:02:29] INFO  ApplicationHooks - Scenario passed: Verify that the user is navigated to the Practice page url
+[2025-12-17 13:02:30] INFO  ApplicationHooks - Scenario started: Verify that the user can able to logged in successfully after entering valid username and password
+[2025-12-17 13:02:32] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 13:02:34] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-17 13:02:38] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-17 13:02:39] INFO  LoginSteps - Validating the logged in success message,  Expected: You are logged in 
+[2025-12-17 13:02:39] INFO  LoginSteps - Validating the username present in the top right corner,  Expected: sgs123@gmail.com 
+[2025-12-17 13:02:40] INFO  LoginSteps - Validating the log out message,  Expected: Logged out successfully 
+[2025-12-17 13:02:40] INFO  ApplicationHooks - Scenario passed: Verify that the user can able to logged in successfully after entering valid username and password
+[2025-12-17 13:02:42] INFO  ApplicationHooks - Scenario started: Verify that the error message is displayed when the user enters an invalid username and password
+[2025-12-17 13:02:44] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 13:02:45] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-17 13:02:47] INFO  LoginSteps - Validating the Error message Expected: Invalid Username and Password 
+[2025-12-17 13:02:47] INFO  ApplicationHooks - Scenario passed: Verify that the error message is displayed when the user enters an invalid username and password
+[2025-12-17 13:02:48] INFO  ApplicationHooks - Scenario started: Verify that the tooltip message is displayed when user clicks on Login button by leaving Username and Password fields empty
+[2025-12-17 13:02:50] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 13:02:52] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-17 13:02:52] INFO  LoginSteps - Validating the tooltip message Expected: Please fill out this field. 
+[2025-12-17 13:02:52] INFO  ApplicationHooks - Scenario passed: Verify that the tooltip message is displayed when user clicks on Login button by leaving Username and Password fields empty
+[2025-12-17 13:02:54] INFO  ApplicationHooks - Scenario started: Verify that the tooltip message is displayed when user clicks on Login button after entering Username field and leaving Password field empty
+[2025-12-17 13:02:56] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 13:02:58] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-17 13:02:58] INFO  LoginSteps - Validating the tooltip message Expected: Please fill out this field. 
+[2025-12-17 13:02:58] INFO  ApplicationHooks - Scenario passed: Verify that the tooltip message is displayed when user clicks on Login button after entering Username field and leaving Password field empty
+[2025-12-17 13:03:00] INFO  ApplicationHooks - Scenario started: Verify that the tooltip message is displayed when user clicks on Login button after entering valid Username field and invalid Password field
+[2025-12-17 13:03:02] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 13:03:03] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-17 13:03:04] INFO  LoginSteps - Validating the Error message Expected: Invalid Username and Password 
+[2025-12-17 13:03:04] INFO  ApplicationHooks - Scenario passed: Verify that the tooltip message is displayed when user clicks on Login button after entering valid Username field and invalid Password field
+[2025-12-17 13:03:06] INFO  ApplicationHooks - Scenario started: Verify that the tooltip message is displayed when user clicks on Login button after entering invalid Username field and valid Password field
+[2025-12-17 13:03:08] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 13:03:10] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-17 13:03:11] INFO  LoginSteps - Validating the Error message Expected: Invalid Username and Password 
+[2025-12-17 13:03:11] INFO  ApplicationHooks - Scenario passed: Verify that the tooltip message is displayed when user clicks on Login button after entering invalid Username field and valid Password field
+[2025-12-17 13:03:12] INFO  ApplicationHooks - Scenario started: Verify that the user navigates to the Register page from Login page
+[2025-12-17 13:03:14] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 13:03:16] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-17 13:03:17] INFO  DashboardSteps - Validating page title. Expected: Registration
+[2025-12-17 13:03:17] INFO  ApplicationHooks - Scenario passed: Verify that the user navigates to the Register page from Login page
+[2025-12-17 19:18:12] INFO  ApplicationHooks - Scenario started: Verify that the user is navigated to the Data Structures-Introduction page
+[2025-12-17 19:18:22] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 19:18:24] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-17 19:18:26] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-17 19:18:27] INFO  DashboardSteps - Validating page title. Expected: Data Structures-Introduction
+[2025-12-17 19:18:27] INFO  ApplicationHooks - Scenario passed: Verify that the user is navigated to the Data Structures-Introduction page
+[2025-12-17 19:18:29] INFO  ApplicationHooks - Scenario started: Verify that the user is navigated to the time-complexity page
+[2025-12-17 19:18:32] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 19:18:34] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-17 19:18:36] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-17 19:18:37] INFO  DashboardSteps - Validating page title. Expected: Data Structures-Introduction
+[2025-12-17 19:18:39] INFO  DashboardSteps - Validating page title. Expected: Time Complexity
+[2025-12-17 19:18:39] INFO  ApplicationHooks - Scenario passed: Verify that the user is navigated to the time-complexity page
+[2025-12-17 19:18:40] INFO  ApplicationHooks - Scenario started: Verify that the user is navigated to the try editor page
+[2025-12-17 19:18:42] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 19:18:44] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-17 19:18:46] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-17 19:18:47] INFO  DashboardSteps - Validating page title. Expected: Data Structures-Introduction
+[2025-12-17 19:18:48] INFO  DashboardSteps - Validating page title. Expected: Time Complexity
+[2025-12-17 19:18:57] INFO  DashboardSteps - Validating page title. Expected: Assessment
+[2025-12-17 19:18:57] INFO  DSIntroductionSteps - Validating the current page url,  Expected: https://dsportalapp.herokuapp.com/tryEditor 
+[2025-12-17 19:18:57] INFO  ApplicationHooks - Scenario passed: Verify that the user is navigated to the try editor page
+[2025-12-17 19:18:58] INFO  ApplicationHooks - Scenario started: Verify that the user is able to see an output for valid python code
+[2025-12-17 19:19:00] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 19:19:02] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-17 19:19:05] ERROR ApplicationHooks - Scenario failed: Verify that the user is able to see an output for valid python code
+[2025-12-17 19:19:06] INFO  ApplicationHooks - Scenario started: Verify that the popup is displayed with error message for invalid python code with spaces in try editor
+[2025-12-17 19:19:08] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 19:19:10] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-17 19:19:12] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-17 19:19:13] INFO  DashboardSteps - Validating page title. Expected: Data Structures-Introduction
+[2025-12-17 19:19:14] INFO  DashboardSteps - Validating page title. Expected: Time Complexity
+[2025-12-17 19:19:25] INFO  DashboardSteps - Validating page title. Expected: Assessment
+[2025-12-17 19:19:25] INFO  DSIntroductionSteps - Validating the current page url,  Expected: https://dsportalapp.herokuapp.com/tryEditor 
+[2025-12-17 19:19:28] INFO  DSIntroductionSteps - Validating try editor alert message,  Expected: SyntaxError: bad input on line 1 
+[2025-12-17 19:19:28] INFO  ApplicationHooks - Scenario passed: Verify that the popup is displayed with error message for invalid python code with spaces in try editor
+[2025-12-17 19:19:29] INFO  ApplicationHooks - Scenario started: Verify that the popup is displayed with error message after entering letters or any characters in try editor
+[2025-12-17 19:19:32] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 19:19:34] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-17 19:19:36] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-17 19:19:37] INFO  DashboardSteps - Validating page title. Expected: Data Structures-Introduction
+[2025-12-17 19:19:39] INFO  DashboardSteps - Validating page title. Expected: Time Complexity
+[2025-12-17 19:19:47] INFO  DashboardSteps - Validating page title. Expected: Assessment
+[2025-12-17 19:19:47] INFO  DSIntroductionSteps - Validating the current page url,  Expected: https://dsportalapp.herokuapp.com/tryEditor 
+[2025-12-17 19:19:47] INFO  DSIntroductionSteps - Validating try editor alert message,  Expected: NameError: name 'Hello' is not defined on line 1 
+[2025-12-17 19:19:47] INFO  ApplicationHooks - Scenario passed: Verify that the popup is displayed with error message after entering letters or any characters in try editor
+[2025-12-17 19:19:49] INFO  ApplicationHooks - Scenario started: Verify that the popup is displayed with error message after entering "$$$$$" in try editor
+[2025-12-17 19:19:51] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 19:19:53] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-17 19:19:55] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-17 19:19:56] INFO  DashboardSteps - Validating page title. Expected: Data Structures-Introduction
+[2025-12-17 19:19:57] INFO  DashboardSteps - Validating page title. Expected: Time Complexity
+[2025-12-17 19:20:08] INFO  DashboardSteps - Validating page title. Expected: Assessment
+[2025-12-17 19:20:08] INFO  DSIntroductionSteps - Validating the current page url,  Expected: https://dsportalapp.herokuapp.com/tryEditor 
+[2025-12-17 19:20:08] INFO  DSIntroductionSteps - Validating try editor alert message,  Expected: SyntaxError: bad token T_OP on line 1 
+[2025-12-17 19:20:08] INFO  ApplicationHooks - Scenario passed: Verify that the popup is displayed with error message after entering "$$$$$" in try editor
+[2025-12-17 19:20:10] INFO  ApplicationHooks - Scenario started: Verify that the popup is displayed with error message after entering "((((((" in try editor
+[2025-12-17 19:20:13] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 19:20:15] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-17 19:20:16] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-17 19:20:18] INFO  DashboardSteps - Validating page title. Expected: Data Structures-Introduction
+[2025-12-17 19:20:19] INFO  DashboardSteps - Validating page title. Expected: Time Complexity
+[2025-12-17 19:20:30] INFO  DashboardSteps - Validating page title. Expected: Assessment
+[2025-12-17 19:20:31] INFO  DSIntroductionSteps - Validating the current page url,  Expected: https://dsportalapp.herokuapp.com/tryEditor 
+[2025-12-17 19:20:31] INFO  DSIntroductionSteps - Validating try editor alert message,  Expected: SyntaxError: EOF in multi-line statement on line 2 
+[2025-12-17 19:20:31] INFO  ApplicationHooks - Scenario passed: Verify that the popup is displayed with error message after entering "((((((" in try editor
+[2025-12-17 19:20:32] INFO  ApplicationHooks - Scenario started: Verify that the user is not able to see output after entering "12345" in try editor
+[2025-12-17 19:20:34] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 19:20:36] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-17 19:20:38] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-17 19:20:39] INFO  DashboardSteps - Validating page title. Expected: Data Structures-Introduction
+[2025-12-17 19:20:40] INFO  DashboardSteps - Validating page title. Expected: Time Complexity
+[2025-12-17 19:20:45] INFO  DashboardSteps - Validating page title. Expected: Assessment
+[2025-12-17 19:20:45] INFO  DSIntroductionSteps - Validating the current page url,  Expected: https://dsportalapp.herokuapp.com/tryEditor 
+[2025-12-17 19:20:45] INFO  ApplicationHooks - Scenario passed: Verify that the user is not able to see output after entering "12345" in try editor
+[2025-12-17 19:20:46] INFO  ApplicationHooks - Scenario started: Verify that the user is not able to see output without entering code in the try editor
+[2025-12-17 19:20:49] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 19:20:50] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-17 19:20:52] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-17 19:20:53] INFO  DashboardSteps - Validating page title. Expected: Data Structures-Introduction
+[2025-12-17 19:20:54] INFO  DashboardSteps - Validating page title. Expected: Time Complexity
+[2025-12-17 19:21:04] INFO  DashboardSteps - Validating page title. Expected: Assessment
+[2025-12-17 19:21:04] INFO  DSIntroductionSteps - Validating the current page url,  Expected: https://dsportalapp.herokuapp.com/tryEditor 
+[2025-12-17 19:21:04] INFO  ApplicationHooks - Scenario passed: Verify that the user is not able to see output without entering code in the try editor
+[2025-12-17 19:21:05] INFO  ApplicationHooks - Scenario started: Verify that the user is navigated to the Practice page url
+[2025-12-17 19:21:08] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 19:21:10] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-17 19:21:12] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-17 19:21:13] INFO  DashboardSteps - Validating page title. Expected: Data Structures-Introduction
+[2025-12-17 19:21:14] INFO  DashboardSteps - Validating page title. Expected: Time Complexity
+[2025-12-17 19:21:15] INFO  DashboardSteps - Validating page title. Expected: Practice Questions
+[2025-12-17 19:21:15] INFO  DSIntroductionSteps - Validating the current page url,  Expected: https://dsportalapp.herokuapp.com/data-structures-introduction/practice 
+[2025-12-17 19:21:16] INFO  LoginSteps - Validating the log out message,  Expected: Logged out successfully 
+[2025-12-17 19:21:16] INFO  ApplicationHooks - Scenario passed: Verify that the user is navigated to the Practice page url
+[2025-12-17 19:23:50] INFO  ApplicationHooks - Scenario started: Verify that the user is navigated to the Data Structures-Introduction page
+[2025-12-17 19:23:52] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 19:23:54] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-17 19:23:56] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-17 19:23:58] INFO  DashboardSteps - Validating page title. Expected: Data Structures-Introduction
+[2025-12-17 19:23:58] INFO  ApplicationHooks - Scenario passed: Verify that the user is navigated to the Data Structures-Introduction page
+[2025-12-17 19:23:59] INFO  ApplicationHooks - Scenario started: Verify that the user is navigated to the time-complexity page
+[2025-12-17 19:24:02] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 19:24:03] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-17 19:24:05] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-17 19:24:07] INFO  DashboardSteps - Validating page title. Expected: Data Structures-Introduction
+[2025-12-17 19:24:08] INFO  DashboardSteps - Validating page title. Expected: Time Complexity
+[2025-12-17 19:24:08] INFO  ApplicationHooks - Scenario passed: Verify that the user is navigated to the time-complexity page
+[2025-12-17 19:24:09] INFO  ApplicationHooks - Scenario started: Verify that the user is navigated to the try editor page
+[2025-12-17 19:24:11] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 19:24:13] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-17 19:24:15] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-17 19:24:16] INFO  DashboardSteps - Validating page title. Expected: Data Structures-Introduction
+[2025-12-17 19:24:18] INFO  DashboardSteps - Validating page title. Expected: Time Complexity
+[2025-12-17 19:24:34] INFO  DashboardSteps - Validating page title. Expected: Assessment
+[2025-12-17 19:24:34] INFO  DSIntroductionSteps - Validating the current page url,  Expected: https://dsportalapp.herokuapp.com/tryEditor 
+[2025-12-17 19:24:34] INFO  ApplicationHooks - Scenario passed: Verify that the user is navigated to the try editor page
+[2025-12-17 19:24:35] INFO  ApplicationHooks - Scenario started: Verify that the user is able to see an output for valid python code
+[2025-12-17 19:24:38] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 19:24:39] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-17 19:24:41] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-17 19:24:42] INFO  DashboardSteps - Validating page title. Expected: Data Structures-Introduction
+[2025-12-17 19:24:44] INFO  DashboardSteps - Validating page title. Expected: Time Complexity
+[2025-12-17 19:24:55] INFO  DashboardSteps - Validating page title. Expected: Assessment
+[2025-12-17 19:24:55] INFO  DSIntroductionSteps - Validating the current page url,  Expected: https://dsportalapp.herokuapp.com/tryEditor 
+[2025-12-17 19:24:58] INFO  DSIntroductionSteps - Validating try editor output,  Expected: Hello 
+[2025-12-17 19:24:58] INFO  ApplicationHooks - Scenario passed: Verify that the user is able to see an output for valid python code
+[2025-12-17 19:24:59] INFO  ApplicationHooks - Scenario started: Verify that the popup is displayed with error message for invalid python code with spaces in try editor
+[2025-12-17 19:25:02] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 19:25:04] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-17 19:25:06] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-17 19:25:07] INFO  DashboardSteps - Validating page title. Expected: Data Structures-Introduction
+[2025-12-17 19:25:08] INFO  DashboardSteps - Validating page title. Expected: Time Complexity
+[2025-12-17 19:25:19] INFO  DashboardSteps - Validating page title. Expected: Assessment
+[2025-12-17 19:25:19] INFO  DSIntroductionSteps - Validating the current page url,  Expected: https://dsportalapp.herokuapp.com/tryEditor 
+[2025-12-17 19:25:19] INFO  DSIntroductionSteps - Validating try editor alert message,  Expected: SyntaxError: bad input on line 1 
+[2025-12-17 19:25:19] INFO  ApplicationHooks - Scenario passed: Verify that the popup is displayed with error message for invalid python code with spaces in try editor
+[2025-12-17 19:25:21] INFO  ApplicationHooks - Scenario started: Verify that the popup is displayed with error message after entering letters or any characters in try editor
+[2025-12-17 19:25:23] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 19:25:25] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-17 19:25:26] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-17 19:25:27] INFO  DashboardSteps - Validating page title. Expected: Data Structures-Introduction
+[2025-12-17 19:25:28] INFO  DashboardSteps - Validating page title. Expected: Time Complexity
+[2025-12-17 19:25:37] INFO  DashboardSteps - Validating page title. Expected: Assessment
+[2025-12-17 19:25:38] INFO  DSIntroductionSteps - Validating the current page url,  Expected: https://dsportalapp.herokuapp.com/tryEditor 
+[2025-12-17 19:25:38] INFO  DSIntroductionSteps - Validating try editor alert message,  Expected: NameError: name 'Hello' is not defined on line 1 
+[2025-12-17 19:25:38] INFO  ApplicationHooks - Scenario passed: Verify that the popup is displayed with error message after entering letters or any characters in try editor
+[2025-12-17 19:25:39] INFO  ApplicationHooks - Scenario started: Verify that the popup is displayed with error message after entering "$$$$$" in try editor
+[2025-12-17 19:25:42] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 19:25:44] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-17 19:25:46] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-17 19:25:47] INFO  DashboardSteps - Validating page title. Expected: Data Structures-Introduction
+[2025-12-17 19:25:48] INFO  DashboardSteps - Validating page title. Expected: Time Complexity
+[2025-12-17 19:25:54] INFO  DashboardSteps - Validating page title. Expected: Assessment
+[2025-12-17 19:25:55] INFO  DSIntroductionSteps - Validating the current page url,  Expected: https://dsportalapp.herokuapp.com/tryEditor 
+[2025-12-17 19:25:55] INFO  DSIntroductionSteps - Validating try editor alert message,  Expected: SyntaxError: bad token T_OP on line 1 
+[2025-12-17 19:25:55] INFO  ApplicationHooks - Scenario passed: Verify that the popup is displayed with error message after entering "$$$$$" in try editor
+[2025-12-17 19:25:57] INFO  ApplicationHooks - Scenario started: Verify that the popup is displayed with error message after entering "((((((" in try editor
+[2025-12-17 19:25:59] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 19:26:01] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-17 19:26:02] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-17 19:26:03] INFO  DashboardSteps - Validating page title. Expected: Data Structures-Introduction
+[2025-12-17 19:26:05] INFO  DashboardSteps - Validating page title. Expected: Time Complexity
+[2025-12-17 19:26:18] INFO  DashboardSteps - Validating page title. Expected: Assessment
+[2025-12-17 19:26:18] INFO  DSIntroductionSteps - Validating the current page url,  Expected: https://dsportalapp.herokuapp.com/tryEditor 
+[2025-12-17 19:26:18] INFO  DSIntroductionSteps - Validating try editor alert message,  Expected: SyntaxError: EOF in multi-line statement on line 2 
+[2025-12-17 19:26:18] INFO  ApplicationHooks - Scenario passed: Verify that the popup is displayed with error message after entering "((((((" in try editor
+[2025-12-17 19:26:20] INFO  ApplicationHooks - Scenario started: Verify that the user is not able to see output after entering "12345" in try editor
+[2025-12-17 19:26:22] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 19:26:24] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-17 19:26:26] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-17 19:26:28] INFO  DashboardSteps - Validating page title. Expected: Data Structures-Introduction
+[2025-12-17 19:26:29] INFO  DashboardSteps - Validating page title. Expected: Time Complexity
+[2025-12-17 19:26:46] INFO  DashboardSteps - Validating page title. Expected: Assessment
+[2025-12-17 19:26:46] INFO  DSIntroductionSteps - Validating the current page url,  Expected: https://dsportalapp.herokuapp.com/tryEditor 
+[2025-12-17 19:26:47] INFO  ApplicationHooks - Scenario passed: Verify that the user is not able to see output after entering "12345" in try editor
+[2025-12-17 19:26:48] INFO  ApplicationHooks - Scenario started: Verify that the user is not able to see output without entering code in the try editor
+[2025-12-17 19:26:51] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 19:26:53] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-17 19:26:54] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-17 19:26:56] INFO  DashboardSteps - Validating page title. Expected: Data Structures-Introduction
+[2025-12-17 19:26:57] INFO  DashboardSteps - Validating page title. Expected: Time Complexity
+[2025-12-17 19:27:09] INFO  DashboardSteps - Validating page title. Expected: Assessment
+[2025-12-17 19:27:09] INFO  DSIntroductionSteps - Validating the current page url,  Expected: https://dsportalapp.herokuapp.com/tryEditor 
+[2025-12-17 19:27:10] INFO  ApplicationHooks - Scenario passed: Verify that the user is not able to see output without entering code in the try editor
+[2025-12-17 19:27:11] INFO  ApplicationHooks - Scenario started: Verify that the user is navigated to the Practice page url
+[2025-12-17 19:27:14] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 19:27:16] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-17 19:27:17] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-17 19:27:19] INFO  DashboardSteps - Validating page title. Expected: Data Structures-Introduction
+[2025-12-17 19:27:20] INFO  DashboardSteps - Validating page title. Expected: Time Complexity
+[2025-12-17 19:27:21] INFO  DashboardSteps - Validating page title. Expected: Practice Questions
+[2025-12-17 19:27:21] INFO  DSIntroductionSteps - Validating the current page url,  Expected: https://dsportalapp.herokuapp.com/data-structures-introduction/practice 
+[2025-12-17 19:27:22] INFO  LoginSteps - Validating the log out message,  Expected: Logged out successfully 
+[2025-12-17 19:27:22] INFO  ApplicationHooks - Scenario passed: Verify that the user is navigated to the Practice page url
+[2025-12-17 19:31:22] INFO  ApplicationHooks - Scenario started: Verify that the user is navigated to the Data Structures-Introduction page
+[2025-12-17 19:31:25] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 19:31:27] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-17 19:31:29] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-17 19:31:31] INFO  DashboardSteps - Validating page title. Expected: Data Structures-Introduction
+[2025-12-17 19:31:31] INFO  ApplicationHooks - Scenario passed: Verify that the user is navigated to the Data Structures-Introduction page
+[2025-12-17 19:31:32] INFO  ApplicationHooks - Scenario started: Verify that the user is navigated to the time-complexity page
+[2025-12-17 19:31:35] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 19:31:36] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-17 19:31:38] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-17 19:31:39] INFO  DashboardSteps - Validating page title. Expected: Data Structures-Introduction
+[2025-12-17 19:31:41] INFO  DashboardSteps - Validating page title. Expected: Time Complexity
+[2025-12-17 19:31:41] INFO  ApplicationHooks - Scenario passed: Verify that the user is navigated to the time-complexity page
+[2025-12-17 19:31:42] INFO  ApplicationHooks - Scenario started: Verify that the user is navigated to the try editor page
+[2025-12-17 19:31:44] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 19:31:46] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-17 19:31:48] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-17 19:31:49] INFO  DashboardSteps - Validating page title. Expected: Data Structures-Introduction
+[2025-12-17 19:31:51] INFO  DashboardSteps - Validating page title. Expected: Time Complexity
+[2025-12-17 19:31:58] INFO  DashboardSteps - Validating page title. Expected: Assessment
+[2025-12-17 19:31:58] INFO  DSIntroductionSteps - Validating the current page url,  Expected: https://dsportalapp.herokuapp.com/tryEditor 
+[2025-12-17 19:31:58] INFO  ApplicationHooks - Scenario passed: Verify that the user is navigated to the try editor page
+[2025-12-17 19:31:59] INFO  ApplicationHooks - Scenario started: Verify that the user is able to see an output for valid python code
+[2025-12-17 19:32:01] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 19:32:03] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-17 19:32:05] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-17 19:32:06] INFO  DashboardSteps - Validating page title. Expected: Data Structures-Introduction
+[2025-12-17 19:32:08] INFO  DashboardSteps - Validating page title. Expected: Time Complexity
+[2025-12-17 19:32:19] INFO  DashboardSteps - Validating page title. Expected: Assessment
+[2025-12-17 19:32:19] INFO  DSIntroductionSteps - Validating the current page url,  Expected: https://dsportalapp.herokuapp.com/tryEditor 
+[2025-12-17 19:32:21] INFO  DSIntroductionSteps - Validating try editor output,  Expected: Hello 
+[2025-12-17 19:32:21] INFO  ApplicationHooks - Scenario passed: Verify that the user is able to see an output for valid python code
+[2025-12-17 19:32:23] INFO  ApplicationHooks - Scenario started: Verify that the popup is displayed with error message for invalid python code with spaces in try editor
+[2025-12-17 19:32:25] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 19:32:27] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-17 19:32:30] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-17 19:32:31] INFO  DashboardSteps - Validating page title. Expected: Data Structures-Introduction
+[2025-12-17 19:32:32] INFO  DashboardSteps - Validating page title. Expected: Time Complexity
+[2025-12-17 19:32:44] INFO  DashboardSteps - Validating page title. Expected: Assessment
+[2025-12-17 19:32:44] INFO  DSIntroductionSteps - Validating the current page url,  Expected: https://dsportalapp.herokuapp.com/tryEditor 
+[2025-12-17 19:32:45] INFO  DSIntroductionSteps - Validating try editor alert message,  Expected: SyntaxError: bad input on line 1 
+[2025-12-17 19:32:45] INFO  ApplicationHooks - Scenario passed: Verify that the popup is displayed with error message for invalid python code with spaces in try editor
+[2025-12-17 19:32:46] INFO  ApplicationHooks - Scenario started: Verify that the popup is displayed with error message after entering letters or any characters in try editor
+[2025-12-17 19:32:49] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 19:32:50] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-17 19:32:52] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-17 19:32:53] INFO  DashboardSteps - Validating page title. Expected: Data Structures-Introduction
+[2025-12-17 19:32:54] INFO  DashboardSteps - Validating page title. Expected: Time Complexity
+[2025-12-17 19:33:02] INFO  DashboardSteps - Validating page title. Expected: Assessment
+[2025-12-17 19:33:02] INFO  DSIntroductionSteps - Validating the current page url,  Expected: https://dsportalapp.herokuapp.com/tryEditor 
+[2025-12-17 19:33:02] INFO  DSIntroductionSteps - Validating try editor alert message,  Expected: NameError: name 'Hello' is not defined on line 1 
+[2025-12-17 19:33:02] INFO  ApplicationHooks - Scenario passed: Verify that the popup is displayed with error message after entering letters or any characters in try editor
+[2025-12-17 19:33:04] INFO  ApplicationHooks - Scenario started: Verify that the popup is displayed with error message after entering "$$$$$" in try editor
+[2025-12-17 19:33:06] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 19:33:08] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-17 19:33:10] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-17 19:33:11] INFO  DashboardSteps - Validating page title. Expected: Data Structures-Introduction
+[2025-12-17 19:33:12] INFO  DashboardSteps - Validating page title. Expected: Time Complexity
+[2025-12-17 19:33:28] INFO  DashboardSteps - Validating page title. Expected: Assessment
+[2025-12-17 19:33:28] INFO  DSIntroductionSteps - Validating the current page url,  Expected: https://dsportalapp.herokuapp.com/tryEditor 
+[2025-12-17 19:33:28] INFO  DSIntroductionSteps - Validating try editor alert message,  Expected: SyntaxError: bad token T_OP on line 1 
+[2025-12-17 19:33:28] INFO  ApplicationHooks - Scenario passed: Verify that the popup is displayed with error message after entering "$$$$$" in try editor
+[2025-12-17 19:33:30] INFO  ApplicationHooks - Scenario started: Verify that the popup is displayed with error message after entering "((((((" in try editor
+[2025-12-17 19:33:32] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 19:33:34] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-17 19:33:36] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-17 19:33:38] INFO  DashboardSteps - Validating page title. Expected: Data Structures-Introduction
+[2025-12-17 19:33:39] INFO  DashboardSteps - Validating page title. Expected: Time Complexity
+[2025-12-17 19:33:54] INFO  DashboardSteps - Validating page title. Expected: Assessment
+[2025-12-17 19:33:54] INFO  DSIntroductionSteps - Validating the current page url,  Expected: https://dsportalapp.herokuapp.com/tryEditor 
+[2025-12-17 19:33:54] INFO  DSIntroductionSteps - Validating try editor alert message,  Expected: SyntaxError: EOF in multi-line statement on line 2 
+[2025-12-17 19:33:54] INFO  ApplicationHooks - Scenario passed: Verify that the popup is displayed with error message after entering "((((((" in try editor
+[2025-12-17 19:33:56] INFO  ApplicationHooks - Scenario started: Verify that the user is not able to see output after entering "12345" in try editor
+[2025-12-17 19:33:58] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 19:33:59] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-17 19:34:01] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-17 19:34:02] INFO  DashboardSteps - Validating page title. Expected: Data Structures-Introduction
+[2025-12-17 19:34:04] INFO  DashboardSteps - Validating page title. Expected: Time Complexity
+[2025-12-17 19:34:09] INFO  DashboardSteps - Validating page title. Expected: Assessment
+[2025-12-17 19:34:09] INFO  DSIntroductionSteps - Validating the current page url,  Expected: https://dsportalapp.herokuapp.com/tryEditor 
+[2025-12-17 19:34:10] INFO  ApplicationHooks - Scenario passed: Verify that the user is not able to see output after entering "12345" in try editor
+[2025-12-17 19:34:11] INFO  ApplicationHooks - Scenario started: Verify that the user is not able to see output without entering code in the try editor
+[2025-12-17 19:34:13] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 19:34:15] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-17 19:34:17] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-17 19:34:18] INFO  DashboardSteps - Validating page title. Expected: Data Structures-Introduction
+[2025-12-17 19:34:19] INFO  DashboardSteps - Validating page title. Expected: Time Complexity
+[2025-12-17 19:34:23] INFO  DashboardSteps - Validating page title. Expected: Assessment
+[2025-12-17 19:34:23] INFO  DSIntroductionSteps - Validating the current page url,  Expected: https://dsportalapp.herokuapp.com/tryEditor 
+[2025-12-17 19:34:23] INFO  ApplicationHooks - Scenario passed: Verify that the user is not able to see output without entering code in the try editor
+[2025-12-17 19:34:25] INFO  ApplicationHooks - Scenario started: Verify that the user is navigated to the Practice page url
+[2025-12-17 19:34:27] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 19:34:29] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-17 19:34:31] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-17 19:34:32] INFO  DashboardSteps - Validating page title. Expected: Data Structures-Introduction
+[2025-12-17 19:34:33] INFO  DashboardSteps - Validating page title. Expected: Time Complexity
+[2025-12-17 19:34:34] INFO  DashboardSteps - Validating page title. Expected: Practice Questions
+[2025-12-17 19:34:34] INFO  DSIntroductionSteps - Validating the current page url,  Expected: https://dsportalapp.herokuapp.com/data-structures-introduction/practice 
+[2025-12-17 19:34:35] INFO  LoginSteps - Validating the log out message,  Expected: Logged out successfully 
+[2025-12-17 19:34:35] INFO  ApplicationHooks - Scenario passed: Verify that the user is navigated to the Practice page url
+[2025-12-17 19:34:36] INFO  ApplicationHooks - Scenario started: Verify that the user opens the DsAlgo portal
+[2025-12-17 19:34:39] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 19:34:39] INFO  DashboardSteps - Validating page title. Expected: Numpy Ninja
+[2025-12-17 19:34:39] INFO  ApplicationHooks - Scenario passed: Verify that the user opens the DsAlgo portal
+[2025-12-17 19:34:41] INFO  ApplicationHooks - Scenario started: Verify the Dashboard page text in the DsAlgo portal
+[2025-12-17 19:34:43] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 19:34:43] INFO  DashboardSteps - Validating the DS Algo portal - Text. Expected: Preparing for the Interviews
+[2025-12-17 19:34:43] INFO  ApplicationHooks - Scenario passed: Verify the Dashboard page text in the DsAlgo portal
+[2025-12-17 19:34:45] INFO  ApplicationHooks - Scenario started: Verify the Get Started button in the DsAlgo portal
+[2025-12-17 19:34:47] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 19:34:47] INFO  DashboardSteps - Validating the DS Algo portal - get started button. Expected: Get Started
+[2025-12-17 19:34:47] INFO  ApplicationHooks - Scenario passed: Verify the Get Started button in the DsAlgo portal
+[2025-12-17 19:34:48] INFO  ApplicationHooks - Scenario started: Verify that the NumpyNinja is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-17 19:34:51] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 19:34:52] INFO  DashboardSteps - Validating the NumbyNinja Logo. Expected: NumpyNinja
+[2025-12-17 19:34:52] INFO  ApplicationHooks - Scenario passed: Verify that the NumpyNinja is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-17 19:34:53] INFO  ApplicationHooks - Scenario started: Verify that the DataStructures-dropdown is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-17 19:34:56] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 19:34:57] INFO  DashboardSteps - Validating the DataStructures- dropdown options. Expected: [Arrays, Linked List, Stack, Queue, Tree, Graph]
+[2025-12-17 19:34:57] INFO  ApplicationHooks - Scenario passed: Verify that the DataStructures-dropdown is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-17 19:34:59] INFO  ApplicationHooks - Scenario started: Verify that the Register link is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-17 19:35:02] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 19:35:02] INFO  DashboardSteps - Validating the RegisterLink Text Expected: Register
+[2025-12-17 19:35:02] INFO  ApplicationHooks - Scenario passed: Verify that the Register link is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-17 19:35:04] INFO  ApplicationHooks - Scenario started: Verify that the Sign in link is displayed after clicking on the "Get Started" button of DsAlgo portal
+[2025-12-17 19:35:06] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 19:35:08] INFO  DashboardSteps - Validating the SignInLink Text Expected: Sign in
+[2025-12-17 19:35:08] INFO  ApplicationHooks - Scenario passed: Verify that the Sign in link is displayed after clicking on the "Get Started" button of DsAlgo portal
+[2025-12-17 19:35:09] INFO  ApplicationHooks - Scenario started: Verify that the DataStructures - Introduction Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-17 19:35:11] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 19:35:12] INFO  DashboardSteps - Validating the Data structures introduction module label. Expected: Data Structures-Introduction
+[2025-12-17 19:35:12] INFO  DashboardSteps - Validating the Data structures introduction module label with get started button text. Expected: Get Started
+[2025-12-17 19:35:12] INFO  ApplicationHooks - Scenario passed: Verify that the DataStructures - Introduction Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-17 19:35:14] INFO  ApplicationHooks - Scenario started: Verify that the Array Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-17 19:35:20] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 19:35:21] INFO  DashboardSteps - Validating the Data structures introduction module label. Expected: Array
+[2025-12-17 19:35:21] INFO  DashboardSteps - Validating the Data structures introduction module label with get started button text. Expected: Get Started
+[2025-12-17 19:35:21] INFO  ApplicationHooks - Scenario passed: Verify that the Array Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-17 19:35:22] INFO  ApplicationHooks - Scenario started: Verify that the Linked List Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-17 19:35:24] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 19:35:25] INFO  DashboardSteps - Validating the Data structures introduction module label. Expected: Linked List
+[2025-12-17 19:35:25] INFO  DashboardSteps - Validating the Data structures introduction module label with get started button text. Expected: Get Started
+[2025-12-17 19:35:25] INFO  ApplicationHooks - Scenario passed: Verify that the Linked List Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-17 19:35:27] INFO  ApplicationHooks - Scenario started: Verify that the Stack Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-17 19:35:29] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 19:35:30] INFO  DashboardSteps - Validating the Data structures introduction module label. Expected: Stack
+[2025-12-17 19:35:30] INFO  DashboardSteps - Validating the Data structures introduction module label with get started button text. Expected: Get Started
+[2025-12-17 19:35:30] INFO  ApplicationHooks - Scenario passed: Verify that the Stack Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-17 19:35:31] INFO  ApplicationHooks - Scenario started: Verify that the Queue Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-17 19:35:34] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 19:35:35] INFO  DashboardSteps - Validating the Data structures introduction module label. Expected: Queue
+[2025-12-17 19:35:35] INFO  DashboardSteps - Validating the Data structures introduction module label with get started button text. Expected: Get Started
+[2025-12-17 19:35:35] INFO  ApplicationHooks - Scenario passed: Verify that the Queue Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-17 19:35:36] INFO  ApplicationHooks - Scenario started: Verify that the Tree Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-17 19:35:39] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 19:35:40] INFO  DashboardSteps - Validating the Data structures introduction module label. Expected: Tree
+[2025-12-17 19:35:40] INFO  DashboardSteps - Validating the Data structures introduction module label with get started button text. Expected: Get Started
+[2025-12-17 19:35:40] INFO  ApplicationHooks - Scenario passed: Verify that the Tree Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-17 19:35:41] INFO  ApplicationHooks - Scenario started: Verify that the Graph Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-17 19:35:43] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 19:35:44] INFO  DashboardSteps - Validating the Data structures introduction module label. Expected: Graph
+[2025-12-17 19:35:44] INFO  DashboardSteps - Validating the Data structures introduction module label with get started button text. Expected: Get Started
+[2025-12-17 19:35:44] INFO  ApplicationHooks - Scenario passed: Verify that the Graph Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-17 19:35:46] INFO  ApplicationHooks - Scenario started: Verify that the warning message is displayed when selecting Arrays option from the Data Structures dropdown without signin
+[2025-12-17 19:35:48] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 19:35:49] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-17 19:35:51] INFO  HomeSteps - User clicks on dropdown option. Expected option: Arrays 
+[2025-12-17 19:35:51] INFO  HomeSteps - Validating warning message. Expected: You are not logged in 
+[2025-12-17 19:35:51] INFO  ApplicationHooks - Scenario passed: Verify that the warning message is displayed when selecting Arrays option from the Data Structures dropdown without signin
+[2025-12-17 19:35:52] INFO  ApplicationHooks - Scenario started: Verify that the warning message is displayed when selecting Linked List option from the Data Structures dropdown without signin
+[2025-12-17 19:35:54] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 19:35:55] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-17 19:35:57] INFO  HomeSteps - User clicks on dropdown option. Expected option: Linked List 
+[2025-12-17 19:35:57] INFO  HomeSteps - Validating warning message. Expected: You are not logged in 
+[2025-12-17 19:35:57] INFO  ApplicationHooks - Scenario passed: Verify that the warning message is displayed when selecting Linked List option from the Data Structures dropdown without signin
+[2025-12-17 19:35:58] INFO  ApplicationHooks - Scenario started: Verify that the warning message is displayed when selecting Stack option from the Data Structures dropdown without signin
+[2025-12-17 19:36:01] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 19:36:02] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-17 19:36:03] INFO  HomeSteps - User clicks on dropdown option. Expected option: Stack 
+[2025-12-17 19:36:03] INFO  HomeSteps - Validating warning message. Expected: You are not logged in 
+[2025-12-17 19:36:03] INFO  ApplicationHooks - Scenario passed: Verify that the warning message is displayed when selecting Stack option from the Data Structures dropdown without signin
+[2025-12-17 19:36:05] INFO  ApplicationHooks - Scenario started: Verify that the warning message is displayed when selecting Queue option from the Data Structures dropdown without signin
+[2025-12-17 19:36:07] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 19:36:08] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-17 19:36:10] INFO  HomeSteps - User clicks on dropdown option. Expected option: Queue 
+[2025-12-17 19:36:10] INFO  HomeSteps - Validating warning message. Expected: You are not logged in 
+[2025-12-17 19:36:10] INFO  ApplicationHooks - Scenario passed: Verify that the warning message is displayed when selecting Queue option from the Data Structures dropdown without signin
+[2025-12-17 19:36:11] INFO  ApplicationHooks - Scenario started: Verify that the warning message is displayed when selecting Tree option from the Data Structures dropdown without signin
+[2025-12-17 19:36:13] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 19:36:14] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-17 19:36:16] INFO  HomeSteps - User clicks on dropdown option. Expected option: Tree 
+[2025-12-17 19:36:16] INFO  HomeSteps - Validating warning message. Expected: You are not logged in 
+[2025-12-17 19:36:16] INFO  ApplicationHooks - Scenario passed: Verify that the warning message is displayed when selecting Tree option from the Data Structures dropdown without signin
+[2025-12-17 19:36:17] INFO  ApplicationHooks - Scenario started: Verify that the warning message is displayed when selecting Graph option from the Data Structures dropdown without signin
+[2025-12-17 19:36:21] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 19:36:22] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-17 19:36:24] INFO  HomeSteps - User clicks on dropdown option. Expected option: Graph 
+[2025-12-17 19:36:24] INFO  HomeSteps - Validating warning message. Expected: You are not logged in 
+[2025-12-17 19:36:24] INFO  ApplicationHooks - Scenario passed: Verify that the warning message is displayed when selecting Graph option from the Data Structures dropdown without signin
+[2025-12-17 19:36:26] INFO  ApplicationHooks - Scenario started: Verify that the warning message is displayed when user clicks on Get Started button of Data Structures - Introduction module without signin
+[2025-12-17 19:36:28] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 19:36:29] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-17 19:36:30] INFO  HomeSteps - Validating warning message. Expected: You are not logged in 
+[2025-12-17 19:36:30] INFO  ApplicationHooks - Scenario passed: Verify that the warning message is displayed when user clicks on Get Started button of Data Structures - Introduction module without signin
+[2025-12-17 19:36:31] INFO  ApplicationHooks - Scenario started: Verify that the warning message is displayed when user clicks on Get Started button of Array module without signin
+[2025-12-17 19:36:34] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 19:36:35] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-17 19:36:36] INFO  HomeSteps - Validating warning message. Expected: You are not logged in 
+[2025-12-17 19:36:36] INFO  ApplicationHooks - Scenario passed: Verify that the warning message is displayed when user clicks on Get Started button of Array module without signin
+[2025-12-17 19:36:38] INFO  ApplicationHooks - Scenario started: Verify that the warning message is displayed when user clicks on Get Started button of Linked List module without signin
+[2025-12-17 19:36:40] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 19:36:41] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-17 19:36:42] INFO  HomeSteps - Validating warning message. Expected: You are not logged in 
+[2025-12-17 19:36:42] INFO  ApplicationHooks - Scenario passed: Verify that the warning message is displayed when user clicks on Get Started button of Linked List module without signin
+[2025-12-17 19:36:44] INFO  ApplicationHooks - Scenario started: Verify that the warning message is displayed when user clicks on Get Started button of Stack module without signin
+[2025-12-17 19:36:46] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 19:36:47] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-17 19:36:48] INFO  HomeSteps - Validating warning message. Expected: You are not logged in 
+[2025-12-17 19:36:48] INFO  ApplicationHooks - Scenario passed: Verify that the warning message is displayed when user clicks on Get Started button of Stack module without signin
+[2025-12-17 19:36:50] INFO  ApplicationHooks - Scenario started: Verify that the warning message is displayed when user clicks on Get Started button of Queue module without signin
+[2025-12-17 19:36:52] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 19:36:53] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-17 19:36:54] INFO  HomeSteps - Validating warning message. Expected: You are not logged in 
+[2025-12-17 19:36:54] INFO  ApplicationHooks - Scenario passed: Verify that the warning message is displayed when user clicks on Get Started button of Queue module without signin
+[2025-12-17 19:36:56] INFO  ApplicationHooks - Scenario started: Verify that the warning message is displayed when user clicks on Get Started button of Tree module without signin
+[2025-12-17 19:36:58] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 19:36:59] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-17 19:37:00] INFO  HomeSteps - Validating warning message. Expected: You are not logged in 
+[2025-12-17 19:37:00] INFO  ApplicationHooks - Scenario passed: Verify that the warning message is displayed when user clicks on Get Started button of Tree module without signin
+[2025-12-17 19:37:02] INFO  ApplicationHooks - Scenario started: Verify that the warning message is displayed when user clicks on Get Started button of Graph module without signin
+[2025-12-17 19:37:04] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 19:37:05] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-17 19:37:07] INFO  HomeSteps - Validating warning message. Expected: You are not logged in 
+[2025-12-17 19:37:07] INFO  ApplicationHooks - Scenario passed: Verify that the warning message is displayed when user clicks on Get Started button of Graph module without signin
+[2025-12-17 19:37:08] INFO  ApplicationHooks - Scenario started: Verify that the user can able to logged in successfully after entering valid username and password
+[2025-12-17 19:37:10] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 19:37:12] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-17 19:37:13] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-17 19:37:13] INFO  LoginSteps - Validating the logged in success message,  Expected: You are logged in 
+[2025-12-17 19:37:13] INFO  LoginSteps - Validating the username present in the top right corner,  Expected: sgs123@gmail.com 
+[2025-12-17 19:37:15] INFO  LoginSteps - Validating the log out message,  Expected: Logged out successfully 
+[2025-12-17 19:37:15] INFO  ApplicationHooks - Scenario passed: Verify that the user can able to logged in successfully after entering valid username and password
+[2025-12-17 19:37:16] INFO  ApplicationHooks - Scenario started: Verify that the error message is displayed when the user enters an invalid username and password
+[2025-12-17 19:37:18] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 19:37:20] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-17 19:37:21] INFO  LoginSteps - Validating the Error message Expected: Invalid Username and Password 
+[2025-12-17 19:37:21] INFO  ApplicationHooks - Scenario passed: Verify that the error message is displayed when the user enters an invalid username and password
+[2025-12-17 19:37:22] INFO  ApplicationHooks - Scenario started: Verify that the tooltip message is displayed when user clicks on Login button by leaving Username and Password fields empty
+[2025-12-17 19:37:24] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 19:37:26] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-17 19:37:27] INFO  LoginSteps - Validating the tooltip message Expected: Please fill out this field. 
+[2025-12-17 19:37:27] INFO  ApplicationHooks - Scenario passed: Verify that the tooltip message is displayed when user clicks on Login button by leaving Username and Password fields empty
+[2025-12-17 19:37:28] INFO  ApplicationHooks - Scenario started: Verify that the tooltip message is displayed when user clicks on Login button after entering Username field and leaving Password field empty
+[2025-12-17 19:37:30] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 19:37:32] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-17 19:37:34] INFO  LoginSteps - Validating the tooltip message Expected: Please fill out this field. 
+[2025-12-17 19:37:34] INFO  ApplicationHooks - Scenario passed: Verify that the tooltip message is displayed when user clicks on Login button after entering Username field and leaving Password field empty
+[2025-12-17 19:37:35] INFO  ApplicationHooks - Scenario started: Verify that the tooltip message is displayed when user clicks on Login button after entering valid Username field and invalid Password field
+[2025-12-17 19:37:37] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 19:37:39] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-17 19:37:40] INFO  LoginSteps - Validating the Error message Expected: Invalid Username and Password 
+[2025-12-17 19:37:40] INFO  ApplicationHooks - Scenario passed: Verify that the tooltip message is displayed when user clicks on Login button after entering valid Username field and invalid Password field
+[2025-12-17 19:37:42] INFO  ApplicationHooks - Scenario started: Verify that the tooltip message is displayed when user clicks on Login button after entering invalid Username field and valid Password field
+[2025-12-17 19:37:44] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 19:37:45] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-17 19:37:47] INFO  LoginSteps - Validating the Error message Expected: Invalid Username and Password 
+[2025-12-17 19:37:47] INFO  ApplicationHooks - Scenario passed: Verify that the tooltip message is displayed when user clicks on Login button after entering invalid Username field and valid Password field
+[2025-12-17 19:37:48] INFO  ApplicationHooks - Scenario started: Verify that the user navigates to the Register page from Login page
+[2025-12-17 19:37:50] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 19:37:52] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-17 19:37:53] INFO  DashboardSteps - Validating page title. Expected: Registration
+[2025-12-17 19:37:53] INFO  ApplicationHooks - Scenario passed: Verify that the user navigates to the Register page from Login page
+[2025-12-17 19:37:54] INFO  ApplicationHooks - Scenario started: Verify that the tooltip message is displayed when user clicks on Register button by leaving all the fields empty
+[2025-12-17 19:37:56] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 19:37:58] INFO  DashboardSteps - Validating page title. Expected: Registration
+[2025-12-17 19:37:58] INFO  RegistrationSteps - Validating the tooltip message Expected: Please fill out this field. 
+[2025-12-17 19:37:58] INFO  ApplicationHooks - Scenario passed: Verify that the tooltip message is displayed when user clicks on Register button by leaving all the fields empty
+[2025-12-17 19:37:59] INFO  ApplicationHooks - Scenario started: Verify that the tooltip message is displayed when user clicks on Register button after entering Username field and leaving other fields empty
+[2025-12-17 19:38:02] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 19:38:03] INFO  DashboardSteps - Validating page title. Expected: Registration
+[2025-12-17 19:38:04] INFO  RegistrationSteps - Validating the tooltip message Expected: Please fill out this field. 
+[2025-12-17 19:38:04] INFO  ApplicationHooks - Scenario passed: Verify that the tooltip message is displayed when user clicks on Register button after entering Username field and leaving other fields empty
+[2025-12-17 19:38:05] INFO  ApplicationHooks - Scenario started: Verify that the tooltip message is displayed when user clicks on Register button after entering Username field and Password field by leaving Password confirmation field empty
+[2025-12-17 19:38:07] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 19:38:09] INFO  DashboardSteps - Validating page title. Expected: Registration
+[2025-12-17 19:38:10] INFO  RegistrationSteps - Validating the tooltip message Expected: Please fill out this field. 
+[2025-12-17 19:38:10] INFO  ApplicationHooks - Scenario passed: Verify that the tooltip message is displayed when user clicks on Register button after entering Username field and Password field by leaving Password confirmation field empty
+[2025-12-17 19:38:11] INFO  ApplicationHooks - Scenario started: Verify that the error message is displayed when user clicks on Register button after entering mismatched passwords in the password and password confirmation fields
+[2025-12-17 19:38:13] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 19:38:15] INFO  DashboardSteps - Validating page title. Expected: Registration
+[2025-12-17 19:38:16] INFO  LoginSteps - Validating the Error message Expected: password_mismatch:The two password fields didn’t match. 
+[2025-12-17 19:38:16] INFO  ApplicationHooks - Scenario passed: Verify that the error message is displayed when user clicks on Register button after entering mismatched passwords in the password and password confirmation fields
+[2025-12-17 19:38:17] INFO  ApplicationHooks - Scenario started: Verify that the error message is displayed when user clicks on Register button after entering invalid values in Username field with matched password and password confirmation values
+[2025-12-17 19:38:20] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 19:38:21] INFO  DashboardSteps - Validating page title. Expected: Registration
+[2025-12-17 19:38:22] INFO  LoginSteps - Validating the Error message Expected: password_mismatch:The two password fields didn’t match. 
+[2025-12-17 19:38:22] INFO  ApplicationHooks - Scenario passed: Verify that the error message is displayed when user clicks on Register button after entering invalid values in Username field with matched password and password confirmation values
+[2025-12-17 19:38:24] INFO  ApplicationHooks - Scenario started: Verify that the error message is displayed when user clicks on Register button after entering invalid values in Username field with matched password and password confirmation values
+[2025-12-17 19:38:26] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 19:38:28] INFO  DashboardSteps - Validating page title. Expected: Registration
+[2025-12-17 19:38:30] INFO  LoginSteps - Validating the Error message Expected: password_mismatch:The two password fields didn’t match. 
+[2025-12-17 19:38:30] INFO  ApplicationHooks - Scenario passed: Verify that the error message is displayed when user clicks on Register button after entering invalid values in Username field with matched password and password confirmation values
+[2025-12-17 19:38:31] INFO  ApplicationHooks - Scenario started: Verify that the error message is displayed when user clicks on Register button after entering invalid values in Username field with matched password and password confirmation values
+[2025-12-17 19:38:34] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 19:38:35] INFO  DashboardSteps - Validating page title. Expected: Registration
+[2025-12-17 19:38:37] INFO  LoginSteps - Validating the Error message Expected: password_mismatch:The two password fields didn’t match. 
+[2025-12-17 19:38:37] INFO  ApplicationHooks - Scenario passed: Verify that the error message is displayed when user clicks on Register button after entering invalid values in Username field with matched password and password confirmation values
+[2025-12-17 19:38:38] INFO  ApplicationHooks - Scenario started: Verify that the error message is displayed when user clicks on Register button after entering invalid values in Username field with matched password and password confirmation values
+[2025-12-17 19:38:41] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 19:38:42] INFO  DashboardSteps - Validating page title. Expected: Registration
+[2025-12-17 19:38:44] INFO  LoginSteps - Validating the Error message Expected: password_mismatch:The two password fields didn’t match. 
+[2025-12-17 19:38:44] INFO  ApplicationHooks - Scenario passed: Verify that the error message is displayed when user clicks on Register button after entering invalid values in Username field with matched password and password confirmation values
+[2025-12-17 19:38:45] INFO  ApplicationHooks - Scenario started: Verify that the user can able to create a new account successfully after entering valid Username,Password and Password Confirmation
+[2025-12-17 19:38:47] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 19:38:49] INFO  DashboardSteps - Validating page title. Expected: Registration
+[2025-12-17 19:38:49] INFO  RegistrationSteps - Username enters elke.grady@gmail.com
+[2025-12-17 19:38:51] INFO  RegistrationSteps - Validating the success message Expected: New Account Created. You are logged in as elke.grady@gmail.com 
+[2025-12-17 19:38:51] INFO  ApplicationHooks - Scenario passed: Verify that the user can able to create a new account successfully after entering valid Username,Password and Password Confirmation
+[2025-12-17 19:38:53] INFO  ApplicationHooks - Scenario started: Verify that the user navigates to Login page from Register Page
+[2025-12-17 19:38:55] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 19:38:57] INFO  DashboardSteps - Validating page title. Expected: Registration
+[2025-12-17 19:38:58] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-17 19:38:58] INFO  ApplicationHooks - Scenario passed: Verify that the user navigates to Login page from Register Page
+[2025-12-17 19:58:17] INFO  ApplicationHooks - Scenario started: Verify that the user opens the DsAlgo portal
+[2025-12-17 19:58:20] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 19:58:20] INFO  DashboardSteps - Validating page title. Expected: Numpy Ninja
+[2025-12-17 19:58:20] INFO  ApplicationHooks - Scenario passed: Verify that the user opens the DsAlgo portal
+[2025-12-17 19:58:22] INFO  ApplicationHooks - Scenario started: Verify the Dashboard page text in the DsAlgo portal
+[2025-12-17 19:58:24] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 19:58:24] INFO  DashboardSteps - Validating the DS Algo portal - Text. Expected: Preparing for the Interviews
+[2025-12-17 19:58:24] INFO  ApplicationHooks - Scenario passed: Verify the Dashboard page text in the DsAlgo portal
+[2025-12-17 19:58:26] INFO  ApplicationHooks - Scenario started: Verify the Get Started button in the DsAlgo portal
+[2025-12-17 19:58:29] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 19:58:29] INFO  DashboardSteps - Validating the DS Algo portal - get started button. Expected: Get Started
+[2025-12-17 19:58:29] INFO  ApplicationHooks - Scenario passed: Verify the Get Started button in the DsAlgo portal
+[2025-12-17 19:58:31] INFO  ApplicationHooks - Scenario started: Verify that the NumpyNinja is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-17 19:58:33] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 19:58:34] INFO  DashboardSteps - Validating the NumbyNinja Logo. Expected: NumpyNinja
+[2025-12-17 19:58:34] INFO  ApplicationHooks - Scenario passed: Verify that the NumpyNinja is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-17 19:58:41] INFO  ApplicationHooks - Scenario started: Verify that the DataStructures-dropdown is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-17 19:58:43] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 19:58:45] INFO  DashboardSteps - Validating the DataStructures- dropdown options. Expected: [Arrays, Linked List, Stack, Queue, Tree, Graph]
+[2025-12-17 19:58:45] INFO  ApplicationHooks - Scenario passed: Verify that the DataStructures-dropdown is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-17 19:58:46] INFO  ApplicationHooks - Scenario started: Verify that the Register link is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-17 19:58:55] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 19:58:56] INFO  DashboardSteps - Validating the RegisterLink Text Expected: Register
+[2025-12-17 19:58:56] INFO  ApplicationHooks - Scenario passed: Verify that the Register link is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-17 19:58:57] INFO  ApplicationHooks - Scenario started: Verify that the Sign in link is displayed after clicking on the "Get Started" button of DsAlgo portal
+[2025-12-17 19:59:00] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 19:59:02] INFO  DashboardSteps - Validating the SignInLink Text Expected: Sign in
+[2025-12-17 19:59:02] INFO  ApplicationHooks - Scenario passed: Verify that the Sign in link is displayed after clicking on the "Get Started" button of DsAlgo portal
+[2025-12-17 19:59:04] INFO  ApplicationHooks - Scenario started: Verify that the DataStructures - Introduction Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-17 19:59:06] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 19:59:07] INFO  DashboardSteps - Validating the Data structures introduction module label. Expected: Data Structures-Introduction
+[2025-12-17 19:59:07] INFO  DashboardSteps - Validating the Data structures introduction module label with get started button text. Expected: Get Started
+[2025-12-17 19:59:07] INFO  ApplicationHooks - Scenario passed: Verify that the DataStructures - Introduction Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-17 19:59:09] INFO  ApplicationHooks - Scenario started: Verify that the Array Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-17 19:59:11] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 19:59:12] INFO  DashboardSteps - Validating the Data structures introduction module label. Expected: Array
+[2025-12-17 19:59:12] INFO  DashboardSteps - Validating the Data structures introduction module label with get started button text. Expected: Get Started
+[2025-12-17 19:59:12] INFO  ApplicationHooks - Scenario passed: Verify that the Array Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-17 19:59:14] INFO  ApplicationHooks - Scenario started: Verify that the Linked List Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-17 19:59:17] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 19:59:18] INFO  DashboardSteps - Validating the Data structures introduction module label. Expected: Linked List
+[2025-12-17 19:59:18] INFO  DashboardSteps - Validating the Data structures introduction module label with get started button text. Expected: Get Started
+[2025-12-17 19:59:18] INFO  ApplicationHooks - Scenario passed: Verify that the Linked List Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-17 19:59:20] INFO  ApplicationHooks - Scenario started: Verify that the Stack Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-17 19:59:22] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 19:59:23] INFO  DashboardSteps - Validating the Data structures introduction module label. Expected: Stack
+[2025-12-17 19:59:24] INFO  DashboardSteps - Validating the Data structures introduction module label with get started button text. Expected: Get Started
+[2025-12-17 19:59:24] INFO  ApplicationHooks - Scenario passed: Verify that the Stack Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-17 19:59:25] INFO  ApplicationHooks - Scenario started: Verify that the Queue Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-17 19:59:28] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 19:59:29] INFO  DashboardSteps - Validating the Data structures introduction module label. Expected: Queue
+[2025-12-17 19:59:29] INFO  DashboardSteps - Validating the Data structures introduction module label with get started button text. Expected: Get Started
+[2025-12-17 19:59:29] INFO  ApplicationHooks - Scenario passed: Verify that the Queue Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-17 19:59:30] INFO  ApplicationHooks - Scenario started: Verify that the Tree Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-17 19:59:32] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 19:59:33] INFO  DashboardSteps - Validating the Data structures introduction module label. Expected: Tree
+[2025-12-17 19:59:33] INFO  DashboardSteps - Validating the Data structures introduction module label with get started button text. Expected: Get Started
+[2025-12-17 19:59:33] INFO  ApplicationHooks - Scenario passed: Verify that the Tree Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-17 19:59:35] INFO  ApplicationHooks - Scenario started: Verify that the Graph Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-17 19:59:37] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 19:59:38] INFO  DashboardSteps - Validating the Data structures introduction module label. Expected: Graph
+[2025-12-17 19:59:38] INFO  DashboardSteps - Validating the Data structures introduction module label with get started button text. Expected: Get Started
+[2025-12-17 19:59:38] INFO  ApplicationHooks - Scenario passed: Verify that the Graph Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-17 20:16:10] INFO  ApplicationHooks - Scenario started: Verify that the user opens the DsAlgo portal
+[2025-12-17 20:16:17] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 20:16:17] INFO  DashboardSteps - Validating page title. Expected: Numpy Ninja
+[2025-12-17 20:16:17] INFO  ApplicationHooks - Scenario passed: Verify that the user opens the DsAlgo portal
+[2025-12-17 20:16:19] INFO  ApplicationHooks - Scenario started: Verify the Dashboard page text in the DsAlgo portal
+[2025-12-17 20:16:21] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 20:16:22] ERROR ApplicationHooks - Scenario failed: Verify the Dashboard page text in the DsAlgo portal
+[2025-12-17 20:16:24] INFO  ApplicationHooks - Scenario started: Verify the Get Started button in the DsAlgo portal
+[2025-12-17 20:16:27] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 20:16:27] INFO  DashboardSteps - Validating the DS Algo portal - get started button. Expected: Get Started
+[2025-12-17 20:16:27] INFO  ApplicationHooks - Scenario passed: Verify the Get Started button in the DsAlgo portal
+[2025-12-17 20:16:33] INFO  ApplicationHooks - Scenario started: Verify that the NumpyNinja is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-17 20:16:36] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 20:16:37] INFO  DashboardSteps - Validating the NumbyNinja Logo. Expected: NumpyNinja
+[2025-12-17 20:16:37] INFO  ApplicationHooks - Scenario passed: Verify that the NumpyNinja is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-17 20:16:39] INFO  ApplicationHooks - Scenario started: Verify that the DataStructures-dropdown is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-17 20:16:41] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 20:16:43] INFO  DashboardSteps - Validating the DataStructures- dropdown options. Expected: [Arrays, Linked List, Stack, Queue, Tree, Graph]
+[2025-12-17 20:16:43] INFO  ApplicationHooks - Scenario passed: Verify that the DataStructures-dropdown is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-17 20:16:44] INFO  ApplicationHooks - Scenario started: Verify that the Register link is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-17 20:16:48] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 20:16:49] INFO  DashboardSteps - Validating the RegisterLink Text Expected: Register
+[2025-12-17 20:16:49] INFO  ApplicationHooks - Scenario passed: Verify that the Register link is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-17 20:16:50] INFO  ApplicationHooks - Scenario started: Verify that the Sign in link is displayed after clicking on the "Get Started" button of DsAlgo portal
+[2025-12-17 20:16:54] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 20:16:55] INFO  DashboardSteps - Validating the SignInLink Text Expected: Sign in
+[2025-12-17 20:16:55] INFO  ApplicationHooks - Scenario passed: Verify that the Sign in link is displayed after clicking on the "Get Started" button of DsAlgo portal
+[2025-12-17 20:16:57] INFO  ApplicationHooks - Scenario started: Verify that the DataStructures - Introduction Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-17 20:16:59] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 20:17:00] INFO  DashboardSteps - Validating the Data structures introduction module label. Expected: Data Structures-Introduction
+[2025-12-17 20:17:00] INFO  DashboardSteps - Validating the Data structures introduction module label with get started button text. Expected: Get Started
+[2025-12-17 20:17:00] INFO  ApplicationHooks - Scenario passed: Verify that the DataStructures - Introduction Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-17 20:17:07] INFO  ApplicationHooks - Scenario started: Verify that the Array Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-17 20:17:09] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 20:17:11] INFO  DashboardSteps - Validating the Data structures introduction module label. Expected: Array
+[2025-12-17 20:17:11] INFO  DashboardSteps - Validating the Data structures introduction module label with get started button text. Expected: Get Started
+[2025-12-17 20:17:11] INFO  ApplicationHooks - Scenario passed: Verify that the Array Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-17 20:17:12] INFO  ApplicationHooks - Scenario started: Verify that the Linked List Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-17 20:17:15] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 20:17:16] INFO  DashboardSteps - Validating the Data structures introduction module label. Expected: Linked List
+[2025-12-17 20:17:16] INFO  DashboardSteps - Validating the Data structures introduction module label with get started button text. Expected: Get Started
+[2025-12-17 20:17:16] INFO  ApplicationHooks - Scenario passed: Verify that the Linked List Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-17 20:17:18] INFO  ApplicationHooks - Scenario started: Verify that the Stack Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-17 20:17:22] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 20:17:24] INFO  DashboardSteps - Validating the Data structures introduction module label. Expected: Stack
+[2025-12-17 20:17:24] INFO  DashboardSteps - Validating the Data structures introduction module label with get started button text. Expected: Get Started
+[2025-12-17 20:17:24] INFO  ApplicationHooks - Scenario passed: Verify that the Stack Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-17 20:17:25] INFO  ApplicationHooks - Scenario started: Verify that the Queue Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-17 20:17:29] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 20:17:30] INFO  DashboardSteps - Validating the Data structures introduction module label. Expected: Queue
+[2025-12-17 20:17:30] INFO  DashboardSteps - Validating the Data structures introduction module label with get started button text. Expected: Get Started
+[2025-12-17 20:17:30] INFO  ApplicationHooks - Scenario passed: Verify that the Queue Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-17 20:17:32] INFO  ApplicationHooks - Scenario started: Verify that the Tree Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-17 20:17:38] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 20:17:39] INFO  DashboardSteps - Validating the Data structures introduction module label. Expected: Tree
+[2025-12-17 20:17:39] INFO  DashboardSteps - Validating the Data structures introduction module label with get started button text. Expected: Get Started
+[2025-12-17 20:17:39] INFO  ApplicationHooks - Scenario passed: Verify that the Tree Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-17 20:17:41] INFO  ApplicationHooks - Scenario started: Verify that the Graph Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-17 20:17:43] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 20:17:44] INFO  DashboardSteps - Validating the Data structures introduction module label. Expected: Graph
+[2025-12-17 20:17:44] INFO  DashboardSteps - Validating the Data structures introduction module label with get started button text. Expected: Get Started
+[2025-12-17 20:17:44] INFO  ApplicationHooks - Scenario passed: Verify that the Graph Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-17 20:28:36] INFO  ApplicationHooks - Scenario started: Verify that the user opens the DsAlgo portal
+[2025-12-17 20:28:39] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 20:28:39] INFO  DashboardSteps - Validating page title. Expected: Numpy Ninja
+[2025-12-17 20:28:39] INFO  ApplicationHooks - Scenario passed: Verify that the user opens the DsAlgo portal
+[2025-12-17 20:28:42] INFO  ApplicationHooks - Scenario started: Verify the Dashboard page text in the DsAlgo portal
+[2025-12-17 20:28:49] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 20:28:49] ERROR ApplicationHooks - Scenario failed: Verify the Dashboard page text in the DsAlgo portal
+[2025-12-17 20:28:51] INFO  ApplicationHooks - Scenario started: Verify the Get Started button in the DsAlgo portal
+[2025-12-17 20:28:59] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 20:28:59] INFO  DashboardSteps - Validating the DS Algo portal - get started button. Expected: Get Started
+[2025-12-17 20:28:59] INFO  ApplicationHooks - Scenario passed: Verify the Get Started button in the DsAlgo portal
+[2025-12-17 20:29:01] INFO  ApplicationHooks - Scenario started: Verify that the NumpyNinja is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-17 20:29:05] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 20:29:07] INFO  DashboardSteps - Validating the NumbyNinja Logo. Expected: NumpyNinja
+[2025-12-17 20:29:07] INFO  ApplicationHooks - Scenario passed: Verify that the NumpyNinja is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-17 20:29:09] INFO  ApplicationHooks - Scenario started: Verify that the DataStructures-dropdown is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-17 20:29:17] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 20:29:19] INFO  DashboardSteps - Validating the DataStructures- dropdown options. Expected: [Arrays, Linked List, Stack, Queue, Tree, Graph]
+[2025-12-17 20:29:19] INFO  ApplicationHooks - Scenario passed: Verify that the DataStructures-dropdown is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-17 20:29:21] INFO  ApplicationHooks - Scenario started: Verify that the Register link is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-17 20:29:27] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 20:29:28] INFO  DashboardSteps - Validating the RegisterLink Text Expected: Register
+[2025-12-17 20:29:28] INFO  ApplicationHooks - Scenario passed: Verify that the Register link is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-17 20:29:30] INFO  ApplicationHooks - Scenario started: Verify that the Sign in link is displayed after clicking on the "Get Started" button of DsAlgo portal
+[2025-12-17 20:29:33] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 20:29:34] INFO  DashboardSteps - Validating the SignInLink Text Expected: Sign in
+[2025-12-17 20:29:34] INFO  ApplicationHooks - Scenario passed: Verify that the Sign in link is displayed after clicking on the "Get Started" button of DsAlgo portal
+[2025-12-17 20:29:36] INFO  ApplicationHooks - Scenario started: Verify that the DataStructures - Introduction Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-17 20:29:43] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 20:29:44] INFO  DashboardSteps - Validating the Data structures introduction module label. Expected: Data Structures-Introduction
+[2025-12-17 20:29:44] INFO  DashboardSteps - Validating the Data structures introduction module label with get started button text. Expected: Get Started
+[2025-12-17 20:29:44] INFO  ApplicationHooks - Scenario passed: Verify that the DataStructures - Introduction Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-17 20:29:46] INFO  ApplicationHooks - Scenario started: Verify that the Array Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-17 20:29:49] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 20:29:50] INFO  DashboardSteps - Validating the Data structures introduction module label. Expected: Array
+[2025-12-17 20:29:50] INFO  DashboardSteps - Validating the Data structures introduction module label with get started button text. Expected: Get Started
+[2025-12-17 20:29:50] INFO  ApplicationHooks - Scenario passed: Verify that the Array Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-17 20:29:57] INFO  ApplicationHooks - Scenario started: Verify that the Linked List Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-17 20:30:00] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 20:30:01] INFO  DashboardSteps - Validating the Data structures introduction module label. Expected: Linked List
+[2025-12-17 20:30:01] INFO  DashboardSteps - Validating the Data structures introduction module label with get started button text. Expected: Get Started
+[2025-12-17 20:30:01] INFO  ApplicationHooks - Scenario passed: Verify that the Linked List Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-17 20:30:04] INFO  ApplicationHooks - Scenario started: Verify that the Stack Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-17 20:30:16] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 20:30:17] INFO  DashboardSteps - Validating the Data structures introduction module label. Expected: Stack
+[2025-12-17 20:30:17] INFO  DashboardSteps - Validating the Data structures introduction module label with get started button text. Expected: Get Started
+[2025-12-17 20:30:17] INFO  ApplicationHooks - Scenario passed: Verify that the Stack Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-17 20:30:19] INFO  ApplicationHooks - Scenario started: Verify that the Queue Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-17 20:30:27] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 20:30:28] INFO  DashboardSteps - Validating the Data structures introduction module label. Expected: Queue
+[2025-12-17 20:30:28] INFO  DashboardSteps - Validating the Data structures introduction module label with get started button text. Expected: Get Started
+[2025-12-17 20:30:28] INFO  ApplicationHooks - Scenario passed: Verify that the Queue Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-17 20:30:30] INFO  ApplicationHooks - Scenario started: Verify that the Tree Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-17 20:30:32] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 20:30:34] INFO  DashboardSteps - Validating the Data structures introduction module label. Expected: Tree
+[2025-12-17 20:30:34] INFO  DashboardSteps - Validating the Data structures introduction module label with get started button text. Expected: Get Started
+[2025-12-17 20:30:34] INFO  ApplicationHooks - Scenario passed: Verify that the Tree Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-17 20:30:36] INFO  ApplicationHooks - Scenario started: Verify that the Graph Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-17 20:32:59] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 20:33:09] ERROR ApplicationHooks - Screenshot error: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=143.0.7499.109)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7fb986bd1d6422d9491f3abd35db7223, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.109, chrome: {chromedriverVersion: 143.0.7499.146 (c1224fc40c9..., userDataDir: C:\Users\gayat\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64719}, goog:processID: 23032, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64719/devtoo..., se:cdpVersion: 143.0.7499.109, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7fb986bd1d6422d9491f3abd35db7223
+[2025-12-17 20:38:04] INFO  ApplicationHooks - Scenario started: Verify that the user is navigated to the Data Structures-Introduction page
+[2025-12-17 20:38:16] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 20:38:19] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-17 20:38:22] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-17 20:38:24] INFO  DashboardSteps - Validating page title. Expected: Data Structures-Introduction
+[2025-12-17 20:38:24] INFO  ApplicationHooks - Scenario passed: Verify that the user is navigated to the Data Structures-Introduction page
+[2025-12-17 20:38:27] INFO  ApplicationHooks - Scenario started: Verify that the user is navigated to the time-complexity page
+[2025-12-17 20:38:30] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 20:38:31] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-17 20:38:37] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-17 20:38:40] INFO  DashboardSteps - Validating page title. Expected: Data Structures-Introduction
+[2025-12-17 20:38:42] INFO  DashboardSteps - Validating page title. Expected: Time Complexity
+[2025-12-17 20:38:42] INFO  ApplicationHooks - Scenario passed: Verify that the user is navigated to the time-complexity page
+[2025-12-17 20:38:44] INFO  ApplicationHooks - Scenario started: Verify that the user is navigated to the try editor page
+[2025-12-17 20:38:51] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 20:38:53] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-17 20:38:55] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-17 20:38:57] INFO  DashboardSteps - Validating page title. Expected: Data Structures-Introduction
+[2025-12-17 20:38:58] INFO  DashboardSteps - Validating page title. Expected: Time Complexity
+[2025-12-17 20:40:03] INFO  DashboardSteps - Validating page title. Expected: Assessment
+[2025-12-17 20:40:03] INFO  DSIntroductionSteps - Validating the current page url,  Expected: https://dsportalapp.herokuapp.com/tryEditor 
+[2025-12-17 20:40:03] INFO  ApplicationHooks - Scenario passed: Verify that the user is navigated to the try editor page
+[2025-12-17 20:40:05] INFO  ApplicationHooks - Scenario started: Verify that the user is able to see an output for valid python code
+[2025-12-17 20:40:10] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 20:40:13] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-17 20:40:15] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-17 20:40:16] INFO  DashboardSteps - Validating page title. Expected: Data Structures-Introduction
+[2025-12-17 20:40:17] INFO  DashboardSteps - Validating page title. Expected: Time Complexity
+[2025-12-17 20:40:46] INFO  DashboardSteps - Validating page title. Expected: Assessment
+[2025-12-17 20:40:46] INFO  DSIntroductionSteps - Validating the current page url,  Expected: https://dsportalapp.herokuapp.com/tryEditor 
+[2025-12-17 20:40:49] INFO  DSIntroductionSteps - Validating try editor output,  Expected: Hello 
+[2025-12-17 20:40:49] INFO  ApplicationHooks - Scenario passed: Verify that the user is able to see an output for valid python code
+[2025-12-17 20:40:51] INFO  ApplicationHooks - Scenario started: Verify that the popup is displayed with error message for invalid python code with spaces in try editor
+[2025-12-17 20:40:55] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 20:40:57] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-17 20:40:59] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-17 20:41:03] INFO  DashboardSteps - Validating page title. Expected: Data Structures-Introduction
+[2025-12-17 20:41:04] INFO  DashboardSteps - Validating page title. Expected: Time Complexity
+[2025-12-17 20:42:57] INFO  DashboardSteps - Validating page title. Expected: Assessment
+[2025-12-17 20:42:57] INFO  DSIntroductionSteps - Validating the current page url,  Expected: https://dsportalapp.herokuapp.com/tryEditor 
+[2025-12-17 20:42:58] INFO  DSIntroductionSteps - Validating try editor alert message,  Expected: SyntaxError: bad input on line 1 
+[2025-12-17 20:42:58] INFO  ApplicationHooks - Scenario passed: Verify that the popup is displayed with error message for invalid python code with spaces in try editor
+[2025-12-17 20:43:00] INFO  ApplicationHooks - Scenario started: Verify that the popup is displayed with error message after entering letters or any characters in try editor
+[2025-12-17 20:43:04] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 20:43:07] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-17 20:43:09] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-17 20:43:11] INFO  DashboardSteps - Validating page title. Expected: Data Structures-Introduction
+[2025-12-17 20:43:12] INFO  DashboardSteps - Validating page title. Expected: Time Complexity
+[2025-12-17 20:43:59] INFO  DashboardSteps - Validating page title. Expected: Assessment
+[2025-12-17 20:43:59] INFO  DSIntroductionSteps - Validating the current page url,  Expected: https://dsportalapp.herokuapp.com/tryEditor 
+[2025-12-17 20:43:59] INFO  DSIntroductionSteps - Validating try editor alert message,  Expected: NameError: name 'Hello' is not defined on line 1 
+[2025-12-17 20:43:59] INFO  ApplicationHooks - Scenario passed: Verify that the popup is displayed with error message after entering letters or any characters in try editor
+[2025-12-17 20:44:01] INFO  ApplicationHooks - Scenario started: Verify that the popup is displayed with error message after entering "$$$$$" in try editor
+[2025-12-17 20:44:10] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 20:44:12] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-17 20:44:14] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-17 20:44:16] INFO  DashboardSteps - Validating page title. Expected: Data Structures-Introduction
+[2025-12-17 20:44:18] INFO  DashboardSteps - Validating page title. Expected: Time Complexity
+[2025-12-17 20:45:10] INFO  DashboardSteps - Validating page title. Expected: Assessment
+[2025-12-17 20:45:10] INFO  DSIntroductionSteps - Validating the current page url,  Expected: https://dsportalapp.herokuapp.com/tryEditor 
+[2025-12-17 20:45:10] INFO  DSIntroductionSteps - Validating try editor alert message,  Expected: SyntaxError: bad token T_OP on line 1 
+[2025-12-17 20:45:10] INFO  ApplicationHooks - Scenario passed: Verify that the popup is displayed with error message after entering "$$$$$" in try editor
+[2025-12-17 20:45:12] INFO  ApplicationHooks - Scenario started: Verify that the popup is displayed with error message after entering "((((((" in try editor
+[2025-12-17 20:45:15] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 20:45:18] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-17 20:45:20] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-17 20:45:21] INFO  DashboardSteps - Validating page title. Expected: Data Structures-Introduction
+[2025-12-17 20:45:24] INFO  DashboardSteps - Validating page title. Expected: Time Complexity
+[2025-12-17 20:46:00] INFO  DashboardSteps - Validating page title. Expected: Assessment
+[2025-12-17 20:46:00] INFO  DSIntroductionSteps - Validating the current page url,  Expected: https://dsportalapp.herokuapp.com/tryEditor 
+[2025-12-17 20:46:01] INFO  DSIntroductionSteps - Validating try editor alert message,  Expected: SyntaxError: EOF in multi-line statement on line 2 
+[2025-12-17 20:46:01] INFO  ApplicationHooks - Scenario passed: Verify that the popup is displayed with error message after entering "((((((" in try editor
+[2025-12-17 20:46:03] INFO  ApplicationHooks - Scenario started: Verify that the user is not able to see output after entering "12345" in try editor
+[2025-12-17 20:46:08] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 20:46:10] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-17 20:46:12] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-17 20:46:15] INFO  DashboardSteps - Validating page title. Expected: Data Structures-Introduction
+[2025-12-17 20:46:19] INFO  DashboardSteps - Validating page title. Expected: Time Complexity
+[2025-12-17 20:47:08] INFO  DashboardSteps - Validating page title. Expected: Assessment
+[2025-12-17 20:47:08] INFO  DSIntroductionSteps - Validating the current page url,  Expected: https://dsportalapp.herokuapp.com/tryEditor 
+[2025-12-17 20:47:09] INFO  ApplicationHooks - Scenario passed: Verify that the user is not able to see output after entering "12345" in try editor
+[2025-12-17 20:47:11] INFO  ApplicationHooks - Scenario started: Verify that the user is not able to see output without entering code in the try editor
+[2025-12-17 20:47:14] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 20:47:17] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-17 20:47:19] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-17 20:47:20] INFO  DashboardSteps - Validating page title. Expected: Data Structures-Introduction
+[2025-12-17 20:47:21] INFO  DashboardSteps - Validating page title. Expected: Time Complexity
+[2025-12-17 20:48:25] INFO  DashboardSteps - Validating page title. Expected: Assessment
+[2025-12-17 20:48:25] INFO  DSIntroductionSteps - Validating the current page url,  Expected: https://dsportalapp.herokuapp.com/tryEditor 
+[2025-12-17 20:48:25] INFO  ApplicationHooks - Scenario passed: Verify that the user is not able to see output without entering code in the try editor
+[2025-12-17 20:48:27] INFO  ApplicationHooks - Scenario started: Verify that the user is navigated to the Practice page url
+[2025-12-17 20:48:33] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 20:48:35] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-17 20:48:40] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-17 20:48:41] INFO  DashboardSteps - Validating page title. Expected: Data Structures-Introduction
+[2025-12-17 20:48:43] INFO  DashboardSteps - Validating page title. Expected: Time Complexity
+[2025-12-17 20:48:44] INFO  DashboardSteps - Validating page title. Expected: Practice Questions
+[2025-12-17 20:48:44] INFO  DSIntroductionSteps - Validating the current page url,  Expected: https://dsportalapp.herokuapp.com/data-structures-introduction/practice 
+[2025-12-17 20:48:46] INFO  LoginSteps - Validating the log out message,  Expected: Logged out successfully 
+[2025-12-17 20:48:46] INFO  ApplicationHooks - Scenario passed: Verify that the user is navigated to the Practice page url
+[2025-12-17 20:48:48] INFO  ApplicationHooks - Scenario started: Verify that the user opens the DsAlgo portal
+[2025-12-17 20:48:59] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 20:48:59] INFO  DashboardSteps - Validating page title. Expected: Numpy Ninja
+[2025-12-17 20:48:59] INFO  ApplicationHooks - Scenario passed: Verify that the user opens the DsAlgo portal
+[2025-12-17 20:49:01] INFO  ApplicationHooks - Scenario started: Verify the Dashboard page text in the DsAlgo portal
+[2025-12-17 20:49:05] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 20:49:05] INFO  DashboardSteps - Validating the DS Algo portal - Text. Expected: Preparing for the Interviews
+[2025-12-17 20:49:05] INFO  ApplicationHooks - Scenario passed: Verify the Dashboard page text in the DsAlgo portal
+[2025-12-17 20:49:07] INFO  ApplicationHooks - Scenario started: Verify the Get Started button in the DsAlgo portal
+[2025-12-17 20:49:12] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 20:49:12] INFO  DashboardSteps - Validating the DS Algo portal - get started button. Expected: Get Started
+[2025-12-17 20:49:12] INFO  ApplicationHooks - Scenario passed: Verify the Get Started button in the DsAlgo portal
+[2025-12-17 20:49:19] INFO  ApplicationHooks - Scenario started: Verify that the NumpyNinja is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-17 20:49:30] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 20:49:32] INFO  DashboardSteps - Validating the NumbyNinja Logo. Expected: NumpyNinja
+[2025-12-17 20:49:32] INFO  ApplicationHooks - Scenario passed: Verify that the NumpyNinja is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-17 20:49:34] INFO  ApplicationHooks - Scenario started: Verify that the DataStructures-dropdown is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-17 20:49:47] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 20:49:49] INFO  DashboardSteps - Validating the DataStructures- dropdown options. Expected: [Arrays, Linked List, Stack, Queue, Tree, Graph]
+[2025-12-17 20:49:49] INFO  ApplicationHooks - Scenario passed: Verify that the DataStructures-dropdown is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-17 20:49:51] INFO  ApplicationHooks - Scenario started: Verify that the Register link is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-17 20:50:05] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 20:50:09] INFO  DashboardSteps - Validating the RegisterLink Text Expected: Register
+[2025-12-17 20:50:09] INFO  ApplicationHooks - Scenario passed: Verify that the Register link is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-17 20:50:11] INFO  ApplicationHooks - Scenario started: Verify that the Sign in link is displayed after clicking on the "Get Started" button of DsAlgo portal
+[2025-12-17 20:50:14] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 20:50:16] INFO  DashboardSteps - Validating the SignInLink Text Expected: Sign in
+[2025-12-17 20:50:16] INFO  ApplicationHooks - Scenario passed: Verify that the Sign in link is displayed after clicking on the "Get Started" button of DsAlgo portal
+[2025-12-17 20:50:18] INFO  ApplicationHooks - Scenario started: Verify that the DataStructures - Introduction Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-17 20:50:25] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 20:50:46] INFO  DashboardSteps - Validating the Data structures introduction module label. Expected: Data Structures-Introduction
+[2025-12-17 20:50:46] INFO  DashboardSteps - Validating the Data structures introduction module label with get started button text. Expected: Get Started
+[2025-12-17 20:50:46] INFO  ApplicationHooks - Scenario passed: Verify that the DataStructures - Introduction Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-17 20:50:48] INFO  ApplicationHooks - Scenario started: Verify that the Array Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-17 20:50:51] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 20:50:52] INFO  DashboardSteps - Validating the Data structures introduction module label. Expected: Array
+[2025-12-17 20:50:52] INFO  DashboardSteps - Validating the Data structures introduction module label with get started button text. Expected: Get Started
+[2025-12-17 20:50:52] INFO  ApplicationHooks - Scenario passed: Verify that the Array Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-17 20:50:54] INFO  ApplicationHooks - Scenario started: Verify that the Linked List Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-17 20:50:56] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 20:50:58] INFO  DashboardSteps - Validating the Data structures introduction module label. Expected: Linked List
+[2025-12-17 20:50:58] INFO  DashboardSteps - Validating the Data structures introduction module label with get started button text. Expected: Get Started
+[2025-12-17 20:50:58] INFO  ApplicationHooks - Scenario passed: Verify that the Linked List Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-17 20:51:05] INFO  ApplicationHooks - Scenario started: Verify that the Stack Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-17 20:51:08] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 20:51:09] INFO  DashboardSteps - Validating the Data structures introduction module label. Expected: Stack
+[2025-12-17 20:51:09] INFO  DashboardSteps - Validating the Data structures introduction module label with get started button text. Expected: Get Started
+[2025-12-17 20:51:09] INFO  ApplicationHooks - Scenario passed: Verify that the Stack Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-17 20:51:11] INFO  ApplicationHooks - Scenario started: Verify that the Queue Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-17 20:51:16] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 20:51:17] INFO  DashboardSteps - Validating the Data structures introduction module label. Expected: Queue
+[2025-12-17 20:51:17] INFO  DashboardSteps - Validating the Data structures introduction module label with get started button text. Expected: Get Started
+[2025-12-17 20:51:17] INFO  ApplicationHooks - Scenario passed: Verify that the Queue Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-17 20:51:19] INFO  ApplicationHooks - Scenario started: Verify that the Tree Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-17 20:51:24] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 20:51:25] INFO  DashboardSteps - Validating the Data structures introduction module label. Expected: Tree
+[2025-12-17 20:51:25] INFO  DashboardSteps - Validating the Data structures introduction module label with get started button text. Expected: Get Started
+[2025-12-17 20:51:25] INFO  ApplicationHooks - Scenario passed: Verify that the Tree Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-17 20:51:27] INFO  ApplicationHooks - Scenario started: Verify that the Graph Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-17 20:51:34] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 20:51:36] INFO  DashboardSteps - Validating the Data structures introduction module label. Expected: Graph
+[2025-12-17 20:51:36] INFO  DashboardSteps - Validating the Data structures introduction module label with get started button text. Expected: Get Started
+[2025-12-17 20:51:36] INFO  ApplicationHooks - Scenario passed: Verify that the Graph Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
+[2025-12-17 20:51:38] INFO  ApplicationHooks - Scenario started: Verify that the warning message is displayed when selecting Arrays option from the Data Structures dropdown without signin
+[2025-12-17 20:51:42] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 20:51:43] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-17 20:51:48] INFO  HomeSteps - User clicks on dropdown option. Expected option: Arrays 
+[2025-12-17 20:51:48] INFO  HomeSteps - Validating warning message. Expected: You are not logged in 
+[2025-12-17 20:51:48] INFO  ApplicationHooks - Scenario passed: Verify that the warning message is displayed when selecting Arrays option from the Data Structures dropdown without signin
+[2025-12-17 20:51:50] INFO  ApplicationHooks - Scenario started: Verify that the warning message is displayed when selecting Linked List option from the Data Structures dropdown without signin
+[2025-12-17 20:51:53] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 20:51:54] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-17 20:51:59] INFO  HomeSteps - User clicks on dropdown option. Expected option: Linked List 
+[2025-12-17 20:51:59] INFO  HomeSteps - Validating warning message. Expected: You are not logged in 
+[2025-12-17 20:51:59] INFO  ApplicationHooks - Scenario passed: Verify that the warning message is displayed when selecting Linked List option from the Data Structures dropdown without signin
+[2025-12-17 20:52:01] INFO  ApplicationHooks - Scenario started: Verify that the warning message is displayed when selecting Stack option from the Data Structures dropdown without signin
+[2025-12-17 20:52:04] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 20:52:05] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-17 20:52:07] INFO  HomeSteps - User clicks on dropdown option. Expected option: Stack 
+[2025-12-17 20:52:07] INFO  HomeSteps - Validating warning message. Expected: You are not logged in 
+[2025-12-17 20:52:07] INFO  ApplicationHooks - Scenario passed: Verify that the warning message is displayed when selecting Stack option from the Data Structures dropdown without signin
+[2025-12-17 20:52:09] INFO  ApplicationHooks - Scenario started: Verify that the warning message is displayed when selecting Queue option from the Data Structures dropdown without signin
+[2025-12-17 20:52:12] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 20:52:14] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-17 20:52:16] INFO  HomeSteps - User clicks on dropdown option. Expected option: Queue 
+[2025-12-17 20:52:16] INFO  HomeSteps - Validating warning message. Expected: You are not logged in 
+[2025-12-17 20:52:16] INFO  ApplicationHooks - Scenario passed: Verify that the warning message is displayed when selecting Queue option from the Data Structures dropdown without signin
+[2025-12-17 20:52:18] INFO  ApplicationHooks - Scenario started: Verify that the warning message is displayed when selecting Tree option from the Data Structures dropdown without signin
+[2025-12-17 20:52:21] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 20:52:24] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-17 20:52:30] INFO  HomeSteps - User clicks on dropdown option. Expected option: Tree 
+[2025-12-17 20:52:31] INFO  HomeSteps - Validating warning message. Expected: You are not logged in 
+[2025-12-17 20:52:31] INFO  ApplicationHooks - Scenario passed: Verify that the warning message is displayed when selecting Tree option from the Data Structures dropdown without signin
+[2025-12-17 20:52:33] INFO  ApplicationHooks - Scenario started: Verify that the warning message is displayed when selecting Graph option from the Data Structures dropdown without signin
+[2025-12-17 20:52:38] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 20:52:39] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-17 20:52:41] INFO  HomeSteps - User clicks on dropdown option. Expected option: Graph 
+[2025-12-17 20:52:41] INFO  HomeSteps - Validating warning message. Expected: You are not logged in 
+[2025-12-17 20:52:41] INFO  ApplicationHooks - Scenario passed: Verify that the warning message is displayed when selecting Graph option from the Data Structures dropdown without signin
+[2025-12-17 20:52:43] INFO  ApplicationHooks - Scenario started: Verify that the warning message is displayed when user clicks on Get Started button of Data Structures - Introduction module without signin
+[2025-12-17 20:52:49] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 20:52:51] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-17 20:52:52] INFO  HomeSteps - Validating warning message. Expected: You are not logged in 
+[2025-12-17 20:52:52] INFO  ApplicationHooks - Scenario passed: Verify that the warning message is displayed when user clicks on Get Started button of Data Structures - Introduction module without signin
+[2025-12-17 20:52:54] INFO  ApplicationHooks - Scenario started: Verify that the warning message is displayed when user clicks on Get Started button of Array module without signin
+[2025-12-17 20:52:57] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 20:52:58] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-17 20:53:00] INFO  HomeSteps - Validating warning message. Expected: You are not logged in 
+[2025-12-17 20:53:00] INFO  ApplicationHooks - Scenario passed: Verify that the warning message is displayed when user clicks on Get Started button of Array module without signin
+[2025-12-17 20:53:02] INFO  ApplicationHooks - Scenario started: Verify that the warning message is displayed when user clicks on Get Started button of Linked List module without signin
+[2025-12-17 20:53:05] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 20:53:17] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-17 20:53:20] INFO  HomeSteps - Validating warning message. Expected: You are not logged in 
+[2025-12-17 20:53:20] INFO  ApplicationHooks - Scenario passed: Verify that the warning message is displayed when user clicks on Get Started button of Linked List module without signin
+[2025-12-17 20:53:22] INFO  ApplicationHooks - Scenario started: Verify that the warning message is displayed when user clicks on Get Started button of Stack module without signin
+[2025-12-17 20:53:25] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 20:53:28] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-17 20:53:29] INFO  HomeSteps - Validating warning message. Expected: You are not logged in 
+[2025-12-17 20:53:29] INFO  ApplicationHooks - Scenario passed: Verify that the warning message is displayed when user clicks on Get Started button of Stack module without signin
+[2025-12-17 20:53:31] INFO  ApplicationHooks - Scenario started: Verify that the warning message is displayed when user clicks on Get Started button of Queue module without signin
+[2025-12-17 20:53:37] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 20:53:50] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-17 20:53:59] INFO  HomeSteps - Validating warning message. Expected: You are not logged in 
+[2025-12-17 20:53:59] INFO  ApplicationHooks - Scenario passed: Verify that the warning message is displayed when user clicks on Get Started button of Queue module without signin
+[2025-12-17 20:54:01] INFO  ApplicationHooks - Scenario started: Verify that the warning message is displayed when user clicks on Get Started button of Tree module without signin
+[2025-12-17 20:54:03] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 20:54:04] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-17 20:54:06] INFO  HomeSteps - Validating warning message. Expected: You are not logged in 
+[2025-12-17 20:54:06] INFO  ApplicationHooks - Scenario passed: Verify that the warning message is displayed when user clicks on Get Started button of Tree module without signin
+[2025-12-17 20:54:08] INFO  ApplicationHooks - Scenario started: Verify that the warning message is displayed when user clicks on Get Started button of Graph module without signin
+[2025-12-17 20:54:11] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 20:54:12] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-17 20:54:15] INFO  HomeSteps - Validating warning message. Expected: You are not logged in 
+[2025-12-17 20:54:15] INFO  ApplicationHooks - Scenario passed: Verify that the warning message is displayed when user clicks on Get Started button of Graph module without signin
+[2025-12-17 20:54:17] INFO  ApplicationHooks - Scenario started: Verify that the user can able to logged in successfully after entering valid username and password
+[2025-12-17 20:54:22] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 20:54:25] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-17 20:54:27] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2025-12-17 20:54:27] INFO  LoginSteps - Validating the logged in success message,  Expected: You are logged in 
+[2025-12-17 20:54:27] INFO  LoginSteps - Validating the username present in the top right corner,  Expected: sgs123@gmail.com 
+[2025-12-17 20:54:31] INFO  LoginSteps - Validating the log out message,  Expected: Logged out successfully 
+[2025-12-17 20:54:31] INFO  ApplicationHooks - Scenario passed: Verify that the user can able to logged in successfully after entering valid username and password
+[2025-12-17 20:54:33] INFO  ApplicationHooks - Scenario started: Verify that the error message is displayed when the user enters an invalid username and password
+[2025-12-17 20:54:36] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 20:54:38] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-17 20:54:45] INFO  LoginSteps - Validating the Error message Expected: Invalid Username and Password 
+[2025-12-17 20:54:45] INFO  ApplicationHooks - Scenario passed: Verify that the error message is displayed when the user enters an invalid username and password
+[2025-12-17 20:54:47] INFO  ApplicationHooks - Scenario started: Verify that the tooltip message is displayed when user clicks on Login button by leaving Username and Password fields empty
+[2025-12-17 20:54:53] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 20:54:58] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-17 20:54:59] INFO  LoginSteps - Validating the tooltip message Expected: Please fill out this field. 
+[2025-12-17 20:54:59] INFO  ApplicationHooks - Scenario passed: Verify that the tooltip message is displayed when user clicks on Login button by leaving Username and Password fields empty
+[2025-12-17 20:55:01] INFO  ApplicationHooks - Scenario started: Verify that the tooltip message is displayed when user clicks on Login button after entering Username field and leaving Password field empty
+[2025-12-17 20:55:03] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 20:55:05] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-17 20:55:06] INFO  LoginSteps - Validating the tooltip message Expected: Please fill out this field. 
+[2025-12-17 20:55:06] INFO  ApplicationHooks - Scenario passed: Verify that the tooltip message is displayed when user clicks on Login button after entering Username field and leaving Password field empty
+[2025-12-17 20:55:08] INFO  ApplicationHooks - Scenario started: Verify that the tooltip message is displayed when user clicks on Login button after entering valid Username field and invalid Password field
+[2025-12-17 20:55:13] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 20:55:15] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-17 20:55:17] INFO  LoginSteps - Validating the Error message Expected: Invalid Username and Password 
+[2025-12-17 20:55:17] INFO  ApplicationHooks - Scenario passed: Verify that the tooltip message is displayed when user clicks on Login button after entering valid Username field and invalid Password field
+[2025-12-17 20:55:18] INFO  ApplicationHooks - Scenario started: Verify that the tooltip message is displayed when user clicks on Login button after entering invalid Username field and valid Password field
+[2025-12-17 20:55:25] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 20:55:33] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-17 20:55:36] INFO  LoginSteps - Validating the Error message Expected: Invalid Username and Password 
+[2025-12-17 20:55:36] INFO  ApplicationHooks - Scenario passed: Verify that the tooltip message is displayed when user clicks on Login button after entering invalid Username field and valid Password field
+[2025-12-17 20:55:39] INFO  ApplicationHooks - Scenario started: Verify that the user navigates to the Register page from Login page
+[2025-12-17 20:55:42] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 20:55:44] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-17 20:55:45] INFO  DashboardSteps - Validating page title. Expected: Registration
+[2025-12-17 20:55:45] INFO  ApplicationHooks - Scenario passed: Verify that the user navigates to the Register page from Login page
+[2025-12-17 20:55:48] INFO  ApplicationHooks - Scenario started: Verify that the tooltip message is displayed when user clicks on Register button by leaving all the fields empty
+[2025-12-17 20:55:57] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 20:56:00] INFO  DashboardSteps - Validating page title. Expected: Registration
+[2025-12-17 20:56:01] INFO  RegistrationSteps - Validating the tooltip message Expected: Please fill out this field. 
+[2025-12-17 20:56:01] INFO  ApplicationHooks - Scenario passed: Verify that the tooltip message is displayed when user clicks on Register button by leaving all the fields empty
+[2025-12-17 20:56:04] INFO  ApplicationHooks - Scenario started: Verify that the tooltip message is displayed when user clicks on Register button after entering Username field and leaving other fields empty
+[2025-12-17 20:56:09] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 20:56:10] INFO  DashboardSteps - Validating page title. Expected: Registration
+[2025-12-17 20:56:11] INFO  RegistrationSteps - Validating the tooltip message Expected: Please fill out this field. 
+[2025-12-17 20:56:11] INFO  ApplicationHooks - Scenario passed: Verify that the tooltip message is displayed when user clicks on Register button after entering Username field and leaving other fields empty
+[2025-12-17 20:56:14] INFO  ApplicationHooks - Scenario started: Verify that the tooltip message is displayed when user clicks on Register button after entering Username field and Password field by leaving Password confirmation field empty
+[2025-12-17 20:56:17] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 20:56:22] INFO  DashboardSteps - Validating page title. Expected: Registration
+[2025-12-17 20:56:23] INFO  RegistrationSteps - Validating the tooltip message Expected: Please fill out this field. 
+[2025-12-17 20:56:23] INFO  ApplicationHooks - Scenario passed: Verify that the tooltip message is displayed when user clicks on Register button after entering Username field and Password field by leaving Password confirmation field empty
+[2025-12-17 20:56:26] INFO  ApplicationHooks - Scenario started: Verify that the error message is displayed when user clicks on Register button after entering mismatched passwords in the password and password confirmation fields
+[2025-12-17 20:56:35] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 20:56:38] INFO  DashboardSteps - Validating page title. Expected: Registration
+[2025-12-17 20:56:39] INFO  LoginSteps - Validating the Error message Expected: password_mismatch:The two password fields didn’t match. 
+[2025-12-17 20:56:39] INFO  ApplicationHooks - Scenario passed: Verify that the error message is displayed when user clicks on Register button after entering mismatched passwords in the password and password confirmation fields
+[2025-12-17 20:56:43] INFO  ApplicationHooks - Scenario started: Verify that the error message is displayed when user clicks on Register button after entering invalid values in Username field with matched password and password confirmation values
+[2025-12-17 20:56:46] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 20:56:49] INFO  DashboardSteps - Validating page title. Expected: Registration
+[2025-12-17 20:56:50] INFO  LoginSteps - Validating the Error message Expected: password_mismatch:The two password fields didn’t match. 
+[2025-12-17 20:56:50] INFO  ApplicationHooks - Scenario passed: Verify that the error message is displayed when user clicks on Register button after entering invalid values in Username field with matched password and password confirmation values
+[2025-12-17 20:56:54] INFO  ApplicationHooks - Scenario started: Verify that the error message is displayed when user clicks on Register button after entering invalid values in Username field with matched password and password confirmation values
+[2025-12-17 20:56:58] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 20:57:03] INFO  DashboardSteps - Validating page title. Expected: Registration
+[2025-12-17 20:57:05] INFO  LoginSteps - Validating the Error message Expected: password_mismatch:The two password fields didn’t match. 
+[2025-12-17 20:57:05] INFO  ApplicationHooks - Scenario passed: Verify that the error message is displayed when user clicks on Register button after entering invalid values in Username field with matched password and password confirmation values
+[2025-12-17 20:57:09] INFO  ApplicationHooks - Scenario started: Verify that the error message is displayed when user clicks on Register button after entering invalid values in Username field with matched password and password confirmation values
+[2025-12-17 20:57:13] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 20:57:18] INFO  DashboardSteps - Validating page title. Expected: Registration
+[2025-12-17 20:57:19] INFO  LoginSteps - Validating the Error message Expected: password_mismatch:The two password fields didn’t match. 
+[2025-12-17 20:57:19] INFO  ApplicationHooks - Scenario passed: Verify that the error message is displayed when user clicks on Register button after entering invalid values in Username field with matched password and password confirmation values
+[2025-12-17 20:57:22] INFO  ApplicationHooks - Scenario started: Verify that the error message is displayed when user clicks on Register button after entering invalid values in Username field with matched password and password confirmation values
+[2025-12-17 20:57:25] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 20:57:30] INFO  DashboardSteps - Validating page title. Expected: Registration
+[2025-12-17 20:57:32] INFO  LoginSteps - Validating the Error message Expected: password_mismatch:The two password fields didn’t match. 
+[2025-12-17 20:57:32] INFO  ApplicationHooks - Scenario passed: Verify that the error message is displayed when user clicks on Register button after entering invalid values in Username field with matched password and password confirmation values
+[2025-12-17 20:57:35] INFO  ApplicationHooks - Scenario started: Verify that the user can able to create a new account successfully after entering valid Username,Password and Password Confirmation
+[2025-12-17 20:57:39] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 20:57:41] INFO  DashboardSteps - Validating page title. Expected: Registration
+[2025-12-17 20:57:42] INFO  RegistrationSteps - Username enters waylon.macgyver@gmail.com
+[2025-12-17 20:57:46] INFO  RegistrationSteps - Validating the success message Expected: New Account Created. You are logged in as waylon.macgyver@gmail.com 
+[2025-12-17 20:57:46] INFO  ApplicationHooks - Scenario passed: Verify that the user can able to create a new account successfully after entering valid Username,Password and Password Confirmation
+[2025-12-17 20:57:50] INFO  ApplicationHooks - Scenario started: Verify that the user navigates to Login page from Register Page
+[2025-12-17 20:57:57] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2025-12-17 20:58:01] INFO  DashboardSteps - Validating page title. Expected: Registration
+[2025-12-17 20:58:02] INFO  DashboardSteps - Validating page title. Expected: Login
+[2025-12-17 20:58:02] INFO  ApplicationHooks - Scenario passed: Verify that the user navigates to Login page from Register Page

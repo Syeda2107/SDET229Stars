@@ -5,8 +5,10 @@ import io.cucumber.junit.CucumberOptions;
 import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features = {"src/test/resources/Features/Dashboard.feature","src/test/resources/Features/Home.feature",
-        "src/test/resources/Features/Registration.feature", "src/test/resources/Features/Login.feature",
+@CucumberOptions(features = {"src/test/resources/Features/Dashboard.feature",
+        "src/test/resources/Features/Home.feature",
+       "src/test/resources/Features/Registration.feature",
+        "src/test/resources/Features/Login.feature",
         "src/test/resources/Features/DSIntroduction.feature"},
         glue = {"com.numpyninja.dsalgo.stepdefinitions","com.numpyninja.dsalgo.apphooks"},
         //tags = "@SmokeTest or @RegressionTest or @DBP-1",
@@ -14,6 +16,7 @@ import org.junit.runner.RunWith;
         monochrome = true,
         publish=true,
         plugin = {"pretty",//"html:Reports/index.html"
+                "io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm",
                "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"
         })
 public class TestRunner {

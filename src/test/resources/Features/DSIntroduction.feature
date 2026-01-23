@@ -41,12 +41,12 @@ Feature: Data Structures-Introduction Functionality of DsAlgo Application
     When the user clicks on Try here button after scrolling down in time-complexity page
     Then the page title should be displayed as "Assessment"
     And  the page url should be displayed as "<Expected Url>"
-    When the user enters "<Python Code>"
+    When the user enters Python Code from "<SheetName>" and <RowNumber> in try editor
     And user clicks on Run button
-    Then the user should get output as "<Output>" below Run button
+    Then the user should get output from "<SheetName>" and <RowNumber> below Run button
     Examples:
-      | Expected Url                                | Python Code   | Output |
-      | https://dsportalapp.herokuapp.com/tryEditor | print 'Hello' | Hello  |
+      | Expected Url                                | SheetName       | RowNumber |
+      | https://dsportalapp.herokuapp.com/tryEditor | DS-Introduction | 0         |
 
   Scenario Outline: Verify that the popup is displayed with error message for invalid python code with spaces in try editor
     When the user clicks on Get Started button below Data Structures - Introduction module
@@ -56,13 +56,13 @@ Feature: Data Structures-Introduction Functionality of DsAlgo Application
     When the user clicks on Try here button after scrolling down in time-complexity page
     Then the page title should be displayed as "Assessment"
     And  the page url should be displayed as "<Expected Url>"
-    When the user enters "<Python Code>" with prefix space
+    When the user enters Python Code from "<SheetName>" and <RowNumber> with prefix space
     And user clicks on Run button
-    Then the user should get pop up message as "<Popup Message>"
+    Then the user should get pop up message from "<SheetName>" and <RowNumber>
     And user clicks on OK button in the popup
     Examples:
-      | Expected Url                                | Python Code   | Popup Message                    |
-      | https://dsportalapp.herokuapp.com/tryEditor | print 'Hello' | SyntaxError: bad input on line 1 |
+      | Expected Url                                | SheetName       | RowNumber |
+      | https://dsportalapp.herokuapp.com/tryEditor | DS-Introduction | 1         |
 
   Scenario Outline: Verify that the popup is displayed with error message after entering letters or any characters in try editor
     When the user clicks on Get Started button below Data Structures - Introduction module
@@ -72,13 +72,13 @@ Feature: Data Structures-Introduction Functionality of DsAlgo Application
     When the user clicks on Try here button after scrolling down in time-complexity page
     Then the page title should be displayed as "Assessment"
     And  the page url should be displayed as "<Expected Url>"
-    When the user enters "<Python Code>"
+    When the user enters Python Code from "<SheetName>" and <RowNumber> in try editor
     And user clicks on Run button
-    Then the user should get pop up message as "<Popup Message>"
+    Then the user should get pop up message from "<SheetName>" and <RowNumber>
     And user clicks on OK button in the popup
     Examples:
-      | Expected Url                                | Python Code | Popup Message                                    |
-      | https://dsportalapp.herokuapp.com/tryEditor | print Hello | NameError: name 'Hello' is not defined on line 1 |
+      | Expected Url                                | SheetName       | RowNumber |
+      | https://dsportalapp.herokuapp.com/tryEditor | DS-Introduction | 2         |
 
   Scenario Outline: Verify that the popup is displayed with error message after entering "$$$$$" in try editor
     When the user clicks on Get Started button below Data Structures - Introduction module
@@ -88,13 +88,13 @@ Feature: Data Structures-Introduction Functionality of DsAlgo Application
     When the user clicks on Try here button after scrolling down in time-complexity page
     Then the page title should be displayed as "Assessment"
     And  the page url should be displayed as "<Expected Url>"
-    When the user enters "<Python Code>"
+    When the user enters Python Code from "<SheetName>" and <RowNumber> in try editor
     And user clicks on Run button
-    Then the user should get pop up message as "<Popup Message>"
+    Then the user should get pop up message from "<SheetName>" and <RowNumber>
     And user clicks on OK button in the popup
     Examples:
-      | Expected Url                                | Python Code | Popup Message                         |
-      | https://dsportalapp.herokuapp.com/tryEditor | $$$$$       | SyntaxError: bad token T_OP on line 1 |
+      | Expected Url                                | SheetName       | RowNumber |
+      | https://dsportalapp.herokuapp.com/tryEditor | DS-Introduction | 3         |
 
   Scenario Outline: Verify that the popup is displayed with error message after entering "((((((" in try editor
     When the user clicks on Get Started button below Data Structures - Introduction module
@@ -104,13 +104,13 @@ Feature: Data Structures-Introduction Functionality of DsAlgo Application
     When the user clicks on Try here button after scrolling down in time-complexity page
     Then the page title should be displayed as "Assessment"
     And  the page url should be displayed as "<Expected Url>"
-    When the user enters "<Python Code>"
+    When the user enters Python Code from "<SheetName>" and <RowNumber> in try editor
     And user clicks on Run button
-    Then the user should get pop up message as "<Popup Message>"
+    Then the user should get pop up message from "<SheetName>" and <RowNumber>
     And user clicks on OK button in the popup
     Examples:
-      | Expected Url                                | Python Code | Popup Message                                      |
-      | https://dsportalapp.herokuapp.com/tryEditor | ((((((      | SyntaxError: EOF in multi-line statement on line 2 |
+      | Expected Url                                | SheetName       | RowNumber |
+      | https://dsportalapp.herokuapp.com/tryEditor | DS-Introduction | 4         |
 
   Scenario Outline: Verify that the user is not able to see output after entering "12345" in try editor
     When the user clicks on Get Started button below Data Structures - Introduction module
@@ -120,12 +120,12 @@ Feature: Data Structures-Introduction Functionality of DsAlgo Application
     When the user clicks on Try here button after scrolling down in time-complexity page
     Then the page title should be displayed as "Assessment"
     And  the page url should be displayed as "<Expected Url>"
-    When the user enters "<Python Code>"
+    When the user enters Python Code from "<SheetName>" and <RowNumber> in try editor
     And user clicks on Run button
     Then the user should not able to see output below Run button
     Examples:
-      | Expected Url                                | Python Code |
-      | https://dsportalapp.herokuapp.com/tryEditor | 12345       |
+      | Expected Url                                | SheetName       | RowNumber |
+      | https://dsportalapp.herokuapp.com/tryEditor | DS-Introduction | 5         |
 
   Scenario Outline: Verify that the user is not able to see output without entering code in the try editor
     When the user clicks on Get Started button below Data Structures - Introduction module
@@ -135,12 +135,12 @@ Feature: Data Structures-Introduction Functionality of DsAlgo Application
     When the user clicks on Try here button after scrolling down in time-complexity page
     Then the page title should be displayed as "Assessment"
     And  the page url should be displayed as "<Expected Url>"
-    When the user enters "<Python Code>"
+    When the user enters Python Code from "<SheetName>" and <RowNumber> in try editor
     And user clicks on Run button
     Then the user should not able to see output below Run button
     Examples:
-      | Expected Url                                | Python Code |
-      | https://dsportalapp.herokuapp.com/tryEditor |             |
+      | Expected Url                                | SheetName       | RowNumber |
+      | https://dsportalapp.herokuapp.com/tryEditor | DS-Introduction | 6         |
 
   Scenario Outline: Verify that the user is navigated to the Practice page url
     When the user clicks on Get Started button below Data Structures - Introduction module
