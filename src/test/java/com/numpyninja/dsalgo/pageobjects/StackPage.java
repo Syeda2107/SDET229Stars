@@ -66,6 +66,51 @@ public class StackPage extends BasePage {
         applicationsLink.click();
     }
 
+    public void navigateToStackPage() {
+        clickStackGetStartedBtn();
+    }
+
+    public void navigateToOperationsInStackPage() {
+        clickStackGetStartedBtn();
+        clickOperationsInStackLink();
+    }
+
+    public void navigateToImplementationPage() {
+        clickStackGetStartedBtn();
+        clickImplementationLink();
+    }
+
+    public void navigateToApplicationsPage() {
+        clickStackGetStartedBtn();
+        clickApplicationsLink();
+    }
+
+
+// ---------- Wrapper methods (step-friendly names) ----------
+
+    public void clickOperationsInStackBtn() {
+        clickOperationsInStackLink();
+    }
+
+    public void clickImplementationBtn() {
+        clickImplementationLink();
+    }
+
+    public void clickApplicationsBtn() {
+        clickApplicationsLink();
+    }
+
+
+// ---------- Try Editor verification ----------
+
+    public boolean isTryEditorDisplayed() {
+        return tryHereBtn.isDisplayed();
+    }
+
+    public boolean isRunButtonDisplayed() {
+        return runBtn.isDisplayed();
+    }
+
     public void clickTryHereBtn() {
         waitForElementToClick(tryHereBtn, 10);
         tryHereBtn.click();

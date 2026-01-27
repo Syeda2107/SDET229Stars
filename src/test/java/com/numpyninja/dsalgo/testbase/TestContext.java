@@ -34,4 +34,7 @@ public class TestContext {
 
     public void launchApplication() {
     }
+
+    public void quitDriver() {
+    }
 }
