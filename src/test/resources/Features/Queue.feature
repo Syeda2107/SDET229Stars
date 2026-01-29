@@ -78,3 +78,66 @@ Feature: Queue - Functionality of DsAlgo Application
   Scenario: Verify that user is redirected correctly for Graph from dropdown
     When The user selects "Graph" from data structures dropdown
     Then The user should be redirected to "Graph" page
+#
+#  Scenario Outline: Verify that the user is able to see an output for valid python code
+#    When the user clicks on Get Started button below Queue module
+#    Then the page title should be displayed as "Queue"
+#    When the user clicks on Implementation of Queue in Python in Queue page
+#    Then the page title should be displayed as "Implementation of Queue in Python"
+#    When the user clicks on Try here button after scrolling down in Implementation of Queue in Python page
+#    Then the page title should be displayed as "Assessment"
+#    And  the page url should be displayed as "<Expected Url>"
+#    When the user enters Python Code from "<SheetName>" and <RowNumber> in try editor
+#    And user clicks on Run button
+#    Then the user should get output from "<SheetName>" and <RowNumber> below Run button
+#    Examples:
+#      | Expected Url                                | SheetName       | RowNumber |
+#      | https://dsportalapp.herokuapp.com/tryEditor | DS-Introduction | 0         |
+
+  Scenario Outline: Verify output or error message for python code in Queue Try Editor
+    When the user clicks on Get Started button in the DsAlgo Portal
+    Then The user should be directed to "Queue" Data Structure Page
+    When The user clicks "Implementation of Queue in Python" button
+    Then the page title should be displayed as "Implementation of Queue in Python"
+    When The user clicks "Try here" button
+    Then the page title should be displayed as "Assessment"
+    When the user enters Python Code from "<SheetName>" and <RowNumber>
+    And the user clicks on Run button
+    Then the user should get output from "<SheetName>" and <RowNumber> below Run button
+    And user clicks on OK button in the popup
+    Examples:
+      | Expected Url                                | SheetName                           | RowNumber |
+      | https://dsportalapp.herokuapp.com/tryEditor | StackQueue_Data_Driven_Testing.xlsx | 1         |
+
+  Scenario Outline: Verify output or error message for python code in Queue Try Editor
+    When the user clicks on Get Started button in the DsAlgo Portal
+    Then The user should be directed to "Queue" Data Structure Page
+    When The user clicks "Implementation of Queue in Python" button
+    Then the page title should be displayed as "Implementation of Queue in Python"
+    When The user clicks "Try here" button
+    Then the page title should be displayed as "Assessment"
+    When the user enters Python Code from "<SheetName>" and <RowNumber>
+    And the user clicks on Run button
+    Then the user should get output from "<SheetName>" and <RowNumber> below Run button
+    And user clicks on OK button in the popup
+    Examples:
+      | Expected Url                                | SheetName                           | RowNumber |
+      | https://dsportalapp.herokuapp.com/tryEditor | StackQueue_Data_Driven_Testing.xlsx | 2         |
+
+  Scenario Outline: Verify output or error message for python code in Queue Try Editor
+    When the user clicks on Get Started button in the DsAlgo Portal
+    Then The user should be directed to "Queue" Data Structure Page
+    When The user clicks "Implementation of Queue in Python" button
+    Then the page title should be displayed as "Implementation of Queue in Python"
+    When The user clicks "Try here" button
+    Then the page title should be displayed as "Assessment"
+    When the user enters Python Code from "<SheetName>" and <RowNumber>
+    And the user clicks on Run button
+    Then the user should get output from "<SheetName>" and <RowNumber> below Run button
+    And user clicks on OK button in the popup
+    Examples:
+      | Expected Url                                | SheetName                           | RowNumber |
+      | https://dsportalapp.herokuapp.com/tryEditor | StackQueue_Data_Driven_Testing.xlsx | 3         |
+
+
+

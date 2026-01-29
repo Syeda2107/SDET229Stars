@@ -2,31 +2,37 @@ package com.numpyninja.dsalgo.pageobjects;
 
 import com.numpyninja.dsalgo.testbase.BasePage;
 import com.numpyninja.dsalgo.testbase.TestContext;
+import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
+import com.numpyninja.dsalgo.utilities.ExcelReader;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
+import java.io.IOException;
+import java.util.List;
+import java.util.Map;
+
 public class QueuePage extends BasePage {
 
     public QueuePage(WebDriver driver, TestContext context) {
         super(driver, context);
-    }
+            }
 
     // ---------- Locators ----------
 
-    @FindBy(linkText = "Implementation of Queue in Python")
-    WebElement implementationQueueLink;
+//    @FindBy(linkText = "Implementation of Queue in Python")
+//    WebElement implementationQueueLink;
 
-    @FindBy(linkText = "Queue Operations")
-    WebElement queueOperationsLink;
+//    @FindBy(linkText = "Queue Operations")
+//    WebElement queueOperationsLink;
 
-    @FindBy(xpath = "//a[contains(text(),'Applications')]")
-    WebElement applicationsLink;
+//    @FindBy(xpath = "//a[contains(text(),'Applications')]")
+//    WebElement applicationsLink;
 
-    @FindBy(xpath = "//div[@class='alert alert-primary']")
-    WebElement alertMsg;
+//    @FindBy(xpath = "//div[@class='alert alert-primary']")
+//    WebElement alertMsg;
 
     @FindBy(xpath = "//a[contains(@href,'try')]")
     WebElement tryHereBtn;
@@ -53,20 +59,20 @@ public class QueuePage extends BasePage {
         getStartedBtn.click();
     }
 
-    public void clickImplementationQueue() {
-        waitForElementToClick(implementationQueueLink, 10);
-        implementationQueueLink.click();
-    }
+//    public void clickImplementationQueue() {
+//        waitForElementToClick(implementationQueueLink, 10);
+//        implementationQueueLink.click();
+//    }
 
-    public void clickQueueOperations() {
-        waitForElementToClick(queueOperationsLink, 10);
-        queueOperationsLink.click();
-    }
+//    public void clickQueueOperations() {
+//        waitForElementToClick(queueOperationsLink, 10);
+//        queueOperationsLink.click();
+//    }
 
-    public void clickApplicationsLink() {
-        waitForElementToClick(applicationsLink, 10);
-        applicationsLink.click();
-    }
+//    public void clickApplicationsLink() {
+//        waitForElementToClick(applicationsLink, 10);
+//        applicationsLink.click();
+//    }
 
     public void clickTryHere() {
         waitForElementToClick(tryHereBtn, 10);
@@ -88,9 +94,9 @@ public class QueuePage extends BasePage {
         return output.getText();
     }
 
-    public boolean isOutputDisplayed() {
-        return output.isDisplayed() && !output.getText().isEmpty();
-    }
+//    public boolean isOutputDisplayed() {
+//        return output.isDisplayed() && !output.getText().isEmpty();
+//    }
 
     public Alert switchToAlert() {
         return driver.switchTo().alert();
@@ -122,11 +128,45 @@ public class QueuePage extends BasePage {
         item.click();
     }
 
+    public void enterPythonCode(String pythonCode) {
+        enterCodeInEditor(pythonCode);
+    }
+
+    public void enterPythonCodeWithSpace(String pythonCode){
+        enterCodeInEditor(" "+pythonCode);
+    }
+
+    public void clickRunBtn() {
+        runBtn.click();
+    }
+
+    public String getValue() {
+        return output.getText();
+    }
+
+    public String getPopUpMsg() {
+        Alert alert = driver.switchTo().alert();
+        return alert.getText();
+    }
+
+//    public void clickPopUpOkBtn() throws InterruptedException {
+//        Alert alert = driver.switchTo().alert();
+//        //Thread.sleep(2000);
+//        alert.accept();
+//    }
+
     public String getPageTitle() {
         return driver.getTitle();
     }
 
-    public String getAlertMsg() {
-        return alertMsg.getText();
+//    public String getAlertMsg() {
+//        return alertMsg.getText();
+//    }
+
+    // ---------- Excel Reading Method ----------
+    public List<Map<String, String>> readDataFromExcel(String sheetName, int rowNumber) throws IOException, InvalidFormatException {
+        String excelPath = System.getProperty("user.dir") + "/src/test/resources/testdata/StackQueue_Data_Driven_Testing.xlsx";
+        ExcelReader excelReader = new ExcelReader();
+        return excelReader.getData(excelPath, sheetName);
     }
 }
