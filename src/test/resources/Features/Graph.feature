@@ -6,96 +6,178 @@ Feature:Graph Functionality of Dsalgo Application
     And   user clicks on Sign in link in the Home page
     Then  the page title should be displayed as "Login"
     When  the user enters valid Username and Password in the Login form
-      | Username         | Password  |
-      |sdet229stars@gmail.com | test@1234 |
+      | Username | sdet229stars@gmail.com|
+      | Password | test@1234 |
     And user clicks on Login button
     Then the page title should be displayed as "NumpyNinja"
 
 # Graph page
 
   Scenario: Verify that user is navigated to Graph page
-    Given the user is in the Home page after Sign in
     When  the user clicks the Get Started button after scrolling down in Graph Panel
-    Then  the user should be directed to the "Graph page" Page
+    Then  the page title should be displayed as "Graph"
 
-  Scenario: Verify that user is able to navigate to "Graph" page
-    Given the user is in the "Graph" page after Sign in
-    When  the user clicks "Graph" link
-    Then  the user should be redirected to "Graph" page
+  Scenario: Verify that user is able to navigate to Graph link in Graph page
+    When the user clicks the Get Started button after scrolling down in Graph Panel
+    Then the page title should be displayed as "Graph"
+    When  the user clicks Graph link in Graph page
+    Then  the page title should be displayed as "Graph"
 
-  Scenario: Verify that user is able to navigate to "try Editor" page for "Graph" page
-    Given the user is the the "Graph" page after logged in
-    When  the user clicks "Try here" button in Graph page
-    Then  the user should be redirected to a page having an tryeditor with a Run button
-
-  Scenario Outline: Outline: Verify that user is able to see output for valid python code for "Graph" page
-    Given the user is in the tryeditor page
-    When  the user enters "<Python Code >" in the editor
-    And   the user clicks the Run button
-    Then  the user should get "<output>" in the console
+  Scenario Outline: Verify that the user is navigated to the try editor page in Graph page
+    When the user clicks the Get Started button after scrolling down in Graph Panel
+    Then the page title should be displayed as "Graph"
+    When the user clicks Graph link in Graph page
+    Then the page title should be displayed as "Graph"
+    When the user clicks on Try here button in Graph page
+    Then the page title should be displayed as "Assessment"
+    And the page url should be displayed as "<Expected Url>"
     Examples:
-      |Python Code    | Output |
-      |print("Hello") | Hello  |
+      | Expected Url                                |
+      | https://dsportalapp.herokuapp.com/tryEditor |
 
-  Scenario Outline: Verify that user is able to see output for invalid python code for "Graph" page
-    Given the user is in the tryeditor page
-    When  the user enters "<Python Code >" in the editor
-    And   the user clicks the Run button
-    Then  the user should get "<Popup Message>"
+
+  Scenario Outline: Verify that the user is able to see an output for valid python code
+    When the user clicks the Get Started button after scrolling down in Graph Panel
+    Then the page title should be displayed as "Graph"
+    When the user clicks Graph link in Graph page
+    Then the page title should be displayed as "Graph"
+    When the user clicks on Try here button in Graph page
+    Then the page title should be displayed as "Assessment"
+    And  the page url should be displayed as "<Expected Url>"
+    When the user enters Python Code from "<SheetName>" and <RowNumber> in try editor
+    And user clicks on Run button
+    Then the user should get output from "<SheetName>" and <RowNumber> below Run button
     Examples:
-      | Python Code       | Popup Message                                   |
-      | " print 'Hello'"  | SyntaxError: bad input on line 1                |
-      | print  Hello      | NameError: name 'Hello' is not defined on line 1 |
+      | Expected Url                                | SheetName       | RowNumber |
+      | https://dsportalapp.herokuapp.com/tryEditor | DS-Introduction | 0         |
 
+  Scenario Outline: Verify that the popup is displayed with error message for invalid python code with spaces in try editor
+    When the user clicks the Get Started button after scrolling down in Graph Panel
+    Then the page title should be displayed as "Graph"
+    When the user clicks Graph link in Graph page
+    Then the page title should be displayed as "Graph"
+    When the user clicks on Try here button in Graph page
+    Then the page title should be displayed as "Assessment"
+    And  the page url should be displayed as "<Expected Url>"
+    When the user enters Python Code from "<SheetName>" and <RowNumber> with prefix space
+    And user clicks on Run button
+    Then the user should get pop up message from "<SheetName>" and <RowNumber>
+    And user clicks on OK button in the popup
+    Examples:
+      | Expected Url                                | SheetName       | RowNumber |
+      | https://dsportalapp.herokuapp.com/tryEditor | DS-Introduction | 1         |
 
-  Scenario: Verify that user receives error when click on Run button without entering code for Graph page
-    Given the user is in the tryeditor page
-    When  the user clicks the Run button without entering code in the editor
-    Then  the user should not be able to see output
+  Scenario Outline: Verify that the popup is displayed with error message after entering invalid code with characters in try editor
+    When the user clicks the Get Started button after scrolling down in Graph Panel
+    Then the page title should be displayed as "Graph"
+    When the user clicks Graph link in Graph page
+    Then the page title should be displayed as "Graph"
+    When the user clicks on Try here button in Graph page
+    Then the page title should be displayed as "Assessment"
+    And  the page url should be displayed as "<Expected Url>"
+    When the user enters Python Code from "<SheetName>" and <RowNumber> in try editor
+    And user clicks on Run button
+    Then the user should get pop up message from "<SheetName>" and <RowNumber>
+    And user clicks on OK button in the popup
+    Examples:
+      | Expected Url                                | SheetName       | RowNumber |
+      | https://dsportalapp.herokuapp.com/tryEditor | DS-Introduction | 2         |
 
-  Scenario: Verify that user is able to navigate to Practice Questions Page for Graph page
-    Given the user is in the "Graph" after logged in
-    When  the user clicks Practice Questions button after scrolling down in the Graph page
-    Then  the page title should be displayed as "Practice Questions"
+  Scenario Outline: Verify that the popup is displayed with error message after entering "$$$$$" in try editor
+    When the user clicks the Get Started button after scrolling down in Graph Panel
+    Then the page title should be displayed as "Graph"
+    When the user clicks Graph link in Graph page
+    Then the page title should be displayed as "Graph"
+    When the user clicks on Try here button in Graph page
+    Then the page title should be displayed as "Assessment"
+    And  the page url should be displayed as "<Expected Url>"
+    When the user enters Python Code from "<SheetName>" and <RowNumber> in try editor
+    And user clicks on Run button
+    Then the user should get pop up message from "<SheetName>" and <RowNumber>
+    And user clicks on OK button in the popup
+    Examples:
+      | Expected Url                                | SheetName       | RowNumber |
+      | https://dsportalapp.herokuapp.com/tryEditor | DS-Introduction | 3         |
+
+  Scenario Outline: Verify that the popup is displayed with error message after entering "((((((" in try editor
+    When the user clicks the Get Started button after scrolling down in Graph Panel
+    Then the page title should be displayed as "Graph"
+    When the user clicks Graph link in Graph page
+    Then the page title should be displayed as "Graph"
+    When the user clicks on Try here button in Graph page
+    Then the page title should be displayed as "Assessment"
+    And  the page url should be displayed as "<Expected Url>"
+    When the user enters Python Code from "<SheetName>" and <RowNumber> in try editor
+    And user clicks on Run button
+    Then the user should get pop up message from "<SheetName>" and <RowNumber>
+    And user clicks on OK button in the popup
+    Examples:
+      | Expected Url                                | SheetName       | RowNumber |
+      | https://dsportalapp.herokuapp.com/tryEditor | DS-Introduction | 4        |
+
+  Scenario Outline: Verify that the user is not able to see output after entering "12345" in try editor
+    When the user clicks the Get Started button after scrolling down in Graph Panel
+    Then the page title should be displayed as "Graph"
+    When the user clicks Graph link in Graph page
+    Then the page title should be displayed as "Graph"
+    When the user clicks on Try here button in Graph page
+    Then the page title should be displayed as "Assessment"
+    And  the page url should be displayed as "<Expected Url>"
+    When the user enters Python Code from "<SheetName>" and <RowNumber> in try editor
+    And user clicks on Run button
+    Then the user should not able to see output below Run button
+    Examples:
+      | Expected Url                                | SheetName       | RowNumber |
+      | https://dsportalapp.herokuapp.com/tryEditor | DS-Introduction | 5         |
+
+  Scenario Outline: Verify that the user is not able to see output without entering code in the try editor
+    When the user clicks the Get Started button after scrolling down in Graph Panel
+    Then the page title should be displayed as "Graph"
+    When the user clicks Graph link in Graph page
+    Then the page title should be displayed as "Graph"
+    When the user clicks on Try here button in Graph page
+    Then the page title should be displayed as "Assessment"
+    And  the page url should be displayed as "<Expected Url>"
+    When the user enters Python Code from "<SheetName>" and <RowNumber> in try editor
+    And user clicks on Run button
+    Then the user should not able to see output below Run button
+    Examples:
+      | Expected Url                                | SheetName       | RowNumber |
+      | https://dsportalapp.herokuapp.com/tryEditor | DS-Introduction | 6         |
 
 #  Graph Representations
 
-  Scenario: Verify that user is able to navigate to "Graph Representations" page
-    Given the user is in the "Graph Representations" page after Sign in
-    When  the user clicks "Graph Representations" link
-    Then  the user should be redirected to "Graph Representations" page
+  Scenario: Verify that user is able to navigate to Graph Representations link in Graph page
+    When the user clicks the Get Started button after scrolling down in Graph Panel
+    Then the page title should be displayed as "Graph"
+    When  the user clicks Graph Representations link in Graph page
+    Then  the page title should be displayed as "Graph Representations"
 
-  Scenario: Verify that user is able to navigate to "try Editor" page for "Graph Representations" page
-    Given the user is the the "Graph Representations" page after logged in
-    When  the user clicks "Try here" button after scrolling down in Graph Representations page
-    Then  the user should be redirected to a page having an tryeditor with a Run button
-
-  Scenario Outline: Outline: Verify that user is able to see output for valid python code for "Graph Representations" page
-    Given the user is in the tryeditor page
-    When  the user enters "<Python Code >" in the editor
-    And   the user clicks the Run button
-    Then  the user should get "<output>" in the console
+  Scenario Outline: Verify that the user is navigated to the try editor page in Graph Representations page
+    When the user clicks the Get Started button after scrolling down in Graph Panel
+    Then the page title should be displayed as "Graph"
+    When the user clicks Graph Representations link in Graph page
+    Then the page title should be displayed as "Graph Representations"
+    When the user clicks on Try here button in Graph Representations page
+    Then the page title should be displayed as "Assessment"
+    And the page url should be displayed as "<Expected Url>"
     Examples:
-      |Python Code    | Output |
-      |print("Hello") | Hello  |
+      | Expected Url                                |
+      | https://dsportalapp.herokuapp.com/tryEditor |
 
-  Scenario Outline: Verify that user is able to see output for invalid python code for "Graph Representations" page
-    Given the user is in the tryeditor page
-    When  the user enters "<Python Code >" in the editor
-    And   the user clicks the Run button
-    Then  the user should get "<Popup Message>"
+  Scenario Outline: Verify that user is able to navigate to Practice Questions Page for Graph Representations page
+    When the user clicks the Get Started button after scrolling down in Graph Panel
+    Then the page title should be displayed as "Graph"
+    When  the user clicks Graph Representations link in Graph page
+    Then  the page title should be displayed as "Graph Representations"
+    When the user clicks on Practice Questions link in Graph Representations page
+    Then the page title should be displayed as "Practice Questions"
+    And the page url should be displayed as "<Expected Url>"
+    When the user clicks on Sign out link
+    Then the user should be able to logged out and get success message as "<Success Message>"
     Examples:
-      | Python Code       | Popup Message                                   |
-      | " print 'Hello'"  | SyntaxError: bad input on line 1                |
-      | print  Hello      | NameError: name 'Hello' is not defined on line 1 |
+      | Expected Url                                     | Success Message         |
+      | https://dsportalapp.herokuapp.com/graph/practice | Logged out successfully |
 
 
-  Scenario: Verify that user receives error when click on Run button without entering code for Graph Representations page
-    Given the user is in the tryeditor page
-    When  the user clicks the Run button without entering code in the editor
-    Then  the user should not be able to see output
 
-  Scenario: Verify that user is able to navigate to Practice Questions Page for Graph Representations page
-    Given the user is in the "Graph Representations" after logged in
-    When  the user clicks Practice Questions button after scrolling down in the Graph Representations page
-    Then  the page title should be displayed as "Practice Questions"

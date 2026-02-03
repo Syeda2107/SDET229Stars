@@ -16,7 +16,10 @@ public class TestContext {
     public RegistrationPage registrationPage;
     public LoginPage loginPage;
     public DSIntroductionPage dsIntroductionPage;
-    public Faker faker;
+    public TreePage treePage;
+    public GraphPage graphPage;
+    public Faker faker; // Faker is a Java library used to generate fake test data,it helps you avoid hard‑coding values.
+
     //public static String browserName;
 
     public void initializePageObjects() {
@@ -25,6 +28,10 @@ public class TestContext {
         this.registrationPage = new RegistrationPage(driver,this);
         this.loginPage = new LoginPage(driver,this);
         this.dsIntroductionPage = new DSIntroductionPage(driver,this);
-        this.faker=new Faker();
+        this.treePage = new TreePage(driver,this);
+        this.graphPage = new GraphPage(driver,this);
+        this.faker=new Faker(); // new Faker() creates a new Faker object,this.faker refers to instance variable.
+
+
     }
 }

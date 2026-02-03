@@ -70,7 +70,7 @@ public class DSIntroductionSteps {
     }
 
     @Then("the user should get pop up message as {string}")
-    public void the_user_should_get_pop_up_message_as(String expectedAlertMsg) {
+    public void the_user_should_get_pop_up_message_as(String expectedAlertMsg) throws InterruptedException {
         String actualAlertMsg = dsIntroductionPage.getPopUpMsg();
         Assert.assertEquals(actualAlertMsg, expectedAlertMsg);
         log.info("Validating try editor alert message,  Expected: {} ",expectedAlertMsg);
@@ -116,7 +116,7 @@ public class DSIntroductionSteps {
     }
 
     @Then("the user should get pop up message from {string} and {int}")
-    public void theUserShouldGetPopUpMessageFromAnd(String sheetName, int rowNumber) throws IOException, InvalidFormatException {
+    public void theUserShouldGetPopUpMessageFromAnd(String sheetName, int rowNumber) throws IOException, InvalidFormatException, InterruptedException {
         List<Map<String,String>> testData=dsIntroductionPage.readDataFromExcel(sheetName,rowNumber);
         String expectedAlertMsg=testData.get(rowNumber).get("Popup Message");
         String actualAlertMsg = dsIntroductionPage.getPopUpMsg();

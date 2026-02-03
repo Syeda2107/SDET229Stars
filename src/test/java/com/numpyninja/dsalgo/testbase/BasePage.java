@@ -59,4 +59,9 @@ public class BasePage {
         ExcelReader reader=new ExcelReader();
         return reader.getData(filePath,sheetName);
     }
+
+    public void waitForElementToDisplayed(WebElement element, long timeOutInSec) {
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(timeOutInSec));
+        wait.until(ExpectedConditions.visibilityOf(element));
+    }
 }

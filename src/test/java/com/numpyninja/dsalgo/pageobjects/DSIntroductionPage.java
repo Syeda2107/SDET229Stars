@@ -67,10 +67,16 @@ public class DSIntroductionPage extends BasePage {
         return output.getText();
     }
 
-    public String getPopUpMsg() {
+    public String getPopUpMsg() throws InterruptedException {
+        Thread.sleep(3000);
         Alert alert = driver.switchTo().alert();
         return alert.getText();
     }
+//    public String getPopUpMsg() {
+//        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
+//        Alert alert = wait.until(ExpectedConditions.alertIsPresent());
+//        return alert.getText();
+//    }
 
     public void clickPopUpOkBtn() throws InterruptedException {
         Alert alert = driver.switchTo().alert();

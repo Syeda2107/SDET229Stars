@@ -6,550 +6,399 @@ Feature: Tree Functionality of Dsalgo Application
     And   user clicks on Sign in link in the Home page
     Then  the page title should be displayed as "Login"
     When  the user enters valid Username and Password in the Login form
-      | Username              | Password  |
-      |sdet229stars@gmail.com | test@1234 |
+      | Username              | sdet229stars@gmail.com   |
+      |Password| test@1234 |
     And  user clicks on Login button
     Then the page title should be displayed as "NumpyNinja"
 
 #--------------------------------------------------------------------------------------------------------------
 
   Scenario: Verify that user is navigated to Tree page
-    Given the user is in the Home page after Sign in
     When  the user clicks the Get Started button in Tree Panel
-    Then  the user should be directed to the "Tree" Page
+    Then  the page title should be displayed as "Tree"
 
 # "Overview of Trees" page
 
-  Scenario: Verify that user is able to navigate to Overview of Trees page
-    Given the user is in the "Tree page" after Sign in
-    When  the user clicks the Overview of Trees link
-    Then  the user should be directed to the "Overview of Trees" Page
+  Scenario: Verify that user is able to navigate to Overview of Trees link in Tree page
+    When the user clicks the Get Started button in Tree Panel
+    Then the page title should be displayed as "Tree"
+    When  the user clicks Overview of Trees link in Tree page
+    Then  the page title should be displayed as "Overview of Trees"
 
-  Scenario: Verify that user is able to navigate to try Editor page for Overview of Trees page
-    Given the user is in the "overview of trees" after logged in
-    When  the user clicks "Try here" button in the Overview of Trees page
-    Then  the user should be redirected to a page having tryeditor with a Run button
-
-  Scenario Outline: Verify that user is able to see output for valid python code for "Overview of Trees" page
-    Given the user is in the tryeditor page
-    When  the user enters "<Python Code >" in the editor
-    And   the user clicks the Run button
-    Then  the user should get "<output>" in the console
+  Scenario Outline: Verify that the user is navigated to the try editor page in Tree page
+    When the user clicks the Get Started button in Tree Panel
+    Then the page title should be displayed as "Tree"
+    When  the user clicks Overview of Trees link in Tree page
+    Then  the page title should be displayed as "Overview of Trees"
+    When the user clicks on Try here button in Overview of Trees page
+    Then the page title should be displayed as "Assessment"
+    And the page url should be displayed as "<Expected Url>"
     Examples:
-      |Python Code    | Output |
-      |print("Hello") | Hello  |
+      | Expected Url                                |
+      | https://dsportalapp.herokuapp.com/tryEditor |
 
-  Scenario Outline: Verify that user is able to see output for invalid python code for "Overview of Trees" page
-    Given the user is in the tryeditor page
-    When  the user enters "<Python Code >" in the editor
-    And   the user clicks the Run button
-    Then  the user should get "<Popup Message>"
+  Scenario Outline: Verify that the user is able to see an output for valid python code
+    When the user clicks the Get Started button in Tree Panel
+    Then the page title should be displayed as "Tree"
+    When the user clicks Overview of Trees link in Tree page
+    Then the page title should be displayed as "Overview of Trees"
+    When the user clicks on Try here button in Overview of Trees page
+    Then the page title should be displayed as "Assessment"
+    And  the page url should be displayed as "<Expected Url>"
+    When the user enters Python Code from "<SheetName>" and <RowNumber> in try editor
+    And user clicks on Run button
+    Then the user should get output from "<SheetName>" and <RowNumber> below Run button
     Examples:
-      | Python Code       | Popup Message                                   |
-      | " print 'Hello'"  | SyntaxError: bad input on line 1                |
-      | print  Hello      | NameError: name 'Hello' is not defined on line 1 |
+      | Expected Url                                | SheetName       | RowNumber |
+      | https://dsportalapp.herokuapp.com/tryEditor | DS-Introduction | 0         |
 
-  Scenario: Verify that user receives error when click on Run button without entering code for Overview of Trees page
-    Given the user is in the tryeditor page
-    When  the user clicks the Run button without entering code in the editor
-    Then  the user should not be able to see output
+  Scenario Outline: Verify that the popup is displayed with error message for invalid python code with spaces in try editor
+    When the user clicks the Get Started button in Tree Panel
+    Then the page title should be displayed as "Tree"
+    When  the user clicks Overview of Trees link in Tree page
+    Then  the page title should be displayed as "Overview of Trees"
+    When the user clicks on Try here button in Overview of Trees page
+    Then the page title should be displayed as "Assessment"
+    And the page url should be displayed as "<Expected Url>"
+    When the user enters Python Code from "<SheetName>" and <RowNumber> with prefix space
+    And user clicks on Run button
+    Then the user should get pop up message from "<SheetName>" and <RowNumber>
+    And user clicks on OK button in the popup
+    Examples:
+      | Expected Url                                | SheetName       | RowNumber |
+      | https://dsportalapp.herokuapp.com/tryEditor | DS-Introduction | 1         |
 
-  Scenario: Verify that user is able to navigate to Practice Questions Page for Overview of Trees page
-    Given the user is in the "overview of trees" after logged in
-    When  the user clicks Practice Questions button after scrolling down in the Overview of Trees page
-    Then  the page title should be displayed as "Practice Questions"
+  Scenario Outline: Verify that the popup is displayed with error message after entering invalid code with characters in try editor
+    When the user clicks the Get Started button in Tree Panel
+    Then the page title should be displayed as "Tree"
+    When  the user clicks Overview of Trees link in Tree page
+    Then  the page title should be displayed as "Overview of Trees"
+    When the user clicks on Try here button in Overview of Trees page
+    Then the page title should be displayed as "Assessment"
+    And the page url should be displayed as "<Expected Url>"
+    When the user enters Python Code from "<SheetName>" and <RowNumber> in try editor
+    And user clicks on Run button
+    Then the user should get pop up message from "<SheetName>" and <RowNumber>
+    And user clicks on OK button in the popup
+    Examples:
+      | Expected Url                                | SheetName       | RowNumber |
+      | https://dsportalapp.herokuapp.com/tryEditor | DS-Introduction | 2         |
+
+  Scenario Outline: Verify that the popup is displayed with error message after entering "$$$$$" in try editor
+    When the user clicks the Get Started button in Tree Panel
+    Then the page title should be displayed as "Tree"
+    When  the user clicks Overview of Trees link in Tree page
+    Then  the page title should be displayed as "Overview of Trees"
+    When the user clicks on Try here button in Overview of Trees page
+    Then the page title should be displayed as "Assessment"
+    And the page url should be displayed as "<Expected Url>"
+    When the user enters Python Code from "<SheetName>" and <RowNumber> in try editor
+    And user clicks on Run button
+    Then the user should get pop up message from "<SheetName>" and <RowNumber>
+    And user clicks on OK button in the popup
+    Examples:
+      | Expected Url                                | SheetName       | RowNumber |
+      | https://dsportalapp.herokuapp.com/tryEditor | DS-Introduction | 3         |
+
+
+  Scenario Outline: Verify that the popup is displayed with error message after entering "((((((" in try editor
+    When the user clicks the Get Started button in Tree Panel
+    Then the page title should be displayed as "Tree"
+    When  the user clicks Overview of Trees link in Tree page
+    Then  the page title should be displayed as "Overview of Trees"
+    When the user clicks on Try here button in Overview of Trees page
+    Then the page title should be displayed as "Assessment"
+    And the page url should be displayed as "<Expected Url>"
+    When the user enters Python Code from "<SheetName>" and <RowNumber> in try editor
+    And user clicks on Run button
+    Then the user should get pop up message from "<SheetName>" and <RowNumber>
+    And user clicks on OK button in the popup
+    Examples:
+      | Expected Url                                | SheetName       | RowNumber |
+      | https://dsportalapp.herokuapp.com/tryEditor | DS-Introduction | 4         |
+
+  Scenario Outline: Verify that the user is not able to see output after entering "12345" in try editor
+    When the user clicks the Get Started button in Tree Panel
+    Then the page title should be displayed as "Tree"
+    When  the user clicks Overview of Trees link in Tree page
+    Then  the page title should be displayed as "Overview of Trees"
+    When the user clicks on Try here button in Overview of Trees page
+    Then the page title should be displayed as "Assessment"
+    And the page url should be displayed as "<Expected Url>"
+    When the user enters Python Code from "<SheetName>" and <RowNumber> in try editor
+    And user clicks on Run button
+    Then the user should not able to see output below Run button
+    Examples:
+      | Expected Url                                | SheetName       | RowNumber |
+      | https://dsportalapp.herokuapp.com/tryEditor | DS-Introduction | 5         |
+
+  Scenario Outline: Verify that the user is not able to see output without entering code in the try editor
+    When the user clicks the Get Started button in Tree Panel
+    Then the page title should be displayed as "Tree"
+    When  the user clicks Overview of Trees link in Tree page
+    Then  the page title should be displayed as "Overview of Trees"
+    When the user clicks on Try here button in Overview of Trees page
+    Then the page title should be displayed as "Assessment"
+    And the page url should be displayed as "<Expected Url>"
+    When the user enters Python Code from "<SheetName>" and <RowNumber> in try editor
+    And user clicks on Run button
+    Then the user should not able to see output below Run button
+    Examples:
+      | Expected Url                                | SheetName       | RowNumber |
+      | https://dsportalapp.herokuapp.com/tryEditor | DS-Introduction | 6         |
 
 #  Terminologies page
 
-  Scenario: Verify that user is able to navigate to Terminologies page
-    Given the user is in the "Tree page" after Sign in
-    When  the user clicks the Terminologies link
-    Then  the user should be directed to the "Terminologies" of tree Page
+  Scenario: Verify that user is able to navigate to Terminologies page link in Tree page
+    When the user clicks the Get Started button in Tree Panel
+    Then the page title should be displayed as "Tree"
+    When  the user clicks Terminologies link in Tree page
+    Then  the page title should be displayed as "Terminologies"
 
-  Scenario: Verify that user is able to navigate to try Editor page for Terminologies page
-    Given the user is in the "Terminologies" after logged in
-    When  the user clicks "Try here" button in a Terminologies page
-    Then  the user should be redirected to a page having try editor with a Run button
-
-  Scenario Outline: Verify that user is able to see output for valid python code for "Terminologies" page
-    Given the user is in the tryeditor page
-    When  the user enters "<Python Code >" in the editor
-    And   the user clicks the Run button
-    Then  the user should get "<output>" in the console
+  Scenario Outline: Verify that the user is navigated to the try editor page in Terminologies page
+    When the user clicks the Get Started button in Tree Panel
+    Then the page title should be displayed as "Tree"
+    When  the user clicks Terminologies link in Tree page
+    Then  the page title should be displayed as "Terminologies"
+    When the user clicks on Try here button in Terminologies page
+    Then the page title should be displayed as "Assessment"
+    And the page url should be displayed as "<Expected Url>"
     Examples:
-      |Python Code    | Output |
-      |print("Hello") | Hello  |
-
-  Scenario Outline: Verify that user is able to see output for invalid python code for "Terminologies" page
-    Given the user is in the tryeditor page
-    When  the user enters "<Python Code >" in the editor
-    And   the user clicks the Run button
-    Then  the user should get "<Popup Message>"
-    Examples:
-      | Python Code       | Popup Message                                   |
-      | " print 'Hello'"  | SyntaxError: bad input on line 1                |
-      | print  Hello      | NameError: name 'Hello' is not defined on line 1 |
-
-  Scenario: Verify that user receives error when click on Run button without entering code for Terminologies page
-    Given the user is in the tryeditor page
-    When  the user clicks the Run button without entering code in the editor
-    Then  the user should not be able to see output
-
-  Scenario: Verify that user is able to navigate to Practice Questions Page for Terminologies page
-    Given the user is in the "Terminologies" after logged in
-    When the user clicks Practice Questions button after scrolling down in the Terminologies page
-    Then the page title should be displayed as "Practice Questions"
+      | Expected Url                                |
+      | https://dsportalapp.herokuapp.com/tryEditor |
 
 # Types of Trees page
 
-  Scenario: Verify that user is able to navigate to Types of Trees page
-    Given the user is in the "Tree page" after Sign in
-    When  the user clicks the Types of Trees link
-    Then  the user should be directed to the "Types of Trees" of tree Page
+  Scenario: Verify that user is able to navigate to Types of Trees page link in Tree page
+    When the user clicks the Get Started button in Tree Panel
+    Then the page title should be displayed as "Tree"
+    When  the user clicks Types of Trees link in Tree page
+    Then  the page title should be displayed as "Types of Trees"
 
-  Scenario: Verify that user is able to navigate to try Editor page for Types of Trees page
-    Given the user is in the "Types of Trees" after logged in
-    When  the user clicks "Try here" button after scrolling down in Types of Trees page
-    Then  the user should be redirected to a page having tryeditor with a Run button
-
-  Scenario Outline: Verify that user is able to see output for valid python code for "Types of Trees" page
-    Given the user is in the tryeditor page
-    When  the user enters "<Python Code >" in the editor
-    And   the user clicks the Run button
-    Then  the user should get "<output>" in the console
+  Scenario Outline: Verify that the user is navigated to the try editor page in Types of Trees page
+    When the user clicks the Get Started button in Tree Panel
+    Then the page title should be displayed as "Tree"
+    When  the user clicks Types of Trees link in Tree page
+    Then  the page title should be displayed as "Types of Trees"
+    When the user clicks on Try here button in Types of Trees page
+    Then the page title should be displayed as "Assessment"
+    And the page url should be displayed as "<Expected Url>"
     Examples:
-      |Python Code    | Output |
-      |print("Hello") | Hello  |
-
-  Scenario Outline: Verify that user is able to see output for invalid python code for "Types of Trees" page
-    Given the user is in the tryeditor page
-    When  the user enters "<Python Code >" in the editor
-    And   the user clicks the Run button
-    Then  the user should get "<Popup Message>"
-    Examples:
-      | Python Code       | Popup Message                                   |
-      | " print 'Hello'"  | SyntaxError: bad input on line 1                |
-      | print  Hello      | NameError: name 'Hello' is not defined on line 1 |
-
-  Scenario: Verify that user receives error when click on Run button without entering code for Types of Trees page
-    Given the user is in the tryeditor page
-    When  the user clicks the Run button without entering code in the editor
-    Then  the user should not be able to see output
-
-  Scenario: Verify that user is able to navigate to Practice Questions Page for Types of Trees page
-    Given the user is in the "Types of Trees" after logged in
-    When the user clicks Practice Questions button after scrolling down in the Types of Trees page
-    Then the page title should be displayed as "Practice Questions"
+      | Expected Url                                |
+      | https://dsportalapp.herokuapp.com/tryEditor |
 
 # Tree Traversals
 
-  Scenario: Verify that user is able to navigate to Tree Traversals page
-    Given the user is in the "Tree page" after Sign in
-    When  the user clicks the Tree Traversals link after scrolling down in the Tree page
-    Then  the user should be directed to the "Tree Traversals" of tree Page
+  Scenario: Verify that user is able to navigate to Tree Traversals page link in Tree page
+    When the user clicks the Get Started button in Tree Panel
+    Then the page title should be displayed as "Tree"
+    When  the user clicks Tree Traversals link in Tree page
+    Then  the page title should be displayed as "Tree Traversals"
 
-  Scenario: Verify that user is able to navigate to try Editor page for Tree Traversals page
-    Given the user is in the "Tree Traversals" after logged in
-    When  the user clicks "Try here" button after scrolling down in Tree Traversals page
-    Then  the user should be redirected to a page having tryeditor with a Run button
-
-  Scenario Outline: Verify that user is able to see output for valid python code for "Tree Traversals" page
-    Given the user is in the tryeditor page
-    When  the user enters "<Python Code >" in the editor
-    And   the user clicks the Run button
-    Then  the user should get "<output>" in the console
+  Scenario Outline: Verify that the user is navigated to the try editor page in Tree Traversals page
+    When the user clicks the Get Started button in Tree Panel
+    Then the page title should be displayed as "Tree"
+    When  the user clicks Tree Traversals link in Tree page
+    Then  the page title should be displayed as "Tree Traversals"
+    When the user clicks on Try here button in Tree Traversals page
+    Then the page title should be displayed as "Assessment"
+    And the page url should be displayed as "<Expected Url>"
     Examples:
-      |Python Code    | Output |
-      |print("Hello") | Hello  |
-
-  Scenario Outline: Verify that user is able to see output for invalid python code for "Tree Traversals" page
-    Given the user is in the tryeditor page
-    When  the user enters "<Python Code >" in the editor
-    And   the user clicks the Run button
-    Then  the user should get "<Popup Message>"
-    Examples:
-      | Python Code       | Popup Message                                   |
-      | " print 'Hello'"  | SyntaxError: bad input on line 1                |
-      | print  Hello      | NameError: name 'Hello' is not defined on line 1 |
-
-  Scenario: Verify that user receives error when click on Run button without entering code for Tree Traversals page
-    Given the user is in the tryeditor page
-    When  the user clicks the Run button without entering code in the editor
-    Then  the user should not be able to see output
-
-  Scenario: Verify that user is able to navigate to Practice Questions Page for Tree Traversals page
-    Given the user is in the "Tree Traversals" after logged in
-    When the user clicks Practice Questions button after scrolling down in the Tree Traversals page
-    Then the page title should be displayed as "Practice Questions"
+      | Expected Url                                |
+      | https://dsportalapp.herokuapp.com/tryEditor |
 
 # Traversals-Illustration
 
-  Scenario: Verify that user is able to navigate to Traversals-Illustration page
-    Given the user is in the "Tree page" after Sign in
-    When  the user clicks the Traversals-Illustration link after scrolling down in the Tree page
-    Then  the user should be directed to the "Traversals-Illustration" of tree Page
+  Scenario: Verify that user is able to navigate to Traversals-Illustration page link in Tree page
+    When the user clicks the Get Started button in Tree Panel
+    Then the page title should be displayed as "Tree"
+    When  the user clicks Traversals-Illustration link in Tree page
+    Then  the page title should be displayed as "Traversals-Illustration"
 
-  Scenario: Verify that user is able to navigate to try Editor page for Traversals-Illustration page
-    Given the user is in the "Traversals-Illustration" after logged in
-    When  the user clicks "Try here" button after scrolling down in Traversals-Illustration page
-    Then  the user should be redirected to a page having tryeditor with a Run button
-
-  Scenario Outline: Verify that user is able to see output for valid python code for "Traversals-Illustration" page
-    Given the user is in the tryeditor page
-    When  the user enters "<Python Code >" in the editor
-    And   the user clicks the Run button
-    Then  the user should get "<output>" in the console
+  Scenario Outline: Verify that the user is navigated to the try editor page in Traversals-Illustration page
+    When the user clicks the Get Started button in Tree Panel
+    Then the page title should be displayed as "Tree"
+    When  the user clicks Traversals-Illustration link in Tree page
+    Then  the page title should be displayed as "Traversals-Illustration"
+    When the user clicks on Try here button in Traversals-Illustration page
+    Then the page title should be displayed as "Assessment"
+    And the page url should be displayed as "<Expected Url>"
     Examples:
-      |Python Code    | Output |
-      |print("Hello") | Hello  |
-
-  Scenario Outline: Verify that user is able to see output for invalid python code for "Traversals-Illustration" page
-    Given the user is in the tryeditor page
-    When  the user enters "<Python Code >" in the editor
-    And   the user clicks the Run button
-    Then  the user should get "<Popup Message>"
-    Examples:
-      | Python Code       | Popup Message                                   |
-      | " print 'Hello'"  | SyntaxError: bad input on line 1                |
-      | print  Hello      | NameError: name 'Hello' is not defined on line 1 |
-
-  Scenario: Verify that user receives error when click on Run button without entering code for Traversals-Illustration page
-    Given the user is in the tryeditor page
-    When  the user clicks the Run button without entering code in the editor
-    Then  the user should not be able to see output
-
-  Scenario: Verify that user is able to navigate to Practice Questions Page for Traversals-Illustration page
-    Given the user is in the "Traversals-Illustration" after logged in
-    When  the user clicks Practice Questions button after scrolling down in the Traversals-Illustration page
-    Then the page title should be displayed as "Practice Questions"
+      | Expected Url                                |
+      | https://dsportalapp.herokuapp.com/tryEditor |
 
 # Binary Trees
 
-  Scenario: Verify that user is able to navigate to Binary Trees page
-    Given the user is in the "Tree page" after Sign in
-    When  the user clicks the Binary Trees link after scrolling down in the Tree page
-    Then  the user should be directed to the "Binary Trees" of tree Page
+  Scenario: Verify that user is able to navigate to Binary Trees page link in Tree page
+    When the user clicks the Get Started button in Tree Panel
+    Then the page title should be displayed as "Tree"
+    When  the user clicks Binary Trees link in Tree page
+    Then  the page title should be displayed as "Binary Trees"
 
-  Scenario: Verify that user is able to navigate to try Editor page for Binary Trees page
-    Given the user is in the "Binary Trees" after logged in
-    When  the user clicks "Try here" button after scrolling down in Binary Trees page
-    Then  the user should be redirected to a page having tryeditor with a Run button
-
-  Scenario Outline: Verify that user is able to see output for valid python code for "Binary Trees" page
-    Given the user is in the tryeditor page
-    When  the user enters "<Python Code >" in the editor
-    And   the user clicks the Run button
-    Then  the user should get "<output>" in the console
+  Scenario Outline: Verify that the user is navigated to the try editor page in Binary Trees page
+    When the user clicks the Get Started button in Tree Panel
+    Then the page title should be displayed as "Tree"
+    When  the user clicks Binary Trees link in Tree page
+    Then  the page title should be displayed as "Binary Trees"
+    When the user clicks on Try here button in Binary Trees
+    Then the page title should be displayed as "Assessment"
+    And the page url should be displayed as "<Expected Url>"
     Examples:
-      |Python Code    | Output |
-      |print("Hello") | Hello  |
-
-  Scenario Outline: Verify that user is able to see output for invalid python code for "Binary Trees" page
-    Given the user is in the tryeditor page
-    When  the user enters "<Python Code >" in the editor
-    And   the user clicks the Run button
-    Then  the user should get "<Popup Message>"
-    Examples:
-      | Python Code       | Popup Message                                   |
-      | " print 'Hello'"  | SyntaxError: bad input on line 1                |
-      | print  Hello      | NameError: name 'Hello' is not defined on line 1 |
-
-  Scenario: Verify that user receives error when click on Run button without entering code for Binary Trees page
-    Given the user is in the tryeditor page
-    When  the user clicks the Run button without entering code in the editor
-    Then  the user should not be able to see output
-
-  Scenario: Verify that user is able to navigate to Practice Questions Page for Binary Trees page
-    Given the user is in the "Binary Trees" after logged in
-    When  the user clicks Practice Questions button after scrolling down in the Binary Trees page
-    Then the page title should be displayed as "Practice Questions"
+      | Expected Url                                |
+      | https://dsportalapp.herokuapp.com/tryEditor |
 
 #Types of Binary Trees
 
-  Scenario: Verify that user is able to navigate to Types of Binary Trees page
-    Given the user is in the "Tree page" after Sign in
-    When  the user clicks the Types of Binary Trees link after scrolling down in the Tree page
-    Then  the user should be directed to the "Types of Binary Trees" of tree Page
+  Scenario: Verify that user is able to navigate to Types of Binary Trees page link in Tree page
+    When the user clicks the Get Started button in Tree Panel
+    Then the page title should be displayed as "Tree"
+    When  the user clicks Types of Binary Trees link in Tree page
+    Then  the page title should be displayed as "Types of Binary Trees"
 
-  Scenario: Verify that user is able to navigate to try Editor page for Types of Binary Trees page
-    Given the user is in the "Types of Binary Trees" after logged in
-    When  the user clicks "Try here" button after scrolling down in Types of Binary Trees page
-    Then  the user should be redirected to a page having tryeditor with a Run button
-
-  Scenario Outline: Verify that user is able to see output for valid python code for "Types of Binary Trees" page
-    Given the user is in the tryeditor page
-    When  the user enters "<Python Code >" in the editor
-    And   the user clicks the Run button
-    Then  the user should get "<output>" in the console
+  Scenario Outline: Verify that the user is navigated to the try editor page in Types of Binary Trees page
+    When the user clicks the Get Started button in Tree Panel
+    Then the page title should be displayed as "Tree"
+    When  the user clicks Types of Binary Trees link in Tree page
+    Then  the page title should be displayed as "Types of Binary Trees"
+    When the user clicks on Try here button in Types of Binary Trees
+    Then the page title should be displayed as "Assessment"
+    And the page url should be displayed as "<Expected Url>"
     Examples:
-      |Python Code    | Output |
-      |print("Hello") | Hello  |
+      | Expected Url                                |
+      | https://dsportalapp.herokuapp.com/tryEditor |
 
-  Scenario Outline: Verify that user is able to see output for invalid python code for "Types of Binary Trees" page
-    Given the user is in the tryeditor page
-    When  the user enters "<Python Code >" in the editor
-    And   the user clicks the Run button
-    Then  the user should get "<Popup Message>"
+ # Implementation in Python
+
+  Scenario: Verify that user is able to navigate to Implementation in Python page link in Tree page
+    When the user clicks the Get Started button in Tree Panel
+    Then the page title should be displayed as "Tree"
+    When  the user clicks Implementation in Python link in Tree page
+    Then  the page title should be displayed as "Implementation in Python"
+
+  Scenario Outline: Verify that the user is navigated to the try editor page in Implementation in Python page
+    When the user clicks the Get Started button in Tree Panel
+    Then the page title should be displayed as "Tree"
+    When  the user clicks Implementation in Python link in Tree page
+    Then  the page title should be displayed as "Implementation in Python"
+    When the user clicks on Try here button in Implementation in Python
+    Then the page title should be displayed as "Assessment"
+    And the page url should be displayed as "<Expected Url>"
     Examples:
-      | Python Code       | Popup Message                                   |
-      | " print 'Hello'"  | SyntaxError: bad input on line 1                |
-      | print  Hello      | NameError: name 'Hello' is not defined on line 1 |
-
-  Scenario: Verify that user receives error when click on Run button without entering code for Types of Binary Trees page
-    Given the user is in the tryeditor page
-    When  the user clicks the Run button without entering code in the editor
-    Then  the user should not be able to see output
-
-  Scenario: Verify that user is able to navigate to Practice Questions Page for Types of Binary Trees page
-    Given the user is in the "Types of Binary Trees" after logged in
-    When  the user clicks Practice Questions button after scrolling down in the Types of Binary Trees page
-    Then the page title should be displayed as "Practice Questions"
-
- #Implementation in Python
-
-  Scenario: Verify that user is able to navigate to Implementation in Python page
-    Given the user is in the "Tree page" after Sign in
-    When  the user clicks the Implementation in Python link after scrolling down in the Tree page
-    Then  the user should be directed to the "Implementation in Python" of tree Page
-
-  Scenario: Verify that user is able to navigate to try Editor page for Implementation in Python page
-    Given the user is in the "Implementation in Python" after logged in
-    When  the user clicks "Try here" button after scrolling down in Implementation in Python page
-    Then  the user should be redirected to a page having tryeditor with a Run button
-
-  Scenario Outline: Verify that user is able to see output for valid python code for "Implementation in Python" page
-    Given the user is in the tryeditor page
-    When  the user enters "<Python Code >" in the editor
-    And   the user clicks the Run button
-    Then  the user should get "<output>" in the console
-    Examples:
-      |Python Code    | Output |
-      |print("Hello") | Hello  |
-
-  Scenario Outline: Verify that user is able to see output for invalid python code for "Implementation in Python" page
-    Given the user is in the tryeditor page
-    When  the user enters "<Python Code >" in the editor
-    And   the user clicks the Run button
-    Then  the user should get "<Popup Message>"
-    Examples:
-      | Python Code       | Popup Message                                   |
-      | " print 'Hello'"  | SyntaxError: bad input on line 1                |
-      | print  Hello      | NameError: name 'Hello' is not defined on line 1 |
-
-  Scenario: Verify that user receives error when click on Run button without entering code for Implementation in Python page
-    Given the user is in the tryeditor page
-    When  the user clicks the Run button without entering code in the editor
-    Then  the user should not be able to see output
-
-  Scenario: Verify that user is able to navigate to Practice Questions Page for Implementation in Python page
-    Given the user is in the "Implementation in Python" after logged in
-    When  the user clicks Practice Questions button after scrolling down in the Implementation in Python page
-    Then the page title should be displayed as "Practice Questions"
+      | Expected Url                                |
+      | https://dsportalapp.herokuapp.com/tryEditor |
 
 # Binary Tree Traversals
 
-  Scenario: Verify that user is able to navigate to Binary Tree Traversals page
-    Given the user is in the "Tree page" after Sign in
-    When  the user clicks the Binary Tree Traversals link after scrolling down in the Tree page
-    Then  the user should be directed to the "Binary Tree Traversals" of tree Page
+  Scenario: Verify that user is able to navigate to Binary Tree Traversals page link in Tree page
+    When the user clicks the Get Started button in Tree Panel
+    Then the page title should be displayed as "Tree"
+    When  the user clicks Binary Tree Traversals link in Tree page
+    Then  the page title should be displayed as "Binary Tree Traversals"
 
-  Scenario: Verify that user is able to navigate to try Editor page for Binary Tree Traversals page
-    Given the user is in the "Binary Tree Traversals" after logged in
-    When  the user clicks "Try here" button after scrolling down in Binary Tree Traversals page
-    Then  the user should be redirected to a page having tryeditor with a Run button
-
-  Scenario Outline: Verify that user is able to see output for valid python code for "Binary Tree Traversals" page
-    Given the user is in the tryeditor page
-    When  the user enters "<Python Code >" in the editor
-    And   the user clicks the Run button
-    Then  the user should get "<output>" in the console
+  Scenario Outline: Verify that the user is navigated to the try editor page in Binary Tree Traversals page
+    When the user clicks the Get Started button in Tree Panel
+    Then the page title should be displayed as "Tree"
+    When  the user clicks Binary Tree Traversals link in Tree page
+    Then  the page title should be displayed as "Binary Tree Traversals"
+    When the user clicks on Try here button in Binary Tree Traversals
+    Then the page title should be displayed as "Assessment"
+    And the page url should be displayed as "<Expected Url>"
     Examples:
-      |Python Code    | Output |
-      |print("Hello") | Hello  |
-
-  Scenario Outline: Verify that user is able to see output for invalid python code for "Binary Tree Traversals" page
-    Given the user is in the tryeditor page
-    When  the user enters "<Python Code >" in the editor
-    And   the user clicks the Run button
-    Then  the user should get "<Popup Message>"
-    Examples:
-      | Python Code       | Popup Message                                   |
-      | " print 'Hello'"  | SyntaxError: bad input on line 1                |
-      | print  Hello      | NameError: name 'Hello' is not defined on line 1 |
-
-  Scenario: Verify that user receives error when click on Run button without entering code for Binary Tree Traversals page
-    Given the user is in the tryeditor page
-    When  the user clicks the Run button without entering code in the editor
-    Then  the user should not be able to see output
-
-  Scenario: Verify that user is able to navigate to Practice Questions Page for Binary Tree Traversals page
-    Given the user is in the "Binary Tree Traversals" after logged in
-    When  the user clicks Practice Questions button after scrolling down in the Binary Tree Traversals page
-    Then the page title should be displayed as "Practice Questions"
+      | Expected Url                                |
+      | https://dsportalapp.herokuapp.com/tryEditor |
 
 # Implementation of Binary Trees
 
-  Scenario: Verify that user is able to navigate to Implementation of Binary Trees page
-    Given the user is in the "Tree page" after Sign in
-    When  the user clicks the Implementation of Binary Trees link after scrolling down in the Tree page
-    Then  the user should be directed to the "Implementation of Binary Trees" of tree Page
+  Scenario: Verify that user is able to navigate to Implementation of Binary Trees page link in Tree page
+    When the user clicks the Get Started button in Tree Panel
+    Then the page title should be displayed as "Tree"
+    When  the user clicks Implementation of Binary Trees link in Tree page
+    Then  the page title should be displayed as "Implementation of Binary Trees"
 
-  Scenario: Verify that user is able to navigate to try Editor page for Implementation of Binary Trees page
-    Given the user is in the "Implementation of Binary Trees" after logged in
-    When  the user clicks "Try here" button after scrolling down in Implementation of Binary Trees page
-    Then  the user should be redirected to a page having tryeditor with a Run button
-
-  Scenario Outline: Verify that user is able to see output for valid python code for "Implementation of Binary Trees" page
-    Given the user is in the tryeditor page
-    When  the user enters "<Python Code >" in the editor
-    And   the user clicks the Run button
-    Then  the user should get "<output>" in the console
+  Scenario Outline: Verify that the user is navigated to the try editor page in Implementation of Binary Trees page
+    When the user clicks the Get Started button in Tree Panel
+    Then the page title should be displayed as "Tree"
+    When  the user clicks Implementation of Binary Trees link in Tree page
+    Then  the page title should be displayed as "Implementation of Binary Trees"
+    When the user clicks on Try here button in Implementation of Binary Trees
+    Then the page title should be displayed as "Assessment"
+    And the page url should be displayed as "<Expected Url>"
     Examples:
-      |Python Code    | Output |
-      |print("Hello") | Hello  |
+      | Expected Url                                |
+      | https://dsportalapp.herokuapp.com/tryEditor |
 
-  Scenario Outline: Verify that user is able to see output for invalid python code for "Implementation of Binary Trees" page
-    Given the user is in the tryeditor page
-    When  the user enters "<Python Code >" in the editor
-    And   the user clicks the Run button
-    Then  the user should get "<Popup Message>"
+# Applications of Binary trees
+
+  Scenario: Verify that user is able to navigate to Applications of Binary trees page link in Tree page
+    When the user clicks the Get Started button in Tree Panel
+    Then the page title should be displayed as "Tree"
+    When  the user clicks Applications of Binary trees link in Tree page
+    Then  the page title should be displayed as "Applications of Binary trees"
+
+  Scenario Outline: Verify that the user is navigated to the try editor page in Applications of Binary trees page
+    When the user clicks the Get Started button in Tree Panel
+    Then the page title should be displayed as "Tree"
+    When  the user clicks Applications of Binary trees link in Tree page
+    Then  the page title should be displayed as "Applications of Binary trees"
+    When the user clicks on Try here button in Applications of Binary trees
+    Then the page title should be displayed as "Assessment"
+    And the page url should be displayed as "<Expected Url>"
     Examples:
-      | Python Code       | Popup Message                                   |
-      | " print 'Hello'"  | SyntaxError: bad input on line 1                |
-      | print  Hello      | NameError: name 'Hello' is not defined on line 1 |
+      | Expected Url                                |
+      | https://dsportalapp.herokuapp.com/tryEditor |
 
-  Scenario: Verify that user receives error when click on Run button without entering code for Implementation of Binary Trees page
-    Given the user is in the tryeditor page
-    When  the user clicks the Run button without entering code in the editor
-    Then  the user should not be able to see output
+# Binary Search Trees
 
-  Scenario: Verify that user is able to navigate to Practice Questions Page for Implementation of Binary Trees page
-    Given the user is in the "Implementation of Binary Trees" after logged in
-    When  the user clicks Practice Questions button after scrolling down in the Implementation of Binary Trees page
+  Scenario: Verify that user is able to navigate to Binary Search Trees link in Tree page
+    When the user clicks the Get Started button in Tree Panel
+    Then the page title should be displayed as "Tree"
+    When  the user clicks Binary Search Trees link in Tree page
+    Then  the page title should be displayed as "Binary Search Trees"
+
+  Scenario Outline: Verify that the user is navigated to the try editor page in Binary Search Trees page
+    When the user clicks the Get Started button in Tree Panel
+    Then the page title should be displayed as "Tree"
+    When  the user clicks Binary Search Trees link in Tree page
+    Then  the page title should be displayed as "Binary Search Trees"
+    When the user clicks on Try here button in Binary Search Trees
+    Then the page title should be displayed as "Assessment"
+    And the page url should be displayed as "<Expected Url>"
+    Examples:
+      | Expected Url                                |
+      | https://dsportalapp.herokuapp.com/tryEditor |
+
+# Implementation of BST
+
+  Scenario: Verify that user is able to navigate to Implementation of BST page link in Tree page
+    When the user clicks the Get Started button in Tree Panel
+    Then the page title should be displayed as "Tree"
+    When  the user clicks Implementation of BST link in Tree page
+    Then  the page title should be displayed as "Implementation Of BST"
+
+  Scenario Outline: Verify that the user is navigated to the try editor page in Implementation of BST page
+    When the user clicks the Get Started button in Tree Panel
+    Then the page title should be displayed as "Tree"
+    When  the user clicks Implementation of BST link in Tree page
+    Then  the page title should be displayed as "Implementation Of BST"
+    When the user clicks on Try here button in Implementation of BST
+    Then the page title should be displayed as "Assessment"
+    And the page url should be displayed as "<Expected Url>"
+    Examples:
+      | Expected Url                                |
+      | https://dsportalapp.herokuapp.com/tryEditor |
+
+  # Practice Questions
+
+  Scenario Outline: Verify that user is able to navigate to Practice Questions page link in Tree page
+    When the user clicks the Get Started button in Tree Panel
+    Then the page title should be displayed as "Tree"
+    When  the user clicks Implementation of BST link in Tree page
+    Then  the page title should be displayed as "Implementation Of BST"
+    When the user scrolls down and clicks Practice Question link
     Then the page title should be displayed as "Practice Questions"
-
-
-#Applications of Binary trees
-
-  Scenario: Verify that user is able to navigate to Applications of Binary trees page
-    Given the user is in the "Tree page" after Sign in
-    When  the user clicks the Applications of Binary trees link after scrolling down in the Tree page
-    Then  the user should be directed to the "Applications of Binary trees" of tree Page
-
-  Scenario: Verify that user is able to navigate to try Editor page for Applications of Binary trees page
-    Given the user is in the "Applications of Binary trees" after logged in
-    When  the user clicks "Try here" button in the Applications of Binary trees page
-    Then  the user should be redirected to a page having tryeditor with a Run button
-
-  Scenario Outline: Verify that user is able to see output for valid python code for "Applications of Binary trees" page
-    Given the user is in the tryeditor page
-    When  the user enters "<Python Code >" in the editor
-    And   the user clicks the Run button
-    Then  the user should get "<output>" in the console
+    And the page url should be displayed as "<Expected Url>"
+    When the user clicks on Sign out link
+    Then the user should be able to logged out and get success message as "<Success Message>"
     Examples:
-      |Python Code    | Output |
-      |print("Hello") | Hello  |
-
-  Scenario Outline: Verify that user is able to see output for invalid python code for "Applications of Binary trees" page
-    Given the user is in the tryeditor page
-    When  the user enters "<Python Code >" in the editor
-    And   the user clicks the Run button
-    Then  the user should get "<Popup Message>"
-    Examples:
-      | Python Code       | Popup Message                                   |
-      | " print 'Hello'"  | SyntaxError: bad input on line 1                |
-      | print  Hello      | NameError: name 'Hello' is not defined on line 1 |
-
-  Scenario: Verify that user receives error when click on Run button without entering code for Applications of Binary trees page
-    Given the user is in the tryeditor page
-    When  the user clicks the Run button without entering code in the editor
-    Then  the user should not be able to see output
-
-  Scenario: Verify that user is able to navigate to Practice Questions Page for Applications of Binary trees page
-    Given the user is in the "Applications of Binary trees" after logged in
-    When  the user clicks Practice Questions button after scrolling down in the Applications of Binary trees page
-    Then the page title should be displayed as "Practice Questions"
-
-#Binary Search Trees
-
-  Scenario: Verify that user is able to navigate to Binary Search Trees page
-    Given the user is in the "Tree page" after Sign in
-    When  the user clicks the Binary Search Trees link after scrolling down in the Tree page
-    Then  the user should be directed to the "Binary Search Trees" of tree Page
-
-  Scenario: Verify that user is able to navigate to try Editor page for Binary Search Trees page
-    Given the user is in the "Binary Search Trees" after logged in
-    When  the user clicks "Try here" button after scrolling down in Binary Search Trees page
-    Then  the user should be redirected to a page having tryeditor with a Run button
-
-  Scenario Outline: Verify that user is able to see output for valid python code for "Binary Search Trees" page
-    Given the user is in the tryeditor page
-    When  the user enters "<Python Code >" in the editor
-    And   the user clicks the Run button
-    Then  the user should get "<output>" in the console
-    Examples:
-      |Python Code    | Output |
-      |print("Hello") | Hello  |
-
-  Scenario Outline: Verify that user is able to see output for invalid python code for "Binary Search Trees" page
-    Given the user is in the tryeditor page
-    When  the user enters "<Python Code >" in the editor
-    And   the user clicks the Run button
-    Then  the user should get "<Popup Message>"
-    Examples:
-      | Python Code       | Popup Message                                   |
-      | " print 'Hello'"  | SyntaxError: bad input on line 1                |
-      | print  Hello      | NameError: name 'Hello' is not defined on line 1 |
-
-  Scenario: Verify that user receives error when click on Run button without entering code for Binary Search Trees page
-    Given the user is in the tryeditor page
-    When  the user clicks the Run button without entering code in the editor
-    Then  the user should not be able to see output
-
-  Scenario: Verify that user is able to navigate to Practice Questions Page for Binary Search Trees page
-    Given the user is in the "Binary Search Trees" after logged in
-    When  the user clicks Practice Questions button after scrolling down in the Binary Search Trees trees page
-    Then the page title should be displayed as "Practice Questions"
-
-
-#Implementation of BST
-
-  Scenario: Verify that user is able to navigate to Implementation of BST page
-    Given the user is in the "Tree page" after Sign in
-    When  the user clicks the Implementation of BST link after scrolling down in the Tree page
-    Then  the user should be directed to the "Implementation of BST" of tree Page
-
-  Scenario: Verify that user is able to navigate to try Editor page for Implementation of BST page
-    Given the user is in the "Implementation of BST" after logged in
-    When  the user clicks "Try here" button in the Implementation of BST page
-    Then  the user should be redirected to a page having tryeditor with a Run button
-
-  Scenario Outline: Verify that user is able to see output for valid python code for "Implementation of BST" page
-    Given the user is in the tryeditor page
-    When  the user enters "<Python Code >" in the editor
-    And   the user clicks the Run button
-    Then  the user should get "<output>" in the console
-    Examples:
-      |Python Code    | Output |
-      |print("Hello") | Hello  |
-
-  Scenario Outline: Verify that user is able to see output for invalid python code for "Implementation of BST" page
-    Given the user is in the tryeditor page
-    When  the user enters "<Python Code >" in the editor
-    And   the user clicks the Run button
-    Then  the user should get "<Popup Message>"
-    Examples:
-      | Python Code       | Popup Message                                   |
-      | " print 'Hello'"  | SyntaxError: bad input on line 1                |
-      | print  Hello      | NameError: name 'Hello' is not defined on line 1 |
-
-  Scenario: Verify that user receives error when click on Run button without entering code for Implementation of BST page
-    Given the user is in the tryeditor page
-    When  the user clicks the Run button without entering code in the editor
-    Then  the user should not be able to see output
-
-  Scenario: Verify that user is able to navigate to Practice Questions Page for Implementation of BST page
-    Given the user is in the "Implementation of BST" after logged in
-    When  the user clicks Practice Questions button after scrolling down in the Implementation of BST trees page
-    Then the page title should be displayed as "Practice Questions"
-
+      | Expected Url                                     | Success Message         |
+      | https://dsportalapp.herokuapp.com/tree/practice  | Logged out successfully |
