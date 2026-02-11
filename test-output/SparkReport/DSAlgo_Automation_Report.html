@@ -1,0 +1,3614 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Extent</title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa bdd-report ">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">DSAlgo Automation Report</span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Feb 2, 2026 06:35:55 PM</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('exception-view')">
+<a id="nav-exception" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bug"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Feb 2, 2026 06:35:55 PM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Feb 2, 2026 06:40:35 PM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Features Passed</p>
+<h3>0</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Features Failed</p>
+<h3>1</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Features</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='0%'>
+<b>0</b> features passed
+</small>
+</div>
+<div>
+<small data-tooltip='100%'><b>1</b> features failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Scenarios</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='child-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='94%'><b>33</b> scenarios passed</small></div>
+<div>
+<small data-tooltip='5%'><b>2</b> scenarios failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Steps</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='grandchild-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='97%'><b>497</b> steps passed</small></div>
+<div>
+<small data-tooltip='0%'><b>2</b> steps failed,
+<b>11</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"Tree Functionality of Dsalgo Application":277.59
+};
+</script>
+<div class="row">
+<div class="col-lg-6 col-md-12 sysenv-container">
+<div class="card">
+<div class="card-header"><p>System/Environment</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Value</th></tr></thead>
+<tbody>
+<tr>
+<td>AppName</td>
+<td>DSAlgo Application</td>
+</tr>
+<tr>
+<td>user</td>
+<td>Gayathri Sekar</td>
+</tr>
+<tr>
+<td>build</td>
+<td>1.1</td>
+</tr>
+<tr>
+<td>os</td>
+<td>Windows</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 0,
+failParent: 1,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 33,
+failChild: 2,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 497,
+failGrandChild: 2,
+warningGrandChild: 0,
+skipGrandChild: 11,
+infoGrandChild: 0,
+eventsCount: 5,
+};
+</script><div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="fail" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Tree Functionality of Dsalgo Application</p>
+            <p class="text-sm">
+              <span>6:35:57 PM</span> / <span>00:04:37:590</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Tree Functionality of Dsalgo Application</h5>
+<span class='badge badge-success'>02.02.2026 6:35:57 PM</span>
+<span class='badge badge-danger'>02.02.2026 6:40:35 PM</span>
+<span class='badge badge-default'>00:04:37:590</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="2"><span class="badge log pass-bg mr-2">Pass</span>Verify that user is navigated to Tree page</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="BEFORE">
+                <span>com.numpyninja.dsalgo.apphooks.ApplicationHooks.beforeScenario(io.cucumber.java.Scenario)</span>
+      <div>Launching on browser: chrome
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.user_launches_the_browser_and_enters_the_ds_algo_application_url()">
+                <span>Given User launches the browser and enters the DsAlgo application url</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_user_clicks_on_Get_Started_button_in_the_ds_algo_portal()">
+                <span>When the user clicks on Get Started button in the DsAlgo Portal</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.LoginSteps.user_clicks_on_sign_in_link_in_the_home_page()">
+                <span>And user clicks on Sign in link in the Home page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_page_title_should_be_displayed_as(java.lang.String)">
+                <span>Then the page title should be displayed as "Login"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DSIntroductionSteps.the_user_enters_valid_username_and_password_in_the_login_form(io.cucumber.datatable.DataTable)">
+                <span>When the user enters valid Username and Password in the Login form</span>
+      <div><table class='markup-table table '><tr><td>Username</td><td>sdet229stars@gmail.com</td></tr><tr><td>Password</td><td>test@1234</td></tr></table>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.LoginSteps.user_clicks_on_login_button()">
+                <span>And user clicks on Login button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_page_title_should_be_displayed_as(java.lang.String)">
+                <span>Then the page title should be displayed as "NumpyNinja"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.TreeSteps.the_user_clicks_the_get_started_button_in_tree_panel()">
+                <span>When the user clicks the Get Started button in Tree Panel</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_page_title_should_be_displayed_as(java.lang.String)">
+                <span>Then the page title should be displayed as "Tree"</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="27"><span class="badge log pass-bg mr-2">Pass</span>Verify that user is able to navigate to Overview of Trees link in Tree page</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="BEFORE">
+                <span>com.numpyninja.dsalgo.apphooks.ApplicationHooks.beforeScenario(io.cucumber.java.Scenario)</span>
+      <div>Launching on browser: chrome
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.user_launches_the_browser_and_enters_the_ds_algo_application_url()">
+                <span>Given User launches the browser and enters the DsAlgo application url</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_user_clicks_on_Get_Started_button_in_the_ds_algo_portal()">
+                <span>When the user clicks on Get Started button in the DsAlgo Portal</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.LoginSteps.user_clicks_on_sign_in_link_in_the_home_page()">
+                <span>And user clicks on Sign in link in the Home page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_page_title_should_be_displayed_as(java.lang.String)">
+                <span>Then the page title should be displayed as "Login"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DSIntroductionSteps.the_user_enters_valid_username_and_password_in_the_login_form(io.cucumber.datatable.DataTable)">
+                <span>When the user enters valid Username and Password in the Login form</span>
+      <div><table class='markup-table table '><tr><td>Username</td><td>sdet229stars@gmail.com</td></tr><tr><td>Password</td><td>test@1234</td></tr></table>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.LoginSteps.user_clicks_on_login_button()">
+                <span>And user clicks on Login button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_page_title_should_be_displayed_as(java.lang.String)">
+                <span>Then the page title should be displayed as "NumpyNinja"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.TreeSteps.the_user_clicks_the_get_started_button_in_tree_panel()">
+                <span>When the user clicks the Get Started button in Tree Panel</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_page_title_should_be_displayed_as(java.lang.String)">
+                <span>Then the page title should be displayed as "Tree"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.TreeSteps.the_user_clicks_overview_of_trees_link_in_tree_page()">
+                <span>When the user clicks Overview of Trees link in Tree page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_page_title_should_be_displayed_as(java.lang.String)">
+                <span>Then the page title should be displayed as "Overview of Trees"</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="56"><span class="badge log pass-bg mr-2">Pass</span>Verify that the user is navigated to the try editor page in Tree page</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="57"><span class="badge log pass-bg mr-2">Pass</span>Verify that the user is navigated to the try editor page in Tree page</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>com.numpyninja.dsalgo.apphooks.ApplicationHooks.beforeScenario(io.cucumber.java.Scenario)</span>
+      <div>Launching on browser: chrome
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given User launches the browser and enters the DsAlgo application url</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks on Get Started button in the DsAlgo Portal</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user clicks on Sign in link in the Home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Login"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user enters valid Username and Password in the Login form</span>
+      <div><table class='markup-table table '><tr><td>Username</td><td>sdet229stars@gmail.com</td></tr><tr><td>Password</td><td>test@1234</td></tr></table>
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user clicks on Login button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "NumpyNinja"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks the Get Started button in Tree Panel</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Tree"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks Overview of Trees link in Tree page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Overview of Trees"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks on Try here button in Overview of Trees page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Assessment"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the page url should be displayed as "https://dsportalapp.herokuapp.com/tryEditor"</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="92"><span class="badge log pass-bg mr-2">Pass</span>Verify that the user is able to see an output for valid python code</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="93"><span class="badge log pass-bg mr-2">Pass</span>Verify that the user is able to see an output for valid python code</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>com.numpyninja.dsalgo.apphooks.ApplicationHooks.beforeScenario(io.cucumber.java.Scenario)</span>
+      <div>Launching on browser: chrome
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given User launches the browser and enters the DsAlgo application url</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks on Get Started button in the DsAlgo Portal</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user clicks on Sign in link in the Home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Login"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user enters valid Username and Password in the Login form</span>
+      <div><table class='markup-table table '><tr><td>Username</td><td>sdet229stars@gmail.com</td></tr><tr><td>Password</td><td>test@1234</td></tr></table>
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user clicks on Login button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "NumpyNinja"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks the Get Started button in Tree Panel</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Tree"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks Overview of Trees link in Tree page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Overview of Trees"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks on Try here button in Overview of Trees page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Assessment"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the page url should be displayed as "https://dsportalapp.herokuapp.com/tryEditor"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user enters Python Code from "DS-Introduction" and 0 in try editor</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user clicks on Run button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the user should get output from "DS-Introduction" and 0 below Run button</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="134"><span class="badge log pass-bg mr-2">Pass</span>Verify that the popup is displayed with error message for invalid python code with spaces in try editor</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="135"><span class="badge log pass-bg mr-2">Pass</span>Verify that the popup is displayed with error message for invalid python code with spaces in try editor</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>com.numpyninja.dsalgo.apphooks.ApplicationHooks.beforeScenario(io.cucumber.java.Scenario)</span>
+      <div>Launching on browser: chrome
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given User launches the browser and enters the DsAlgo application url</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks on Get Started button in the DsAlgo Portal</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user clicks on Sign in link in the Home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Login"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user enters valid Username and Password in the Login form</span>
+      <div><table class='markup-table table '><tr><td>Username</td><td>sdet229stars@gmail.com</td></tr><tr><td>Password</td><td>test@1234</td></tr></table>
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user clicks on Login button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "NumpyNinja"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks the Get Started button in Tree Panel</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Tree"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks Overview of Trees link in Tree page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Overview of Trees"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks on Try here button in Overview of Trees page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Assessment"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the page url should be displayed as "https://dsportalapp.herokuapp.com/tryEditor"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user enters Python Code from "DS-Introduction" and 1 with prefix space</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user clicks on Run button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the user should get pop up message from "DS-Introduction" and 1</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user clicks on OK button in the popup</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="178"><span class="badge log pass-bg mr-2">Pass</span>Verify that the popup is displayed with error message after entering invalid code with characters in try editor</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="179"><span class="badge log pass-bg mr-2">Pass</span>Verify that the popup is displayed with error message after entering invalid code with characters in try editor</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>com.numpyninja.dsalgo.apphooks.ApplicationHooks.beforeScenario(io.cucumber.java.Scenario)</span>
+      <div>Launching on browser: chrome
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given User launches the browser and enters the DsAlgo application url</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks on Get Started button in the DsAlgo Portal</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user clicks on Sign in link in the Home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Login"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user enters valid Username and Password in the Login form</span>
+      <div><table class='markup-table table '><tr><td>Username</td><td>sdet229stars@gmail.com</td></tr><tr><td>Password</td><td>test@1234</td></tr></table>
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user clicks on Login button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "NumpyNinja"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks the Get Started button in Tree Panel</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Tree"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks Overview of Trees link in Tree page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Overview of Trees"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks on Try here button in Overview of Trees page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Assessment"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the page url should be displayed as "https://dsportalapp.herokuapp.com/tryEditor"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user enters Python Code from "DS-Introduction" and 2 in try editor</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user clicks on Run button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the user should get pop up message from "DS-Introduction" and 2</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user clicks on OK button in the popup</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="222"><span class="badge log pass-bg mr-2">Pass</span>Verify that the popup is displayed with error message after entering "$$$$$" in try editor</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="223"><span class="badge log pass-bg mr-2">Pass</span>Verify that the popup is displayed with error message after entering "$$$$$" in try editor</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>com.numpyninja.dsalgo.apphooks.ApplicationHooks.beforeScenario(io.cucumber.java.Scenario)</span>
+      <div>Launching on browser: chrome
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given User launches the browser and enters the DsAlgo application url</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks on Get Started button in the DsAlgo Portal</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user clicks on Sign in link in the Home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Login"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user enters valid Username and Password in the Login form</span>
+      <div><table class='markup-table table '><tr><td>Username</td><td>sdet229stars@gmail.com</td></tr><tr><td>Password</td><td>test@1234</td></tr></table>
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user clicks on Login button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "NumpyNinja"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks the Get Started button in Tree Panel</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Tree"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks Overview of Trees link in Tree page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Overview of Trees"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks on Try here button in Overview of Trees page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Assessment"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the page url should be displayed as "https://dsportalapp.herokuapp.com/tryEditor"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user enters Python Code from "DS-Introduction" and 3 in try editor</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user clicks on Run button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the user should get pop up message from "DS-Introduction" and 3</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user clicks on OK button in the popup</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="266"><span class="badge log pass-bg mr-2">Pass</span>Verify that the popup is displayed with error message after entering "((((((" in try editor</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="267"><span class="badge log pass-bg mr-2">Pass</span>Verify that the popup is displayed with error message after entering "((((((" in try editor</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>com.numpyninja.dsalgo.apphooks.ApplicationHooks.beforeScenario(io.cucumber.java.Scenario)</span>
+      <div>Launching on browser: chrome
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given User launches the browser and enters the DsAlgo application url</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks on Get Started button in the DsAlgo Portal</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user clicks on Sign in link in the Home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Login"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user enters valid Username and Password in the Login form</span>
+      <div><table class='markup-table table '><tr><td>Username</td><td>sdet229stars@gmail.com</td></tr><tr><td>Password</td><td>test@1234</td></tr></table>
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user clicks on Login button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "NumpyNinja"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks the Get Started button in Tree Panel</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Tree"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks Overview of Trees link in Tree page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Overview of Trees"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks on Try here button in Overview of Trees page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Assessment"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the page url should be displayed as "https://dsportalapp.herokuapp.com/tryEditor"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user enters Python Code from "DS-Introduction" and 4 in try editor</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user clicks on Run button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the user should get pop up message from "DS-Introduction" and 4</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user clicks on OK button in the popup</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="310"><span class="badge log pass-bg mr-2">Pass</span>Verify that the user is not able to see output after entering "12345" in try editor</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="311"><span class="badge log pass-bg mr-2">Pass</span>Verify that the user is not able to see output after entering "12345" in try editor</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>com.numpyninja.dsalgo.apphooks.ApplicationHooks.beforeScenario(io.cucumber.java.Scenario)</span>
+      <div>Launching on browser: chrome
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given User launches the browser and enters the DsAlgo application url</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks on Get Started button in the DsAlgo Portal</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user clicks on Sign in link in the Home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Login"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user enters valid Username and Password in the Login form</span>
+      <div><table class='markup-table table '><tr><td>Username</td><td>sdet229stars@gmail.com</td></tr><tr><td>Password</td><td>test@1234</td></tr></table>
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user clicks on Login button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "NumpyNinja"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks the Get Started button in Tree Panel</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Tree"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks Overview of Trees link in Tree page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Overview of Trees"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks on Try here button in Overview of Trees page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Assessment"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the page url should be displayed as "https://dsportalapp.herokuapp.com/tryEditor"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user enters Python Code from "DS-Introduction" and 5 in try editor</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user clicks on Run button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the user should not able to see output below Run button</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="352"><span class="badge log pass-bg mr-2">Pass</span>Verify that the user is not able to see output without entering code in the try editor</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="353"><span class="badge log pass-bg mr-2">Pass</span>Verify that the user is not able to see output without entering code in the try editor</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>com.numpyninja.dsalgo.apphooks.ApplicationHooks.beforeScenario(io.cucumber.java.Scenario)</span>
+      <div>Launching on browser: chrome
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given User launches the browser and enters the DsAlgo application url</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks on Get Started button in the DsAlgo Portal</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user clicks on Sign in link in the Home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Login"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user enters valid Username and Password in the Login form</span>
+      <div><table class='markup-table table '><tr><td>Username</td><td>sdet229stars@gmail.com</td></tr><tr><td>Password</td><td>test@1234</td></tr></table>
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user clicks on Login button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "NumpyNinja"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks the Get Started button in Tree Panel</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Tree"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks Overview of Trees link in Tree page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Overview of Trees"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks on Try here button in Overview of Trees page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Assessment"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the page url should be displayed as "https://dsportalapp.herokuapp.com/tryEditor"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user enters Python Code from "DS-Introduction" and 6 in try editor</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user clicks on Run button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the user should not able to see output below Run button</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="394"><span class="badge log pass-bg mr-2">Pass</span>Verify that user is able to navigate to Terminologies page link in Tree page</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="BEFORE">
+                <span>com.numpyninja.dsalgo.apphooks.ApplicationHooks.beforeScenario(io.cucumber.java.Scenario)</span>
+      <div>Launching on browser: chrome
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.user_launches_the_browser_and_enters_the_ds_algo_application_url()">
+                <span>Given User launches the browser and enters the DsAlgo application url</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_user_clicks_on_Get_Started_button_in_the_ds_algo_portal()">
+                <span>When the user clicks on Get Started button in the DsAlgo Portal</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.LoginSteps.user_clicks_on_sign_in_link_in_the_home_page()">
+                <span>And user clicks on Sign in link in the Home page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_page_title_should_be_displayed_as(java.lang.String)">
+                <span>Then the page title should be displayed as "Login"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DSIntroductionSteps.the_user_enters_valid_username_and_password_in_the_login_form(io.cucumber.datatable.DataTable)">
+                <span>When the user enters valid Username and Password in the Login form</span>
+      <div><table class='markup-table table '><tr><td>Username</td><td>sdet229stars@gmail.com</td></tr><tr><td>Password</td><td>test@1234</td></tr></table>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.LoginSteps.user_clicks_on_login_button()">
+                <span>And user clicks on Login button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_page_title_should_be_displayed_as(java.lang.String)">
+                <span>Then the page title should be displayed as "NumpyNinja"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.TreeSteps.the_user_clicks_the_get_started_button_in_tree_panel()">
+                <span>When the user clicks the Get Started button in Tree Panel</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_page_title_should_be_displayed_as(java.lang.String)">
+                <span>Then the page title should be displayed as "Tree"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.TreeSteps.the_user_clicks_terminologies_link_in_tree_page()">
+                <span>When the user clicks Terminologies link in Tree page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_page_title_should_be_displayed_as(java.lang.String)">
+                <span>Then the page title should be displayed as "Terminologies"</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="423"><span class="badge log pass-bg mr-2">Pass</span>Verify that the user is navigated to the try editor page in Terminologies page</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="424"><span class="badge log pass-bg mr-2">Pass</span>Verify that the user is navigated to the try editor page in Terminologies page</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>com.numpyninja.dsalgo.apphooks.ApplicationHooks.beforeScenario(io.cucumber.java.Scenario)</span>
+      <div>Launching on browser: chrome
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given User launches the browser and enters the DsAlgo application url</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks on Get Started button in the DsAlgo Portal</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user clicks on Sign in link in the Home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Login"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user enters valid Username and Password in the Login form</span>
+      <div><table class='markup-table table '><tr><td>Username</td><td>sdet229stars@gmail.com</td></tr><tr><td>Password</td><td>test@1234</td></tr></table>
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user clicks on Login button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "NumpyNinja"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks the Get Started button in Tree Panel</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Tree"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks Terminologies link in Tree page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Terminologies"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks on Try here button in Terminologies page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Assessment"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the page url should be displayed as "https://dsportalapp.herokuapp.com/tryEditor"</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="459"><span class="badge log pass-bg mr-2">Pass</span>Verify that user is able to navigate to Types of Trees page link in Tree page</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="BEFORE">
+                <span>com.numpyninja.dsalgo.apphooks.ApplicationHooks.beforeScenario(io.cucumber.java.Scenario)</span>
+      <div>Launching on browser: chrome
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.user_launches_the_browser_and_enters_the_ds_algo_application_url()">
+                <span>Given User launches the browser and enters the DsAlgo application url</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_user_clicks_on_Get_Started_button_in_the_ds_algo_portal()">
+                <span>When the user clicks on Get Started button in the DsAlgo Portal</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.LoginSteps.user_clicks_on_sign_in_link_in_the_home_page()">
+                <span>And user clicks on Sign in link in the Home page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_page_title_should_be_displayed_as(java.lang.String)">
+                <span>Then the page title should be displayed as "Login"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DSIntroductionSteps.the_user_enters_valid_username_and_password_in_the_login_form(io.cucumber.datatable.DataTable)">
+                <span>When the user enters valid Username and Password in the Login form</span>
+      <div><table class='markup-table table '><tr><td>Username</td><td>sdet229stars@gmail.com</td></tr><tr><td>Password</td><td>test@1234</td></tr></table>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.LoginSteps.user_clicks_on_login_button()">
+                <span>And user clicks on Login button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_page_title_should_be_displayed_as(java.lang.String)">
+                <span>Then the page title should be displayed as "NumpyNinja"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.TreeSteps.the_user_clicks_the_get_started_button_in_tree_panel()">
+                <span>When the user clicks the Get Started button in Tree Panel</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_page_title_should_be_displayed_as(java.lang.String)">
+                <span>Then the page title should be displayed as "Tree"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.TreeSteps.the_user_clicks_types_of_trees_link_in_tree_page()">
+                <span>When the user clicks Types of Trees link in Tree page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_page_title_should_be_displayed_as(java.lang.String)">
+                <span>Then the page title should be displayed as "Types of Trees"</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="488"><span class="badge log pass-bg mr-2">Pass</span>Verify that the user is navigated to the try editor page in Types of Trees page</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="489"><span class="badge log pass-bg mr-2">Pass</span>Verify that the user is navigated to the try editor page in Types of Trees page</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>com.numpyninja.dsalgo.apphooks.ApplicationHooks.beforeScenario(io.cucumber.java.Scenario)</span>
+      <div>Launching on browser: chrome
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given User launches the browser and enters the DsAlgo application url</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks on Get Started button in the DsAlgo Portal</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user clicks on Sign in link in the Home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Login"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user enters valid Username and Password in the Login form</span>
+      <div><table class='markup-table table '><tr><td>Username</td><td>sdet229stars@gmail.com</td></tr><tr><td>Password</td><td>test@1234</td></tr></table>
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user clicks on Login button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "NumpyNinja"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks the Get Started button in Tree Panel</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Tree"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks Types of Trees link in Tree page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Types of Trees"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks on Try here button in Types of Trees page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Assessment"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the page url should be displayed as "https://dsportalapp.herokuapp.com/tryEditor"</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="524"><span class="badge log pass-bg mr-2">Pass</span>Verify that user is able to navigate to Tree Traversals page link in Tree page</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="BEFORE">
+                <span>com.numpyninja.dsalgo.apphooks.ApplicationHooks.beforeScenario(io.cucumber.java.Scenario)</span>
+      <div>Launching on browser: chrome
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.user_launches_the_browser_and_enters_the_ds_algo_application_url()">
+                <span>Given User launches the browser and enters the DsAlgo application url</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_user_clicks_on_Get_Started_button_in_the_ds_algo_portal()">
+                <span>When the user clicks on Get Started button in the DsAlgo Portal</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.LoginSteps.user_clicks_on_sign_in_link_in_the_home_page()">
+                <span>And user clicks on Sign in link in the Home page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_page_title_should_be_displayed_as(java.lang.String)">
+                <span>Then the page title should be displayed as "Login"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DSIntroductionSteps.the_user_enters_valid_username_and_password_in_the_login_form(io.cucumber.datatable.DataTable)">
+                <span>When the user enters valid Username and Password in the Login form</span>
+      <div><table class='markup-table table '><tr><td>Username</td><td>sdet229stars@gmail.com</td></tr><tr><td>Password</td><td>test@1234</td></tr></table>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.LoginSteps.user_clicks_on_login_button()">
+                <span>And user clicks on Login button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_page_title_should_be_displayed_as(java.lang.String)">
+                <span>Then the page title should be displayed as "NumpyNinja"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.TreeSteps.the_user_clicks_the_get_started_button_in_tree_panel()">
+                <span>When the user clicks the Get Started button in Tree Panel</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_page_title_should_be_displayed_as(java.lang.String)">
+                <span>Then the page title should be displayed as "Tree"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.TreeSteps.the_user_clicks_tree_traversals_link_in_tree_page()">
+                <span>When the user clicks Tree Traversals link in Tree page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_page_title_should_be_displayed_as(java.lang.String)">
+                <span>Then the page title should be displayed as "Tree Traversals"</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="553"><span class="badge log pass-bg mr-2">Pass</span>Verify that the user is navigated to the try editor page in Tree Traversals page</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="554"><span class="badge log pass-bg mr-2">Pass</span>Verify that the user is navigated to the try editor page in Tree Traversals page</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>com.numpyninja.dsalgo.apphooks.ApplicationHooks.beforeScenario(io.cucumber.java.Scenario)</span>
+      <div>Launching on browser: chrome
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given User launches the browser and enters the DsAlgo application url</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks on Get Started button in the DsAlgo Portal</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user clicks on Sign in link in the Home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Login"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user enters valid Username and Password in the Login form</span>
+      <div><table class='markup-table table '><tr><td>Username</td><td>sdet229stars@gmail.com</td></tr><tr><td>Password</td><td>test@1234</td></tr></table>
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user clicks on Login button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "NumpyNinja"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks the Get Started button in Tree Panel</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Tree"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks Tree Traversals link in Tree page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Tree Traversals"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks on Try here button in Tree Traversals page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Assessment"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the page url should be displayed as "https://dsportalapp.herokuapp.com/tryEditor"</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="589"><span class="badge log pass-bg mr-2">Pass</span>Verify that user is able to navigate to Traversals-Illustration page link in Tree page</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="BEFORE">
+                <span>com.numpyninja.dsalgo.apphooks.ApplicationHooks.beforeScenario(io.cucumber.java.Scenario)</span>
+      <div>Launching on browser: chrome
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.user_launches_the_browser_and_enters_the_ds_algo_application_url()">
+                <span>Given User launches the browser and enters the DsAlgo application url</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_user_clicks_on_Get_Started_button_in_the_ds_algo_portal()">
+                <span>When the user clicks on Get Started button in the DsAlgo Portal</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.LoginSteps.user_clicks_on_sign_in_link_in_the_home_page()">
+                <span>And user clicks on Sign in link in the Home page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_page_title_should_be_displayed_as(java.lang.String)">
+                <span>Then the page title should be displayed as "Login"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DSIntroductionSteps.the_user_enters_valid_username_and_password_in_the_login_form(io.cucumber.datatable.DataTable)">
+                <span>When the user enters valid Username and Password in the Login form</span>
+      <div><table class='markup-table table '><tr><td>Username</td><td>sdet229stars@gmail.com</td></tr><tr><td>Password</td><td>test@1234</td></tr></table>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.LoginSteps.user_clicks_on_login_button()">
+                <span>And user clicks on Login button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_page_title_should_be_displayed_as(java.lang.String)">
+                <span>Then the page title should be displayed as "NumpyNinja"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.TreeSteps.the_user_clicks_the_get_started_button_in_tree_panel()">
+                <span>When the user clicks the Get Started button in Tree Panel</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_page_title_should_be_displayed_as(java.lang.String)">
+                <span>Then the page title should be displayed as "Tree"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.TreeSteps.the_user_clicks_traversals_illustration_link_in_tree_page()">
+                <span>When the user clicks Traversals-Illustration link in Tree page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_page_title_should_be_displayed_as(java.lang.String)">
+                <span>Then the page title should be displayed as "Traversals-Illustration"</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="618"><span class="badge log fail-bg mr-2">Fail</span>Verify that the user is navigated to the try editor page in Traversals-Illustration page</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="scenario_outline ">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="619"><span class="badge log fail-bg mr-2">Fail</span>Verify that the user is navigated to the try editor page in Traversals-Illustration page</div>
+                    <div class="status-avatar float-right">
+                      <i class="fa fa-paperclip"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step pass-bg">
+                    <span>com.numpyninja.dsalgo.apphooks.ApplicationHooks.beforeScenario(io.cucumber.java.Scenario)</span>
+      <div>Launching on browser: chrome
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given User launches the browser and enters the DsAlgo application url</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks on Get Started button in the DsAlgo Portal</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user clicks on Sign in link in the Home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Login"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user enters valid Username and Password in the Login form</span>
+      <div><table class='markup-table table '><tr><td>Username</td><td>sdet229stars@gmail.com</td></tr><tr><td>Password</td><td>test@1234</td></tr></table>
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user clicks on Login button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>Then the page title should be displayed as "NumpyNinja"</span>
+      <div>
+        <textarea disabled class="code-block">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for title to be "Login". Current title: "NumpyNinja" (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.110, chrome: {chromedriverVersion: 144.0.7559.109 (6a8d5e49388..., userDataDir: C:\Users\tresa\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56770}, goog:processID: 39548, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56770/devtoo..., se:cdpVersion: 144.0.7559.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 53bce735651ff6977d126a5390a33d35
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.numpyninja.dsalgo.testbase.BasePage.waitForTitle(BasePage.java:55)
+	at com.numpyninja.dsalgo.pageobjects.DashboardPage.validatePageTitle(DashboardPage.java:105)
+	at com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_page_title_should_be_displayed_as(DashboardSteps.java:38)
+	at ✽.the page title should be displayed as "NumpyNinja"(file:///C:/repos/SDETStars/src/test/resources/Features/Tree.feature:12)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>When the user clicks the Get Started button in Tree Panel</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then the page title should be displayed as "Tree"</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>When the user clicks Traversals-Illustration link in Tree page</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then the page title should be displayed as "Traversals-Illustration"</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>When the user clicks on Try here button in Traversals-Illustration page</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then the page title should be displayed as "Assessment"</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And the page url should be displayed as "https://dsportalapp.herokuapp.com/tryEditor"</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.numpyninja.dsalgo.apphooks.ApplicationHooks.tearDown(io.cucumber.java.Scenario)</span>
+      <div>Verify_that_the_user_is_navigated_to_the_try_editor_page_in_Traversals-Illustration_page_02-02-2026_18-38-35.png
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../embedded1.png' src="../embedded1.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="654"><span class="badge log fail-bg mr-2">Fail</span>Verify that user is able to navigate to Binary Trees page link in Tree page</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step pass-bg" title="BEFORE">
+                <span>com.numpyninja.dsalgo.apphooks.ApplicationHooks.beforeScenario(io.cucumber.java.Scenario)</span>
+      <div>Launching on browser: chrome
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.user_launches_the_browser_and_enters_the_ds_algo_application_url()">
+                <span>Given User launches the browser and enters the DsAlgo application url</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_user_clicks_on_Get_Started_button_in_the_ds_algo_portal()">
+                <span>When the user clicks on Get Started button in the DsAlgo Portal</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.LoginSteps.user_clicks_on_sign_in_link_in_the_home_page()">
+                <span>And user clicks on Sign in link in the Home page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_page_title_should_be_displayed_as(java.lang.String)">
+                <span>Then the page title should be displayed as "Login"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DSIntroductionSteps.the_user_enters_valid_username_and_password_in_the_login_form(io.cucumber.datatable.DataTable)">
+                <span>When the user enters valid Username and Password in the Login form</span>
+      <div><table class='markup-table table '><tr><td>Username</td><td>sdet229stars@gmail.com</td></tr><tr><td>Password</td><td>test@1234</td></tr></table>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.LoginSteps.user_clicks_on_login_button()">
+                <span>And user clicks on Login button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step fail-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_page_title_should_be_displayed_as(java.lang.String)">
+                <span>Then the page title should be displayed as "NumpyNinja"</span>
+      <div>
+        <textarea disabled class="code-block">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for title to be "Login". Current title: "NumpyNinja" (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.110, chrome: {chromedriverVersion: 144.0.7559.109 (6a8d5e49388..., userDataDir: C:\Users\tresa\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57290}, goog:processID: 3252, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57290/devtoo..., se:cdpVersion: 144.0.7559.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4229549b6132972645f67e27275df3c5
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.numpyninja.dsalgo.testbase.BasePage.waitForTitle(BasePage.java:55)
+	at com.numpyninja.dsalgo.pageobjects.DashboardPage.validatePageTitle(DashboardPage.java:105)
+	at com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_page_title_should_be_displayed_as(DashboardSteps.java:38)
+	at ✽.the page title should be displayed as "NumpyNinja"(file:///C:/repos/SDETStars/src/test/resources/Features/Tree.feature:12)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="com.numpyninja.dsalgo.stepdefinitions.TreeSteps.the_user_clicks_the_get_started_button_in_tree_panel()">
+                <span>When the user clicks the Get Started button in Tree Panel</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_page_title_should_be_displayed_as(java.lang.String)">
+                <span>Then the page title should be displayed as "Tree"</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="com.numpyninja.dsalgo.stepdefinitions.TreeSteps.the_user_clicks_binary_trees_link_in_tree_page()">
+                <span>When the user clicks Binary Trees link in Tree page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_page_title_should_be_displayed_as(java.lang.String)">
+                <span>Then the page title should be displayed as "Binary Trees"</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER">
+                <span>com.numpyninja.dsalgo.apphooks.ApplicationHooks.tearDown(io.cucumber.java.Scenario)</span>
+      <div>Verify_that_user_is_able_to_navigate_to_Binary_Trees_page_link_in_Tree_page_02-02-2026_18-38-51.png
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../embedded2.png' src="../embedded2.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="683"><span class="badge log pass-bg mr-2">Pass</span>Verify that the user is navigated to the try editor page in Binary Trees page</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="684"><span class="badge log pass-bg mr-2">Pass</span>Verify that the user is navigated to the try editor page in Binary Trees page</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>com.numpyninja.dsalgo.apphooks.ApplicationHooks.beforeScenario(io.cucumber.java.Scenario)</span>
+      <div>Launching on browser: chrome
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given User launches the browser and enters the DsAlgo application url</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks on Get Started button in the DsAlgo Portal</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user clicks on Sign in link in the Home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Login"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user enters valid Username and Password in the Login form</span>
+      <div><table class='markup-table table '><tr><td>Username</td><td>sdet229stars@gmail.com</td></tr><tr><td>Password</td><td>test@1234</td></tr></table>
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user clicks on Login button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "NumpyNinja"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks the Get Started button in Tree Panel</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Tree"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks Binary Trees link in Tree page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Binary Trees"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks on Try here button in Binary Trees</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Assessment"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the page url should be displayed as "https://dsportalapp.herokuapp.com/tryEditor"</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="719"><span class="badge log pass-bg mr-2">Pass</span>Verify that user is able to navigate to Types of Binary Trees page link in Tree page</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="BEFORE">
+                <span>com.numpyninja.dsalgo.apphooks.ApplicationHooks.beforeScenario(io.cucumber.java.Scenario)</span>
+      <div>Launching on browser: chrome
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.user_launches_the_browser_and_enters_the_ds_algo_application_url()">
+                <span>Given User launches the browser and enters the DsAlgo application url</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_user_clicks_on_Get_Started_button_in_the_ds_algo_portal()">
+                <span>When the user clicks on Get Started button in the DsAlgo Portal</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.LoginSteps.user_clicks_on_sign_in_link_in_the_home_page()">
+                <span>And user clicks on Sign in link in the Home page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_page_title_should_be_displayed_as(java.lang.String)">
+                <span>Then the page title should be displayed as "Login"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DSIntroductionSteps.the_user_enters_valid_username_and_password_in_the_login_form(io.cucumber.datatable.DataTable)">
+                <span>When the user enters valid Username and Password in the Login form</span>
+      <div><table class='markup-table table '><tr><td>Username</td><td>sdet229stars@gmail.com</td></tr><tr><td>Password</td><td>test@1234</td></tr></table>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.LoginSteps.user_clicks_on_login_button()">
+                <span>And user clicks on Login button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_page_title_should_be_displayed_as(java.lang.String)">
+                <span>Then the page title should be displayed as "NumpyNinja"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.TreeSteps.the_user_clicks_the_get_started_button_in_tree_panel()">
+                <span>When the user clicks the Get Started button in Tree Panel</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_page_title_should_be_displayed_as(java.lang.String)">
+                <span>Then the page title should be displayed as "Tree"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.TreeSteps.the_user_clicks_types_of_binary_trees_link_in_tree_page()">
+                <span>When the user clicks Types of Binary Trees link in Tree page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_page_title_should_be_displayed_as(java.lang.String)">
+                <span>Then the page title should be displayed as "Types of Binary Trees"</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="748"><span class="badge log pass-bg mr-2">Pass</span>Verify that the user is navigated to the try editor page in Types of Binary Trees page</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="749"><span class="badge log pass-bg mr-2">Pass</span>Verify that the user is navigated to the try editor page in Types of Binary Trees page</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>com.numpyninja.dsalgo.apphooks.ApplicationHooks.beforeScenario(io.cucumber.java.Scenario)</span>
+      <div>Launching on browser: chrome
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given User launches the browser and enters the DsAlgo application url</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks on Get Started button in the DsAlgo Portal</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user clicks on Sign in link in the Home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Login"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user enters valid Username and Password in the Login form</span>
+      <div><table class='markup-table table '><tr><td>Username</td><td>sdet229stars@gmail.com</td></tr><tr><td>Password</td><td>test@1234</td></tr></table>
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user clicks on Login button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "NumpyNinja"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks the Get Started button in Tree Panel</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Tree"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks Types of Binary Trees link in Tree page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Types of Binary Trees"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks on Try here button in Types of Binary Trees</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Assessment"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the page url should be displayed as "https://dsportalapp.herokuapp.com/tryEditor"</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="784"><span class="badge log pass-bg mr-2">Pass</span>Verify that user is able to navigate to Implementation in Python page link in Tree page</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="BEFORE">
+                <span>com.numpyninja.dsalgo.apphooks.ApplicationHooks.beforeScenario(io.cucumber.java.Scenario)</span>
+      <div>Launching on browser: chrome
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.user_launches_the_browser_and_enters_the_ds_algo_application_url()">
+                <span>Given User launches the browser and enters the DsAlgo application url</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_user_clicks_on_Get_Started_button_in_the_ds_algo_portal()">
+                <span>When the user clicks on Get Started button in the DsAlgo Portal</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.LoginSteps.user_clicks_on_sign_in_link_in_the_home_page()">
+                <span>And user clicks on Sign in link in the Home page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_page_title_should_be_displayed_as(java.lang.String)">
+                <span>Then the page title should be displayed as "Login"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DSIntroductionSteps.the_user_enters_valid_username_and_password_in_the_login_form(io.cucumber.datatable.DataTable)">
+                <span>When the user enters valid Username and Password in the Login form</span>
+      <div><table class='markup-table table '><tr><td>Username</td><td>sdet229stars@gmail.com</td></tr><tr><td>Password</td><td>test@1234</td></tr></table>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.LoginSteps.user_clicks_on_login_button()">
+                <span>And user clicks on Login button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_page_title_should_be_displayed_as(java.lang.String)">
+                <span>Then the page title should be displayed as "NumpyNinja"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.TreeSteps.the_user_clicks_the_get_started_button_in_tree_panel()">
+                <span>When the user clicks the Get Started button in Tree Panel</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_page_title_should_be_displayed_as(java.lang.String)">
+                <span>Then the page title should be displayed as "Tree"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.TreeSteps.the_user_clicks_implementation_in_python_link_in_tree_page()">
+                <span>When the user clicks Implementation in Python link in Tree page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_page_title_should_be_displayed_as(java.lang.String)">
+                <span>Then the page title should be displayed as "Implementation in Python"</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="813"><span class="badge log pass-bg mr-2">Pass</span>Verify that the user is navigated to the try editor page in Implementation in Python page</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="814"><span class="badge log pass-bg mr-2">Pass</span>Verify that the user is navigated to the try editor page in Implementation in Python page</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>com.numpyninja.dsalgo.apphooks.ApplicationHooks.beforeScenario(io.cucumber.java.Scenario)</span>
+      <div>Launching on browser: chrome
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given User launches the browser and enters the DsAlgo application url</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks on Get Started button in the DsAlgo Portal</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user clicks on Sign in link in the Home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Login"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user enters valid Username and Password in the Login form</span>
+      <div><table class='markup-table table '><tr><td>Username</td><td>sdet229stars@gmail.com</td></tr><tr><td>Password</td><td>test@1234</td></tr></table>
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user clicks on Login button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "NumpyNinja"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks the Get Started button in Tree Panel</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Tree"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks Implementation in Python link in Tree page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Implementation in Python"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks on Try here button in Implementation in Python</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Assessment"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the page url should be displayed as "https://dsportalapp.herokuapp.com/tryEditor"</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="849"><span class="badge log pass-bg mr-2">Pass</span>Verify that user is able to navigate to Binary Tree Traversals page link in Tree page</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="BEFORE">
+                <span>com.numpyninja.dsalgo.apphooks.ApplicationHooks.beforeScenario(io.cucumber.java.Scenario)</span>
+      <div>Launching on browser: chrome
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.user_launches_the_browser_and_enters_the_ds_algo_application_url()">
+                <span>Given User launches the browser and enters the DsAlgo application url</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_user_clicks_on_Get_Started_button_in_the_ds_algo_portal()">
+                <span>When the user clicks on Get Started button in the DsAlgo Portal</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.LoginSteps.user_clicks_on_sign_in_link_in_the_home_page()">
+                <span>And user clicks on Sign in link in the Home page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_page_title_should_be_displayed_as(java.lang.String)">
+                <span>Then the page title should be displayed as "Login"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DSIntroductionSteps.the_user_enters_valid_username_and_password_in_the_login_form(io.cucumber.datatable.DataTable)">
+                <span>When the user enters valid Username and Password in the Login form</span>
+      <div><table class='markup-table table '><tr><td>Username</td><td>sdet229stars@gmail.com</td></tr><tr><td>Password</td><td>test@1234</td></tr></table>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.LoginSteps.user_clicks_on_login_button()">
+                <span>And user clicks on Login button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_page_title_should_be_displayed_as(java.lang.String)">
+                <span>Then the page title should be displayed as "NumpyNinja"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.TreeSteps.the_user_clicks_the_get_started_button_in_tree_panel()">
+                <span>When the user clicks the Get Started button in Tree Panel</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_page_title_should_be_displayed_as(java.lang.String)">
+                <span>Then the page title should be displayed as "Tree"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.TreeSteps.the_user_clicks_binary_tree_traversals_link_in_tree_page()">
+                <span>When the user clicks Binary Tree Traversals link in Tree page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_page_title_should_be_displayed_as(java.lang.String)">
+                <span>Then the page title should be displayed as "Binary Tree Traversals"</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="878"><span class="badge log pass-bg mr-2">Pass</span>Verify that the user is navigated to the try editor page in Binary Tree Traversals page</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="879"><span class="badge log pass-bg mr-2">Pass</span>Verify that the user is navigated to the try editor page in Binary Tree Traversals page</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>com.numpyninja.dsalgo.apphooks.ApplicationHooks.beforeScenario(io.cucumber.java.Scenario)</span>
+      <div>Launching on browser: chrome
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given User launches the browser and enters the DsAlgo application url</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks on Get Started button in the DsAlgo Portal</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user clicks on Sign in link in the Home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Login"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user enters valid Username and Password in the Login form</span>
+      <div><table class='markup-table table '><tr><td>Username</td><td>sdet229stars@gmail.com</td></tr><tr><td>Password</td><td>test@1234</td></tr></table>
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user clicks on Login button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "NumpyNinja"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks the Get Started button in Tree Panel</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Tree"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks Binary Tree Traversals link in Tree page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Binary Tree Traversals"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks on Try here button in Binary Tree Traversals</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Assessment"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the page url should be displayed as "https://dsportalapp.herokuapp.com/tryEditor"</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="914"><span class="badge log pass-bg mr-2">Pass</span>Verify that user is able to navigate to Implementation of Binary Trees page link in Tree page</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="BEFORE">
+                <span>com.numpyninja.dsalgo.apphooks.ApplicationHooks.beforeScenario(io.cucumber.java.Scenario)</span>
+      <div>Launching on browser: chrome
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.user_launches_the_browser_and_enters_the_ds_algo_application_url()">
+                <span>Given User launches the browser and enters the DsAlgo application url</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_user_clicks_on_Get_Started_button_in_the_ds_algo_portal()">
+                <span>When the user clicks on Get Started button in the DsAlgo Portal</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.LoginSteps.user_clicks_on_sign_in_link_in_the_home_page()">
+                <span>And user clicks on Sign in link in the Home page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_page_title_should_be_displayed_as(java.lang.String)">
+                <span>Then the page title should be displayed as "Login"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DSIntroductionSteps.the_user_enters_valid_username_and_password_in_the_login_form(io.cucumber.datatable.DataTable)">
+                <span>When the user enters valid Username and Password in the Login form</span>
+      <div><table class='markup-table table '><tr><td>Username</td><td>sdet229stars@gmail.com</td></tr><tr><td>Password</td><td>test@1234</td></tr></table>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.LoginSteps.user_clicks_on_login_button()">
+                <span>And user clicks on Login button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_page_title_should_be_displayed_as(java.lang.String)">
+                <span>Then the page title should be displayed as "NumpyNinja"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.TreeSteps.the_user_clicks_the_get_started_button_in_tree_panel()">
+                <span>When the user clicks the Get Started button in Tree Panel</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_page_title_should_be_displayed_as(java.lang.String)">
+                <span>Then the page title should be displayed as "Tree"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.TreeSteps.the_user_clicks_implementation_of_binary_trees_link_in_tree_page()">
+                <span>When the user clicks Implementation of Binary Trees link in Tree page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_page_title_should_be_displayed_as(java.lang.String)">
+                <span>Then the page title should be displayed as "Implementation of Binary Trees"</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="943"><span class="badge log pass-bg mr-2">Pass</span>Verify that the user is navigated to the try editor page in Implementation of Binary Trees page</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="944"><span class="badge log pass-bg mr-2">Pass</span>Verify that the user is navigated to the try editor page in Implementation of Binary Trees page</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>com.numpyninja.dsalgo.apphooks.ApplicationHooks.beforeScenario(io.cucumber.java.Scenario)</span>
+      <div>Launching on browser: chrome
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given User launches the browser and enters the DsAlgo application url</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks on Get Started button in the DsAlgo Portal</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user clicks on Sign in link in the Home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Login"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user enters valid Username and Password in the Login form</span>
+      <div><table class='markup-table table '><tr><td>Username</td><td>sdet229stars@gmail.com</td></tr><tr><td>Password</td><td>test@1234</td></tr></table>
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user clicks on Login button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "NumpyNinja"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks the Get Started button in Tree Panel</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Tree"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks Implementation of Binary Trees link in Tree page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Implementation of Binary Trees"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks on Try here button in Implementation of Binary Trees</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Assessment"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the page url should be displayed as "https://dsportalapp.herokuapp.com/tryEditor"</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="979"><span class="badge log pass-bg mr-2">Pass</span>Verify that user is able to navigate to Applications of Binary trees page link in Tree page</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="BEFORE">
+                <span>com.numpyninja.dsalgo.apphooks.ApplicationHooks.beforeScenario(io.cucumber.java.Scenario)</span>
+      <div>Launching on browser: chrome
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.user_launches_the_browser_and_enters_the_ds_algo_application_url()">
+                <span>Given User launches the browser and enters the DsAlgo application url</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_user_clicks_on_Get_Started_button_in_the_ds_algo_portal()">
+                <span>When the user clicks on Get Started button in the DsAlgo Portal</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.LoginSteps.user_clicks_on_sign_in_link_in_the_home_page()">
+                <span>And user clicks on Sign in link in the Home page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_page_title_should_be_displayed_as(java.lang.String)">
+                <span>Then the page title should be displayed as "Login"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DSIntroductionSteps.the_user_enters_valid_username_and_password_in_the_login_form(io.cucumber.datatable.DataTable)">
+                <span>When the user enters valid Username and Password in the Login form</span>
+      <div><table class='markup-table table '><tr><td>Username</td><td>sdet229stars@gmail.com</td></tr><tr><td>Password</td><td>test@1234</td></tr></table>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.LoginSteps.user_clicks_on_login_button()">
+                <span>And user clicks on Login button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_page_title_should_be_displayed_as(java.lang.String)">
+                <span>Then the page title should be displayed as "NumpyNinja"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.TreeSteps.the_user_clicks_the_get_started_button_in_tree_panel()">
+                <span>When the user clicks the Get Started button in Tree Panel</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_page_title_should_be_displayed_as(java.lang.String)">
+                <span>Then the page title should be displayed as "Tree"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.TreeSteps.the_user_clicks_applications_of_binary_trees_link_in_tree_page()">
+                <span>When the user clicks Applications of Binary trees link in Tree page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_page_title_should_be_displayed_as(java.lang.String)">
+                <span>Then the page title should be displayed as "Applications of Binary trees"</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="1,008"><span class="badge log pass-bg mr-2">Pass</span>Verify that the user is navigated to the try editor page in Applications of Binary trees page</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="1,009"><span class="badge log pass-bg mr-2">Pass</span>Verify that the user is navigated to the try editor page in Applications of Binary trees page</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>com.numpyninja.dsalgo.apphooks.ApplicationHooks.beforeScenario(io.cucumber.java.Scenario)</span>
+      <div>Launching on browser: chrome
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given User launches the browser and enters the DsAlgo application url</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks on Get Started button in the DsAlgo Portal</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user clicks on Sign in link in the Home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Login"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user enters valid Username and Password in the Login form</span>
+      <div><table class='markup-table table '><tr><td>Username</td><td>sdet229stars@gmail.com</td></tr><tr><td>Password</td><td>test@1234</td></tr></table>
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user clicks on Login button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "NumpyNinja"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks the Get Started button in Tree Panel</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Tree"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks Applications of Binary trees link in Tree page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Applications of Binary trees"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks on Try here button in Applications of Binary trees</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Assessment"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the page url should be displayed as "https://dsportalapp.herokuapp.com/tryEditor"</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="1,044"><span class="badge log pass-bg mr-2">Pass</span>Verify that user is able to navigate to Binary Search Trees link in Tree page</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="BEFORE">
+                <span>com.numpyninja.dsalgo.apphooks.ApplicationHooks.beforeScenario(io.cucumber.java.Scenario)</span>
+      <div>Launching on browser: chrome
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.user_launches_the_browser_and_enters_the_ds_algo_application_url()">
+                <span>Given User launches the browser and enters the DsAlgo application url</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_user_clicks_on_Get_Started_button_in_the_ds_algo_portal()">
+                <span>When the user clicks on Get Started button in the DsAlgo Portal</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.LoginSteps.user_clicks_on_sign_in_link_in_the_home_page()">
+                <span>And user clicks on Sign in link in the Home page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_page_title_should_be_displayed_as(java.lang.String)">
+                <span>Then the page title should be displayed as "Login"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DSIntroductionSteps.the_user_enters_valid_username_and_password_in_the_login_form(io.cucumber.datatable.DataTable)">
+                <span>When the user enters valid Username and Password in the Login form</span>
+      <div><table class='markup-table table '><tr><td>Username</td><td>sdet229stars@gmail.com</td></tr><tr><td>Password</td><td>test@1234</td></tr></table>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.LoginSteps.user_clicks_on_login_button()">
+                <span>And user clicks on Login button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_page_title_should_be_displayed_as(java.lang.String)">
+                <span>Then the page title should be displayed as "NumpyNinja"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.TreeSteps.the_user_clicks_the_get_started_button_in_tree_panel()">
+                <span>When the user clicks the Get Started button in Tree Panel</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_page_title_should_be_displayed_as(java.lang.String)">
+                <span>Then the page title should be displayed as "Tree"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.TreeSteps.the_user_clicks_binary_search_trees_link_in_tree_page()">
+                <span>When the user clicks Binary Search Trees link in Tree page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_page_title_should_be_displayed_as(java.lang.String)">
+                <span>Then the page title should be displayed as "Binary Search Trees"</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="1,073"><span class="badge log pass-bg mr-2">Pass</span>Verify that the user is navigated to the try editor page in Binary Search Trees page</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="1,074"><span class="badge log pass-bg mr-2">Pass</span>Verify that the user is navigated to the try editor page in Binary Search Trees page</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>com.numpyninja.dsalgo.apphooks.ApplicationHooks.beforeScenario(io.cucumber.java.Scenario)</span>
+      <div>Launching on browser: chrome
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given User launches the browser and enters the DsAlgo application url</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks on Get Started button in the DsAlgo Portal</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user clicks on Sign in link in the Home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Login"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user enters valid Username and Password in the Login form</span>
+      <div><table class='markup-table table '><tr><td>Username</td><td>sdet229stars@gmail.com</td></tr><tr><td>Password</td><td>test@1234</td></tr></table>
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user clicks on Login button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "NumpyNinja"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks the Get Started button in Tree Panel</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Tree"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks Binary Search Trees link in Tree page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Binary Search Trees"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks on Try here button in Binary Search Trees</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Assessment"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the page url should be displayed as "https://dsportalapp.herokuapp.com/tryEditor"</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="1,109"><span class="badge log pass-bg mr-2">Pass</span>Verify that user is able to navigate to Implementation of BST page link in Tree page</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="BEFORE">
+                <span>com.numpyninja.dsalgo.apphooks.ApplicationHooks.beforeScenario(io.cucumber.java.Scenario)</span>
+      <div>Launching on browser: chrome
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.user_launches_the_browser_and_enters_the_ds_algo_application_url()">
+                <span>Given User launches the browser and enters the DsAlgo application url</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_user_clicks_on_Get_Started_button_in_the_ds_algo_portal()">
+                <span>When the user clicks on Get Started button in the DsAlgo Portal</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.LoginSteps.user_clicks_on_sign_in_link_in_the_home_page()">
+                <span>And user clicks on Sign in link in the Home page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_page_title_should_be_displayed_as(java.lang.String)">
+                <span>Then the page title should be displayed as "Login"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DSIntroductionSteps.the_user_enters_valid_username_and_password_in_the_login_form(io.cucumber.datatable.DataTable)">
+                <span>When the user enters valid Username and Password in the Login form</span>
+      <div><table class='markup-table table '><tr><td>Username</td><td>sdet229stars@gmail.com</td></tr><tr><td>Password</td><td>test@1234</td></tr></table>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.LoginSteps.user_clicks_on_login_button()">
+                <span>And user clicks on Login button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_page_title_should_be_displayed_as(java.lang.String)">
+                <span>Then the page title should be displayed as "NumpyNinja"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.TreeSteps.the_user_clicks_the_get_started_button_in_tree_panel()">
+                <span>When the user clicks the Get Started button in Tree Panel</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_page_title_should_be_displayed_as(java.lang.String)">
+                <span>Then the page title should be displayed as "Tree"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.TreeSteps.the_user_clicks_implementation_of_bst_link_in_tree_page()">
+                <span>When the user clicks Implementation of BST link in Tree page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.numpyninja.dsalgo.stepdefinitions.DashboardSteps.the_page_title_should_be_displayed_as(java.lang.String)">
+                <span>Then the page title should be displayed as "Implementation Of BST"</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="1,138"><span class="badge log pass-bg mr-2">Pass</span>Verify that the user is navigated to the try editor page in Implementation of BST page</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="1,139"><span class="badge log pass-bg mr-2">Pass</span>Verify that the user is navigated to the try editor page in Implementation of BST page</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>com.numpyninja.dsalgo.apphooks.ApplicationHooks.beforeScenario(io.cucumber.java.Scenario)</span>
+      <div>Launching on browser: chrome
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given User launches the browser and enters the DsAlgo application url</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks on Get Started button in the DsAlgo Portal</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user clicks on Sign in link in the Home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Login"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user enters valid Username and Password in the Login form</span>
+      <div><table class='markup-table table '><tr><td>Username</td><td>sdet229stars@gmail.com</td></tr><tr><td>Password</td><td>test@1234</td></tr></table>
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user clicks on Login button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "NumpyNinja"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks the Get Started button in Tree Panel</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Tree"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks Implementation of BST link in Tree page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Implementation Of BST"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks on Try here button in Implementation of BST</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Assessment"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the page url should be displayed as "https://dsportalapp.herokuapp.com/tryEditor"</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="1,174"><span class="badge log pass-bg mr-2">Pass</span>Verify that user is able to navigate to Practice Questions page link in Tree page</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="1,175"><span class="badge log pass-bg mr-2">Pass</span>Verify that user is able to navigate to Practice Questions page link in Tree page</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>com.numpyninja.dsalgo.apphooks.ApplicationHooks.beforeScenario(io.cucumber.java.Scenario)</span>
+      <div>Launching on browser: chrome
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given User launches the browser and enters the DsAlgo application url</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks on Get Started button in the DsAlgo Portal</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user clicks on Sign in link in the Home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Login"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user enters valid Username and Password in the Login form</span>
+      <div><table class='markup-table table '><tr><td>Username</td><td>sdet229stars@gmail.com</td></tr><tr><td>Password</td><td>test@1234</td></tr></table>
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user clicks on Login button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "NumpyNinja"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks the Get Started button in Tree Panel</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Tree"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks Implementation of BST link in Tree page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Implementation Of BST"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user scrolls down and clicks Practice Question link</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the page title should be displayed as "Practice Questions"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the page url should be displayed as "https://dsportalapp.herokuapp.com/tree/practice"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks on Sign out link</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the user should be able to logged out and get success message as "Logged out successfully"</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="test-wrapper row view exception-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Exception</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">1</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>2</span>
+</span>
+<p class="name">org.openqa.selenium.TimeoutException</p>
+<p class="duration text-sm">2 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>org.openqa.selenium.TimeoutException</h4>
+<span status="fail" class='badge log badge-danger'>2 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>18:38:25 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='635'>Then the page title should be displayed as "NumpyNinja"</a>
+<div class="">
+<span class="badge badge-default">Tree Functionality of Dsalgo Application.Verify that the user is navigated to the try editor page in Traversals-Illustration page.Then the page title should be displayed as "NumpyNinja"</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>18:38:40 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='670'>Then the page title should be displayed as "NumpyNinja"</a>
+<div class="">
+<span class="badge badge-default">Tree Functionality of Dsalgo Application.Verify that user is able to navigate to Binary Trees page link in Tree page.Then the page title should be displayed as "NumpyNinja"</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>
