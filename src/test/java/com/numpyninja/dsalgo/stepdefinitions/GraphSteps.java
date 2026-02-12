@@ -1,19 +1,10 @@
 package com.numpyninja.dsalgo.stepdefinitions;
 
-import com.numpyninja.dsalgo.pageobjects.DashboardPage;
 import com.numpyninja.dsalgo.pageobjects.GraphPage;
-import com.numpyninja.dsalgo.pageobjects.LoginPage;
 import com.numpyninja.dsalgo.testbase.TestContext;
-import com.numpyninja.dsalgo.utilities.ConfigReader;
-import io.cucumber.java.en.Given;
-import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import lombok.extern.slf4j.Slf4j;
-import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
-
-import java.io.IOException;
-import java.util.Map;
 
 @Slf4j
 public class GraphSteps {
