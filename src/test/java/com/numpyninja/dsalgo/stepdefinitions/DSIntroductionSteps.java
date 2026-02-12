@@ -54,7 +54,7 @@ public class DSIntroductionSteps {
     public void the_page_url_should_be_displayed_as(String expectedCurrentPageUrl) throws InterruptedException {
         String actualCurrentPageUrl = dsIntroductionPage.getcurrentpageUrl();
         Assert.assertEquals(actualCurrentPageUrl, expectedCurrentPageUrl);
-        log.info("Validating the current page url,  Expected: {} ",expectedCurrentPageUrl);
+        log.info("Validating the current page url,  Expected: {} ", expectedCurrentPageUrl);
     }
 
     @When("user clicks on Run button")
@@ -66,14 +66,14 @@ public class DSIntroductionSteps {
     public void the_user_should_get_output_as_below_run_button(String expectedOutput) {
         String actualOutput = dsIntroductionPage.getValue();
         Assert.assertEquals(actualOutput, expectedOutput);
-        log.info("Validating try editor output,  Expected: {} ",expectedOutput);
+        log.info("Validating try editor output,  Expected: {} ", expectedOutput);
     }
 
     @Then("the user should get pop up message as {string}")
     public void the_user_should_get_pop_up_message_as(String expectedAlertMsg) {
         String actualAlertMsg = dsIntroductionPage.getPopUpMsg();
         Assert.assertEquals(actualAlertMsg, expectedAlertMsg);
-        log.info("Validating try editor alert message,  Expected: {} ",expectedAlertMsg);
+        log.info("Validating try editor alert message,  Expected: {} ", expectedAlertMsg);
     }
 
     @Then("user clicks on OK button in the popup")
@@ -105,38 +105,38 @@ public class DSIntroductionSteps {
     @When("the user enters {string} with prefix space")
     public void theUserEntersWithprefixSpace(String pythonCode) {
         dsIntroductionPage.enterPythonCodeWithSpace(pythonCode);
-        log.info("User enters python code in try editor,  Expected: {} ",pythonCode);
+        log.info("User enters python code in try editor,  Expected: {} ", pythonCode);
     }
 
     @When("the user enters Python Code from {string} and {int} in try editor")
     public void theUserEntersPythonCodeFromAndInTryEditor(String sheetName, int rowNumber) throws IOException, InvalidFormatException {
-        List<Map<String,String>> testData=dsIntroductionPage.readDataFromExcel(sheetName,rowNumber);
-        String pythonCode=testData.get(rowNumber).get("PythonCode");
+        List<Map<String, String>> testData = dsIntroductionPage.readDataFromExcel(sheetName, rowNumber);
+        String pythonCode = testData.get(rowNumber).get("PythonCode");
         dsIntroductionPage.enterPythonCode(pythonCode);
     }
 
     @Then("the user should get pop up message from {string} and {int}")
     public void theUserShouldGetPopUpMessageFromAnd(String sheetName, int rowNumber) throws IOException, InvalidFormatException {
-        List<Map<String,String>> testData=dsIntroductionPage.readDataFromExcel(sheetName,rowNumber);
-        String expectedAlertMsg=testData.get(rowNumber).get("Popup Message");
+        List<Map<String, String>> testData = dsIntroductionPage.readDataFromExcel(sheetName, rowNumber);
+        String expectedAlertMsg = testData.get(rowNumber).get("Popup Message");
         String actualAlertMsg = dsIntroductionPage.getPopUpMsg();
-        Assert.assertEquals(actualAlertMsg,expectedAlertMsg);
-        log.info("Validating try editor alert message,  Expected: {} ",expectedAlertMsg);
+        Assert.assertEquals(actualAlertMsg, expectedAlertMsg);
+        log.info("Validating try editor alert message,  Expected: {} ", expectedAlertMsg);
     }
 
     @Then("the user should get output from {string} and {int} below Run button")
     public void theUserShouldGetOutputFromAndBelowRunButton(String sheetName, int rowNumber) throws IOException, InvalidFormatException {
-        List<Map<String,String>> testData=dsIntroductionPage.readDataFromExcel(sheetName,rowNumber);
+        List<Map<String, String>> testData = dsIntroductionPage.readDataFromExcel(sheetName, rowNumber);
         String expectedOutput = testData.get(rowNumber).get("Output");
         String actualOutput = dsIntroductionPage.getValue();
-        Assert.assertEquals(actualOutput,expectedOutput);
-        log.info("Validating try editor output,  Expected: {} ",expectedOutput);
+        Assert.assertEquals(actualOutput, expectedOutput);
+        log.info("Validating try editor output,  Expected: {} ", expectedOutput);
     }
 
     @When("the user enters Python Code from {string} and {int} with prefix space")
     public void theUserEntersPythonCodeFromAndWithPrefixSpace(String sheetName, int rowNumber) throws IOException, InvalidFormatException {
-        List<Map<String,String>> testData=dsIntroductionPage.readDataFromExcel(sheetName,rowNumber);
-        String pythonCode=testData.get(rowNumber).get("PythonCode");
+        List<Map<String, String>> testData = dsIntroductionPage.readDataFromExcel(sheetName, rowNumber);
+        String pythonCode = testData.get(rowNumber).get("PythonCode");
         dsIntroductionPage.enterPythonCodeWithSpace(pythonCode);
     }
 }

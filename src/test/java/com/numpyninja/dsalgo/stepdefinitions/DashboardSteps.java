@@ -29,7 +29,9 @@ public class DashboardSteps {
 
     @Given("User launches the browser and enters the DsAlgo application url")
     public void user_launches_the_browser_and_enters_the_ds_algo_application_url() throws IOException {
-        driver.get(ConfigReader.initProp("url"));
+//        String url= ConfigReader.initProp("url");
+//        System.out.println("************************ "+ url);
+//        driver.get(url);
         log.info("Launching application URL: {}",ConfigReader.initProp("url"));
     }
 

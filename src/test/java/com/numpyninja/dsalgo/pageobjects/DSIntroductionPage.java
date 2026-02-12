@@ -7,6 +7,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
+import java.util.HashMap;
+
 public class DSIntroductionPage extends BasePage {
     public DSIntroductionPage(WebDriver driver, TestContext context) {
         super(driver, context);

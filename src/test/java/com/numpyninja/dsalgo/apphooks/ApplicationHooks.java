@@ -17,6 +17,8 @@ import lombok.extern.slf4j.Slf4j;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
+import org.testng.annotations.Optional;
+import org.testng.annotations.Parameters;
 
 import java.io.ByteArrayInputStream;
 import java.io.File;
@@ -45,17 +47,23 @@ public class ApplicationHooks {
     @Before(order = 0)
     public void getProperty() throws IOException {
         cr = new ConfigReader();
-        browserName = cr.initProp("browser");
+        //TestNG XML / Maven (-Dbrowser)
+        browserName=System.getProperty("browser");
+        System.out.println("******************* "+browserName);
+        //config.properties fallback
+        if(browserName==null || browserName.isEmpty())
+            browserName = cr.initProp("browser");
         extent = ExtentReportManager.getInstance();
     }
 
     @Before(order = 1)
-    public void beforeScenario(Scenario scenario) {
+    public void beforeScenario(Scenario scenario) throws IOException {
 
         context.setDriver(DriverFactory.initDriver(browserName));
         driver = context.getDriver();
         context.initializePageObjects();
-
+        String url = cr.initProp("url");
+        driver.get(url);
         scenario.log("Launching on browser: " + browserName);
 
         ExtentTest extentTest = extent.createTest(scenario.getName())

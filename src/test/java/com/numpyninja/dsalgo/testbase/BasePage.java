@@ -52,7 +52,8 @@ public class BasePage {
 
     public void waitForTitle(String title,long timeOutInSec){
         WebDriverWait wait=new WebDriverWait(driver,Duration.ofSeconds(timeOutInSec));
-        wait.until(ExpectedConditions.titleIs(title));
+        wait.until(ExpectedConditions.or(ExpectedConditions.titleIs(title),
+                ExpectedConditions.titleContains(title)));
     }
 
     public List<Map<String, String>> readDataFromExcel(String sheetName, Integer rowNumber) throws IOException, InvalidFormatException {
