@@ -2,7 +2,6 @@ package com.numpyninja.dsalgo.pageobjects;
 
 import com.numpyninja.dsalgo.testbase.BasePage;
 import com.numpyninja.dsalgo.testbase.TestContext;
-import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
