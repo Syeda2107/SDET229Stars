@@ -10,11 +10,11 @@ import org.junit.runner.RunWith;
 //       "src/test/resources/Features/Registration.feature",
 //        "src/test/resources/Features/Login.feature",
 //        "src/test/resources/Features/DSIntroduction.feature",
-        "src/test/resources/Features/Tree.feature",
-       // "src/test/resources/Features/Graph.feature"
+       // "src/test/resources/Features/Tree.feature",
+       "src/test/resources/Features/Graph.feature"
         },
         glue = {"com.numpyninja.dsalgo.stepdefinitions","com.numpyninja.dsalgo.apphooks"},
-        //tags = "@TP",//"@SmokeTest or @RegressionTest or @DBP-1",
+       //tags = "@T",//"@SmokeTest or @RegressionTest or @DBP-1",
         dryRun = false,
         monochrome = true,
         publish=true,
