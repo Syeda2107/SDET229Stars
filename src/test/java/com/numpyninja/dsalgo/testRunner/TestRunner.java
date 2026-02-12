@@ -21,7 +21,8 @@ import org.testng.annotations.Parameters;
         publish = true,
         plugin = {"pretty",//"html:Reports/index.html"
                 "io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm",
-                "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"
+                "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
+                "rerun:target/failed_scenarios.txt"
         })
 public class TestRunner extends AbstractTestNGCucumberTests {
 

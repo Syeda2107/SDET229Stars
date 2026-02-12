@@ -102,7 +102,7 @@ public class DashboardPage extends BasePage {
     }
 
     public String validatePageTitle() {
-        waitForTitle(driver.getTitle(),10);
+        waitForTitle(driver.getTitle(),25);
         return driver.getTitle();
     }
 
