@@ -14,10 +14,11 @@ import org.slf4j.LoggerFactory;
 import java.time.Duration;
 
 
-public class DriverFactory {
+public class  DriverFactory {
 
-    protected final Logger logger = LoggerFactory.getLogger(getClass());
-    public static ThreadLocal<WebDriver> tldriver = new ThreadLocal<>();
+    protected final Logger logger = LoggerFactory.getLogger(getClass());   //static-one shared variable for the whole framework
+    public static ThreadLocal<WebDriver> tldriver = new ThreadLocal<>(); //- each thread gets its own isolated WebDriver
+                                                                                   //and makes parallel execution safe
 
     public static WebDriver initDriver(String browser) {
         if (browser == null) {
@@ -63,4 +64,5 @@ public class DriverFactory {
         }
     }
 }
+
 
