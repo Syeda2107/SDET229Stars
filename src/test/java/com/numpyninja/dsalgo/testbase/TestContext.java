@@ -21,7 +21,14 @@ public class TestContext {
     public TreePage treePage;
     public GraphPage graphPage;
     public Faker faker; // Faker is a Java library used to generate fake test data,it helps you avoid hard‑coding values.
-
+    public long timeComplexityLoadTime;
+    public long dsIntroLoadTime;
+    public long tryEditorLoadTime;
+    public long practiceLoadTime;
+    public long loginTime;
+    public long regTime;
+    public long homeTime;
+    public long dashboardTime;
     //public static String browserName;
 
     public void initializePageObjects() {

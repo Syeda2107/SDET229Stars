@@ -63,7 +63,10 @@ public class ApplicationHooks {
         driver = context.getDriver();
         context.initializePageObjects();
         String url = cr.initProp("url");
+        long startTimeDashboard=System.currentTimeMillis();
         driver.get(url);
+        long endTime = System.currentTimeMillis();
+        context.setDashboardTime(endTime-startTimeDashboard);
         scenario.log("Launching on browser: " + browserName);
 
         ExtentTest extentTest = extent.createTest(scenario.getName())

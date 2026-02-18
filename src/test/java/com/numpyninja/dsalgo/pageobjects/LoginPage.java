@@ -41,10 +41,10 @@ public class LoginPage extends BasePage {
         waitForElementToClick(context.registrationPage.btnSubmit, 10);
     }
 
-    public void validateloggedInUser() {
+    public String validateloggedInUser() {
         String actualLoggedInUsername = loggedInUser.getText().toLowerCase();
-        String expectedLoggedInUsername = username.toLowerCase();
-        Assert.assertEquals(actualLoggedInUsername, expectedLoggedInUsername);
+        return actualLoggedInUsername;
+
     }
 
     public void clickSignOutLink() {

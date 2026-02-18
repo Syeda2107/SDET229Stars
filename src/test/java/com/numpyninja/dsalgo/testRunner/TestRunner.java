@@ -4,6 +4,7 @@ import io.cucumber.testng.CucumberOptions;
 import io.cucumber.testng.AbstractTestNGCucumberTests;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
+import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 
 //@RunWith(Cucumber.class)
@@ -30,7 +31,7 @@ public class TestRunner extends AbstractTestNGCucumberTests {
 
     @BeforeClass(alwaysRun = true)
     @Parameters("browser")
-    public void setBrowser(String browser) {
+    public void setBrowser(@Optional("chrome") String browser) {
         if (browser != null && !browser.isEmpty())
             System.setProperty("browser", browser);
         System.out.println("Browser set to : " + browser);

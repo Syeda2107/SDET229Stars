@@ -53,7 +53,7 @@ public class DSIntroductionPage extends BasePage {
         return driver.getCurrentUrl();
     }
 
-    public void clickRunBtn() {
+    public void clickRunBtn()  {
         runBtn.click();
     }
 
