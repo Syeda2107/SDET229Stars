@@ -3,9 +3,9 @@ package com.numpyninja.dsalgo.stepdefinitions;
 import com.numpyninja.dsalgo.testbase.TestContext;
 import com.numpyninja.dsalgo.utilities.ExcelReader;
 import io.cucumber.java.en.*;
-import org.junit.Assert;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.WebDriver;
+import org.testng.Assert;
 
 import java.util.List;
 import java.util.Map;
