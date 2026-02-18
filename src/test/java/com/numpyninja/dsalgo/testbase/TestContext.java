@@ -12,6 +12,8 @@ import org.openqa.selenium.WebDriver;
 public class TestContext {
     WebDriver driver;
     public DashboardPage dashboardPage;
+    public ArrayPage arrayPage;
+    public LinkedListPage linkedListPage;
     public HomePage homePage;
     public RegistrationPage registrationPage;
     public LoginPage loginPage;
@@ -35,6 +37,8 @@ public class TestContext {
         this.registrationPage = new RegistrationPage(driver,this);
         this.loginPage = new LoginPage(driver,this);
         this.dsIntroductionPage = new DSIntroductionPage(driver,this);
+        this.arrayPage = new ArrayPage(driver,this);
+        this.linkedListPage = new LinkedListPage(driver,this);
         this.treePage = new TreePage(driver,this);
         this.graphPage = new GraphPage(driver,this);
         this.faker=new Faker(); // new Faker() creates a new Faker object,this.faker refers to instance variable.

@@ -7,12 +7,7 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
-import org.apache.poi.ss.usermodel.Cell;
-import org.apache.poi.ss.usermodel.CellType;
-import org.apache.poi.ss.usermodel.Row;
-import org.apache.poi.ss.usermodel.Sheet;
-import org.apache.poi.ss.usermodel.Workbook;
-import org.apache.poi.ss.usermodel.WorkbookFactory;
+import org.apache.poi.ss.usermodel.*;
 import org.apache.poi.ss.util.NumberToTextConverter;
 
 public class ExcelReader {
@@ -150,4 +145,51 @@ public class ExcelReader {
         }
         return columnMapdata;
     }
+
+    //added by Ayana for multiline cell for Excel reading
+
+    public List<Map<String, String>> getDataWithMultiLine(String excelFilePath, String sheetName)
+            throws IOException, InvalidFormatException {
+        Sheet sheet = getSheetByName(excelFilePath, sheetName);
+        return readSheetWithMultiLine(sheet);
+    }
+
+    private List<Map<String, String>> readSheetWithMultiLine(Sheet sheet) {
+        int totalRow = sheet.getPhysicalNumberOfRows();
+        List<Map<String, String>> excelRows = new ArrayList<>();
+        int headerRowNumber = getHeaderRowNumber(sheet);
+        if (headerRowNumber != -1) {
+            int totalColumn = sheet.getRow(headerRowNumber).getLastCellNum();
+            for (int currentRow = headerRowNumber + 1; currentRow < totalRow; currentRow++) {
+                Row row = sheet.getRow(currentRow);
+                LinkedHashMap<String, String> columnMapdata = new LinkedHashMap<>();
+                for (int currentColumn = 0; currentColumn < totalColumn; currentColumn++) {
+                    columnMapdata.putAll(getMultiLineCellValue(sheet, row, currentColumn));
+                }
+                excelRows.add(columnMapdata);
+            }
+        }
+        return excelRows;
+    }
+
+    private LinkedHashMap<String, String> getMultiLineCellValue(Sheet sheet, Row row, int currentColumn) {
+        LinkedHashMap<String, String> columnMapdata = new LinkedHashMap<>();
+        DataFormatter formatter = new DataFormatter(); // safely converts all cell types to string
+
+        // Get column header
+        Cell headerCell = sheet.getRow(sheet.getFirstRowNum())
+                .getCell(currentColumn, Row.MissingCellPolicy.CREATE_NULL_AS_BLANK);
+        String columnHeaderName = formatter.formatCellValue(headerCell);
+
+        // Get cell value (preserves multi-line)
+        String value = "";
+        if (row != null) {
+            Cell cell = row.getCell(currentColumn, Row.MissingCellPolicy.CREATE_NULL_AS_BLANK);
+            value = formatter.formatCellValue(cell);
+        }
+
+        columnMapdata.put(columnHeaderName, value);
+        return columnMapdata;
+    }
+
 }
