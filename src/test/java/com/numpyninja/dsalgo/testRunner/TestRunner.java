@@ -12,6 +12,8 @@ import org.testng.annotations.Parameters;
         "src/test/resources/Features/Registration.feature",
         "src/test/resources/Features/Login.feature",
         "src/test/resources/Features/DSIntroduction.feature",
+        "src/test/resources/Features/Array.feature",
+        "src/test/resources/Features/LinkedList.feature",
         "src/test/resources/Features/Graph.feature",
         "src/test/resources/Features/Tree.feature"},
         glue = {"com.numpyninja.dsalgo.stepdefinitions", "com.numpyninja.dsalgo.apphooks"},
