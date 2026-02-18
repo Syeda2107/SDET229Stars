@@ -17,7 +17,7 @@ import java.util.Map;
 public class BasePage {
     protected WebDriver driver;
     protected TestContext context;
-    String filePath= System.getProperty("user.dir")
+    String filePath = System.getProperty("user.dir")
             + "/TestData/DSAlgo_Data_Driven_Testing.xlsx";
 
     public BasePage(WebDriver driver, TestContext context) {
@@ -26,20 +26,22 @@ public class BasePage {
         this.context = context;
     }
 
-    public void waitForElementToClick(WebElement element, long timeOutInSec) {
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(timeOutInSec));
-        wait.until(ExpectedConditions.elementToBeClickable(element)).click();
+    public WebDriverWait getWait(long timeOut) {
+        return new WebDriverWait(driver, Duration.ofSeconds(timeOut));
     }
 
-    public String getTooltipMsg(WebElement element){
-        JavascriptExecutor js=(JavascriptExecutor) driver;
-        String toolTipMsg= (String) js.executeScript("return arguments[0].validationMessage;",element);
+    public void waitForElementToClick(WebElement element, long timeOutInSec) {
+        getWait(timeOutInSec).until(ExpectedConditions.elementToBeClickable(element)).click();
+    }
+
+    public String getTooltipMsg(WebElement element) {
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        String toolTipMsg = (String) js.executeScript("return arguments[0].validationMessage;", element);
         return toolTipMsg;
     }
 
-    public void waitForUrl(String urlText,long timeOutInSec){
-        WebDriverWait wait=new WebDriverWait(driver,Duration.ofSeconds(timeOutInSec));
-        wait.until(ExpectedConditions.urlToBe(urlText));
+    public void waitForUrl(String urlText, long timeOutInSec) {
+        getWait(timeOutInSec).until(ExpectedConditions.urlToBe(urlText));
     }
 
     public void enterCodeInEditor(String code) {
@@ -50,19 +52,24 @@ public class BasePage {
         );
     }
 
-    public void waitForTitle(String title,long timeOutInSec){
-        WebDriverWait wait=new WebDriverWait(driver,Duration.ofSeconds(timeOutInSec));
-        wait.until(ExpectedConditions.or(ExpectedConditions.titleIs(title),
+    public void waitForTitle(String title, long timeOutInSec) {
+        getWait(timeOutInSec).until(ExpectedConditions.or(ExpectedConditions.titleIs(title),
                 ExpectedConditions.titleContains(title)));
     }
 
     public List<Map<String, String>> readDataFromExcel(String sheetName, Integer rowNumber) throws IOException, InvalidFormatException {
-        ExcelReader reader=new ExcelReader();
-        return reader.getData(filePath,sheetName);
+        ExcelReader reader = new ExcelReader();
+        return reader.getData(filePath, sheetName);
     }
 
     public void waitForElementToDisplayed(WebElement element, long timeOutInSec) {
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(timeOutInSec));
-        wait.until(ExpectedConditions.visibilityOf(element));
+        getWait(timeOutInSec).until(ExpectedConditions.visibilityOf(element));
+    }
+
+    public boolean waitForPageToLoad() {
+        return getWait(10).until(
+                webDriver -> ((JavascriptExecutor) webDriver).executeScript("return document.readyState")
+                        .equals("complete")
+        );
     }
 }

@@ -3,6 +3,7 @@ package com.numpyninja.dsalgo.stepdefinitions;
 import com.github.javafaker.Faker;
 import com.numpyninja.dsalgo.pageobjects.RegistrationPage;
 import com.numpyninja.dsalgo.testbase.TestContext;
+import io.cucumber.java.PendingException;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import lombok.extern.slf4j.Slf4j;
@@ -17,6 +18,7 @@ public class RegistrationSteps {
     RegistrationPage registerPage;
     Faker faker;
     String generatedUsername;
+    long startTimeReg;
 
     public RegistrationSteps(TestContext context) {
         this.context = context;
@@ -27,7 +29,11 @@ public class RegistrationSteps {
 
     @When("user clicks on Register link in the Home page")
     public void user_clicks_on_register_link_in_the_home_page() {
+        long startTimeReg=System.currentTimeMillis();
         registerPage.clickRegisterLink();
+        registerPage.waitForPageToLoad();
+        long endTime = System.currentTimeMillis();
+        context.setRegTime(endTime-startTimeReg);
     }
 
     @When("the user enters {string},{string} and {string} in the register form")
@@ -44,8 +50,8 @@ public class RegistrationSteps {
     @Then("the user should get tooltip message as {string} below Username textbox")
     public void the_user_should_get_tooltip_message_as_below_Username_textbox(String expectedUsernameTooltipMsg) {
         String actualUsernameTooltipMsg = registerPage.validateUsernameTooltipMsg();
-        Assert.assertEquals(actualUsernameTooltipMsg, expectedUsernameTooltipMsg);
         log.info("Validating the tooltip message Expected: {} ",expectedUsernameTooltipMsg);
+        Assert.assertEquals(actualUsernameTooltipMsg, expectedUsernameTooltipMsg);
     }
 
     @When("the user enters only {string} field in the register form")
@@ -61,8 +67,8 @@ public class RegistrationSteps {
     @Then("the user should get tooltip message as {string} below Password textbox")
     public void the_user_should_get_tooltip_message_as_below_password_textbox(String expectedPwdTooltipMsg) {
         String actualPwdTooltipMsg = registerPage.validatePasswordTooltipMsg();
-        Assert.assertEquals(actualPwdTooltipMsg, expectedPwdTooltipMsg);
         log.info("Validating the tooltip message Expected: {} ",expectedPwdTooltipMsg);
+        Assert.assertEquals(actualPwdTooltipMsg, expectedPwdTooltipMsg);
     }
 
     @When("the user enters only {string} and {string} fields in the register form")
@@ -73,20 +79,28 @@ public class RegistrationSteps {
     @Then("the user should get tooltip message as {string} below Password confirmation textbox")
     public void the_user_should_get_tooltip_message_as_below_password_confirmation_textbox(String expectedConfirmPwdTooltipMsg) {
         String actualConfirmPwdTooltipMsg = registerPage.validateConfirmPwdTooltipMsg();
-        Assert.assertEquals(actualConfirmPwdTooltipMsg, expectedConfirmPwdTooltipMsg);
         log.info("Validating the tooltip message Expected: {} ",expectedConfirmPwdTooltipMsg);
+        Assert.assertEquals(actualConfirmPwdTooltipMsg, expectedConfirmPwdTooltipMsg);
     }
 
     @Then("the user should be redirected to home page with success message {string}")
     public void the_user_should_be_redirected_to_home_page_with_success_message(String expectedSuccessMsg) {
         String expectedMsg=expectedSuccessMsg.replaceAll("<Username>",generatedUsername);
         String actualSuccessMsg=context.homePage.getAlertMsg();
-        Assert.assertEquals(actualSuccessMsg,expectedMsg);
         log.info("Validating the success message Expected: {} ",expectedMsg);
+        Assert.assertEquals(actualSuccessMsg,expectedMsg);
     }
 
     @When("the user clicks on Login link below Register button")
     public void the_user_clickson_login_link_below_register_button() {
         registerPage.clickLoginInRegForm();
+    }
+
+    @Then("the registration page should load within {int} secs")
+    public void theRegistrationPageShouldLoadWithinSecs(int timeInSecs) {
+        long loadTimeInMilliSecs=context.getRegTime();
+        double loadTimeInSecs=loadTimeInMilliSecs/1000.0;
+        log.info("Validating registration page load time with in {} secs",timeInSecs);
+        Assert.assertTrue(loadTimeInSecs <= timeInSecs);
     }
 }

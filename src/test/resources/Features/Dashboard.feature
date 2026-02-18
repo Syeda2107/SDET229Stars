@@ -3,7 +3,9 @@ Feature: Dashboard Functionality in DsAlgo Portal
   Background:
     Given User launches the browser and enters the DsAlgo application url
 
-  @DBP-1
+  Rule: Functional Validation of Dashboard page
+
+    @DBP-1
   Scenario: Verify that the user opens the DsAlgo portal
     Then the page title should be displayed as "Numpy Ninja"
 
@@ -62,3 +64,27 @@ Feature: Dashboard Functionality in DsAlgo Portal
   Scenario: Verify that the Graph Module with Get Started button is displayed after clicking on the Get Started button of DsAlgo portal
     When the user clicks on Get Started button in the DsAlgo Portal
     Then the user should be navigated to the Home page which displays the "Graph" module with "Get Started" button
+
+  Rule: Non Functional Validation of Dashboard page
+
+    @Performance
+    Scenario: Verify that the Dashboard page load time
+      Then the dashboard page should load within 5 secs
+
+    @Security
+    Scenario: Verify that the page loads using Https protocol
+      Then the page should load using Https
+
+    @Reliability
+    Scenario: Verify Dashboard loads without errors
+      Then the page should load without any errors
+
+
+
+
+
+
+
+
+
+

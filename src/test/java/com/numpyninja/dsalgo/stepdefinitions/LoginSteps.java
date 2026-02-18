@@ -30,7 +30,11 @@ public class LoginSteps {
 
     @When("user clicks on Sign in link in the Home page")
     public void user_clicks_on_sign_in_link_in_the_home_page() {
+        long startTimeLogin=System.currentTimeMillis();
         loginPage.clickSignInLink();
+        loginPage.waitForPageToLoad();
+        long endTime = System.currentTimeMillis();
+        context.setLoginTime(endTime-startTimeLogin);
     }
 
     @When("the user enters valid {string} and {string} in the Login form")
@@ -47,8 +51,8 @@ public class LoginSteps {
     @Then("user should successfully logged in and get success message as {string}")
     public void user_should_successfully_logged_in_and_get_success_message_as(String expectedLoggedInSuccessMsg){
         String actualLoggedInSuccessMsg=context.homePage.getAlertMsg();
-        Assert.assertEquals(actualLoggedInSuccessMsg,expectedLoggedInSuccessMsg);
         log.info("Validating the logged in success message,  Expected: {} ",expectedLoggedInSuccessMsg);
+        Assert.assertEquals(actualLoggedInSuccessMsg,expectedLoggedInSuccessMsg);
     }
 
     @When("the user clicks on Sign out link in home page after successful logged in")
@@ -59,8 +63,8 @@ public class LoginSteps {
     @Then("the user should be able to logged out and get success message as {string}")
     public void the_user_should_be_able_to_logged_out_and_get_success_message_as(String expectedLogoutMsg) {
         String actualLogoutMsg=context.homePage.getAlertMsg();
-        Assert.assertEquals(actualLogoutMsg,expectedLogoutMsg);
         log.info("Validating the log out message,  Expected: {} ",expectedLogoutMsg);
+        Assert.assertEquals(actualLogoutMsg,expectedLogoutMsg);
     }
 
     @When("the user enters invalid {string} and {string} in the Login form")
@@ -80,21 +84,23 @@ public class LoginSteps {
 
     @Then("the user should see the username in the top right corner")
     public void the_user_should_see_the_username_in_the_top_right_corner() {
-        loginPage.validateloggedInUser();
+        String actualLoggedInUsername = loginPage.validateloggedInUser();
+        String expectedLoggedInUsername = username.toLowerCase();
         log.info("Validating the username present in the top right corner,  Expected: {} ",username);
+        Assert.assertEquals(actualLoggedInUsername, expectedLoggedInUsername);
     }
 
     @Then("the user should get invalid error message as {string}")
     public void the_user_should_get_invalid_error_message_as(String expectedErrorMsg) {
         String actualErrorMsg=context.homePage.getAlertMsg();
-        Assert.assertEquals(actualErrorMsg,expectedErrorMsg);
         log.info("Validating the Error message Expected: {} ",expectedErrorMsg);
+        Assert.assertEquals(actualErrorMsg,expectedErrorMsg);
     }
     @Then("the user should get tooltip message as {string} below the Password textbox")
     public void the_user_should_get_tooltip_message_as_below_the_password_textbox(String expectedPwdTooltipMsg) {
         String actualPwdTooltipMsg = loginPage.getPwdTooltipMsg();
-        Assert.assertEquals(actualPwdTooltipMsg, expectedPwdTooltipMsg);
         log.info("Validating the tooltip message Expected: {} ",expectedPwdTooltipMsg);
+        Assert.assertEquals(actualPwdTooltipMsg, expectedPwdTooltipMsg);
     }
 
     @When("the user enters valid Username and Password from {string} and {int} in the Login form")
@@ -111,8 +117,8 @@ public class LoginSteps {
         List<Map<String, String>> testData=loginPage.readDataFromExcel(sheetName,rowNumber);
         String expectedSuccessMsg=testData.get(rowNumber).get("SuccessMessage");
         String actualLoggedInSuccessMsg=context.homePage.getAlertMsg();
-        Assert.assertEquals(actualLoggedInSuccessMsg,expectedSuccessMsg);
         log.info("Validating the logged in success message,  Expected: {} ",expectedSuccessMsg);
+        Assert.assertEquals(actualLoggedInSuccessMsg,expectedSuccessMsg);
     }
 
     @Then("the user should be able to logged out and get success message from {string} and {int}")
@@ -120,8 +126,8 @@ public class LoginSteps {
         List<Map<String,String>> testData=loginPage.readDataFromExcel(sheetName,rowNumber);
         String expectedLogoutMsg=testData.get(rowNumber).get("LogoutMessage");
         String actualLogoutMsg=context.homePage.getAlertMsg();
-        Assert.assertEquals(actualLogoutMsg,expectedLogoutMsg);
         log.info("Validating the log out message,  Expected: {} ",expectedLogoutMsg);
+        Assert.assertEquals(actualLogoutMsg,expectedLogoutMsg);
     }
 
     @When("the user enters invalid Username and Password from {string} and {int} in the Login form")
@@ -137,8 +143,8 @@ public class LoginSteps {
         List<Map<String,String>> testData=loginPage.readDataFromExcel(sheetName,rowNumber);
         String expectedErrorMsg=testData.get(rowNumber).get("ErrorMessage");
         String actualErrorMsg=context.homePage.getAlertMsg();
-        Assert.assertEquals(actualErrorMsg,expectedErrorMsg);
         log.info("Validating the Error message Expected: {} ",expectedErrorMsg);
+        Assert.assertEquals(actualErrorMsg,expectedErrorMsg);
     }
 
     @When("the user enters Username and Password from {string} and {int} in the Login form")
@@ -154,8 +160,8 @@ public class LoginSteps {
         List<Map<String,String>> testData=loginPage.readDataFromExcel(sheetName,rowNumber);
         String expectedUsernameTooltipMsg=testData.get(rowNumber).get("ErrorMessage");
         String actualUsernameTooltipMsg = context.registrationPage.validateUsernameTooltipMsg();
-        Assert.assertEquals(actualUsernameTooltipMsg, expectedUsernameTooltipMsg);
         log.info("Validating the tooltip message Expected: {} ",expectedUsernameTooltipMsg);
+        Assert.assertEquals(actualUsernameTooltipMsg, expectedUsernameTooltipMsg);
     }
 
     @Then("the user should get tooltip message below Password textbox and data fetch from {string} and {int}")
@@ -163,7 +169,15 @@ public class LoginSteps {
         List<Map<String,String>> testData=loginPage.readDataFromExcel(sheetName,rowNumber);
         String expectedPwdTooltipMsg=testData.get(rowNumber).get("ErrorMessage");
         String actualPwdTooltipMsg = loginPage.getPwdTooltipMsg();
-        Assert.assertEquals(actualPwdTooltipMsg, expectedPwdTooltipMsg);
         log.info("Validating the tooltip message Expected: {} ",expectedPwdTooltipMsg);
+        Assert.assertEquals(actualPwdTooltipMsg, expectedPwdTooltipMsg);
+    }
+
+    @Then("the login page should load within {int} secs")
+    public void theLoginPageShouldLoadWithinSecs(int timeInSecs) {
+        long loadTimeInMilliSecs=context.getLoginTime();
+        double loadTimeInSecs=loadTimeInMilliSecs/1000.0;
+        log.info("Validating login page load time with in {} secs",timeInSecs);
+        Assert.assertTrue(loadTimeInSecs <= timeInSecs);
     }
 }

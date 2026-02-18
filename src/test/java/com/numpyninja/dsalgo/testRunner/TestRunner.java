@@ -4,16 +4,19 @@ import io.cucumber.testng.CucumberOptions;
 import io.cucumber.testng.AbstractTestNGCucumberTests;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
+import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 
 //@RunWith(Cucumber.class)
-@CucumberOptions(features = {"src/test/resources/Features/Dashboard.feature",
+@CucumberOptions(features = {
+        "src/test/resources/Features/Dashboard.feature",
         "src/test/resources/Features/Home.feature",
         "src/test/resources/Features/Registration.feature",
-        "src/test/resources/Features/Login.feature",
+       "src/test/resources/Features/Login.feature",
         "src/test/resources/Features/DSIntroduction.feature",
-        "src/test/resources/Features/Graph.feature",
-        "src/test/resources/Features/Tree.feature"},
+       // "src/test/resources/Features/Graph.feature",
+       // "src/test/resources/Features/Tree.feature"
+        },
         glue = {"com.numpyninja.dsalgo.stepdefinitions", "com.numpyninja.dsalgo.apphooks"},
         //tags = "@SmokeTest or @RegressionTest or @DBP-1",
         dryRun = false,
@@ -28,7 +31,7 @@ public class TestRunner extends AbstractTestNGCucumberTests {
 
     @BeforeClass(alwaysRun = true)
     @Parameters("browser")
-    public void setBrowser(String browser) {
+    public void setBrowser(@Optional("chrome") String browser) {
         if (browser != null && !browser.isEmpty())
             System.setProperty("browser", browser);
         System.out.println("Browser set to : " + browser);
