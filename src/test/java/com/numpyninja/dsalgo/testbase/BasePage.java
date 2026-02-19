@@ -67,7 +67,7 @@ public class BasePage {
     }
 
     public boolean waitForPageToLoad() {
-        return getWait(10).until(
+        return getWait(15).until(
                 webDriver -> ((JavascriptExecutor) webDriver).executeScript("return document.readyState")
                         .equals("complete")
         );
