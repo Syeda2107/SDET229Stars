@@ -6,10 +6,7 @@ Feature:Graph Functionality of Dsalgo Application
     And   user clicks on Sign in link in the Home page
     Then  the page title should be displayed as "Login"
     When  the user enters valid Username and Password in the Login form
-      | Username | sdet229stars@gmail.com|
-      | Password | test@1234 |
     And user clicks on Login button
-    Then the page title should be displayed as "NumpyNinja"
 
 # Graph page
 

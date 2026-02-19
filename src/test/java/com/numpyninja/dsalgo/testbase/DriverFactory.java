@@ -32,6 +32,7 @@ public class  DriverFactory {
         } else if (browser.equalsIgnoreCase("Firefox")) {
             //WebDriverManager.firefoxdriver().clearDriverCache().setup();
             FirefoxOptions options = new FirefoxOptions();
+            options.addArguments("--headless");
             options.addPreference("dom.webnotifications.enabled", false);
             options.addArguments("--disable-blink-features=AutomationControlled");
             options.addArguments("--width=1270");
@@ -58,7 +59,7 @@ public class  DriverFactory {
     }
 
     public static void quitDriver() {
-        if (tldriver != null) {
+        if (tldriver.get() != null) {
             tldriver.get().quit();
             tldriver.remove();
         }

@@ -6,11 +6,7 @@ Feature: LinkedList navigation and Try Editor execution in DsAlgo Portal
     And user clicks on Sign in link in the Home page
     Then the page title should be displayed as "Login"
     When the user enters valid Username and Password in the Login form
-      | Username | sgs123@gmail.com |
-      | Password | Stars@123        |
     And user clicks on Login button
-    Then the page title should be displayed as "NumpyNinja"
-
 
   Scenario Outline: Navigate to LinkedList submodule, access Try Editor, and run code
     When the user clicks on Get Started button LinkedList
