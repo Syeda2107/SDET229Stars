@@ -1,6 +1,5 @@
 package com.numpyninja.dsalgo.testbase;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -14,13 +13,16 @@ import org.slf4j.LoggerFactory;
 import java.time.Duration;
 
 
-public class  DriverFactory {
+public class DriverFactory {
 
     protected final Logger logger = LoggerFactory.getLogger(getClass());   //static-one shared variable for the whole framework
     public static ThreadLocal<WebDriver> tldriver = new ThreadLocal<>(); //- each thread gets its own isolated WebDriver
-                                                                                   //and makes parallel execution safe
+    //and makes parallel execution safe
 
     public static WebDriver initDriver(String browser) {
+
+        boolean isJenkins = System.getenv("JENKINS_URL") != null;
+
         if (browser == null) {
             throw new IllegalArgumentException("Browser name is null");
         }
@@ -28,11 +30,19 @@ public class  DriverFactory {
             ChromeOptions options = new ChromeOptions();
             options.addArguments("--window-size=1920,1080");
             options.addArguments("--disable-notifications");
+            if (isJenkins) {
+                options.addArguments("--headless=new");
+                options.addArguments("--disable-gpu");
+                options.addArguments("--no-sandbox");
+                options.addArguments("--disable-dev-shm-usage");
+            }
             tldriver.set(new ChromeDriver(options));
         } else if (browser.equalsIgnoreCase("Firefox")) {
             //WebDriverManager.firefoxdriver().clearDriverCache().setup();
             FirefoxOptions options = new FirefoxOptions();
-            options.addArguments("--headless");
+            if (isJenkins) {
+                options.addArguments("--headless");
+            }
             options.addPreference("dom.webnotifications.enabled", false);
             options.addArguments("--disable-blink-features=AutomationControlled");
             options.addArguments("--width=1270");
@@ -42,6 +52,12 @@ public class  DriverFactory {
         } else if (browser.equalsIgnoreCase("Edge")) {
             EdgeOptions options = new EdgeOptions();
             options.addArguments("--window-size=1920,1080");
+            if (isJenkins) {
+                options.addArguments("--headless=new");
+                options.addArguments("--disable-gpu");
+                options.addArguments("--no-sandbox");
+                options.addArguments("--disable-dev-shm-usage");
+            }
             tldriver.set(new EdgeDriver(options));
         } else
             throw new IllegalArgumentException("Browser is not supported: " + browser);
