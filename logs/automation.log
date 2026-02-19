@@ -9367,3 +9367,635 @@
 [2026-02-18 11:51:18] INFO  DashboardSteps - Validating page title. Expected: Registration
 [2026-02-18 11:51:18] INFO  DashboardSteps - Validating page loads without any errors
 [2026-02-18 11:51:18] INFO  ApplicationHooks - Scenario passed: Verify registration page loads without errors
+[2026-02-18 15:32:13] INFO  ApplicationHooks - Scenario started: Verify that the user is not able to see output after entering "12345" in try editor
+[2026-02-18 15:32:13] INFO  ApplicationHooks - Scenario started: Verify that the popup is displayed with error message for invalid python code with spaces in try editor
+[2026-02-18 15:32:13] INFO  ApplicationHooks - Scenario started: Verify that the user is not able to see output without entering code in the try editor
+[2026-02-18 15:32:13] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-18 15:32:13] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-18 15:32:13] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-18 15:32:13] INFO  ApplicationHooks - Scenario started: Verify that the user is navigated to the Data Structures-Introduction page
+[2026-02-18 15:32:13] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-18 15:32:13] INFO  ApplicationHooks - Scenario started: Verify that the user is able to see an output for valid python code
+[2026-02-18 15:32:13] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-18 15:32:16] INFO  ApplicationHooks - Scenario started: Verify that the user is navigated to the time-complexity page
+[2026-02-18 15:32:16] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-18 15:32:18] ERROR ApplicationHooks - Scenario failed: Verify that the user is navigated to the Data Structures-Introduction page
+[2026-02-18 15:32:18] ERROR ApplicationHooks - Scenario failed: Verify that the user is not able to see output without entering code in the try editor
+[2026-02-18 15:32:19] ERROR ApplicationHooks - Scenario failed: Verify that the user is able to see an output for valid python code
+[2026-02-18 15:32:19] ERROR ApplicationHooks - Screenshot error: C:\Users\gayat\intellij-learning\SDET229Stars\test-output\Reports\Failed\Verify_that_the_user_is_not_able_to_see_output_after_entering_"12345"_in_try_editor_18-02-2026_15-32-19.png (The filename, directory name, or volume label syntax is incorrect)
+[2026-02-18 15:32:19] ERROR ApplicationHooks - Scenario failed: Verify that the user is navigated to the time-complexity page
+[2026-02-18 15:32:20] ERROR ApplicationHooks - Scenario failed: Verify that the popup is displayed with error message for invalid python code with spaces in try editor
+[2026-02-18 15:32:21] INFO  ApplicationHooks - Scenario started: Verify that the user is navigated to the try editor page
+[2026-02-18 15:32:21] INFO  ApplicationHooks - Scenario started: Verify that the popup is displayed with error message after entering "((((((" in try editor
+[2026-02-18 15:32:21] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-18 15:32:21] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-18 15:32:21] INFO  ApplicationHooks - Scenario started: Verify that the popup is displayed with error message after entering letters or any characters in try editor
+[2026-02-18 15:32:21] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-18 15:32:21] INFO  ApplicationHooks - Scenario started: Verify that the popup is displayed with error message after entering "$$$$$" in try editor
+[2026-02-18 15:32:21] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-18 15:32:23] ERROR ApplicationHooks - Screenshot error: C:\Users\gayat\intellij-learning\SDET229Stars\test-output\Reports\Failed\Verify_that_the_popup_is_displayed_with_error_message_after_entering_"$$$$$"_in_try_editor_18-02-2026_15-32-23.png (The filename, directory name, or volume label syntax is incorrect)
+[2026-02-18 15:32:23] ERROR ApplicationHooks - Screenshot error: C:\Users\gayat\intellij-learning\SDET229Stars\test-output\Reports\Failed\Verify_that_the_popup_is_displayed_with_error_message_after_entering_"(((((("_in_try_editor_18-02-2026_15-32-23.png (The filename, directory name, or volume label syntax is incorrect)
+[2026-02-18 15:32:24] ERROR ApplicationHooks - Scenario failed: Verify that the user is navigated to the try editor page
+[2026-02-18 15:32:24] ERROR ApplicationHooks - Scenario failed: Verify that the popup is displayed with error message after entering letters or any characters in try editor
+[2026-02-18 15:32:34] INFO  ApplicationHooks - Scenario started: Verify Data-structures Introduction page loads without errors
+[2026-02-18 15:32:34] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-18 15:32:34] INFO  ApplicationHooks - Scenario started: Verify that the time complexity page load time
+[2026-02-18 15:32:34] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-18 15:32:34] INFO  ApplicationHooks - Scenario started: Verify that the Data-structures Introduction page loads using Https protocol
+[2026-02-18 15:32:34] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-18 15:32:34] INFO  ApplicationHooks - Scenario started: Verify that the try editor page loads using Https protocol
+[2026-02-18 15:32:34] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-18 15:32:37] INFO  ApplicationHooks - Scenario started: Verify that the user is navigated to the Practice page url
+[2026-02-18 15:32:37] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-18 15:32:38] INFO  ApplicationHooks - Scenario started: Verify that the Data-structures Introduction page load time
+[2026-02-18 15:32:38] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-18 15:32:39] INFO  ApplicationHooks - Scenario started: Verify that the time complexity page loads using Https protocol
+[2026-02-18 15:32:39] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-18 15:32:40] INFO  ApplicationHooks - Scenario started: Verify try editor page loads without errors
+[2026-02-18 15:32:40] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-18 15:32:44] ERROR ApplicationHooks - Scenario failed: Verify that the Data-structures Introduction page loads using Https protocol
+[2026-02-18 15:32:44] ERROR ApplicationHooks - Scenario failed: Verify try editor page loads without errors
+[2026-02-18 15:32:44] ERROR ApplicationHooks - Scenario failed: Verify that the user is navigated to the Practice page url
+[2026-02-18 15:32:44] ERROR ApplicationHooks - Scenario failed: Verify Data-structures Introduction page loads without errors
+[2026-02-18 15:32:44] ERROR ApplicationHooks - Scenario failed: Verify that the time complexity page load time
+[2026-02-18 15:32:44] ERROR ApplicationHooks - Scenario failed: Verify that the try editor page loads using Https protocol
+[2026-02-18 15:32:44] ERROR ApplicationHooks - Scenario failed: Verify that the Data-structures Introduction page load time
+[2026-02-18 15:32:45] ERROR ApplicationHooks - Scenario failed: Verify that the time complexity page loads using Https protocol
+[2026-02-18 15:32:47] INFO  ApplicationHooks - Scenario started: Verify that the try editor page load time
+[2026-02-18 15:32:47] INFO  ApplicationHooks - Scenario started: Verify time complexity page loads without errors
+[2026-02-18 15:32:47] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-18 15:32:47] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-18 15:32:49] ERROR ApplicationHooks - Scenario failed: Verify time complexity page loads without errors
+[2026-02-18 15:32:50] ERROR ApplicationHooks - Scenario failed: Verify that the try editor page load time
+[2026-02-18 15:32:53] INFO  ApplicationHooks - Scenario started: Verify practice page loads without errors
+[2026-02-18 15:32:53] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-18 15:32:53] INFO  ApplicationHooks - Scenario started: Verify that the practice page loads using Https protocol
+[2026-02-18 15:32:53] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-18 15:32:53] INFO  ApplicationHooks - Scenario started: Verify that the practice page load time
+[2026-02-18 15:32:53] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-18 15:32:55] ERROR ApplicationHooks - Scenario failed: Verify that the practice page loads using Https protocol
+[2026-02-18 15:32:55] ERROR ApplicationHooks - Scenario failed: Verify practice page loads without errors
+[2026-02-18 15:32:55] ERROR ApplicationHooks - Scenario failed: Verify that the practice page load time
+[2026-02-18 15:37:24] INFO  ApplicationHooks - Scenario started: Verify that the user is navigated to the Data Structures-Introduction page
+[2026-02-18 15:37:24] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-18 15:37:24] INFO  ApplicationHooks - Scenario started: Verify that the popup is displayed with error message for invalid python code with spaces in try editor
+[2026-02-18 15:37:24] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-18 15:37:24] INFO  ApplicationHooks - Scenario started: Verify that the popup is displayed with error message after entering "((((((" in try editor
+[2026-02-18 15:37:24] INFO  ApplicationHooks - Scenario started: Verify that the user is able to see an output for valid python code
+[2026-02-18 15:37:24] INFO  ApplicationHooks - Scenario started: Verify that the popup is displayed with error message after entering letters or any characters in try editor
+[2026-02-18 15:37:24] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-18 15:37:24] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-18 15:37:24] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-18 15:37:24] INFO  ApplicationHooks - Scenario started: Verify that the user is navigated to the time-complexity page
+[2026-02-18 15:37:24] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-18 15:37:24] INFO  ApplicationHooks - Scenario started: Verify that the popup is displayed with error message after entering "$$$$$" in try editor
+[2026-02-18 15:37:24] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-18 15:37:24] INFO  ApplicationHooks - Scenario started: Verify that the user is navigated to the try editor page
+[2026-02-18 15:37:24] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-18 15:37:29] INFO  ApplicationHooks - Scenario started: Verify that the user is not able to see output without entering code in the try editor
+[2026-02-18 15:37:29] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-18 15:37:29] INFO  ApplicationHooks - Scenario started: Verify that the user is not able to see output after entering "12345" in try editor
+[2026-02-18 15:37:29] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-18 15:37:33] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2026-02-18 15:37:33] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2026-02-18 15:37:33] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2026-02-18 15:37:33] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2026-02-18 15:37:34] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2026-02-18 15:37:34] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2026-02-18 15:37:34] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2026-02-18 15:37:34] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2026-02-18 15:37:35] INFO  DashboardSteps - Validating page title. Expected: Data Structures-Introduction
+[2026-02-18 15:37:35] INFO  DashboardSteps - Validating page title. Expected: Data Structures-Introduction
+[2026-02-18 15:37:35] INFO  DashboardSteps - Validating page title. Expected: Data Structures-Introduction
+[2026-02-18 15:37:35] INFO  DashboardSteps - Validating page title. Expected: Data Structures-Introduction
+[2026-02-18 15:37:35] INFO  DashboardSteps - Validating page title. Expected: Data Structures-Introduction
+[2026-02-18 15:37:35] INFO  DashboardSteps - Validating page title. Expected: Data Structures-Introduction
+[2026-02-18 15:37:35] INFO  DashboardSteps - Validating page title. Expected: Data Structures-Introduction
+[2026-02-18 15:37:35] INFO  DashboardSteps - Validating page title. Expected: Data Structures-Introduction
+[2026-02-18 15:37:35] INFO  ApplicationHooks - Scenario passed: Verify that the user is navigated to the Data Structures-Introduction page
+[2026-02-18 15:37:36] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2026-02-18 15:37:37] INFO  DashboardSteps - Validating page title. Expected: Time Complexity
+[2026-02-18 15:37:37] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2026-02-18 15:37:37] INFO  DashboardSteps - Validating page title. Expected: Time Complexity
+[2026-02-18 15:37:37] INFO  DashboardSteps - Validating page title. Expected: Time Complexity
+[2026-02-18 15:37:37] INFO  DashboardSteps - Validating page title. Expected: Time Complexity
+[2026-02-18 15:37:37] INFO  DashboardSteps - Validating page title. Expected: Time Complexity
+[2026-02-18 15:37:37] INFO  DashboardSteps - Validating page title. Expected: Time Complexity
+[2026-02-18 15:37:37] INFO  DashboardSteps - Validating page title. Expected: Time Complexity
+[2026-02-18 15:37:37] INFO  ApplicationHooks - Scenario passed: Verify that the user is navigated to the time-complexity page
+[2026-02-18 15:37:39] INFO  DashboardSteps - Validating page title. Expected: Assessment
+[2026-02-18 15:37:39] INFO  DashboardSteps - Validating page title. Expected: Data Structures-Introduction
+[2026-02-18 15:37:39] INFO  DSIntroductionSteps - Validating the current page url,  Expected: https://dsportalapp.herokuapp.com/tryEditor 
+[2026-02-18 15:37:39] INFO  DashboardSteps - Validating page title. Expected: Data Structures-Introduction
+[2026-02-18 15:37:40] INFO  DashboardSteps - Validating page title. Expected: Assessment
+[2026-02-18 15:37:40] INFO  DashboardSteps - Validating page title. Expected: Assessment
+[2026-02-18 15:37:40] INFO  DSIntroductionSteps - Validating the current page url,  Expected: https://dsportalapp.herokuapp.com/tryEditor 
+[2026-02-18 15:37:40] INFO  DSIntroductionSteps - Validating the current page url,  Expected: https://dsportalapp.herokuapp.com/tryEditor 
+[2026-02-18 15:37:41] INFO  DashboardSteps - Validating page title. Expected: Assessment
+[2026-02-18 15:37:41] INFO  DashboardSteps - Validating page title. Expected: Time Complexity
+[2026-02-18 15:37:41] INFO  DashboardSteps - Validating page title. Expected: Assessment
+[2026-02-18 15:37:41] INFO  DSIntroductionSteps - Validating the current page url,  Expected: https://dsportalapp.herokuapp.com/tryEditor 
+[2026-02-18 15:37:41] INFO  DSIntroductionSteps - Validating the current page url,  Expected: https://dsportalapp.herokuapp.com/tryEditor 
+[2026-02-18 15:37:41] INFO  ApplicationHooks - Scenario passed: Verify that the user is navigated to the try editor page
+[2026-02-18 15:37:41] INFO  DashboardSteps - Validating page title. Expected: Time Complexity
+[2026-02-18 15:37:43] INFO  DashboardSteps - Validating page title. Expected: Assessment
+[2026-02-18 15:37:43] INFO  DashboardSteps - Validating page title. Expected: Assessment
+[2026-02-18 15:37:43] INFO  DSIntroductionSteps - Validating try editor output,  Expected: Hello 
+[2026-02-18 15:37:43] INFO  ApplicationHooks - Scenario passed: Verify that the user is able to see an output for valid python code
+[2026-02-18 15:37:43] INFO  DSIntroductionSteps - Validating the current page url,  Expected: https://dsportalapp.herokuapp.com/tryEditor 
+[2026-02-18 15:37:43] INFO  DSIntroductionSteps - Validating the current page url,  Expected: https://dsportalapp.herokuapp.com/tryEditor 
+[2026-02-18 15:37:43] INFO  DashboardSteps - Validating page title. Expected: Assessment
+[2026-02-18 15:37:43] INFO  DSIntroductionSteps - Validating the current page url,  Expected: https://dsportalapp.herokuapp.com/tryEditor 
+[2026-02-18 15:37:43] INFO  ApplicationHooks - Scenario passed: Verify that the user is not able to see output without entering code in the try editor
+[2026-02-18 15:37:44] INFO  ApplicationHooks - Scenario passed: Verify that the user is not able to see output after entering "12345" in try editor
+[2026-02-18 15:37:46] INFO  DSIntroductionSteps - Validating try editor alert message,  Expected: SyntaxError: bad token T_OP on line 1 
+[2026-02-18 15:37:46] INFO  DSIntroductionSteps - Validating try editor alert message,  Expected: SyntaxError: bad input on line 1 
+[2026-02-18 15:37:46] INFO  DSIntroductionSteps - Validating try editor alert message,  Expected: SyntaxError: EOF in multi-line statement on line 2 
+[2026-02-18 15:37:46] INFO  ApplicationHooks - Scenario passed: Verify that the popup is displayed with error message for invalid python code with spaces in try editor
+[2026-02-18 15:37:46] INFO  ApplicationHooks - Scenario passed: Verify that the popup is displayed with error message after entering "$$$$$" in try editor
+[2026-02-18 15:37:46] INFO  ApplicationHooks - Scenario passed: Verify that the popup is displayed with error message after entering "((((((" in try editor
+[2026-02-18 15:37:46] INFO  DSIntroductionSteps - Validating try editor alert message,  Expected: NameError: name 'Hello' is not defined on line 1 
+[2026-02-18 15:37:46] INFO  ApplicationHooks - Scenario passed: Verify that the popup is displayed with error message after entering letters or any characters in try editor
+[2026-02-18 15:37:50] INFO  ApplicationHooks - Scenario started: Verify that the Data-structures Introduction page loads using Https protocol
+[2026-02-18 15:37:50] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-18 15:37:50] INFO  ApplicationHooks - Scenario started: Verify Data-structures Introduction page loads without errors
+[2026-02-18 15:37:50] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-18 15:37:51] INFO  ApplicationHooks - Scenario started: Verify that the Data-structures Introduction page load time
+[2026-02-18 15:37:51] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-18 15:37:53] INFO  ApplicationHooks - Scenario started: Verify that the try editor page load time
+[2026-02-18 15:37:53] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-18 15:37:54] INFO  ApplicationHooks - Scenario started: Verify that the time complexity page load time
+[2026-02-18 15:37:54] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-18 15:37:55] INFO  ApplicationHooks - Scenario started: Verify that the time complexity page loads using Https protocol
+[2026-02-18 15:37:55] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-18 15:37:58] INFO  ApplicationHooks - Scenario started: Verify try editor page loads without errors
+[2026-02-18 15:37:58] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-18 15:37:59] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2026-02-18 15:37:59] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2026-02-18 15:38:00] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2026-02-18 15:38:01] INFO  ApplicationHooks - Scenario started: Verify time complexity page loads without errors
+[2026-02-18 15:38:01] INFO  DSIntroductionSteps - Validating Data-structures Introduction page load time with in 5 secs
+[2026-02-18 15:38:01] INFO  ApplicationHooks - Scenario passed: Verify that the Data-structures Introduction page load time
+[2026-02-18 15:38:01] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-18 15:38:01] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2026-02-18 15:38:01] INFO  DashboardSteps - Validating page loads without any errors
+[2026-02-18 15:38:01] INFO  DashboardSteps - Validating page loads using https protocol
+[2026-02-18 15:38:01] INFO  ApplicationHooks - Scenario passed: Verify Data-structures Introduction page loads without errors
+[2026-02-18 15:38:01] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2026-02-18 15:38:01] INFO  ApplicationHooks - Scenario passed: Verify that the Data-structures Introduction page loads using Https protocol
+[2026-02-18 15:38:01] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2026-02-18 15:38:03] INFO  ApplicationHooks - Scenario started: Verify that the try editor page loads using Https protocol
+[2026-02-18 15:38:03] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-18 15:38:03] INFO  DSIntroductionSteps - Validating time complexity page load time with in 5 secs
+[2026-02-18 15:38:03] INFO  ApplicationHooks - Scenario passed: Verify that the time complexity page load time
+[2026-02-18 15:38:04] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2026-02-18 15:38:04] INFO  ApplicationHooks - Scenario started: Verify that the user is navigated to the Practice page url
+[2026-02-18 15:38:04] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-18 15:38:06] INFO  DashboardSteps - Validating page loads using https protocol
+[2026-02-18 15:38:06] INFO  ApplicationHooks - Scenario passed: Verify that the time complexity page loads using Https protocol
+[2026-02-18 15:38:06] INFO  DSIntroductionSteps - Validating try editor page load time with in 5 secs
+[2026-02-18 15:38:06] INFO  ApplicationHooks - Scenario passed: Verify that the try editor page load time
+[2026-02-18 15:38:07] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2026-02-18 15:38:07] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2026-02-18 15:38:09] INFO  DashboardSteps - Validating page loads without any errors
+[2026-02-18 15:38:09] INFO  ApplicationHooks - Scenario passed: Verify try editor page loads without errors
+[2026-02-18 15:38:09] INFO  DashboardSteps - Validating page loads without any errors
+[2026-02-18 15:38:09] INFO  ApplicationHooks - Scenario passed: Verify time complexity page loads without errors
+[2026-02-18 15:38:09] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2026-02-18 15:38:10] INFO  DashboardSteps - Validating page title. Expected: Data Structures-Introduction
+[2026-02-18 15:38:10] INFO  DashboardSteps - Validating page title. Expected: Time Complexity
+[2026-02-18 15:38:10] INFO  DashboardSteps - Validating page loads using https protocol
+[2026-02-18 15:38:10] INFO  ApplicationHooks - Scenario passed: Verify that the try editor page loads using Https protocol
+[2026-02-18 15:38:11] INFO  DashboardSteps - Validating page title. Expected: Practice Questions
+[2026-02-18 15:38:11] INFO  DSIntroductionSteps - Validating the current page url,  Expected: https://dsportalapp.herokuapp.com/data-structures-introduction/practice 
+[2026-02-18 15:38:12] INFO  LoginSteps - Validating the log out message,  Expected: Logged out successfully 
+[2026-02-18 15:38:12] INFO  ApplicationHooks - Scenario passed: Verify that the user is navigated to the Practice page url
+[2026-02-18 15:38:15] INFO  ApplicationHooks - Scenario started: Verify that the practice page load time
+[2026-02-18 15:38:15] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-18 15:38:15] INFO  ApplicationHooks - Scenario started: Verify that the practice page loads using Https protocol
+[2026-02-18 15:38:15] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-18 15:38:15] INFO  ApplicationHooks - Scenario started: Verify practice page loads without errors
+[2026-02-18 15:38:15] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-18 15:38:17] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2026-02-18 15:38:17] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2026-02-18 15:38:18] ERROR ApplicationHooks - Scenario failed: Verify that the practice page load time
+[2026-02-18 15:38:18] ERROR ApplicationHooks - Scenario failed: Verify that the practice page loads using Https protocol
+[2026-02-18 15:38:19] INFO  DashboardSteps - Validating page title. Expected: NumpyNinja
+[2026-02-18 15:38:20] INFO  DashboardSteps - Validating page loads without any errors
+[2026-02-18 15:38:20] INFO  ApplicationHooks - Scenario passed: Verify practice page loads without errors
+[2026-02-18 15:39:19] INFO  ApplicationHooks - Scenario started: Verify that the popup is displayed with error message after entering "$$$$$" in try editor
+[2026-02-18 15:39:19] INFO  ApplicationHooks - Scenario started: Verify that the user is not able to see output after entering "12345" in try editor
+[2026-02-18 15:39:19] INFO  ApplicationHooks - Scenario started: Verify that the user is navigated to the try editor page
+[2026-02-18 15:39:19] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-18 15:39:19] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-18 15:39:19] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-18 15:39:19] INFO  ApplicationHooks - Scenario started: Verify that the user is navigated to the Data Structures-Introduction page
+[2026-02-18 15:39:19] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-18 15:39:19] INFO  ApplicationHooks - Scenario started: Verify that the popup is displayed with error message after entering letters or any characters in try editor
+[2026-02-18 15:39:19] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-18 15:39:19] INFO  ApplicationHooks - Scenario started: Verify that the popup is displayed with error message after entering "((((((" in try editor
+[2026-02-18 15:39:19] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-18 15:39:23] INFO  ApplicationHooks - Scenario started: Verify that the user is able to see an output for valid python code
+[2026-02-18 15:39:23] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-18 15:39:23] INFO  ApplicationHooks - Scenario started: Verify that the popup is displayed with error message for invalid python code with spaces in try editor
+[2026-02-18 15:39:23] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-18 15:39:24] INFO  ApplicationHooks - Scenario started: Verify that the user is navigated to the time-complexity page
+[2026-02-18 15:39:24] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-18 15:39:26] INFO  ApplicationHooks - Scenario started: Verify that the user is not able to see output without entering code in the try editor
+[2026-02-18 15:39:26] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-18 15:39:26] INFO  DashboardSteps - Validating page title. Expected: Data Structures-Introduction
+[2026-02-18 15:39:26] INFO  DashboardSteps - Validating page title. Expected: Data Structures-Introduction
+[2026-02-18 15:39:27] INFO  DashboardSteps - Validating page title. Expected: Data Structures-Introduction
+[2026-02-18 15:39:27] INFO  DashboardSteps - Validating page title. Expected: Data Structures-Introduction
+[2026-02-18 15:39:27] INFO  DashboardSteps - Validating page title. Expected: Data Structures-Introduction
+[2026-02-18 15:39:27] INFO  DashboardSteps - Validating page title. Expected: Data Structures-Introduction
+[2026-02-18 15:39:28] INFO  DashboardSteps - Validating page title. Expected: Time Complexity
+[2026-02-18 15:39:28] INFO  ApplicationHooks - Scenario passed: Verify that the user is navigated to the Data Structures-Introduction page
+[2026-02-18 15:39:29] INFO  DashboardSteps - Validating page title. Expected: Time Complexity
+[2026-02-18 15:39:29] INFO  DashboardSteps - Validating page title. Expected: Time Complexity
+[2026-02-18 15:39:29] INFO  DashboardSteps - Validating page title. Expected: Time Complexity
+[2026-02-18 15:39:29] INFO  DashboardSteps - Validating page title. Expected: Time Complexity
+[2026-02-18 15:39:30] INFO  DashboardSteps - Validating page title. Expected: Assessment
+[2026-02-18 15:39:30] INFO  DashboardSteps - Validating page title. Expected: Data Structures-Introduction
+[2026-02-18 15:39:31] INFO  DSIntroductionSteps - Validating the current page url,  Expected: https://dsportalapp.herokuapp.com/tryEditor 
+[2026-02-18 15:39:31] INFO  DashboardSteps - Validating page title. Expected: Data Structures-Introduction
+[2026-02-18 15:39:31] INFO  DashboardSteps - Validating page title. Expected: Assessment
+[2026-02-18 15:39:31] INFO  DashboardSteps - Validating page title. Expected: Assessment
+[2026-02-18 15:39:31] INFO  DashboardSteps - Validating page title. Expected: Data Structures-Introduction
+[2026-02-18 15:39:32] INFO  DashboardSteps - Validating page title. Expected: Assessment
+[2026-02-18 15:39:32] INFO  DSIntroductionSteps - Validating the current page url,  Expected: https://dsportalapp.herokuapp.com/tryEditor 
+[2026-02-18 15:39:32] INFO  DSIntroductionSteps - Validating the current page url,  Expected: https://dsportalapp.herokuapp.com/tryEditor 
+[2026-02-18 15:39:32] INFO  DSIntroductionSteps - Validating the current page url,  Expected: https://dsportalapp.herokuapp.com/tryEditor 
+[2026-02-18 15:39:33] INFO  DashboardSteps - Validating page title. Expected: Assessment
+[2026-02-18 15:39:33] INFO  DashboardSteps - Validating page title. Expected: Time Complexity
+[2026-02-18 15:39:33] INFO  DashboardSteps - Validating page title. Expected: Time Complexity
+[2026-02-18 15:39:33] INFO  ApplicationHooks - Scenario passed: Verify that the user is navigated to the time-complexity page
+[2026-02-18 15:39:33] INFO  DSIntroductionSteps - Validating the current page url,  Expected: https://dsportalapp.herokuapp.com/tryEditor 
+[2026-02-18 15:39:33] INFO  ApplicationHooks - Scenario passed: Verify that the user is navigated to the try editor page
+[2026-02-18 15:39:33] INFO  DashboardSteps - Validating page title. Expected: Data Structures-Introduction
+[2026-02-18 15:39:34] INFO  DashboardSteps - Validating page title. Expected: Time Complexity
+[2026-02-18 15:39:35] INFO  DashboardSteps - Validating page title. Expected: Time Complexity
+[2026-02-18 15:39:35] INFO  ApplicationHooks - Scenario passed: Verify that the user is not able to see output after entering "12345" in try editor
+[2026-02-18 15:39:35] INFO  DashboardSteps - Validating page title. Expected: Assessment
+[2026-02-18 15:39:36] INFO  DSIntroductionSteps - Validating the current page url,  Expected: https://dsportalapp.herokuapp.com/tryEditor 
+[2026-02-18 15:39:36] INFO  DashboardSteps - Validating page title. Expected: Assessment
+[2026-02-18 15:39:36] INFO  DSIntroductionSteps - Validating the current page url,  Expected: https://dsportalapp.herokuapp.com/tryEditor 
+[2026-02-18 15:39:37] INFO  DashboardSteps - Validating page title. Expected: Assessment
+[2026-02-18 15:39:37] INFO  DSIntroductionSteps - Validating the current page url,  Expected: https://dsportalapp.herokuapp.com/tryEditor 
+[2026-02-18 15:39:37] INFO  ApplicationHooks - Scenario passed: Verify that the user is not able to see output without entering code in the try editor
+[2026-02-18 15:39:37] INFO  DSIntroductionSteps - Validating try editor output,  Expected: Hello 
+[2026-02-18 15:39:37] INFO  ApplicationHooks - Scenario passed: Verify that the user is able to see an output for valid python code
+[2026-02-18 15:39:38] INFO  DSIntroductionSteps - Validating try editor alert message,  Expected: SyntaxError: EOF in multi-line statement on line 2 
+[2026-02-18 15:39:38] INFO  ApplicationHooks - Scenario passed: Verify that the popup is displayed with error message after entering "((((((" in try editor
+[2026-02-18 15:39:38] INFO  DSIntroductionSteps - Validating try editor alert message,  Expected: NameError: name 'Hello' is not defined on line 1 
+[2026-02-18 15:39:38] INFO  ApplicationHooks - Scenario passed: Verify that the popup is displayed with error message after entering letters or any characters in try editor
+[2026-02-18 15:39:38] INFO  DSIntroductionSteps - Validating try editor alert message,  Expected: SyntaxError: bad token T_OP on line 1 
+[2026-02-18 15:39:38] INFO  ApplicationHooks - Scenario passed: Verify that the popup is displayed with error message after entering "$$$$$" in try editor
+[2026-02-18 15:39:40] INFO  DSIntroductionSteps - Validating try editor alert message,  Expected: SyntaxError: bad input on line 1 
+[2026-02-18 15:39:40] INFO  ApplicationHooks - Scenario passed: Verify that the popup is displayed with error message for invalid python code with spaces in try editor
+[2026-02-18 15:39:45] INFO  ApplicationHooks - Scenario started: Verify that the user is navigated to the Practice page url
+[2026-02-18 15:39:45] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-18 15:39:46] INFO  ApplicationHooks - Scenario started: Verify that the try editor page load time
+[2026-02-18 15:39:46] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-18 15:39:46] INFO  ApplicationHooks - Scenario started: Verify that the Data-structures Introduction page loads using Https protocol
+[2026-02-18 15:39:46] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-18 15:39:46] INFO  ApplicationHooks - Scenario started: Verify time complexity page loads without errors
+[2026-02-18 15:39:46] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-18 15:39:47] INFO  ApplicationHooks - Scenario started: Verify that the try editor page loads using Https protocol
+[2026-02-18 15:39:47] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-18 15:39:47] INFO  ApplicationHooks - Scenario started: Verify try editor page loads without errors
+[2026-02-18 15:39:47] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-18 15:39:49] INFO  ApplicationHooks - Scenario started: Verify that the time complexity page load time
+[2026-02-18 15:39:49] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-18 15:39:51] INFO  ApplicationHooks - Scenario started: Verify that the Data-structures Introduction page load time
+[2026-02-18 15:39:51] INFO  ApplicationHooks - Scenario started: Verify Data-structures Introduction page loads without errors
+[2026-02-18 15:39:51] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-18 15:39:51] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-18 15:39:56] INFO  ApplicationHooks - Scenario started: Verify that the time complexity page loads using Https protocol
+[2026-02-18 15:39:56] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-18 15:39:57] INFO  DashboardSteps - Validating page loads using https protocol
+[2026-02-18 15:39:57] INFO  DashboardSteps - Validating page title. Expected: Data Structures-Introduction
+[2026-02-18 15:39:57] INFO  ApplicationHooks - Scenario passed: Verify that the Data-structures Introduction page loads using Https protocol
+[2026-02-18 15:40:00] INFO  DashboardSteps - Validating page loads without any errors
+[2026-02-18 15:40:00] INFO  ApplicationHooks - Scenario passed: Verify time complexity page loads without errors
+[2026-02-18 15:40:00] INFO  DashboardSteps - Validating page title. Expected: Time Complexity
+[2026-02-18 15:40:01] INFO  DSIntroductionSteps - Validating time complexity page load time with in 5 secs
+[2026-02-18 15:40:01] INFO  ApplicationHooks - Scenario passed: Verify that the time complexity page load time
+[2026-02-18 15:40:02] INFO  DashboardSteps - Validating page loads without any errors
+[2026-02-18 15:40:02] INFO  ApplicationHooks - Scenario passed: Verify Data-structures Introduction page loads without errors
+[2026-02-18 15:40:02] INFO  DSIntroductionSteps - Validating Data-structures Introduction page load time with in 5 secs
+[2026-02-18 15:40:02] INFO  ApplicationHooks - Scenario passed: Verify that the Data-structures Introduction page load time
+[2026-02-18 15:40:03] INFO  DashboardSteps - Validating page title. Expected: Practice Questions
+[2026-02-18 15:40:03] INFO  DSIntroductionSteps - Validating the current page url,  Expected: https://dsportalapp.herokuapp.com/data-structures-introduction/practice 
+[2026-02-18 15:40:04] INFO  DashboardSteps - Validating page loads without any errors
+[2026-02-18 15:40:04] INFO  DSIntroductionSteps - Validating try editor page load time with in 5 secs
+[2026-02-18 15:40:04] INFO  ApplicationHooks - Scenario passed: Verify that the try editor page load time
+[2026-02-18 15:40:04] INFO  ApplicationHooks - Scenario passed: Verify try editor page loads without errors
+[2026-02-18 15:40:04] INFO  DashboardSteps - Validating page loads using https protocol
+[2026-02-18 15:40:04] INFO  ApplicationHooks - Scenario passed: Verify that the try editor page loads using Https protocol
+[2026-02-18 15:40:05] INFO  LoginSteps - Validating the log out message,  Expected: Logged out successfully 
+[2026-02-18 15:40:05] INFO  ApplicationHooks - Scenario passed: Verify that the user is navigated to the Practice page url
+[2026-02-18 15:40:05] INFO  DashboardSteps - Validating page loads using https protocol
+[2026-02-18 15:40:05] INFO  ApplicationHooks - Scenario passed: Verify that the time complexity page loads using Https protocol
+[2026-02-18 15:40:08] INFO  ApplicationHooks - Scenario started: Verify that the practice page load time
+[2026-02-18 15:40:08] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-18 15:40:10] INFO  ApplicationHooks - Scenario started: Verify that the practice page loads using Https protocol
+[2026-02-18 15:40:10] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-18 15:40:11] INFO  ApplicationHooks - Scenario started: Verify practice page loads without errors
+[2026-02-18 15:40:11] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-18 15:40:13] INFO  DSIntroductionSteps - Load time of practice page in secs 0.327
+[2026-02-18 15:40:13] INFO  DSIntroductionSteps - Validating practice page load time with in 5 secs
+[2026-02-18 15:40:13] INFO  ApplicationHooks - Scenario passed: Verify that the practice page load time
+[2026-02-18 15:40:14] INFO  DashboardSteps - Validating page loads using https protocol
+[2026-02-18 15:40:14] INFO  ApplicationHooks - Scenario passed: Verify that the practice page loads using Https protocol
+[2026-02-18 15:40:14] INFO  DashboardSteps - Validating page loads without any errors
+[2026-02-18 15:40:14] INFO  ApplicationHooks - Scenario passed: Verify practice page loads without errors
+[2026-02-18 16:47:12] INFO  ApplicationHooks - Scenario started: Verify that the popup is displayed with error message for invalid python code with spaces in try editor
+[2026-02-18 16:47:12] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-18 16:47:16] INFO  DashboardSteps - Validating page title. Expected: Data Structures-Introduction
+[2026-02-18 16:47:16] INFO  DashboardSteps - Validating page title. Expected: Time Complexity
+[2026-02-18 16:47:18] INFO  DashboardSteps - Validating page title. Expected: Assessment
+[2026-02-18 16:47:19] ERROR ApplicationHooks - Scenario failed: Verify that the popup is displayed with error message for invalid python code with spaces in try editor
+[2026-02-18 16:48:52] INFO  ApplicationHooks - Scenario started: Verify that the popup is displayed with error message for invalid python code with spaces in try editor
+[2026-02-18 16:48:52] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-18 16:48:54] INFO  DashboardSteps - Validating page title. Expected: Data Structures-Introduction
+[2026-02-18 16:48:55] INFO  DashboardSteps - Validating page title. Expected: Time Complexity
+[2026-02-18 16:48:57] INFO  DashboardSteps - Validating page title. Expected: Assessment
+[2026-02-18 16:48:58] INFO  DSIntroductionSteps - Validating the current page url,  Expected: https://dsportalapp.herokuapp.com/data-structures-introduction/practice 
+[2026-02-18 16:48:58] ERROR ApplicationHooks - Scenario failed: Verify that the popup is displayed with error message for invalid python code with spaces in try editor
+[2026-02-18 16:51:45] INFO  ApplicationHooks - Scenario started: Verify that the popup is displayed with error message for invalid python code with spaces in try editor
+[2026-02-18 16:51:45] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-18 16:51:48] INFO  DashboardSteps - Validating page title. Expected: Data Structures-Introduction
+[2026-02-18 16:51:49] INFO  DashboardSteps - Validating page title. Expected: Time Complexity
+[2026-02-18 16:51:50] INFO  DashboardSteps - Validating page title. Expected: Assessment
+[2026-02-18 16:51:50] ERROR ApplicationHooks - Scenario failed: Verify that the popup is displayed with error message for invalid python code with spaces in try editor
+[2026-02-18 16:52:19] INFO  ApplicationHooks - Scenario started: Verify that the popup is displayed with error message for invalid python code with spaces in try editor
+[2026-02-18 16:52:19] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-18 16:52:22] INFO  DashboardSteps - Validating page title. Expected: Data Structures-Introduction
+[2026-02-18 16:52:22] INFO  DashboardSteps - Validating page title. Expected: Time Complexity
+[2026-02-18 16:52:23] INFO  DashboardSteps - Validating page title. Expected: Assessment
+[2026-02-18 16:52:24] INFO  DSIntroductionSteps - Validating the current page url,  Expected: https://dsportalapp.herokuapp.com/tryEditor 
+[2026-02-18 16:52:27] INFO  DSIntroductionSteps - Validating try editor alert message,  Expected: SyntaxError: bad input on line 1 
+[2026-02-18 16:52:27] INFO  ApplicationHooks - Scenario passed: Verify that the popup is displayed with error message for invalid python code with spaces in try editor
+[2026-02-18 17:04:26] INFO  ApplicationHooks - Scenario started: Verify that the popup is displayed with error message for invalid python code with spaces in try editor
+[2026-02-18 17:04:26] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-18 17:04:29] INFO  DashboardSteps - Validating page title. Expected: Data Structures-Introduction
+[2026-02-18 17:04:30] INFO  DashboardSteps - Validating page title. Expected: Time Complexity
+[2026-02-18 17:04:31] INFO  DashboardSteps - Validating page title. Expected: Assessment
+[2026-02-18 17:04:32] INFO  DSIntroductionSteps - Validating the current page url,  Expected: https://dsportalapp.herokuapp.com/tryEditor 
+[2026-02-18 17:04:35] INFO  DSIntroductionSteps - Validating try editor alert message,  Expected: SyntaxError: bad input on line 1 
+[2026-02-18 17:04:35] INFO  ApplicationHooks - Scenario passed: Verify that the popup is displayed with error message for invalid python code with spaces in try editor
+[2026-02-18 17:05:26] INFO  ApplicationHooks - Scenario started: Verify that the popup is displayed with error message after entering letters or any characters in try editor
+[2026-02-18 17:05:26] INFO  ApplicationHooks - Scenario started: Verify that the popup is displayed with error message after entering "$$$$$" in try editor
+[2026-02-18 17:05:26] INFO  ApplicationHooks - Scenario started: Verify that the user is not able to see output after entering "12345" in try editor
+[2026-02-18 17:05:26] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-18 17:05:26] INFO  ApplicationHooks - Scenario started: Verify that the popup is displayed with error message after entering "((((((" in try editor
+[2026-02-18 17:05:26] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-18 17:05:26] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-18 17:05:26] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-18 17:05:26] INFO  ApplicationHooks - Scenario started: Verify that the user is not able to see output without entering code in the try editor
+[2026-02-18 17:05:26] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-18 17:05:26] INFO  ApplicationHooks - Scenario started: Verify that the popup is displayed with error message for invalid python code with spaces in try editor
+[2026-02-18 17:05:26] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-18 17:05:31] INFO  ApplicationHooks - Scenario started: Verify that the user is navigated to the try editor page
+[2026-02-18 17:05:31] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-18 17:05:32] INFO  ApplicationHooks - Scenario started: Verify that the user is navigated to the Data Structures-Introduction page
+[2026-02-18 17:05:32] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-18 17:05:32] INFO  ApplicationHooks - Scenario started: Verify that the user is able to see an output for valid python code
+[2026-02-18 17:05:32] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-18 17:05:33] INFO  ApplicationHooks - Scenario started: Verify that the user is navigated to the time-complexity page
+[2026-02-18 17:05:33] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-18 17:05:36] INFO  DashboardSteps - Validating page title. Expected: Data Structures-Introduction
+[2026-02-18 17:05:36] INFO  DashboardSteps - Validating page title. Expected: Data Structures-Introduction
+[2026-02-18 17:05:36] INFO  DashboardSteps - Validating page title. Expected: Data Structures-Introduction
+[2026-02-18 17:05:37] INFO  DashboardSteps - Validating page title. Expected: Data Structures-Introduction
+[2026-02-18 17:05:37] INFO  DashboardSteps - Validating page title. Expected: Data Structures-Introduction
+[2026-02-18 17:05:37] INFO  DashboardSteps - Validating page title. Expected: Data Structures-Introduction
+[2026-02-18 17:05:37] INFO  DashboardSteps - Validating page title. Expected: Time Complexity
+[2026-02-18 17:05:37] INFO  DashboardSteps - Validating page title. Expected: Time Complexity
+[2026-02-18 17:05:37] INFO  DashboardSteps - Validating page title. Expected: Time Complexity
+[2026-02-18 17:05:39] INFO  DashboardSteps - Validating page title. Expected: Time Complexity
+[2026-02-18 17:05:40] INFO  DashboardSteps - Validating page title. Expected: Time Complexity
+[2026-02-18 17:05:40] INFO  DashboardSteps - Validating page title. Expected: Time Complexity
+[2026-02-18 17:05:40] INFO  DashboardSteps - Validating page title. Expected: Assessment
+[2026-02-18 17:05:41] INFO  DashboardSteps - Validating page title. Expected: Data Structures-Introduction
+[2026-02-18 17:05:41] INFO  DashboardSteps - Validating page title. Expected: Data Structures-Introduction
+[2026-02-18 17:05:41] INFO  DashboardSteps - Validating page title. Expected: Data Structures-Introduction
+[2026-02-18 17:05:42] INFO  ApplicationHooks - Scenario passed: Verify that the user is navigated to the Data Structures-Introduction page
+[2026-02-18 17:05:42] INFO  DashboardSteps - Validating page title. Expected: Data Structures-Introduction
+[2026-02-18 17:05:43] INFO  DashboardSteps - Validating page title. Expected: Time Complexity
+[2026-02-18 17:05:43] INFO  ApplicationHooks - Scenario passed: Verify that the user is navigated to the time-complexity page
+[2026-02-18 17:05:43] INFO  DashboardSteps - Validating page title. Expected: Time Complexity
+[2026-02-18 17:05:45] INFO  DashboardSteps - Validating page title. Expected: Time Complexity
+[2026-02-18 17:05:45] INFO  DashboardSteps - Validating page title. Expected: Assessment
+[2026-02-18 17:05:45] INFO  DashboardSteps - Validating page title. Expected: Assessment
+[2026-02-18 17:05:45] INFO  DashboardSteps - Validating page title. Expected: Assessment
+[2026-02-18 17:05:45] INFO  DashboardSteps - Validating page title. Expected: Assessment
+[2026-02-18 17:05:45] INFO  DashboardSteps - Validating page title. Expected: Assessment
+[2026-02-18 17:05:45] INFO  DSIntroductionSteps - Validating the current page url,  Expected: https://dsportalapp.herokuapp.com/tryEditor 
+[2026-02-18 17:05:45] INFO  DSIntroductionSteps - Validating the current page url,  Expected: https://dsportalapp.herokuapp.com/tryEditor 
+[2026-02-18 17:05:45] INFO  DSIntroductionSteps - Validating the current page url,  Expected: https://dsportalapp.herokuapp.com/tryEditor 
+[2026-02-18 17:05:45] INFO  DSIntroductionSteps - Validating the current page url,  Expected: https://dsportalapp.herokuapp.com/tryEditor 
+[2026-02-18 17:05:45] INFO  DSIntroductionSteps - Validating the current page url,  Expected: https://dsportalapp.herokuapp.com/tryEditor 
+[2026-02-18 17:05:45] INFO  DSIntroductionSteps - Validating the current page url,  Expected: https://dsportalapp.herokuapp.com/tryEditor 
+[2026-02-18 17:05:47] INFO  ApplicationHooks - Scenario passed: Verify that the user is not able to see output after entering "12345" in try editor
+[2026-02-18 17:05:47] INFO  ApplicationHooks - Scenario passed: Verify that the user is not able to see output without entering code in the try editor
+[2026-02-18 17:05:47] INFO  DashboardSteps - Validating page title. Expected: Assessment
+[2026-02-18 17:05:47] INFO  DashboardSteps - Validating page title. Expected: Assessment
+[2026-02-18 17:05:47] INFO  DSIntroductionSteps - Validating the current page url,  Expected: https://dsportalapp.herokuapp.com/tryEditor 
+[2026-02-18 17:05:47] INFO  DSIntroductionSteps - Validating the current page url,  Expected: https://dsportalapp.herokuapp.com/tryEditor 
+[2026-02-18 17:05:47] INFO  ApplicationHooks - Scenario passed: Verify that the user is navigated to the try editor page
+[2026-02-18 17:05:48] INFO  DSIntroductionSteps - Validating try editor output,  Expected: Hello 
+[2026-02-18 17:05:48] INFO  ApplicationHooks - Scenario passed: Verify that the user is able to see an output for valid python code
+[2026-02-18 17:05:49] INFO  DSIntroductionSteps - Validating try editor alert message,  Expected: NameError: name 'Hello' is not defined on line 1 
+[2026-02-18 17:05:50] INFO  DSIntroductionSteps - Validating try editor alert message,  Expected: SyntaxError: bad token T_OP on line 1 
+[2026-02-18 17:05:50] INFO  ApplicationHooks - Scenario passed: Verify that the popup is displayed with error message after entering letters or any characters in try editor
+[2026-02-18 17:05:50] INFO  ApplicationHooks - Scenario passed: Verify that the popup is displayed with error message after entering "$$$$$" in try editor
+[2026-02-18 17:05:50] INFO  DSIntroductionSteps - Validating try editor alert message,  Expected: SyntaxError: EOF in multi-line statement on line 2 
+[2026-02-18 17:05:50] INFO  ApplicationHooks - Scenario passed: Verify that the popup is displayed with error message after entering "((((((" in try editor
+[2026-02-18 17:05:50] INFO  DSIntroductionSteps - Validating try editor alert message,  Expected: SyntaxError: bad input on line 1 
+[2026-02-18 17:05:50] INFO  ApplicationHooks - Scenario passed: Verify that the popup is displayed with error message for invalid python code with spaces in try editor
+[2026-02-18 17:05:56] INFO  ApplicationHooks - Scenario started: Verify that the Data-structures Introduction page loads using Https protocol
+[2026-02-18 17:05:56] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-18 17:05:56] INFO  ApplicationHooks - Scenario started: Verify that the try editor page loads using Https protocol
+[2026-02-18 17:05:56] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-18 17:05:56] INFO  ApplicationHooks - Scenario started: Verify that the time complexity page loads using Https protocol
+[2026-02-18 17:05:56] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-18 17:05:57] INFO  ApplicationHooks - Scenario started: Verify that the Data-structures Introduction page load time
+[2026-02-18 17:05:57] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-18 17:05:59] INFO  ApplicationHooks - Scenario started: Verify that the user is navigated to the Practice page url
+[2026-02-18 17:05:59] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-18 17:06:01] INFO  ApplicationHooks - Scenario started: Verify try editor page loads without errors
+[2026-02-18 17:06:01] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-18 17:06:01] INFO  ApplicationHooks - Scenario started: Verify time complexity page loads without errors
+[2026-02-18 17:06:01] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-18 17:06:01] INFO  ApplicationHooks - Scenario started: Verify Data-structures Introduction page loads without errors
+[2026-02-18 17:06:01] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-18 17:06:03] INFO  ApplicationHooks - Scenario started: Verify that the try editor page load time
+[2026-02-18 17:06:03] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-18 17:06:05] INFO  ApplicationHooks - Scenario started: Verify that the time complexity page load time
+[2026-02-18 17:06:05] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-18 17:06:06] INFO  DashboardSteps - Validating page loads using https protocol
+[2026-02-18 17:06:07] INFO  ApplicationHooks - Scenario passed: Verify that the Data-structures Introduction page loads using Https protocol
+[2026-02-18 17:06:11] INFO  DSIntroductionSteps - Validating Data-structures Introduction page load time with in 5 secs
+[2026-02-18 17:06:11] INFO  ApplicationHooks - Scenario passed: Verify that the Data-structures Introduction page load time
+[2026-02-18 17:06:11] INFO  DashboardSteps - Validating page loads using https protocol
+[2026-02-18 17:06:11] INFO  ApplicationHooks - Scenario passed: Verify that the time complexity page loads using Https protocol
+[2026-02-18 17:06:13] INFO  DashboardSteps - Validating page loads without any errors
+[2026-02-18 17:06:13] INFO  DashboardSteps - Validating page title. Expected: Data Structures-Introduction
+[2026-02-18 17:06:13] INFO  ApplicationHooks - Scenario passed: Verify Data-structures Introduction page loads without errors
+[2026-02-18 17:06:13] INFO  DashboardSteps - Validating page loads using https protocol
+[2026-02-18 17:06:13] INFO  ApplicationHooks - Scenario passed: Verify that the try editor page loads using Https protocol
+[2026-02-18 17:06:14] INFO  DashboardSteps - Validating page loads without any errors
+[2026-02-18 17:06:14] INFO  ApplicationHooks - Scenario passed: Verify time complexity page loads without errors
+[2026-02-18 17:06:14] INFO  DashboardSteps - Validating page title. Expected: Time Complexity
+[2026-02-18 17:06:15] INFO  DSIntroductionSteps - Validating time complexity page load time with in 5 secs
+[2026-02-18 17:06:15] INFO  ApplicationHooks - Scenario passed: Verify that the time complexity page load time
+[2026-02-18 17:06:15] INFO  DashboardSteps - Validating page title. Expected: Practice Questions
+[2026-02-18 17:06:15] INFO  DSIntroductionSteps - Validating the current page url,  Expected: https://dsportalapp.herokuapp.com/data-structures-introduction/practice 
+[2026-02-18 17:06:16] INFO  DashboardSteps - Validating page loads without any errors
+[2026-02-18 17:06:16] INFO  ApplicationHooks - Scenario passed: Verify try editor page loads without errors
+[2026-02-18 17:06:16] INFO  LoginSteps - Validating the log out message,  Expected: Logged out successfully 
+[2026-02-18 17:06:16] INFO  ApplicationHooks - Scenario passed: Verify that the user is navigated to the Practice page url
+[2026-02-18 17:06:16] INFO  DSIntroductionSteps - Validating try editor page load time with in 5 secs
+[2026-02-18 17:06:16] INFO  ApplicationHooks - Scenario passed: Verify that the try editor page load time
+[2026-02-18 17:06:19] INFO  ApplicationHooks - Scenario started: Verify that the practice page load time
+[2026-02-18 17:06:19] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-18 17:06:21] INFO  ApplicationHooks - Scenario started: Verify practice page loads without errors
+[2026-02-18 17:06:21] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-18 17:06:24] INFO  ApplicationHooks - Scenario started: Verify that the practice page loads using Https protocol
+[2026-02-18 17:06:24] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-18 17:06:24] INFO  DSIntroductionSteps - Load time of practice page in secs 0.526
+[2026-02-18 17:06:24] INFO  DSIntroductionSteps - Validating practice page load time with in 5 secs
+[2026-02-18 17:06:24] INFO  ApplicationHooks - Scenario passed: Verify that the practice page load time
+[2026-02-18 17:06:25] INFO  DashboardSteps - Validating page loads without any errors
+[2026-02-18 17:06:25] INFO  ApplicationHooks - Scenario passed: Verify practice page loads without errors
+[2026-02-18 17:06:28] INFO  DashboardSteps - Validating page loads using https protocol
+[2026-02-18 17:06:28] INFO  ApplicationHooks - Scenario passed: Verify that the practice page loads using Https protocol
+[2026-02-18 17:17:58] INFO  ApplicationHooks - Scenario started: Verify that the user is not able to see output without entering code in the try editor
+[2026-02-18 17:17:58] INFO  ApplicationHooks - Scenario started: Verify that the user is able to see an output for valid python code
+[2026-02-18 17:17:58] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-18 17:17:58] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-18 17:17:58] INFO  ApplicationHooks - Scenario started: Verify that the popup is displayed with error message for invalid python code with spaces in try editor
+[2026-02-18 17:17:58] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-18 17:17:58] INFO  ApplicationHooks - Scenario started: Verify that the user is navigated to the Data Structures-Introduction page
+[2026-02-18 17:17:58] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-18 17:17:59] INFO  ApplicationHooks - Scenario started: Verify that the user is navigated to the time-complexity page
+[2026-02-18 17:17:59] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-18 17:18:04] INFO  ApplicationHooks - Scenario started: Verify that the popup is displayed with error message after entering "((((((" in try editor
+[2026-02-18 17:18:04] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-18 17:18:04] INFO  ApplicationHooks - Scenario started: Verify that the popup is displayed with error message after entering letters or any characters in try editor
+[2026-02-18 17:18:04] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-18 17:18:06] INFO  ApplicationHooks - Scenario started: Verify that the user is navigated to the try editor page
+[2026-02-18 17:18:06] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-18 17:18:07] INFO  ApplicationHooks - Scenario started: Verify that the popup is displayed with error message after entering "$$$$$" in try editor
+[2026-02-18 17:18:07] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-18 17:18:09] INFO  ApplicationHooks - Scenario started: Verify that the user is not able to see output after entering "12345" in try editor
+[2026-02-18 17:18:09] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-18 17:18:18] INFO  DashboardSteps - Validating page title. Expected: Data Structures-Introduction
+[2026-02-18 17:18:18] INFO  DashboardSteps - Validating page title. Expected: Data Structures-Introduction
+[2026-02-18 17:18:18] INFO  ApplicationHooks - Scenario passed: Verify that the user is navigated to the Data Structures-Introduction page
+[2026-02-18 17:18:19] INFO  DashboardSteps - Validating page title. Expected: Data Structures-Introduction
+[2026-02-18 17:18:19] INFO  DashboardSteps - Validating page title. Expected: Data Structures-Introduction
+[2026-02-18 17:18:19] INFO  DashboardSteps - Validating page title. Expected: Data Structures-Introduction
+[2026-02-18 17:18:19] INFO  DashboardSteps - Validating page title. Expected: Data Structures-Introduction
+[2026-02-18 17:18:21] INFO  DashboardSteps - Validating page title. Expected: Data Structures-Introduction
+[2026-02-18 17:18:22] INFO  DashboardSteps - Validating page title. Expected: Time Complexity
+[2026-02-18 17:18:22] INFO  DashboardSteps - Validating page title. Expected: Data Structures-Introduction
+[2026-02-18 17:18:23] INFO  DashboardSteps - Validating page title. Expected: Time Complexity
+[2026-02-18 17:18:23] INFO  DashboardSteps - Validating page title. Expected: Data Structures-Introduction
+[2026-02-18 17:18:23] INFO  DashboardSteps - Validating page title. Expected: Time Complexity
+[2026-02-18 17:18:23] INFO  DashboardSteps - Validating page title. Expected: Time Complexity
+[2026-02-18 17:18:23] INFO  DashboardSteps - Validating page title. Expected: Time Complexity
+[2026-02-18 17:18:23] INFO  ApplicationHooks - Scenario passed: Verify that the user is navigated to the time-complexity page
+[2026-02-18 17:18:23] INFO  DashboardSteps - Validating page title. Expected: Data Structures-Introduction
+[2026-02-18 17:18:24] INFO  DashboardSteps - Validating page title. Expected: Time Complexity
+[2026-02-18 17:18:25] INFO  DashboardSteps - Validating page title. Expected: Time Complexity
+[2026-02-18 17:18:26] INFO  DashboardSteps - Validating page title. Expected: Time Complexity
+[2026-02-18 17:18:27] INFO  DashboardSteps - Validating page title. Expected: Time Complexity
+[2026-02-18 17:18:27] INFO  DashboardSteps - Validating page title. Expected: Assessment
+[2026-02-18 17:18:28] INFO  DashboardSteps - Validating page title. Expected: Assessment
+[2026-02-18 17:18:28] INFO  DashboardSteps - Validating page title. Expected: Assessment
+[2026-02-18 17:18:29] INFO  DashboardSteps - Validating page title. Expected: Assessment
+[2026-02-18 17:18:30] INFO  DashboardSteps - Validating page title. Expected: Assessment
+[2026-02-18 17:18:30] INFO  DashboardSteps - Validating page title. Expected: Assessment
+[2026-02-18 17:18:32] INFO  ApplicationHooks - Scenario started: Verify that the user is navigated to the Practice page url
+[2026-02-18 17:18:32] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-18 17:18:32] INFO  DashboardSteps - Validating page title. Expected: Assessment
+[2026-02-18 17:18:32] INFO  DashboardSteps - Validating page title. Expected: Assessment
+[2026-02-18 17:18:32] INFO  DSIntroductionSteps - Validating the current page url,  Expected: https://dsportalapp.herokuapp.com/tryEditor 
+[2026-02-18 17:18:32] INFO  DSIntroductionSteps - Validating the current page url,  Expected: https://dsportalapp.herokuapp.com/tryEditor 
+[2026-02-18 17:18:32] INFO  DSIntroductionSteps - Validating the current page url,  Expected: https://dsportalapp.herokuapp.com/tryEditor 
+[2026-02-18 17:18:32] INFO  DSIntroductionSteps - Validating the current page url,  Expected: https://dsportalapp.herokuapp.com/tryEditor 
+[2026-02-18 17:18:32] INFO  DSIntroductionSteps - Validating the current page url,  Expected: https://dsportalapp.herokuapp.com/tryEditor 
+[2026-02-18 17:18:32] INFO  DSIntroductionSteps - Validating the current page url,  Expected: https://dsportalapp.herokuapp.com/tryEditor 
+[2026-02-18 17:18:33] INFO  DSIntroductionSteps - Validating the current page url,  Expected: https://dsportalapp.herokuapp.com/tryEditor 
+[2026-02-18 17:18:33] INFO  ApplicationHooks - Scenario passed: Verify that the user is navigated to the try editor page
+[2026-02-18 17:18:33] INFO  DSIntroductionSteps - Validating the current page url,  Expected: https://dsportalapp.herokuapp.com/tryEditor 
+[2026-02-18 17:18:34] INFO  DSIntroductionSteps - Validating try editor output,  Expected: Hello 
+[2026-02-18 17:18:34] INFO  ApplicationHooks - Scenario passed: Verify that the user is able to see an output for valid python code
+[2026-02-18 17:18:34] INFO  ApplicationHooks - Scenario passed: Verify that the user is not able to see output after entering "12345" in try editor
+[2026-02-18 17:18:34] INFO  ApplicationHooks - Scenario passed: Verify that the user is not able to see output without entering code in the try editor
+[2026-02-18 17:18:37] INFO  ApplicationHooks - Scenario started: Verify that the Data-structures Introduction page load time
+[2026-02-18 17:18:37] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-18 17:18:37] INFO  DSIntroductionSteps - Validating try editor alert message,  Expected: SyntaxError: EOF in multi-line statement on line 2 
+[2026-02-18 17:18:37] INFO  DSIntroductionSteps - Validating try editor alert message,  Expected: SyntaxError: bad input on line 1 
+[2026-02-18 17:18:37] INFO  ApplicationHooks - Scenario passed: Verify that the popup is displayed with error message after entering "((((((" in try editor
+[2026-02-18 17:18:37] INFO  DSIntroductionSteps - Validating try editor alert message,  Expected: NameError: name 'Hello' is not defined on line 1 
+[2026-02-18 17:18:37] INFO  ApplicationHooks - Scenario passed: Verify that the popup is displayed with error message for invalid python code with spaces in try editor
+[2026-02-18 17:18:37] INFO  ApplicationHooks - Scenario passed: Verify that the popup is displayed with error message after entering letters or any characters in try editor
+[2026-02-18 17:18:38] INFO  DSIntroductionSteps - Validating try editor alert message,  Expected: SyntaxError: bad token T_OP on line 1 
+[2026-02-18 17:18:38] INFO  ApplicationHooks - Scenario passed: Verify that the popup is displayed with error message after entering "$$$$$" in try editor
+[2026-02-18 17:18:39] INFO  DashboardSteps - Validating page title. Expected: Data Structures-Introduction
+[2026-02-18 17:18:40] INFO  DashboardSteps - Validating page title. Expected: Time Complexity
+[2026-02-18 17:18:40] INFO  DashboardSteps - Validating page title. Expected: Practice Questions
+[2026-02-18 17:18:40] INFO  DSIntroductionSteps - Validating the current page url,  Expected: https://dsportalapp.herokuapp.com/data-structures-introduction/practice 
+[2026-02-18 17:18:41] INFO  DSIntroductionSteps - Validating Data-structures Introduction page load time with in 5 secs
+[2026-02-18 17:18:41] INFO  ApplicationHooks - Scenario passed: Verify that the Data-structures Introduction page load time
+[2026-02-18 17:18:42] INFO  LoginSteps - Validating the log out message,  Expected: Logged out successfully 
+[2026-02-18 17:18:42] INFO  ApplicationHooks - Scenario passed: Verify that the user is navigated to the Practice page url
+[2026-02-18 17:18:45] INFO  ApplicationHooks - Scenario started: Verify that the time complexity page load time
+[2026-02-18 17:18:45] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-18 17:18:46] INFO  ApplicationHooks - Scenario started: Verify time complexity page loads without errors
+[2026-02-18 17:18:46] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-18 17:18:46] INFO  ApplicationHooks - Scenario started: Verify that the time complexity page loads using Https protocol
+[2026-02-18 17:18:46] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-18 17:18:46] INFO  ApplicationHooks - Scenario started: Verify that the try editor page loads using Https protocol
+[2026-02-18 17:18:46] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-18 17:18:46] INFO  ApplicationHooks - Scenario started: Verify Data-structures Introduction page loads without errors
+[2026-02-18 17:18:46] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-18 17:18:51] INFO  ApplicationHooks - Scenario started: Verify try editor page loads without errors
+[2026-02-18 17:18:51] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-18 17:18:51] INFO  ApplicationHooks - Scenario started: Verify that the Data-structures Introduction page loads using Https protocol
+[2026-02-18 17:18:51] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-18 17:18:52] INFO  ApplicationHooks - Scenario started: Verify that the practice page load time
+[2026-02-18 17:18:52] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-18 17:18:55] INFO  ApplicationHooks - Scenario started: Verify that the try editor page load time
+[2026-02-18 17:18:55] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-18 17:19:02] INFO  DashboardSteps - Validating page loads without any errors
+[2026-02-18 17:19:03] INFO  ApplicationHooks - Scenario passed: Verify Data-structures Introduction page loads without errors
+[2026-02-18 17:19:04] INFO  DashboardSteps - Validating page loads using https protocol
+[2026-02-18 17:19:04] INFO  ApplicationHooks - Scenario passed: Verify that the time complexity page loads using Https protocol
+[2026-02-18 17:19:05] INFO  DSIntroductionSteps - Validating time complexity page load time with in 5 secs
+[2026-02-18 17:19:05] INFO  ApplicationHooks - Scenario passed: Verify that the time complexity page load time
+[2026-02-18 17:19:05] INFO  DashboardSteps - Validating page loads without any errors
+[2026-02-18 17:19:05] INFO  ApplicationHooks - Scenario passed: Verify time complexity page loads without errors
+[2026-02-18 17:19:05] INFO  DashboardSteps - Validating page loads using https protocol
+[2026-02-18 17:19:05] INFO  ApplicationHooks - Scenario passed: Verify that the Data-structures Introduction page loads using Https protocol
+[2026-02-18 17:19:07] INFO  DashboardSteps - Validating page loads using https protocol
+[2026-02-18 17:19:07] INFO  ApplicationHooks - Scenario passed: Verify that the try editor page loads using Https protocol
+[2026-02-18 17:19:08] INFO  ApplicationHooks - Scenario started: Verify that the practice page loads using Https protocol
+[2026-02-18 17:19:08] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-18 17:19:08] INFO  DashboardSteps - Validating page loads without any errors
+[2026-02-18 17:19:08] INFO  ApplicationHooks - Scenario passed: Verify try editor page loads without errors
+[2026-02-18 17:19:08] INFO  DSIntroductionSteps - Load time of practice page in secs 0.705
+[2026-02-18 17:19:08] INFO  DSIntroductionSteps - Validating practice page load time with in 5 secs
+[2026-02-18 17:19:08] INFO  ApplicationHooks - Scenario passed: Verify that the practice page load time
+[2026-02-18 17:19:10] INFO  DSIntroductionSteps - Validating try editor page load time with in 5 secs
+[2026-02-18 17:19:10] INFO  ApplicationHooks - Scenario passed: Verify that the try editor page load time
+[2026-02-18 17:19:12] INFO  ApplicationHooks - Scenario started: Verify practice page loads without errors
+[2026-02-18 17:19:12] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-18 17:19:12] INFO  DashboardSteps - Validating page loads using https protocol
+[2026-02-18 17:19:12] INFO  ApplicationHooks - Scenario passed: Verify that the practice page loads using Https protocol
+[2026-02-18 17:19:16] INFO  DashboardSteps - Validating page loads without any errors
+[2026-02-18 17:19:16] INFO  ApplicationHooks - Scenario passed: Verify practice page loads without errors

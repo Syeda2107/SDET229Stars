@@ -2,8 +2,10 @@ package com.numpyninja.dsalgo.stepdefinitions;
 
 import com.numpyninja.dsalgo.pageobjects.DSIntroductionPage;
 import com.numpyninja.dsalgo.testbase.TestContext;
+import com.numpyninja.dsalgo.utilities.ConfigReader;
 import io.cucumber.datatable.DataTable;
 import io.cucumber.java.PendingException;
+import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import lombok.extern.slf4j.Slf4j;
@@ -28,10 +30,9 @@ public class DSIntroductionSteps {
     }
 
     @When("the user enters valid Username and Password in the Login form")
-    public void the_user_enters_valid_username_and_password_in_the_login_form(DataTable dataTable) {
-        Map<String, String> credentials = dataTable.asMap(String.class, String.class);
-        String username = credentials.get("Username");
-        String pwd = credentials.get("Password");
+    public void the_user_enters_valid_username_and_password_in_the_login_form() throws IOException {
+        String username= ConfigReader.initProp("Username");
+        String pwd= ConfigReader.initProp("Password");
         context.loginPage.enterCredentials(username, pwd);
     }
 
@@ -187,5 +188,14 @@ public class DSIntroductionSteps {
         log.info("Load time of practice page in secs {}", loadTimeInSecs);
         log.info("Validating practice page load time with in {} secs",timeInSecs);
         Assert.assertTrue(loadTimeInSecs <= timeInSecs);
+    }
+
+    @And("the page url should be displayed from {string} and {int}")
+    public void thePageUrlShouldBeDisplayedFromAnd(String sheetName, int rowNumber) throws IOException, InvalidFormatException, InterruptedException {
+        List<Map<String, String>> testData = dsIntroductionPage.readDataFromExcel(sheetName, rowNumber);
+        String actualCurrentPageUrl = dsIntroductionPage.getcurrentpageUrl();
+        String expectedCurrentPageUrl = testData.get(rowNumber).get("ExpectedUrl");
+        log.info("Validating the current page url,  Expected: {} ", expectedCurrentPageUrl);
+        Assert.assertEquals(actualCurrentPageUrl, expectedCurrentPageUrl);
     }
 }

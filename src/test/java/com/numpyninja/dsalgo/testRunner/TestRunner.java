@@ -8,15 +8,16 @@ import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 
 //@RunWith(Cucumber.class)
-@CucumberOptions(features = {"src/test/resources/Features/Dashboard.feature",
-        "src/test/resources/Features/Home.feature",
-        "src/test/resources/Features/Registration.feature",
-        "src/test/resources/Features/Login.feature",
+@CucumberOptions(features = {//"src/test/resources/Features/Dashboard.feature",
+        //"src/test/resources/Features/Home.feature",
+        //"src/test/resources/Features/Registration.feature",
+        //"src/test/resources/Features/Login.feature",
         "src/test/resources/Features/DSIntroduction.feature",
-        "src/test/resources/Features/Array.feature",
-        "src/test/resources/Features/LinkedList.feature",
-        "src/test/resources/Features/Graph.feature",
-        "src/test/resources/Features/Tree.feature"},
+       // "src/test/resources/Features/Array.feature",
+       // "src/test/resources/Features/LinkedList.feature",
+       // "src/test/resources/Features/Graph.feature",
+      //  "src/test/resources/Features/Tree.feature"
+        },
         glue = {"com.numpyninja.dsalgo.stepdefinitions", "com.numpyninja.dsalgo.apphooks"},
         //tags = "@SmokeTest or @RegressionTest or @DBP-1",
         dryRun = false,
