@@ -6,7 +6,6 @@ import lombok.Getter;
 import lombok.Setter;
 import org.openqa.selenium.WebDriver;
 
-
 @Setter
 @Getter
 public class TestContext {
@@ -29,6 +28,42 @@ public class TestContext {
     public long regTime;
     public long homeTime;
     public long dashboardTime;
+    public long GraphPageLoadTime;
+    public long GraphLinkLoadTime;
+    public long GraphLinkTryHereLoadTime;
+    public long GraphLinkPracticeQLoadTime;
+    public long GraphRpLinkLoadTime;
+    public long GraphRpLinkTryHereLoadTime;
+    public long GraphRpLinkPracticeQLoadTime;
+    public long TreePageLoadTime;
+    public long OverviewOfTreesPageLoadTime;
+    public long OverviewOfTreesTryHereLoadTime;
+    public long TerminologiesPageLoadTime;
+    public long TerminologiesTryHereLoadTime;
+    public long TypesOfTreesPageLoadTime;
+    public long TypesOfTreesTryHereLoadTime;
+    public long TreeTraversalsPageLoadTime;
+    public long TreeTraversalsTryHereLoadTime;
+    public long TraversalsIllustrationPageLoadTime;
+    public long TraversalsIllustrationTryHereLoadTime;
+    public long BinaryTreesPageLoadTime;
+    public long BinaryTreesPageTryHereLoadTime;
+    public long TypesOfBinaryTreesPageLoadTime;
+    public long TypesOfBinaryTreesTryHereLoadTime;
+    public long ImplementationInPythonPageLoadTime;
+    public long ImplementationInPythonTryHereLoadTime;
+    public long BinaryTreeTraversalsPageLoadTime;
+    public long BinaryTreeTraversalsTryHereLoadTime;
+    public long ImplementationOfBinaryTreePageLoadTime;
+    public long ImplementationOfBinaryTreesTryHereLoadTime;
+    public long ApplicationOfBinaryTreesPageLoadTime;
+    public long ApplicationOfBinaryTreesTryHereLoadTime;
+    public long BinarySearchTreesPageLoadTime;
+    public long BinarySearchTreesTryHereLoadTime;
+    public long ImplementationOfBSTPageLoadTime;
+    public long ImplementationOfBSTTryHereLoadTime;
+    public long TreePracticeQLoadTime;
+
     //public static String browserName;
 
     public void initializePageObjects() {
@@ -42,7 +77,5 @@ public class TestContext {
         this.treePage = new TreePage(driver,this);
         this.graphPage = new GraphPage(driver,this);
         this.faker=new Faker(); // new Faker() creates a new Faker object,this.faker refers to instance variable.
-
-
     }
 }
