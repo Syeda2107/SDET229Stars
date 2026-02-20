@@ -1,42 +1,50 @@
-Feature: LinkedList navigation and Execution in DsAlgo Portal
+Feature: LinkedList navigation and Try Editor execution in DsAlgo Portal
 
   Background:
-    Given the user is logged into the "dsAlgoportal" application
-    And the user is on the Home page
-  Scenario Outline: Navigate to module, access Try Editor and run code
-    Given the user is on the "Linked List" data structure page after signin
-    When the user clicks the "<Module Button>" button
-    Then the user should be redirected to the "<Module Name>" page
-    And the user clicks the "Try Here" button
-    Then the user should be redirected to the "Try Editor" page
-    When the user enters "<Code>" in the editor and clicks the "Run" button
-    Then the system should display "<Result>"
+    Given User launches the browser and enters the DsAlgo application url
+    When the user clicks on Get Started button in the DsAlgo Portal
+    And user clicks on Sign in link in the Home page
+    Then the page title should be displayed as "Login"
+    When the user enters valid Username and Password in the Login form
+    And user clicks on Login button
+
+  Scenario Outline: Navigate to LinkedList submodule, access Try Editor, and run code
+    When the user clicks on Get Started button LinkedList
+    And the user clicks on the LinkedList submodule "<Submodule>"
+    And the user clicks on Try Here button on LinkedList submodule
+    And the user enters code from "<SheetName>" and <RowNumber> in Try Editor on LinkedList and clicks Run
+    Then the Try Editor system on LinkedList should display result from "<SheetName>" and <RowNumber>
 
     Examples:
-      | Module Name                      | Module Button              | Code         | Result              |
-      | Introduction                     | Arrays in Python           | ""           | error alert message |
-      | Introduction                     | Arrays in Python           | invalid_code | error alert message |
-      | Introduction                     | Arrays in Python           | print("Hi")  | Hi output           |
-      | Creating Linked LIst             | Arrays Using List          | ""           | error alert message |
-      | Creating Linked LIst             | Arrays Using List          | invalid_code | error alert message |
-      | Creating Linked LIst             | Arrays Using List          | print("Hi")  | Hi output           |
-      | Types of Linked List             | Basic Operations in Lists  | ""           | error alert message |
-      | Types of Linked List             | Basic Operations in Lists  | invalid_code | error alert message |
-      | Types of Linked List             | Basic Operations in Lists  | print("Hi")  | Hi output           |
-      | Implement Linked List in Python  | Applications of Array      | ""           | error alert message |
-      | Implement Linked List in Python  | Applications of Array      | invalid_code | error alert message |
-      | Implement Linked List in Python  | Applications of Array      | print("Hi")  | Hi output           |
-      | Traversal                        | Applications of Array      | ""           | error alert message |
-      | Traversal                        | Applications of Array      | invalid_code | error alert message |
-      | Traversal                        | Applications of Array      | print("Hi")  | Hi output           |
-      | Insertion                        | Applications of Array      | ""           | error alert message |
-      | Insertion                        | Applications of Array      | invalid_code | error alert message |
-      | Insertion                        | Applications of Array      | print("Hi")  | Hi output           |
-      | Deletion                         | Applications of Array      | ""           | error alert message |
-      | Deletion                         | Applications of Array      | invalid_code | error alert message |
-      | Deletion                         | Applications of Array      | print("Hi")  | Hi output           |
+      | Submodule                        | SheetName      | RowNumber |
+      | Introduction                     | LinkedList_Try | 0        |
+      | Introduction                     | LinkedList_Try | 1        |
+      | Creating Linked LIst             | LinkedList_Try | 2        |
+      | Creating Linked LIst             | LinkedList_Try | 3        |
+      | Types of Linked List             | LinkedList_Try | 4        |
+      | Types of Linked List             | LinkedList_Try | 5        |
+      | Implement Linked List in Python  | LinkedList_Try | 6        |
+      | Implement Linked List in Python  | LinkedList_Try | 7        |
+      | Traversal                        | LinkedList_Try | 8        |
+      | Traversal                        | LinkedList_Try | 9        |
+      | Insertion                        | LinkedList_Try | 10       |
+      | Insertion                        | LinkedList_Try | 11       |
+      | Deletion                         | LinkedList_Try | 12       |
+      | Deletion                         | LinkedList_Try | 13       |
 
-  Scenario: navigate to "Linked List" and click on the Practice questions
-    Given the user is is on the "linked list" page
-    When the user clicks on "Practice Questions"
-    Then the user redirected to blank practice page from "Linked list" page
+
+  Scenario Outline: Practice questions on LinkedList run and submit
+    When the user clicks on Get Started button LinkedList
+    Given the user is on the "<Submodule Name>" page on LinkedList
+    When the user clicks the LinkedList Submodule "Practice Questions" button
+    Then the Practice Question LinkedList Submodule system should display blank page with the url from "LinkedList_Practice" and <RowNumber>
+
+    Examples:
+      | Submodule Name                  | RowNumber |
+      | Introduction                    | 0         |
+      | Creating Linked LIst            | 1         |
+      | Types of Linked List            | 2         |
+      | Implement Linked List in Python | 3         |
+      | Traversal                       | 4         |
+      | Insertion                       | 5         |
+      | Deletion                        | 6         |
