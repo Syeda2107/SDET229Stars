@@ -1,51 +1,79 @@
-Feature: Array module navigation and Try Editor
+Feature: Array Module Navigation and Execution in DsAlgo Portal
 
   Background:
-    Given User launches the browser and enters the DsAlgo application url
-    When the user clicks on Get Started button in the DsAlgo Portal
-    And user clicks on Sign in link in the Home page
-    Then the page title should be displayed as "Login"
-    When the user enters valid Username and Password in the Login form
-    And user clicks on Login button
+    Given the user is logged into the "dsAlgoportal" application
+    And the user is on the Home page
 
-  Scenario Outline: Navigate to Array submodule, access Try Editor, and run code
-    When the user clicks on Get Started button Array
-    And the user clicks on the Array submodule "<Submodule>"
-    And the user clicks on Try Here button on Array submodule
-    And the user enters code from "<SheetName>" and <RowNumber> in Try Editor on Array submodule and clicks Run
-    Then the Try Editor on Array submodule should display result from "<SheetName>" and <RowNumber>
+  Scenario Outline: Navigate to module, access Try Editor, and run code
+    Given the user is on the "Array" page after sign-in
+    When the user clicks the "<Module Button>" button
+    Then the user should be redirected to the "<Module Name>" page
+    And the user clicks the "Try Here" button
+    Then the user should be redirected to the "Try Editor" page
+    When the user enters "<Code>" in the editor and clicks the "Run" button
+    Then the system should display "<Result>"
 
     Examples:
-      | Submodule                 | SheetName     | RowNumber |
-      | Arrays in Python          | Array_Try     | 0         |
-      | Arrays in Python          | Array_Try     | 1         |
-      | Arrays Using List         | Array_Try     | 2         |
-      | Arrays Using List         | Array_Try     | 3         |
-      | Basic Operations in Lists | Array_Try     | 4         |
-      | Basic Operations in Lists | Array_Try     | 5         |
-      | Applications of Array     | Array_Try     | 6         |
-      | Applications of Array     | Array_Try     | 7         |
+      | Module Name                | Module Button              | Code         | Result              |
+      | Arrays in Python           | Arrays in Python           | ""           | error alert message |
+      | Arrays in Python           | Arrays in Python           | invalid_code | error alert message |
+      | Arrays in Python           | Arrays in Python           | print("Hi")  | Hi output           |
+      | Arrays Using List          | Arrays Using List          | ""           | error alert message |
+      | Arrays Using List          | Arrays Using List          | invalid_code | error alert message |
+      | Arrays Using List          | Arrays Using List          | print("Hi")  | Hi output           |
+      | Basic Operations in Lists  | Basic Operations in Lists  | ""           | error alert message |
+      | Basic Operations in Lists  | Basic Operations in Lists  | invalid_code | error alert message |
+      | Basic Operations in Lists  | Basic Operations in Lists  | print("Hi")  | Hi output           |
+      | Applications of Array      | Applications of Array      | ""           | error alert message |
+      | Applications of Array      | Applications of Array      | invalid_code | error alert message |
+      | Applications of Array      | Applications of Array      | print("Hi")  | Hi output           |
 
-  Scenario Outline: Practice questions on Array submodule run and submit
-    When the user clicks on Get Started button Array
-    Given the user is on the "<Submodule Name>" page for Array module
-    When the user clicks the Array Practice question "Practice Questions" button
-    And the user selects the Array Practice question "<Question>" link
-
-    When the user enters run code from "<SheetName>" and <RowNumber> and clicks Run on Array Practice question
-    Then the Practice Question system should display run result from "<SheetName>" and <RowNumber> for on Array Practice question
-
-    When the user enters submit code from "<SheetName>" and <RowNumber> and clicks the "Submit" button
-    Then the system should display submit result from "<SheetName>" and <RowNumber> for on Array Practice question
+  Scenario Outline: Navigate to Practice Questions from Array-related pages
+    Given the user is on the "<array_page>" page
+    When the user clicks the "Practice Questions" button
+    Then the user should be redirected to the "Practice" page
 
     Examples:
-      | Submodule Name            | Question                                | SheetName              | RowNumber |
-      | Arrays in Python          | Search the array                        | arrayPracticeQuestion  | 0         |
-      | Arrays in Python          | Search the array                        | arrayPracticeQuestion  | 1         |
-      | Arrays Using List         | Max Consecutive Ones                    | arrayPracticeQuestion  | 2         |
-      | Arrays Using List         | Max Consecutive Ones                    | arrayPracticeQuestion  | 3         |
-      | Basic Operations in Lists | Find Numbers with Even Number of Digits | arrayPracticeQuestion  | 4         |
-      | Basic Operations in Lists | Find Numbers with Even Number of Digits | arrayPracticeQuestion  | 5         |
-      | Applications of Array     | Squares of a Sorted Array               | arrayPracticeQuestion  | 6         |
-      | Applications of Array     | Squares of a Sorted Array               | arrayPracticeQuestion  | 7         |
+      | array_page                |
+      | Arrays in Python          |
+      | Arrays Using List         |
+      | Basic Operations in Lists |
+      | Applications of Array     |
+
+  Scenario Outline: Navigate to practice question and run/submit code
+    Given the user is on the "Practice" page
+    When the user selects the "<question>" link
+    Then the user should be redirected to the "Question" page
+
+    When the user enters "<code>" in the editor and Clickss the "Run" button
+    Then the system should display "<run_result>"
+
+    When the user enters "<submit_code>" in the editor and Clickss the "Submit" button
+    Then the system should display "<submit_result>"
+
+    Examples:
+      | question                      | code         | run_result            | submit_code   | submit_result                    |
+      | Search the array              | invalid_code | error alert message   | invalid_code  | Error occurred during submission |
+      | Search the array              | valid_code   | output                | valid_code    | Submission successful            |
+      | Max Consecutive Ones          | invalid_code | error alert message   | invalid_code  | Error occurred during submission |
+      | Max Consecutive Ones          | valid_code   | output                | valid_code    | Submission successful            |
+      | Find Numbers with Even Digits | invalid_code | error alert message   | invalid_code  | Error occurred during submission |
+      | Find Numbers with Even Digits | valid_code   | output                | valid_code    | Submission successful            |
+      | Squares of a Sorted Array     | invalid_code | error alert message   | invalid_code  | Error occurred during submission |
+      | Squares of a Sorted Array     | valid_code   | output                | valid_code    | Submission successful            |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

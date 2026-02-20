@@ -38,8 +38,15 @@ build/
 ### Mac OS ###
 .DS_Store
 
+# Test & automation artifacts
 test-output/
-test output/
-.idea/
-allure-results/
+Reports/
 logs/
+
+# Report files
+*.png
+*.pdf
+*.html
+
+.idea/
+
