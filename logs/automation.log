@@ -14771,3 +14771,23 @@
 [2026-02-20 11:40:50] INFO  DSIntroductionSteps - Validating the current page url,  Expected: https://dsportalapp.herokuapp.com/tryEditor 
 [2026-02-20 11:40:51] INFO  ApplicationHooks - Scenario passed: Verify that the user is not able to see output after entering "12345" in try editor
 [2026-02-20 11:40:51] INFO  ApplicationHooks - Scenario passed: Practice questions on LinkedList run and submit
+[2026-02-20 19:15:14] INFO  ApplicationHooks - Scenario started: Navigate to Array submodule, access Try Editor, and run code
+[2026-02-20 19:15:15] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-20 19:15:15] INFO  DashboardSteps - Validating page title. Expected: Login
+[2026-02-20 19:15:17] INFO  ArrayPage - Clicked Array Get Started button
+[2026-02-20 19:15:17] INFO  ArrayPage - Clicked submodule: Applications of Array
+[2026-02-20 19:15:18] INFO  ArrayPage - Clicked Try Here button
+[2026-02-20 19:15:18] INFO  ApplicationHooks - Scenario started: Verify that user is able to navigate to Practice Questions Page for Graph Representations page
+[2026-02-20 19:15:19] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-20 19:15:19] INFO  ApplicationHooks - Scenario started: Practice questions on LinkedList run and submit
+[2026-02-20 19:15:19] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-20 19:15:20] INFO  ArrayPage - Executed code in Try Editor
+[2026-02-20 19:15:20] INFO  ApplicationHooks - Scenario passed: Navigate to Array submodule, access Try Editor, and run code
+[2026-02-20 19:15:20] INFO  DashboardSteps - Validating page title. Expected: Login
+[2026-02-20 19:15:22] INFO  DashboardSteps - Validating page title. Expected: Graph
+[2026-02-20 19:15:23] INFO  DashboardSteps - Validating page title. Expected: Graph Representations
+[2026-02-20 19:15:23] INFO  DashboardSteps - Validating page title. Expected: Practice Questions
+[2026-02-20 19:15:23] INFO  DSIntroductionSteps - Validating the current page url,  Expected: https://dsportalapp.herokuapp.com/graph/practice 
+[2026-02-20 19:15:24] INFO  ApplicationHooks - Scenario passed: Practice questions on LinkedList run and submit
+[2026-02-20 19:15:24] INFO  LoginSteps - Validating the log out message,  Expected: Logged out successfully 
+[2026-02-20 19:15:24] INFO  ApplicationHooks - Scenario passed: Verify that user is able to navigate to Practice Questions Page for Graph Representations page
