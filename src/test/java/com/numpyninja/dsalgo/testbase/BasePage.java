@@ -2,9 +2,8 @@ package com.numpyninja.dsalgo.testbase;
 
 import com.numpyninja.dsalgo.utilities.ExcelReader;
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.jspecify.annotations.Nullable;
+import org.openqa.selenium.*;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -31,6 +30,8 @@ public class BasePage {
     }
 
     public void waitForElementToClick(WebElement element, long timeOutInSec) {
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        js.executeScript("arguments[0].scrollIntoView(true);",element);
         getWait(timeOutInSec).until(ExpectedConditions.elementToBeClickable(element)).click();
     }
 
@@ -72,4 +73,10 @@ public class BasePage {
                         .equals("complete")
         );
     }
+
+    public @Nullable Alert getAlert(long timeOutInSec) {
+            getWait(timeOutInSec).until(ExpectedConditions.alertIsPresent());
+            return driver.switchTo().alert();
+    }
+
 }

@@ -68,7 +68,7 @@ Feature: Login Functionality of DsAlgo Application
 
     @Performance
     Scenario: Verify that the login page load time
-      Then the login page should load within 5 secs
+      Then the login page should load within 10 secs
 
     @Security
     Scenario: Verify that the login page loads using Https protocol

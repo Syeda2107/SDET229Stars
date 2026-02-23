@@ -8,6 +8,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 import java.util.HashMap;
+import java.util.Objects;
 
 public class DSIntroductionPage extends BasePage {
     public DSIntroductionPage(WebDriver driver, TestContext context) {
@@ -70,9 +71,17 @@ public class DSIntroductionPage extends BasePage {
     }
 
     public String getPopUpMsg() throws InterruptedException {
-        Thread.sleep(3000);
-        Alert alert = driver.switchTo().alert();
-        return alert.getText();
+       Alert alert=getAlert(25);
+       if(alert !=null){
+           return alert.getText();
+       }
+       else{
+           return "No Alert is persent";
+       }
+
+        //Thread.sleep(3000);
+        //Alert alert = driver.switchTo().alert();
+        //return alert.getText();
     }
 //    public String getPopUpMsg() {
 //        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
@@ -81,9 +90,10 @@ public class DSIntroductionPage extends BasePage {
 //    }
 
     public void clickPopUpOkBtn() throws InterruptedException {
-        Alert alert = driver.switchTo().alert();
+        Objects.requireNonNull(getAlert(10)).accept();
+        //Alert alert = driver.switchTo().alert();
         //Thread.sleep(2000);
-        alert.accept();
+        //alert.accept();
     }
 
     public void enterPythonCode(String pythonCode) {

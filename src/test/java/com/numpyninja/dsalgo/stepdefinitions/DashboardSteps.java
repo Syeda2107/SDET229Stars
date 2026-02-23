@@ -2,7 +2,6 @@ package com.numpyninja.dsalgo.stepdefinitions;
 
 import com.numpyninja.dsalgo.pageobjects.DashboardPage;
 import com.numpyninja.dsalgo.testbase.TestContext;
-import com.numpyninja.dsalgo.utilities.ConfigReader;
 import io.cucumber.datatable.DataTable;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -35,7 +34,7 @@ public class DashboardSteps {
 //        String url= ConfigReader.initProp("url");
 //        System.out.println("************************ "+ url);
 //        driver.get(url);
-        log.info("Launching application URL: {}", ConfigReader.initProp("url"));
+        log.info("Launching application URL: {}", testContext.configReader.initProp("url"));
     }
 
     @Then("the page title should be displayed as {string}")
@@ -85,10 +84,10 @@ public class DashboardSteps {
     @Then("the user should be navigated to the Home page which displays the {string} link on the top right corner")
     public void the_user_should_be_navigated_to_the_home_page_which_displays_the_link_on_the_top_right_corner(String expectedLinkText) throws IOException {
         String actualLinkText = "";
-        if (expectedLinkText.equals(ConfigReader.initProp("RegisterText"))) {
+        if (expectedLinkText.equals(testContext.configReader.initProp("RegisterText"))) {
             actualLinkText = dashboardPage.validateregisterText();
             log.info("Validating the RegisterLink Text Expected: {}", expectedLinkText);
-        } else if (expectedLinkText.equals(ConfigReader.initProp("SignInText"))) {
+        } else if (expectedLinkText.equals(testContext.configReader.initProp("SignInText"))) {
             actualLinkText = dashboardPage.validateSignInText();
             log.info("Validating the SignInLink Text Expected: {}", expectedLinkText);
         } else

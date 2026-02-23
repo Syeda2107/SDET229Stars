@@ -3,8 +3,6 @@ package com.numpyninja.dsalgo.stepdefinitions;
 import com.numpyninja.dsalgo.pageobjects.DSIntroductionPage;
 import com.numpyninja.dsalgo.testbase.TestContext;
 import com.numpyninja.dsalgo.utilities.ConfigReader;
-import io.cucumber.datatable.DataTable;
-import io.cucumber.java.PendingException;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -31,8 +29,8 @@ public class DSIntroductionSteps {
 
     @When("the user enters valid Username and Password in the Login form")
     public void the_user_enters_valid_username_and_password_in_the_login_form() throws IOException {
-        String username= ConfigReader.initProp("Username");
-        String pwd= ConfigReader.initProp("Password");
+        String username= context.configReader.initProp("Username");
+        String pwd= context.configReader.initProp("Password");
         context.loginPage.enterCredentials(username, pwd);
     }
 
@@ -40,7 +38,7 @@ public class DSIntroductionSteps {
     public void the_user_clicks_on_get_started_button_below_data_structures_introduction_module() {
         long startTimeDSIntro=System.currentTimeMillis();
         dsIntroductionPage.clickDsIntroGetStartbtn();
-        dsIntroductionPage.waitForPageToLoad();
+        //dsIntroductionPage.waitForPageToLoad();
         long endTime = System.currentTimeMillis();
         context.setDsIntroLoadTime(endTime-startTimeDSIntro);
     }

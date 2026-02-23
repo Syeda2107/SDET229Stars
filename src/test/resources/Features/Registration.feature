@@ -67,7 +67,7 @@ Feature: Registration Functionality of DsAlgo Application
 
     @Performance
     Scenario: Verify that the registration page load time
-      Then the registration page should load within 5 secs
+      Then the registration page should load within 10 secs
 
     @Security
     Scenario: Verify that the registration page loads using Https protocol

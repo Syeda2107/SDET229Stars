@@ -3,7 +3,6 @@ package com.numpyninja.dsalgo.stepdefinitions;
 import com.numpyninja.dsalgo.pageobjects.DashboardPage;
 import com.numpyninja.dsalgo.pageobjects.HomePage;
 import com.numpyninja.dsalgo.testbase.TestContext;
-import io.cucumber.java.PendingException;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import lombok.extern.slf4j.Slf4j;
