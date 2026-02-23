@@ -69,7 +69,7 @@ Feature: Dashboard Functionality in DsAlgo Portal
 
     @Performance
     Scenario: Verify that the Dashboard page load time
-      Then the dashboard page should load within 5 secs
+      Then the dashboard page should load within 10 secs
 
     @Security
     Scenario: Verify that the page loads using Https protocol

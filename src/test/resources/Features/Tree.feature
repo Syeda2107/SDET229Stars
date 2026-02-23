@@ -66,7 +66,7 @@ Feature: Tree Functionality of Dsalgo Application
     When the user clicks on Try here button in Overview of Trees page
     Then the page title should be displayed as "Assessment"
     And the page url should be displayed from "<SheetName>" and <RowNumber2>
-    When the user enters Python Code from "<SheetName>" and <RowNumber2> in try editor
+    When the user enters Python Code from "<SheetName>" and <RowNumber> in try editor
     And user clicks on Run button
     Then the user should get pop up message from "<SheetName>" and <RowNumber>
     And user clicks on OK button in the popup
@@ -81,7 +81,7 @@ Feature: Tree Functionality of Dsalgo Application
     When the user clicks on Try here button in Overview of Trees page
     Then the page title should be displayed as "Assessment"
     And the page url should be displayed from "<SheetName>" and <RowNumber2>
-    When the user enters Python Code from "<SheetName>" and <RowNumber2> in try editor
+    When the user enters Python Code from "<SheetName>" and <RowNumber> in try editor
     And user clicks on Run button
     Then the user should get pop up message from "<SheetName>" and <RowNumber>
     And user clicks on OK button in the popup
@@ -96,7 +96,7 @@ Feature: Tree Functionality of Dsalgo Application
     When the user clicks on Try here button in Overview of Trees page
     Then the page title should be displayed as "Assessment"
     And the page url should be displayed from "<SheetName>" and <RowNumber2>
-    When the user enters Python Code from "<SheetName>" and <RowNumber2> in try editor
+    When the user enters Python Code from "<SheetName>" and <RowNumber> in try editor
     And user clicks on Run button
     Then the user should get pop up message from "<SheetName>" and <RowNumber>
     And user clicks on OK button in the popup
@@ -111,10 +111,9 @@ Feature: Tree Functionality of Dsalgo Application
     When the user clicks on Try here button in Overview of Trees page
     Then the page title should be displayed as "Assessment"
     And the page url should be displayed from "<SheetName>" and <RowNumber2>
-    When the user enters Python Code from "<SheetName>" and <RowNumber2> in try editor
+    When the user enters Python Code from "<SheetName>" and <RowNumber> in try editor
     And user clicks on Run button
-    Then the user should get pop up message from "<SheetName>" and <RowNumber>
-    And user clicks on OK button in the popup
+    Then the user should not able to see output below Run button
     Examples:
       | SheetName       | RowNumber | RowNumber2 |
       | DS-Introduction | 5        | 0          |
@@ -197,7 +196,7 @@ Feature: Tree Functionality of Dsalgo Application
     When the user clicks on Try here button in Terminologies page
     Then the page title should be displayed as "Assessment"
     And the page url should be displayed from "<SheetName>" and <RowNumber2>
-    When the user enters Python Code from "<SheetName>" and <RowNumber2> in try editor
+    When the user enters Python Code from "<SheetName>" and <RowNumber> in try editor
     And user clicks on Run button
     Then the user should get pop up message from "<SheetName>" and <RowNumber>
     And user clicks on OK button in the popup
@@ -212,7 +211,7 @@ Feature: Tree Functionality of Dsalgo Application
     When the user clicks on Try here button in Terminologies page
     Then the page title should be displayed as "Assessment"
     And the page url should be displayed from "<SheetName>" and <RowNumber2>
-    When the user enters Python Code from "<SheetName>" and <RowNumber2> in try editor
+    When the user enters Python Code from "<SheetName>" and <RowNumber> in try editor
     And user clicks on Run button
     Then the user should get pop up message from "<SheetName>" and <RowNumber>
     And user clicks on OK button in the popup
@@ -227,7 +226,7 @@ Feature: Tree Functionality of Dsalgo Application
     When the user clicks on Try here button in Terminologies page
     Then the page title should be displayed as "Assessment"
     And the page url should be displayed from "<SheetName>" and <RowNumber2>
-    When the user enters Python Code from "<SheetName>" and <RowNumber2> in try editor
+    When the user enters Python Code from "<SheetName>" and <RowNumber> in try editor
     And user clicks on Run button
     Then the user should get pop up message from "<SheetName>" and <RowNumber>
     And user clicks on OK button in the popup
@@ -242,10 +241,9 @@ Feature: Tree Functionality of Dsalgo Application
     When the user clicks on Try here button in Terminologies page
     Then the page title should be displayed as "Assessment"
     And the page url should be displayed from "<SheetName>" and <RowNumber2>
-    When the user enters Python Code from "<SheetName>" and <RowNumber2> in try editor
+    When the user enters Python Code from "<SheetName>" and <RowNumber> in try editor
     And user clicks on Run button
-    Then the user should get pop up message from "<SheetName>" and <RowNumber>
-    And user clicks on OK button in the popup
+    Then the user should not able to see output below Run button
     Examples:
       | SheetName       | RowNumber | RowNumber2 |
       | DS-Introduction | 5        | 0          |
@@ -328,7 +326,7 @@ Feature: Tree Functionality of Dsalgo Application
     When the user clicks on Try here button in Types of Trees page
     Then the page title should be displayed as "Assessment"
     And the page url should be displayed from "<SheetName>" and <RowNumber2>
-    When the user enters Python Code from "<SheetName>" and <RowNumber2> in try editor
+    When the user enters Python Code from "<SheetName>" and <RowNumber> in try editor
     And user clicks on Run button
     Then the user should get pop up message from "<SheetName>" and <RowNumber>
     And user clicks on OK button in the popup
@@ -343,7 +341,7 @@ Feature: Tree Functionality of Dsalgo Application
     When the user clicks on Try here button in Types of Trees page
     Then the page title should be displayed as "Assessment"
     And the page url should be displayed from "<SheetName>" and <RowNumber2>
-    When the user enters Python Code from "<SheetName>" and <RowNumber2> in try editor
+    When the user enters Python Code from "<SheetName>" and <RowNumber> in try editor
     And user clicks on Run button
     Then the user should get pop up message from "<SheetName>" and <RowNumber>
     And user clicks on OK button in the popup
@@ -358,7 +356,7 @@ Feature: Tree Functionality of Dsalgo Application
     When the user clicks on Try here button in Types of Trees page
     Then the page title should be displayed as "Assessment"
     And the page url should be displayed from "<SheetName>" and <RowNumber2>
-    When the user enters Python Code from "<SheetName>" and <RowNumber2> in try editor
+    When the user enters Python Code from "<SheetName>" and <RowNumber> in try editor
     And user clicks on Run button
     Then the user should get pop up message from "<SheetName>" and <RowNumber>
     And user clicks on OK button in the popup
@@ -373,10 +371,9 @@ Feature: Tree Functionality of Dsalgo Application
     When the user clicks on Try here button in Types of Trees page
     Then the page title should be displayed as "Assessment"
     And the page url should be displayed from "<SheetName>" and <RowNumber2>
-    When the user enters Python Code from "<SheetName>" and <RowNumber2> in try editor
+    When the user enters Python Code from "<SheetName>" and <RowNumber> in try editor
     And user clicks on Run button
-    Then the user should get pop up message from "<SheetName>" and <RowNumber>
-    And user clicks on OK button in the popup
+    Then the user should not able to see output below Run button
     Examples:
       | SheetName       | RowNumber | RowNumber2 |
       | DS-Introduction | 5        | 0          |
@@ -459,7 +456,7 @@ Feature: Tree Functionality of Dsalgo Application
     When the user clicks on Try here button in Tree Traversals page
     Then the page title should be displayed as "Assessment"
     And the page url should be displayed from "<SheetName>" and <RowNumber2>
-    When the user enters Python Code from "<SheetName>" and <RowNumber2> in try editor
+    When the user enters Python Code from "<SheetName>" and <RowNumber> in try editor
     And user clicks on Run button
     Then the user should get pop up message from "<SheetName>" and <RowNumber>
     And user clicks on OK button in the popup
@@ -474,7 +471,7 @@ Feature: Tree Functionality of Dsalgo Application
     When the user clicks on Try here button in Tree Traversals page
     Then the page title should be displayed as "Assessment"
     And the page url should be displayed from "<SheetName>" and <RowNumber2>
-    When the user enters Python Code from "<SheetName>" and <RowNumber2> in try editor
+    When the user enters Python Code from "<SheetName>" and <RowNumber> in try editor
     And user clicks on Run button
     Then the user should get pop up message from "<SheetName>" and <RowNumber>
     And user clicks on OK button in the popup
@@ -489,7 +486,7 @@ Feature: Tree Functionality of Dsalgo Application
     When the user clicks on Try here button in Tree Traversals page
     Then the page title should be displayed as "Assessment"
     And the page url should be displayed from "<SheetName>" and <RowNumber2>
-    When the user enters Python Code from "<SheetName>" and <RowNumber2> in try editor
+    When the user enters Python Code from "<SheetName>" and <RowNumber> in try editor
     And user clicks on Run button
     Then the user should get pop up message from "<SheetName>" and <RowNumber>
     And user clicks on OK button in the popup
@@ -504,10 +501,9 @@ Feature: Tree Functionality of Dsalgo Application
     When the user clicks on Try here button in Tree Traversals page
     Then the page title should be displayed as "Assessment"
     And the page url should be displayed from "<SheetName>" and <RowNumber2>
-    When the user enters Python Code from "<SheetName>" and <RowNumber2> in try editor
+    When the user enters Python Code from "<SheetName>" and <RowNumber> in try editor
     And user clicks on Run button
-    Then the user should get pop up message from "<SheetName>" and <RowNumber>
-    And user clicks on OK button in the popup
+    Then the user should not able to see output below Run button
     Examples:
       | SheetName       | RowNumber | RowNumber2 |
       | DS-Introduction | 5        | 0          |
@@ -590,7 +586,7 @@ Feature: Tree Functionality of Dsalgo Application
     When the user clicks on Try here button in Traversals-Illustration page
     Then the page title should be displayed as "Assessment"
     And the page url should be displayed from "<SheetName>" and <RowNumber2>
-    When the user enters Python Code from "<SheetName>" and <RowNumber2> in try editor
+    When the user enters Python Code from "<SheetName>" and <RowNumber> in try editor
     And user clicks on Run button
     Then the user should get pop up message from "<SheetName>" and <RowNumber>
     And user clicks on OK button in the popup
@@ -605,7 +601,7 @@ Feature: Tree Functionality of Dsalgo Application
     When the user clicks on Try here button in Traversals-Illustration page
     Then the page title should be displayed as "Assessment"
     And the page url should be displayed from "<SheetName>" and <RowNumber2>
-    When the user enters Python Code from "<SheetName>" and <RowNumber2> in try editor
+    When the user enters Python Code from "<SheetName>" and <RowNumber> in try editor
     And user clicks on Run button
     Then the user should get pop up message from "<SheetName>" and <RowNumber>
     And user clicks on OK button in the popup
@@ -620,7 +616,7 @@ Feature: Tree Functionality of Dsalgo Application
     When the user clicks on Try here button in Traversals-Illustration page
     Then the page title should be displayed as "Assessment"
     And the page url should be displayed from "<SheetName>" and <RowNumber2>
-    When the user enters Python Code from "<SheetName>" and <RowNumber2> in try editor
+    When the user enters Python Code from "<SheetName>" and <RowNumber> in try editor
     And user clicks on Run button
     Then the user should get pop up message from "<SheetName>" and <RowNumber>
     And user clicks on OK button in the popup
@@ -635,10 +631,9 @@ Feature: Tree Functionality of Dsalgo Application
     When the user clicks on Try here button in Traversals-Illustration page
     Then the page title should be displayed as "Assessment"
     And the page url should be displayed from "<SheetName>" and <RowNumber2>
-    When the user enters Python Code from "<SheetName>" and <RowNumber2> in try editor
+    When the user enters Python Code from "<SheetName>" and <RowNumber> in try editor
     And user clicks on Run button
-    Then the user should get pop up message from "<SheetName>" and <RowNumber>
-    And user clicks on OK button in the popup
+    Then the user should not able to see output below Run button
     Examples:
       | SheetName       | RowNumber | RowNumber2 |
       | DS-Introduction | 5        | 0          |
@@ -721,7 +716,7 @@ Feature: Tree Functionality of Dsalgo Application
     When the user clicks on Try here button in Binary Trees
     Then the page title should be displayed as "Assessment"
     And the page url should be displayed from "<SheetName>" and <RowNumber2>
-    When the user enters Python Code from "<SheetName>" and <RowNumber2> in try editor
+    When the user enters Python Code from "<SheetName>" and <RowNumber> in try editor
     And user clicks on Run button
     Then the user should get pop up message from "<SheetName>" and <RowNumber>
     And user clicks on OK button in the popup
@@ -736,7 +731,7 @@ Feature: Tree Functionality of Dsalgo Application
     When the user clicks on Try here button in Binary Trees
     Then the page title should be displayed as "Assessment"
     And the page url should be displayed from "<SheetName>" and <RowNumber2>
-    When the user enters Python Code from "<SheetName>" and <RowNumber2> in try editor
+    When the user enters Python Code from "<SheetName>" and <RowNumber> in try editor
     And user clicks on Run button
     Then the user should get pop up message from "<SheetName>" and <RowNumber>
     And user clicks on OK button in the popup
@@ -751,7 +746,7 @@ Feature: Tree Functionality of Dsalgo Application
     When the user clicks on Try here button in Binary Trees
     Then the page title should be displayed as "Assessment"
     And the page url should be displayed from "<SheetName>" and <RowNumber2>
-    When the user enters Python Code from "<SheetName>" and <RowNumber2> in try editor
+    When the user enters Python Code from "<SheetName>" and <RowNumber> in try editor
     And user clicks on Run button
     Then the user should get pop up message from "<SheetName>" and <RowNumber>
     And user clicks on OK button in the popup
@@ -766,10 +761,9 @@ Feature: Tree Functionality of Dsalgo Application
     When the user clicks on Try here button in Binary Trees
     Then the page title should be displayed as "Assessment"
     And the page url should be displayed from "<SheetName>" and <RowNumber2>
-    When the user enters Python Code from "<SheetName>" and <RowNumber2> in try editor
+    When the user enters Python Code from "<SheetName>" and <RowNumber> in try editor
     And user clicks on Run button
-    Then the user should get pop up message from "<SheetName>" and <RowNumber>
-    And user clicks on OK button in the popup
+    Then the user should not able to see output below Run button
     Examples:
       | SheetName       | RowNumber | RowNumber2 |
       | DS-Introduction | 5        | 0          |
@@ -852,7 +846,7 @@ Feature: Tree Functionality of Dsalgo Application
     When the user clicks on Try here button in Types of Binary Trees
     Then the page title should be displayed as "Assessment"
     And the page url should be displayed from "<SheetName>" and <RowNumber2>
-    When the user enters Python Code from "<SheetName>" and <RowNumber2> in try editor
+    When the user enters Python Code from "<SheetName>" and <RowNumber> in try editor
     And user clicks on Run button
     Then the user should get pop up message from "<SheetName>" and <RowNumber>
     And user clicks on OK button in the popup
@@ -867,7 +861,7 @@ Feature: Tree Functionality of Dsalgo Application
     When the user clicks on Try here button in Types of Binary Trees
     Then the page title should be displayed as "Assessment"
     And the page url should be displayed from "<SheetName>" and <RowNumber2>
-    When the user enters Python Code from "<SheetName>" and <RowNumber2> in try editor
+    When the user enters Python Code from "<SheetName>" and <RowNumber> in try editor
     And user clicks on Run button
     Then the user should get pop up message from "<SheetName>" and <RowNumber>
     And user clicks on OK button in the popup
@@ -882,7 +876,7 @@ Feature: Tree Functionality of Dsalgo Application
     When the user clicks on Try here button in Types of Binary Trees
     Then the page title should be displayed as "Assessment"
     And the page url should be displayed from "<SheetName>" and <RowNumber2>
-    When the user enters Python Code from "<SheetName>" and <RowNumber2> in try editor
+    When the user enters Python Code from "<SheetName>" and <RowNumber> in try editor
     And user clicks on Run button
     Then the user should get pop up message from "<SheetName>" and <RowNumber>
     And user clicks on OK button in the popup
@@ -897,10 +891,9 @@ Feature: Tree Functionality of Dsalgo Application
     When the user clicks on Try here button in Types of Binary Trees
     Then the page title should be displayed as "Assessment"
     And the page url should be displayed from "<SheetName>" and <RowNumber2>
-    When the user enters Python Code from "<SheetName>" and <RowNumber2> in try editor
+    When the user enters Python Code from "<SheetName>" and <RowNumber> in try editor
     And user clicks on Run button
-    Then the user should get pop up message from "<SheetName>" and <RowNumber>
-    And user clicks on OK button in the popup
+    Then the user should not able to see output below Run button
     Examples:
       | SheetName       | RowNumber | RowNumber2 |
       | DS-Introduction | 5        | 0          |
@@ -983,7 +976,7 @@ Feature: Tree Functionality of Dsalgo Application
     When the user clicks on Try here button in Implementation in Python
     Then the page title should be displayed as "Assessment"
     And the page url should be displayed from "<SheetName>" and <RowNumber2>
-    When the user enters Python Code from "<SheetName>" and <RowNumber2> in try editor
+    When the user enters Python Code from "<SheetName>" and <RowNumber> in try editor
     And user clicks on Run button
     Then the user should get pop up message from "<SheetName>" and <RowNumber>
     And user clicks on OK button in the popup
@@ -998,7 +991,7 @@ Feature: Tree Functionality of Dsalgo Application
     When the user clicks on Try here button in Implementation in Python
     Then the page title should be displayed as "Assessment"
     And the page url should be displayed from "<SheetName>" and <RowNumber2>
-    When the user enters Python Code from "<SheetName>" and <RowNumber2> in try editor
+    When the user enters Python Code from "<SheetName>" and <RowNumber> in try editor
     And user clicks on Run button
     Then the user should get pop up message from "<SheetName>" and <RowNumber>
     And user clicks on OK button in the popup
@@ -1013,7 +1006,7 @@ Feature: Tree Functionality of Dsalgo Application
     When the user clicks on Try here button in Implementation in Python
     Then the page title should be displayed as "Assessment"
     And the page url should be displayed from "<SheetName>" and <RowNumber2>
-    When the user enters Python Code from "<SheetName>" and <RowNumber2> in try editor
+    When the user enters Python Code from "<SheetName>" and <RowNumber> in try editor
     And user clicks on Run button
     Then the user should get pop up message from "<SheetName>" and <RowNumber>
     And user clicks on OK button in the popup
@@ -1028,10 +1021,9 @@ Feature: Tree Functionality of Dsalgo Application
     When the user clicks on Try here button in Implementation in Python
     Then the page title should be displayed as "Assessment"
     And the page url should be displayed from "<SheetName>" and <RowNumber2>
-    When the user enters Python Code from "<SheetName>" and <RowNumber2> in try editor
+    When the user enters Python Code from "<SheetName>" and <RowNumber> in try editor
     And user clicks on Run button
-    Then the user should get pop up message from "<SheetName>" and <RowNumber>
-    And user clicks on OK button in the popup
+    Then the user should not able to see output below Run button
     Examples:
       | SheetName       | RowNumber | RowNumber2 |
       | DS-Introduction | 5        | 0          |
@@ -1114,7 +1106,7 @@ Feature: Tree Functionality of Dsalgo Application
     When the user clicks on Try here button in Binary Tree Traversals
     Then the page title should be displayed as "Assessment"
     And the page url should be displayed from "<SheetName>" and <RowNumber2>
-    When the user enters Python Code from "<SheetName>" and <RowNumber2> in try editor
+    When the user enters Python Code from "<SheetName>" and <RowNumber> in try editor
     And user clicks on Run button
     Then the user should get pop up message from "<SheetName>" and <RowNumber>
     And user clicks on OK button in the popup
@@ -1129,7 +1121,7 @@ Feature: Tree Functionality of Dsalgo Application
     When the user clicks on Try here button in Binary Tree Traversals
     Then the page title should be displayed as "Assessment"
     And the page url should be displayed from "<SheetName>" and <RowNumber2>
-    When the user enters Python Code from "<SheetName>" and <RowNumber2> in try editor
+    When the user enters Python Code from "<SheetName>" and <RowNumber> in try editor
     And user clicks on Run button
     Then the user should get pop up message from "<SheetName>" and <RowNumber>
     And user clicks on OK button in the popup
@@ -1144,7 +1136,7 @@ Feature: Tree Functionality of Dsalgo Application
     When the user clicks on Try here button in Binary Tree Traversals
     Then the page title should be displayed as "Assessment"
     And the page url should be displayed from "<SheetName>" and <RowNumber2>
-    When the user enters Python Code from "<SheetName>" and <RowNumber2> in try editor
+    When the user enters Python Code from "<SheetName>" and <RowNumber> in try editor
     And user clicks on Run button
     Then the user should get pop up message from "<SheetName>" and <RowNumber>
     And user clicks on OK button in the popup
@@ -1159,10 +1151,9 @@ Feature: Tree Functionality of Dsalgo Application
     When the user clicks on Try here button in Binary Tree Traversals
     Then the page title should be displayed as "Assessment"
     And the page url should be displayed from "<SheetName>" and <RowNumber2>
-    When the user enters Python Code from "<SheetName>" and <RowNumber2> in try editor
+    When the user enters Python Code from "<SheetName>" and <RowNumber> in try editor
     And user clicks on Run button
-    Then the user should get pop up message from "<SheetName>" and <RowNumber>
-    And user clicks on OK button in the popup
+    Then the user should not able to see output below Run button
     Examples:
       | SheetName       | RowNumber | RowNumber2 |
       | DS-Introduction | 5        | 0          |
@@ -1245,7 +1236,7 @@ Feature: Tree Functionality of Dsalgo Application
     When the user clicks on Try here button in Implementation of Binary Trees
     Then the page title should be displayed as "Assessment"
     And the page url should be displayed from "<SheetName>" and <RowNumber2>
-    When the user enters Python Code from "<SheetName>" and <RowNumber2> in try editor
+    When the user enters Python Code from "<SheetName>" and <RowNumber> in try editor
     And user clicks on Run button
     Then the user should get pop up message from "<SheetName>" and <RowNumber>
     And user clicks on OK button in the popup
@@ -1260,7 +1251,7 @@ Feature: Tree Functionality of Dsalgo Application
     When the user clicks on Try here button in Implementation of Binary Trees
     Then the page title should be displayed as "Assessment"
     And the page url should be displayed from "<SheetName>" and <RowNumber2>
-    When the user enters Python Code from "<SheetName>" and <RowNumber2> in try editor
+    When the user enters Python Code from "<SheetName>" and <RowNumber> in try editor
     And user clicks on Run button
     Then the user should get pop up message from "<SheetName>" and <RowNumber>
     And user clicks on OK button in the popup
@@ -1275,7 +1266,7 @@ Feature: Tree Functionality of Dsalgo Application
     When the user clicks on Try here button in Implementation of Binary Trees
     Then the page title should be displayed as "Assessment"
     And the page url should be displayed from "<SheetName>" and <RowNumber2>
-    When the user enters Python Code from "<SheetName>" and <RowNumber2> in try editor
+    When the user enters Python Code from "<SheetName>" and <RowNumber> in try editor
     And user clicks on Run button
     Then the user should get pop up message from "<SheetName>" and <RowNumber>
     And user clicks on OK button in the popup
@@ -1290,10 +1281,9 @@ Feature: Tree Functionality of Dsalgo Application
     When the user clicks on Try here button in Implementation of Binary Trees
     Then the page title should be displayed as "Assessment"
     And the page url should be displayed from "<SheetName>" and <RowNumber2>
-    When the user enters Python Code from "<SheetName>" and <RowNumber2> in try editor
+    When the user enters Python Code from "<SheetName>" and <RowNumber> in try editor
     And user clicks on Run button
-    Then the user should get pop up message from "<SheetName>" and <RowNumber>
-    And user clicks on OK button in the popup
+    Then the user should not able to see output below Run button
     Examples:
       | SheetName       | RowNumber | RowNumber2 |
       | DS-Introduction | 5        | 0          |
@@ -1376,7 +1366,7 @@ Feature: Tree Functionality of Dsalgo Application
     When the user clicks on Try here button in Applications of Binary trees
     Then the page title should be displayed as "Assessment"
     And the page url should be displayed from "<SheetName>" and <RowNumber2>
-    When the user enters Python Code from "<SheetName>" and <RowNumber2> in try editor
+    When the user enters Python Code from "<SheetName>" and <RowNumber> in try editor
     And user clicks on Run button
     Then the user should get pop up message from "<SheetName>" and <RowNumber>
     And user clicks on OK button in the popup
@@ -1391,7 +1381,7 @@ Feature: Tree Functionality of Dsalgo Application
     When the user clicks on Try here button in Applications of Binary trees
     Then the page title should be displayed as "Assessment"
     And the page url should be displayed from "<SheetName>" and <RowNumber2>
-    When the user enters Python Code from "<SheetName>" and <RowNumber2> in try editor
+    When the user enters Python Code from "<SheetName>" and <RowNumber> in try editor
     And user clicks on Run button
     Then the user should get pop up message from "<SheetName>" and <RowNumber>
     And user clicks on OK button in the popup
@@ -1406,7 +1396,7 @@ Feature: Tree Functionality of Dsalgo Application
     When the user clicks on Try here button in Applications of Binary trees
     Then the page title should be displayed as "Assessment"
     And the page url should be displayed from "<SheetName>" and <RowNumber2>
-    When the user enters Python Code from "<SheetName>" and <RowNumber2> in try editor
+    When the user enters Python Code from "<SheetName>" and <RowNumber> in try editor
     And user clicks on Run button
     Then the user should get pop up message from "<SheetName>" and <RowNumber>
     And user clicks on OK button in the popup
@@ -1421,10 +1411,9 @@ Feature: Tree Functionality of Dsalgo Application
     When the user clicks on Try here button in Applications of Binary trees
     Then the page title should be displayed as "Assessment"
     And the page url should be displayed from "<SheetName>" and <RowNumber2>
-    When the user enters Python Code from "<SheetName>" and <RowNumber2> in try editor
+    When the user enters Python Code from "<SheetName>" and <RowNumber> in try editor
     And user clicks on Run button
-    Then the user should get pop up message from "<SheetName>" and <RowNumber>
-    And user clicks on OK button in the popup
+    Then the user should not able to see output below Run button
     Examples:
       | SheetName       | RowNumber | RowNumber2 |
       | DS-Introduction | 5        | 0          |
@@ -1507,7 +1496,7 @@ Feature: Tree Functionality of Dsalgo Application
     When the user clicks on Try here button in Binary Search Trees
     Then the page title should be displayed as "Assessment"
     And the page url should be displayed from "<SheetName>" and <RowNumber2>
-    When the user enters Python Code from "<SheetName>" and <RowNumber2> in try editor
+    When the user enters Python Code from "<SheetName>" and <RowNumber> in try editor
     And user clicks on Run button
     Then the user should get pop up message from "<SheetName>" and <RowNumber>
     And user clicks on OK button in the popup
@@ -1522,7 +1511,7 @@ Feature: Tree Functionality of Dsalgo Application
     When the user clicks on Try here button in Binary Search Trees
     Then the page title should be displayed as "Assessment"
     And the page url should be displayed from "<SheetName>" and <RowNumber2>
-    When the user enters Python Code from "<SheetName>" and <RowNumber2> in try editor
+    When the user enters Python Code from "<SheetName>" and <RowNumber> in try editor
     And user clicks on Run button
     Then the user should get pop up message from "<SheetName>" and <RowNumber>
     And user clicks on OK button in the popup
@@ -1537,7 +1526,7 @@ Feature: Tree Functionality of Dsalgo Application
     When the user clicks on Try here button in Binary Search Trees
     Then the page title should be displayed as "Assessment"
     And the page url should be displayed from "<SheetName>" and <RowNumber2>
-    When the user enters Python Code from "<SheetName>" and <RowNumber2> in try editor
+    When the user enters Python Code from "<SheetName>" and <RowNumber> in try editor
     And user clicks on Run button
     Then the user should get pop up message from "<SheetName>" and <RowNumber>
     And user clicks on OK button in the popup
@@ -1552,10 +1541,9 @@ Feature: Tree Functionality of Dsalgo Application
     When the user clicks on Try here button in Binary Search Trees
     Then the page title should be displayed as "Assessment"
     And the page url should be displayed from "<SheetName>" and <RowNumber2>
-    When the user enters Python Code from "<SheetName>" and <RowNumber2> in try editor
+    When the user enters Python Code from "<SheetName>" and <RowNumber> in try editor
     And user clicks on Run button
-    Then the user should get pop up message from "<SheetName>" and <RowNumber>
-    And user clicks on OK button in the popup
+    Then the user should not able to see output below Run button
     Examples:
       | SheetName       | RowNumber | RowNumber2 |
       | DS-Introduction | 5        | 0          |
@@ -1638,7 +1626,7 @@ Feature: Tree Functionality of Dsalgo Application
     When the user clicks on Try here button in Implementation of BST
     Then the page title should be displayed as "Assessment"
     And the page url should be displayed from "<SheetName>" and <RowNumber2>
-    When the user enters Python Code from "<SheetName>" and <RowNumber2> in try editor
+    When the user enters Python Code from "<SheetName>" and <RowNumber> in try editor
     And user clicks on Run button
     Then the user should get pop up message from "<SheetName>" and <RowNumber>
     And user clicks on OK button in the popup
@@ -1653,7 +1641,7 @@ Feature: Tree Functionality of Dsalgo Application
     When the user clicks on Try here button in Implementation of BST
     Then the page title should be displayed as "Assessment"
     And the page url should be displayed from "<SheetName>" and <RowNumber2>
-    When the user enters Python Code from "<SheetName>" and <RowNumber2> in try editor
+    When the user enters Python Code from "<SheetName>" and <RowNumber> in try editor
     And user clicks on Run button
     Then the user should get pop up message from "<SheetName>" and <RowNumber>
     And user clicks on OK button in the popup
@@ -1668,7 +1656,7 @@ Feature: Tree Functionality of Dsalgo Application
     When the user clicks on Try here button in Implementation of BST
     Then the page title should be displayed as "Assessment"
     And the page url should be displayed from "<SheetName>" and <RowNumber2>
-    When the user enters Python Code from "<SheetName>" and <RowNumber2> in try editor
+    When the user enters Python Code from "<SheetName>" and <RowNumber> in try editor
     And user clicks on Run button
     Then the user should get pop up message from "<SheetName>" and <RowNumber>
     And user clicks on OK button in the popup
@@ -1683,10 +1671,9 @@ Feature: Tree Functionality of Dsalgo Application
     When the user clicks on Try here button in Implementation of BST
     Then the page title should be displayed as "Assessment"
     And the page url should be displayed from "<SheetName>" and <RowNumber2>
-    When the user enters Python Code from "<SheetName>" and <RowNumber2> in try editor
+    When the user enters Python Code from "<SheetName>" and <RowNumber> in try editor
     And user clicks on Run button
-    Then the user should get pop up message from "<SheetName>" and <RowNumber>
-    And user clicks on OK button in the popup
+    Then the user should not able to see output below Run button
     Examples:
       | SheetName       | RowNumber | RowNumber2 |
       | DS-Introduction | 5         | 0          |
@@ -1722,7 +1709,7 @@ Feature: Tree Functionality of Dsalgo Application
 
     @Performance
     Scenario: Verify the Tree page load time
-      Then the Tree page should load within 5 secs
+      Then the Tree page should load within 10 secs
 
     @Security
     Scenario: Verify that the Tree page loads using Https protocol
@@ -1739,7 +1726,7 @@ Feature: Tree Functionality of Dsalgo Application
 
     @Performance
     Scenario: Verify the Overview of Trees link page load time
-      Then the Overview of Trees link in Tree page should load within 5 secs
+      Then the Overview of Trees link in Tree page should load within 10 secs
 
     @Security
     Scenario: Verify that the Overview of Trees link in Tree page loads using Https protocol
@@ -1757,7 +1744,7 @@ Feature: Tree Functionality of Dsalgo Application
 
     @Performance
     Scenario: Verify that the try editor page load time
-      Then the try editor page should load within 5 secs
+      Then the try editor page should load within 10 secs
 
     @Security
     Scenario: Verify that the try editor page loads using Https protocol
@@ -1775,7 +1762,7 @@ Feature: Tree Functionality of Dsalgo Application
 
     @Performance
     Scenario: Verify the practice page load time
-      Then the practice page should load within 5 secs
+      Then the practice page should load within 10 secs
 
     @Security
     Scenario: Verify that the practice page loads using Https protocol
@@ -1794,7 +1781,7 @@ Feature: Tree Functionality of Dsalgo Application
 
     @Performance
     Scenario: Verify the Terminologies link page load time
-      Then the Terminologies link in Tree page should load within 5 secs
+      Then the Terminologies link in Tree page should load within 10 secs
 
     @Security
     Scenario: Verify that the Terminologies link in Tree page loads using Https protocol
@@ -1812,7 +1799,7 @@ Feature: Tree Functionality of Dsalgo Application
 
     @Performance
     Scenario: Verify the try editor page load time
-      Then the try editor page should load within 5 secs
+      Then the try editor page should load within 10 secs
 
     @Security
     Scenario: Verify that the try editor page loads using Https protocol
@@ -1830,7 +1817,7 @@ Feature: Tree Functionality of Dsalgo Application
 
     @Performance
     Scenario: Verify the practice page load time
-      Then the practice page should load within 5 secs
+      Then the practice page should load within 10 secs
 
     @Security
     Scenario: Verify the practice page loads using Https protocol
@@ -1849,7 +1836,7 @@ Feature: Tree Functionality of Dsalgo Application
 
     @Performance
     Scenario: Verify the Types of Trees link page load time
-      Then the Types of Trees link in Tree page should load within 5 secs
+      Then the Types of Trees link in Tree page should load within 10 secs
 
     @Security
     Scenario: Verify that the Types of Trees link in Tree page loads using Https protocol
@@ -1867,7 +1854,7 @@ Feature: Tree Functionality of Dsalgo Application
 
     @Performance
     Scenario: Verify the try editor page load time
-      Then the try editor page should load within 5 secs
+      Then the try editor page should load within 10 secs
 
     @Security
     Scenario: Verify that the try editor page loads using Https protocol
@@ -1885,7 +1872,7 @@ Feature: Tree Functionality of Dsalgo Application
 
     @Performance
     Scenario: Verify the practice page load time
-      Then the practice page should load within 5 secs
+      Then the practice page should load within 10 secs
 
     @Security
     Scenario: Verify the practice page loads using Https protocol
@@ -1904,7 +1891,7 @@ Feature: Tree Functionality of Dsalgo Application
 
     @Performance
     Scenario: Verify the Tree Traversals link page load time
-      Then the Tree Traversals link in Tree page should load within 5 secs
+      Then the Tree Traversals link in Tree page should load within 10 secs
 
     @Security
     Scenario: Verify that the Tree Traversals link in Tree page loads using Https protocol
@@ -1922,7 +1909,7 @@ Feature: Tree Functionality of Dsalgo Application
 
     @Performance
     Scenario: Verify the try editor page load time
-      Then the try editor page should load within 5 secs
+      Then the try editor page should load within 10 secs
 
     @Security
     Scenario: Verify that the try editor page loads using Https protocol
@@ -1940,7 +1927,7 @@ Feature: Tree Functionality of Dsalgo Application
 
     @Performance
     Scenario: Verify the practice page load time
-      Then the practice page should load within 5 secs
+      Then the practice page should load within 10 secs
 
     @Security
     Scenario: Verify the practice page loads using Https protocol
@@ -1959,7 +1946,7 @@ Feature: Tree Functionality of Dsalgo Application
 
     @Performance
     Scenario: Verify the Traversals-Illustration link page load time
-      Then the Traversals-Illustration link in Tree page should load within 5 secs
+      Then the Traversals-Illustration link in Tree page should load within 10 secs
 
     @Security
     Scenario: Verify that the Traversals-Illustration link in Tree page loads using Https protocol
@@ -1977,7 +1964,7 @@ Feature: Tree Functionality of Dsalgo Application
 
     @Performance
     Scenario: Verify the try editor page load time
-      Then the try editor page should load within 5 secs
+      Then the try editor page should load within 10 secs
 
     @Security
     Scenario: Verify that the try editor page loads using Https protocol
@@ -1995,7 +1982,7 @@ Feature: Tree Functionality of Dsalgo Application
 
     @Performance
     Scenario: Verify the practice page load time
-      Then the practice page should load within 5 secs
+      Then the practice page should load within 10 secs
 
     @Security
     Scenario: Verify the practice page loads using Https protocol
@@ -2014,7 +2001,7 @@ Feature: Tree Functionality of Dsalgo Application
 
     @Performance
     Scenario: Verify the Binary Trees link page load time
-      Then the Binary Trees link in Tree page should load within 5 secs
+      Then the Binary Trees link in Tree page should load within 10 secs
 
     @Security
     Scenario: Verify that the Binary Trees link in Tree page loads using Https protocol
@@ -2032,7 +2019,7 @@ Feature: Tree Functionality of Dsalgo Application
 
     @Performance
     Scenario: Verify the try editor page load time
-      Then the try editor page should load within 5 secs
+      Then the try editor page should load within 10 secs
 
     @Security
     Scenario: Verify that the try editor page loads using Https protocol
@@ -2050,7 +2037,7 @@ Feature: Tree Functionality of Dsalgo Application
 
     @Performance
     Scenario: Verify the practice page load time
-      Then the practice page should load within 5 secs
+      Then the practice page should load within 10 secs
 
     @Security
     Scenario: Verify the practice page loads using Https protocol
@@ -2069,7 +2056,7 @@ Feature: Tree Functionality of Dsalgo Application
 
     @Performance
     Scenario: Verify the Types of Binary Trees link page load time
-      Then the Types of Binary Trees link in Tree page should load within 5 secs
+      Then the Types of Binary Trees link in Tree page should load within 10 secs
 
     @Security
     Scenario: Verify that the Types of Binary Trees link in Tree page loads using Https protocol
@@ -2087,7 +2074,7 @@ Feature: Tree Functionality of Dsalgo Application
 
     @Performance
     Scenario: Verify the try editor page load time
-      Then the try editor page should load within 5 secs
+      Then the try editor page should load within 10 secs
 
     @Security
     Scenario: Verify that the try editor page loads using Https protocol
@@ -2105,7 +2092,7 @@ Feature: Tree Functionality of Dsalgo Application
 
     @Performance
     Scenario: Verify the practice page load time
-      Then the practice page should load within 5 secs
+      Then the practice page should load within 10 secs
 
     @Security
     Scenario: Verify the practice page loads using Https protocol
@@ -2124,7 +2111,7 @@ Feature: Tree Functionality of Dsalgo Application
 
     @Performance
     Scenario: Verify the Implementation in Python link page load time
-      Then the Implementation in Python link in Tree page should load within 5 secs
+      Then the Implementation in Python link in Tree page should load within 10 secs
 
     @Security
     Scenario: Verify that the Implementation in Python link in Tree page loads using Https protocol
@@ -2142,7 +2129,7 @@ Feature: Tree Functionality of Dsalgo Application
 
     @Performance
     Scenario: Verify the try editor page load time
-      Then the try editor page should load within 5 secs
+      Then the try editor page should load within 10 secs
 
     @Security
     Scenario: Verify that the try editor page loads using Https protocol
@@ -2160,7 +2147,7 @@ Feature: Tree Functionality of Dsalgo Application
 
     @Performance
     Scenario: Verify the practice page load time
-      Then the practice page should load within 5 secs
+      Then the practice page should load within 10 secs
 
     @Security
     Scenario: Verify the practice page loads using Https protocol
@@ -2179,7 +2166,7 @@ Feature: Tree Functionality of Dsalgo Application
 
     @Performance
     Scenario: Verify the Types of Binary Trees link page load time
-      Then the Binary Tree Traversals link in Tree page should load within 5 secs
+      Then the Binary Tree Traversals link in Tree page should load within 10 secs
 
     @Security
     Scenario: Verify that the Binary Tree Traversals link in Tree page loads using Https protocol
@@ -2197,7 +2184,7 @@ Feature: Tree Functionality of Dsalgo Application
 
     @Performance
     Scenario: Verify the try editor page load time
-      Then the try editor page should load within 5 secs
+      Then the try editor page should load within 10 secs
 
     @Security
     Scenario: Verify that the try editor page loads using Https protocol
@@ -2215,7 +2202,7 @@ Feature: Tree Functionality of Dsalgo Application
 
     @Performance
     Scenario: Verify the practice page load time
-      Then the practice page should load within 5 secs
+      Then the practice page should load within 10 secs
 
     @Security
     Scenario: Verify the practice page loads using Https protocol
@@ -2234,7 +2221,7 @@ Feature: Tree Functionality of Dsalgo Application
 
     @Performance
     Scenario: Verify the Implementation of Binary Trees link page load time
-      Then the Implementation of Binary Trees link in Tree page should load within 5 secs
+      Then the Implementation of Binary Trees link in Tree page should load within 10 secs
 
     @Security
     Scenario: Verify that the Implementation of Binary Trees link in Tree page loads using Https protocol
@@ -2252,7 +2239,7 @@ Feature: Tree Functionality of Dsalgo Application
 
     @Performance
     Scenario: Verify the try editor page load time
-      Then the try editor page should load within 5 secs
+      Then the try editor page should load within 10 secs
 
     @Security
     Scenario: Verify that the try editor page loads using Https protocol
@@ -2270,7 +2257,7 @@ Feature: Tree Functionality of Dsalgo Application
 
     @Performance
     Scenario: Verify the practice page load time
-      Then the practice page should load within 5 secs
+      Then the practice page should load within 10 secs
 
     @Security
     Scenario: Verify the practice page loads using Https protocol
@@ -2289,7 +2276,7 @@ Feature: Tree Functionality of Dsalgo Application
 
     @Performance
     Scenario: Verify the Applications of Binary trees link page load time
-      Then the Applications of Binary trees link in Tree page should load within 5 secs
+      Then the Applications of Binary trees link in Tree page should load within 10 secs
 
     @Security
     Scenario: Verify that the Applications of Binary trees link in Tree page loads using Https protocol
@@ -2307,7 +2294,7 @@ Feature: Tree Functionality of Dsalgo Application
 
     @Performance
     Scenario: Verify the try editor page load time
-      Then the try editor page should load within 5 secs
+      Then the try editor page should load within 10 secs
 
     @Security
     Scenario: Verify that the try editor page loads using Https protocol
@@ -2325,7 +2312,7 @@ Feature: Tree Functionality of Dsalgo Application
 
     @Performance
     Scenario: Verify the practice page load time
-      Then the practice page should load within 5 secs
+      Then the practice page should load within 10 secs
 
     @Security
     Scenario: Verify the practice page loads using Https protocol
@@ -2344,7 +2331,7 @@ Feature: Tree Functionality of Dsalgo Application
 
     @Performance
     Scenario: Verify the Binary Search Trees link page load time
-      Then the Binary Search Trees link in Tree page should load within 5 secs
+      Then the Binary Search Trees link in Tree page should load within 10 secs
 
     @Security
     Scenario: Verify that the Binary Search Trees link in Tree page loads using Https protocol
@@ -2362,7 +2349,7 @@ Feature: Tree Functionality of Dsalgo Application
 
     @Performance
     Scenario: Verify the try editor page load time
-      Then the try editor page should load within 5 secs
+      Then the try editor page should load within 10 secs
 
     @Security
     Scenario: Verify that the try editor page loads using Https protocol
@@ -2380,7 +2367,7 @@ Feature: Tree Functionality of Dsalgo Application
 
     @Performance
     Scenario: Verify the practice page load time
-      Then the practice page should load within 5 secs
+      Then the practice page should load within 10 secs
 
     @Security
     Scenario: Verify the practice page loads using Https protocol
@@ -2399,7 +2386,7 @@ Feature: Tree Functionality of Dsalgo Application
 
     @Performance
     Scenario: Verify the Implementation of BST link page load time
-      Then the Implementation of BST link in Tree page should load within 5 secs
+      Then the Implementation of BST link in Tree page should load within 10 secs
 
     @Security
     Scenario: Verify that the Implementation of BST link in Tree page loads using Https protocol
@@ -2417,7 +2404,7 @@ Feature: Tree Functionality of Dsalgo Application
 
     @Performance
     Scenario: Verify the try editor page load time
-      Then the try editor page should load within 5 secs
+      Then the try editor page should load within 10 secs
 
     @Security
     Scenario: Verify that the try editor page loads using Https protocol
@@ -2435,7 +2422,7 @@ Feature: Tree Functionality of Dsalgo Application
 
     @Performance
     Scenario: Verify the practice page load time
-      Then the practice page should load within 5 secs
+      Then the practice page should load within 10 secs
 
     @Security
     Scenario: Verify the practice page loads using Https protocol

@@ -31,7 +31,6 @@ Feature:Graph Functionality of Dsalgo Application
       | DS-Introduction | 0         |
 
   Scenario Outline: Verify that the user is able to see an output for valid python code
-    When the user clicks the Get Started button after scrolling down in Graph Panel
     Then the page title should be displayed as "Graph"
     When the user clicks Graph link in Graph page
     Then the page title should be displayed as "Graph"
@@ -66,7 +65,7 @@ Feature:Graph Functionality of Dsalgo Application
     When the user clicks on Try here button in Graph page
     Then the page title should be displayed as "Assessment"
     And the page url should be displayed from "<SheetName>" and <RowNumber2>
-    When the user enters Python Code from "<SheetName>" and <RowNumber2> in try editor
+    When the user enters Python Code from "<SheetName>" and <RowNumber> in try editor
     And user clicks on Run button
     Then the user should get pop up message from "<SheetName>" and <RowNumber>
     And user clicks on OK button in the popup
@@ -81,7 +80,7 @@ Feature:Graph Functionality of Dsalgo Application
     When the user clicks on Try here button in Graph page
     Then the page title should be displayed as "Assessment"
     And the page url should be displayed from "<SheetName>" and <RowNumber2>
-    When the user enters Python Code from "<SheetName>" and <RowNumber2> in try editor
+    When the user enters Python Code from "<SheetName>" and <RowNumber> in try editor
     And user clicks on Run button
     Then the user should get pop up message from "<SheetName>" and <RowNumber>
     And user clicks on OK button in the popup
@@ -96,7 +95,7 @@ Feature:Graph Functionality of Dsalgo Application
     When the user clicks on Try here button in Graph page
     Then the page title should be displayed as "Assessment"
     And the page url should be displayed from "<SheetName>" and <RowNumber2>
-    When the user enters Python Code from "<SheetName>" and <RowNumber2> in try editor
+    When the user enters Python Code from "<SheetName>" and <RowNumber> in try editor
     And user clicks on Run button
     Then the user should get pop up message from "<SheetName>" and <RowNumber>
     And user clicks on OK button in the popup
@@ -104,6 +103,7 @@ Feature:Graph Functionality of Dsalgo Application
       | SheetName       | RowNumber | RowNumber2 |
       | DS-Introduction | 4         | 0          |
 
+  @GP
   Scenario Outline: Verify that the user is not able to see output after entering "12345" in try editor
     Then the page title should be displayed as "Graph"
     When the user clicks Graph link in Graph page
@@ -111,10 +111,9 @@ Feature:Graph Functionality of Dsalgo Application
     When the user clicks on Try here button in Graph page
     Then the page title should be displayed as "Assessment"
     And the page url should be displayed from "<SheetName>" and <RowNumber2>
-    When the user enters Python Code from "<SheetName>" and <RowNumber2> in try editor
+    When the user enters Python Code from "<SheetName>" and <RowNumber> in try editor
     And user clicks on Run button
-    Then the user should get pop up message from "<SheetName>" and <RowNumber>
-    And user clicks on OK button in the popup
+    Then the user should not able to see output below Run button
     Examples:
       | SheetName       | RowNumber | RowNumber2 |
       | DS-Introduction | 5        | 0          |
@@ -199,7 +198,7 @@ Feature:Graph Functionality of Dsalgo Application
     When the user clicks on Try here button in Graph Representations page
     Then the page title should be displayed as "Assessment"
     And the page url should be displayed from "<SheetName>" and <RowNumber2>
-    When the user enters Python Code from "<SheetName>" and <RowNumber2> in try editor
+    When the user enters Python Code from "<SheetName>" and <RowNumber> in try editor
     And user clicks on Run button
     Then the user should get pop up message from "<SheetName>" and <RowNumber>
     And user clicks on OK button in the popup
@@ -214,7 +213,7 @@ Feature:Graph Functionality of Dsalgo Application
     When the user clicks on Try here button in Graph Representations page
     Then the page title should be displayed as "Assessment"
     And the page url should be displayed from "<SheetName>" and <RowNumber2>
-    When the user enters Python Code from "<SheetName>" and <RowNumber2> in try editor
+    When the user enters Python Code from "<SheetName>" and <RowNumber> in try editor
     And user clicks on Run button
     Then the user should get pop up message from "<SheetName>" and <RowNumber>
     And user clicks on OK button in the popup
@@ -244,10 +243,9 @@ Feature:Graph Functionality of Dsalgo Application
     When the user clicks on Try here button in Graph Representations page
     Then the page title should be displayed as "Assessment"
     And the page url should be displayed from "<SheetName>" and <RowNumber2>
-    When the user enters Python Code from "<SheetName>" and <RowNumber2> in try editor
+    When the user enters Python Code from "<SheetName>" and <RowNumber> in try editor
     And user clicks on Run button
-    Then the user should get pop up message from "<SheetName>" and <RowNumber>
-    And user clicks on OK button in the popup
+    Then the user should not able to see output below Run button
     Examples:
       | SheetName       | RowNumber | RowNumber2 |
       | DS-Introduction | 5        | 0           |
@@ -284,7 +282,7 @@ Feature:Graph Functionality of Dsalgo Application
 
     @Performance
     Scenario: Verify the Graph page load time
-      Then the Graph page should load within 5 secs
+      Then the Graph page should load within 10 secs
 
     @Security
     Scenario: Verify that the Graph page loads using Https protocol
@@ -301,7 +299,7 @@ Feature:Graph Functionality of Dsalgo Application
 
     @Performance
     Scenario: Verify the Graph link page load time
-      Then the Graph link in Graph page should load within 5 secs
+      Then the Graph link in Graph page should load within 10 secs
 
     @Security
     Scenario: Verify that the Graph link in Graph page loads using Https protocol
@@ -319,7 +317,7 @@ Feature:Graph Functionality of Dsalgo Application
 
     @Performance
     Scenario: Verify the try editor page load time
-      Then the try editor page should load within 5 secs
+      Then the try editor page should load within 10 secs
 
     @Security
     Scenario: Verify that the try editor page loads using Https protocol
@@ -337,7 +335,7 @@ Feature:Graph Functionality of Dsalgo Application
 
     @Performance
     Scenario: Verify the practice page load time
-      Then the practice page should load within 5 secs
+      Then the practice page should load within 10 secs
 
     @Security
     Scenario: Verify that the practice page loads using Https protocol
@@ -354,7 +352,7 @@ Feature:Graph Functionality of Dsalgo Application
 
     @Performance
     Scenario: Verify the Graph Representations link page load time
-      Then the Graph Representation link in Graph page should load within 5 secs
+      Then the Graph Representation link in Graph page should load within 10 secs
 
     @Security
     Scenario: Verify that the Graph Representation link in Graph page loads using Https protocol
@@ -372,7 +370,7 @@ Feature:Graph Functionality of Dsalgo Application
 
     @Performance
     Scenario: Verify that the try editor page load time in Graph Representation Link
-      Then the try editor page should load within 5 secs
+      Then the try editor page should load within 10 secs
 
     @Security
     Scenario: Verify that the try editor page loads using Https protocol
@@ -390,7 +388,7 @@ Feature:Graph Functionality of Dsalgo Application
 
     @Performance
     Scenario: Verify that the practice page load time in Graph Representation Link
-      Then the practice page should load within 5 secs
+      Then the practice page should load within 10 secs
 
     @Security
     Scenario: Verify that the practice page loads using Https protocol

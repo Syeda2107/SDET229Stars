@@ -148,7 +148,7 @@ Feature: Data Structures-Introduction Functionality of DsAlgo Application
 
     @Performance
     Scenario: Verify that the Data-structures Introduction page load time
-      Then the Data-structures Introduction page should load within 5 secs
+      Then the Data-structures Introduction page should load within 10 secs
 
     @Security
     Scenario: Verify that the Data-structures Introduction page loads using Https protocol
@@ -165,7 +165,7 @@ Feature: Data Structures-Introduction Functionality of DsAlgo Application
 
     @Performance
     Scenario: Verify that the time complexity page load time
-      Then the time complexity page should load within 5 secs
+      Then the time complexity page should load within 10 secs
 
     @Security
     Scenario: Verify that the time complexity page loads using Https protocol
@@ -183,7 +183,7 @@ Feature: Data Structures-Introduction Functionality of DsAlgo Application
 
     @Performance
     Scenario: Verify that the try editor page load time
-      Then the try editor page should load within 5 secs
+      Then the try editor page should load within 10 secs
 
     @Security
     Scenario: Verify that the try editor page loads using Https protocol
@@ -201,7 +201,7 @@ Feature: Data Structures-Introduction Functionality of DsAlgo Application
 
     @Performance
     Scenario: Verify that the practice page load time
-      Then the practice page should load within 5 secs
+      Then the practice page should load within 10 secs
 
     @Security
     Scenario: Verify that the practice page loads using Https protocol

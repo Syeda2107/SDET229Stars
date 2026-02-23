@@ -33,7 +33,9 @@ public class LoginPage extends BasePage {
 
     public void enterCredentials(String username, String password) {
         this.username = username;
+        if(this.username!=null)
         context.registrationPage.usernameTxt.sendKeys(username);
+        if(password!=null)
         pwdTxt.sendKeys(password);
     }
 

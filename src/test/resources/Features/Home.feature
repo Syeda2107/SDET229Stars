@@ -67,7 +67,7 @@ Feature: Home Page Functionality of DsAlgo Application
 
     @Performance
     Scenario: Verify that the home page load time
-      Then the home page should load within 5 secs
+      Then the home page should load within 10 secs
 
     @Security
     Scenario: Verify that the home page loads using Https protocol

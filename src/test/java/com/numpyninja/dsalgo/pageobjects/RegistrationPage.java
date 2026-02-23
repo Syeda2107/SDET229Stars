@@ -31,17 +31,22 @@ public class RegistrationPage extends BasePage {
     }
 
     public void enterValues(String username, String password, String confirmPwd) {
+        if(username!=null)
         usernameTxt.sendKeys(username);
+        if(password!=null)
         passwordTxt.sendKeys(password);
         confirmPwdTxt.sendKeys(confirmPwd);
     }
 
     public void enterUsername(String username) {
+        if(username!=null)
         usernameTxt.sendKeys(username);
     }
 
     public void enterValues(String username, String password) {
+        if(username!=null)
         usernameTxt.sendKeys(username);
+        if(password!=null)
         passwordTxt.sendKeys(password);
     }
 

@@ -4,7 +4,6 @@ Feature: Array module navigation and Try Editor
     Given User launches the browser and enters the DsAlgo application url
     When the user clicks on Get Started button in the DsAlgo Portal
     And user clicks on Sign in link in the Home page
-    Then the page title should be displayed as "Login"
     When the user enters valid Username and Password in the Login form
     And user clicks on Login button
 

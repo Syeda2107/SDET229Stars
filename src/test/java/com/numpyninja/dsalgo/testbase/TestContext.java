@@ -2,6 +2,7 @@ package com.numpyninja.dsalgo.testbase;
 
 import com.github.javafaker.Faker;
 import com.numpyninja.dsalgo.pageobjects.*;
+import com.numpyninja.dsalgo.utilities.ConfigReader;
 import lombok.Getter;
 import lombok.Setter;
 import org.openqa.selenium.WebDriver;
@@ -63,9 +64,15 @@ public class TestContext {
     public long ImplementationOfBSTPageLoadTime;
     public long ImplementationOfBSTTryHereLoadTime;
     public long TreePracticeQLoadTime;
+    public ConfigReader configReader;
 
     //public static String browserName;
 
+    public TestContext() {
+        this.configReader = new ConfigReader();  // ✅ initialize here
+        this.faker=new Faker(); // new Faker() creates a new Faker object,this.faker refers to instance variable.
+
+    }
     public void initializePageObjects() {
         this.dashboardPage = new DashboardPage(driver,this);
         this.homePage = new HomePage(driver,this);
@@ -76,6 +83,5 @@ public class TestContext {
         this.linkedListPage = new LinkedListPage(driver,this);
         this.treePage = new TreePage(driver,this);
         this.graphPage = new GraphPage(driver,this);
-        this.faker=new Faker(); // new Faker() creates a new Faker object,this.faker refers to instance variable.
     }
 }

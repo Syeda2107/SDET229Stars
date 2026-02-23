@@ -63,7 +63,7 @@ public class DriverFactory {
             throw new IllegalArgumentException("Browser is not supported: " + browser);
 
         //getDriver().manage().window().maximize();
-        getDriver().manage().deleteAllCookies();
+       // getDriver().manage().deleteAllCookies();
         getDriver().manage().timeouts().scriptTimeout(Duration.ofSeconds(60));
         getDriver().manage().timeouts().pageLoadTimeout(Duration.ofSeconds(60));
         getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
