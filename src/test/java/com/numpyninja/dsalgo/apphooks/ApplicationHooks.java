@@ -83,7 +83,7 @@ public class ApplicationHooks {
             try {
                 TakesScreenshot ts = (TakesScreenshot) driver;
 
-                // 1️⃣ Get screenshot as FILE (for Extent)
+                // Get screenshot as FILE (for Extent)
                 File src = ts.getScreenshotAs(OutputType.FILE);
 
                 String timeStamp = new SimpleDateFormat("dd-MM-yyyy_HH-mm-ss")
@@ -101,10 +101,10 @@ public class ApplicationHooks {
                 File dest = new File(screenshotDir + screenshotName);
                 FileHandler.copy(src, dest);
 
-                // 2️⃣ Attach to Extent (actual image, not base64 link)
+                // 2 Attach to Extent (actual image, not base64 link)
                 ExtentCucumberAdapter.addTestStepScreenCaptureFromPath(dest.getAbsolutePath());
 
-                // 3️⃣ Get screenshot as BYTES (for Allure + Cucumber)
+                // Get screenshot as BYTES (for Allure + Cucumber)
                 byte[] screenshotBytes = ts.getScreenshotAs(OutputType.BYTES);
 
                 // Attach to Allure
