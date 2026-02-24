@@ -6,8 +6,6 @@ Feature: Login Functionality of DsAlgo Application
     And user clicks on Sign in link in the Home page
     Then the page title should be displayed as "Login"
 
-  Rule: Functional Validation of Login page
-
   Scenario Outline: Verify that the user can able to logged in successfully after entering valid username and password
     When the user enters valid Username and Password from "<SheetName>" and <RowNumber> in the Login form
     And user clicks on Login button
@@ -63,8 +61,6 @@ Feature: Login Functionality of DsAlgo Application
   Scenario: Verify that the user navigates to the Register page from Login page
     When the user clicks on Register link from login page
     Then the page title should be displayed as "Registration"
-
-  Rule: Non Functional Validation of Login page
 
     @Performance
     Scenario: Verify that the login page load time

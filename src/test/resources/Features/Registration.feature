@@ -6,8 +6,6 @@ Feature: Registration Functionality of DsAlgo Application
     And  user clicks on Register link in the Home page
     Then the page title should be displayed as "Registration"
 
-  Rule: Functional Validation of Registration page
-
   Scenario Outline: Verify that the tooltip message is displayed when user clicks on Register button by leaving all the fields empty
     When the user enters "<Username>","<Password>" and "<Password confirmation>" in the register form
     And user clicks on Register button
@@ -62,8 +60,6 @@ Feature: Registration Functionality of DsAlgo Application
   Scenario: Verify that the user navigates to Login page from Register Page
     When the user clicks on Login link below Register button
     Then the page title should be displayed as "Login"
-
-  Rule: Non Functional Validation of Registration page
 
     @Performance
     Scenario: Verify that the registration page load time
