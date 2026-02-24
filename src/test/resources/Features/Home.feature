@@ -5,8 +5,6 @@ Feature: Home Page Functionality of DsAlgo Application
     When the user clicks on Get Started button in the DsAlgo Portal
     Then the page title should be displayed as "NumpyNinja"
 
-  Rule: Functional Validation of Home page
-
 #  Scenario: Verify that the user can view the Data Structures dropdown options
 #    When the user clicks on Data Structures dropdown in the Home page
 #    Then the user should able to see 6 options - "Arrays","LinkedList","Stack","Queue","Tree","Graph" in dropdown menu
@@ -62,8 +60,6 @@ Feature: Home Page Functionality of DsAlgo Application
   Scenario: Verify that the warning message is displayed when user clicks on Get Started button of Graph module without signin
     When the user clicks on Get Started button of "Graph" module
     Then the user should able to see the warning message as "You are not logged in"
-
-  Rule: Non Functional Validation of Home page
 
     @Performance
     Scenario: Verify that the home page load time
