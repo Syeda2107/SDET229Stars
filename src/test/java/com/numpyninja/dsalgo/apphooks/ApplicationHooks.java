@@ -9,6 +9,7 @@ import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
 import lombok.extern.slf4j.Slf4j;
+import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -48,11 +49,17 @@ public class ApplicationHooks {
     }
 
     @Before(order = 1)
-    public void beforeScenario(Scenario scenario) throws IOException {
+    public void beforeScenario(Scenario scenario) throws IOException, InvalidFormatException {
 
         context.setDriver(DriverFactory.initDriver(browserName));
         driver = context.getDriver();
-        context.initializePageObjects();
+        try {
+            context.initializePageObjects();
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        } catch (InvalidFormatException e) {
+            throw new RuntimeException(e);
+        }
 
         String url = context.configReader.initProp("url");
 

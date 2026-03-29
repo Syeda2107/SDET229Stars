@@ -52,6 +52,7 @@ public class GraphPage extends BasePage {
     } // waits 10 sec to click graphrepresentationpg link inside graph panel
 
     public void clickTryHereBtn() {
+
         waitForElementToClick(tryHereBtn, 10);
     } // checks try here btn in graph pg
 

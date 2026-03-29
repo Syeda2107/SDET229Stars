@@ -17,6 +17,8 @@ import org.testng.annotations.Parameters;
         "src/test/resources/Features/Array.feature",
         "src/test/resources/Features/LinkedList.feature",
         "src/test/resources/Features/Graph.feature",
+        "src/test/resources/Features/Stack.feature",
+        "src/test/resources/Features/Queue.feature",
         "src/test/resources/Features/Tree.feature"
 },
         glue = {"com.numpyninja.dsalgo.stepdefinitions", "com.numpyninja.dsalgo.apphooks"},
@@ -35,7 +37,7 @@ public class TestRunner extends AbstractTestNGCucumberTests {
     @Parameters("browser")
     public void setBrowser(@Optional("chrome") String browser) {
         if (browser != null && !browser.isEmpty())
-            System.setProperty("browser", browser);
+           System.setProperty("browser", browser);
         System.out.println("Browser set to : " + browser);
     }
 

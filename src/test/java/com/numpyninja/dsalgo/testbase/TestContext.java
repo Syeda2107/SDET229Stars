@@ -5,7 +5,10 @@ import com.numpyninja.dsalgo.pageobjects.*;
 import com.numpyninja.dsalgo.utilities.ConfigReader;
 import lombok.Getter;
 import lombok.Setter;
+import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.openqa.selenium.WebDriver;
+
+import java.io.IOException;
 
 @Setter
 @Getter
@@ -20,6 +23,8 @@ public class TestContext {
     public DSIntroductionPage dsIntroductionPage;
     public TreePage treePage;
     public GraphPage graphPage;
+    public StackPage stackPage;
+    public QueuePage queuePage;
     public Faker faker; // Faker is a Java library used to generate fake test data,it helps you avoid hard‑coding values.
     public long timeComplexityLoadTime;
     public long dsIntroLoadTime;
@@ -73,7 +78,7 @@ public class TestContext {
         this.faker=new Faker(); // new Faker() creates a new Faker object,this.faker refers to instance variable.
 
     }
-    public void initializePageObjects() {
+    public void initializePageObjects() throws IOException, InvalidFormatException {
         this.dashboardPage = new DashboardPage(driver,this);
         this.homePage = new HomePage(driver,this);
         this.registrationPage = new RegistrationPage(driver,this);
@@ -83,5 +88,7 @@ public class TestContext {
         this.linkedListPage = new LinkedListPage(driver,this);
         this.treePage = new TreePage(driver,this);
         this.graphPage = new GraphPage(driver,this);
+        this.stackPage = new StackPage(driver, this);
+        this.queuePage = new QueuePage(driver, this);
     }
 }
