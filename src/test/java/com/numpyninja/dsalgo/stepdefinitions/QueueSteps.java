@@ -21,7 +21,7 @@ public class QueueSteps {
     WebDriver driver;
     QueuePage queuePage;
     GraphPage graphPage;
-    private String buttonName;
+//    private String buttonName;
     public TestContext context;
 
     public QueueSteps(TestContext context) {
