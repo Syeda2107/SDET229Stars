@@ -39837,3 +39837,291 @@ Session ID: 07ed2abc3291af59d1de25d3a7588fc9
 [2026-02-23 11:01:42] INFO  ApplicationHooks - Scenario passed: Verify that the practice page loads using Https protocol
 [2026-02-23 11:01:45] INFO  DashboardSteps - Validating page loads without any errors
 [2026-02-23 11:01:45] INFO  ApplicationHooks - Scenario passed: Verify practice page loads without errors
+[2026-02-24 14:04:34] INFO  ApplicationHooks - Running tests on browser: firefox
+[2026-02-24 14:04:34] INFO  ApplicationHooks - Running tests on browser: firefox
+[2026-02-24 14:04:34] INFO  ApplicationHooks - Running tests on browser: firefox
+[2026-02-24 14:04:34] INFO  ApplicationHooks - Running tests on browser: firefox
+[2026-02-24 14:04:34] INFO  ApplicationHooks - Running tests on browser: firefox
+[2026-02-24 14:04:34] INFO  ApplicationHooks - Running tests on browser: firefox
+[2026-02-24 14:04:34] INFO  ApplicationHooks - Running tests on browser: firefox
+[2026-02-24 14:04:34] INFO  ApplicationHooks - Running tests on browser: firefox
+[2026-02-24 14:04:34] INFO  ApplicationHooks - Running tests on browser: firefox
+[2026-02-24 14:04:34] INFO  ApplicationHooks - Running tests on browser: firefox
+[2026-02-24 14:04:34] INFO  ApplicationHooks - Running tests on browser: firefox
+[2026-02-24 14:04:34] INFO  ApplicationHooks - Running tests on browser: firefox
+[2026-02-24 14:04:34] INFO  ApplicationHooks - Running tests on browser: firefox
+[2026-02-24 14:04:34] INFO  ApplicationHooks - Running tests on browser: firefox
+[2026-02-24 14:04:34] INFO  ApplicationHooks - Running tests on browser: firefox
+[2026-02-24 14:04:34] INFO  ApplicationHooks - Running tests on browser: firefox
+[2026-02-24 14:04:34] INFO  ApplicationHooks - Running tests on browser: firefox
+[2026-02-24 14:04:34] INFO  ApplicationHooks - Running tests on browser: firefox
+[2026-02-24 14:04:34] INFO  ApplicationHooks - Running tests on browser: firefox
+[2026-02-24 14:04:34] INFO  ApplicationHooks - Running tests on browser: firefox
+[2026-02-24 14:04:34] INFO  ApplicationHooks - Running tests on browser: firefox
+[2026-02-24 14:04:34] INFO  ApplicationHooks - Running tests on browser: firefox
+[2026-02-24 14:04:34] INFO  ApplicationHooks - Running tests on browser: firefox
+[2026-02-24 14:04:34] INFO  ApplicationHooks - Running tests on browser: firefox
+[2026-02-24 14:04:34] INFO  ApplicationHooks - Running tests on browser: firefox
+[2026-02-24 14:04:34] INFO  ApplicationHooks - Running tests on browser: firefox
+[2026-02-24 14:04:34] INFO  ApplicationHooks - Running tests on browser: firefox
+[2026-02-24 14:04:34] INFO  ApplicationHooks - Running tests on browser: firefox
+[2026-02-24 14:04:34] INFO  ApplicationHooks - Running tests on browser: firefox
+[2026-02-24 14:04:34] INFO  ApplicationHooks - Running tests on browser: firefox
+[2026-02-24 14:09:03] ERROR ApplicationHooks - Screenshot capture failed: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[2026-02-24 14:09:03] ERROR ApplicationHooks - Screenshot capture failed: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[2026-02-24 14:09:03] ERROR ApplicationHooks - Screenshot capture failed: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[2026-02-24 14:09:03] ERROR ApplicationHooks - Screenshot capture failed: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[2026-02-24 14:09:03] ERROR ApplicationHooks - Screenshot capture failed: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[2026-02-24 14:09:03] ERROR ApplicationHooks - Screenshot capture failed: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[2026-02-24 14:09:03] ERROR ApplicationHooks - Screenshot capture failed: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[2026-02-24 14:09:03] ERROR ApplicationHooks - Screenshot capture failed: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[2026-02-24 14:09:03] ERROR ApplicationHooks - Screenshot capture failed: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[2026-02-24 14:09:04] ERROR ApplicationHooks - Screenshot capture failed: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[2026-02-24 14:09:04] ERROR ApplicationHooks - Screenshot capture failed: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[2026-02-24 14:09:04] ERROR ApplicationHooks - Screenshot capture failed: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[2026-02-24 14:09:04] ERROR ApplicationHooks - Screenshot capture failed: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[2026-02-24 14:09:04] ERROR ApplicationHooks - Screenshot capture failed: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[2026-02-24 14:09:04] ERROR ApplicationHooks - Screenshot capture failed: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[2026-02-24 14:09:05] ERROR ApplicationHooks - Screenshot capture failed: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[2026-02-24 14:09:05] ERROR ApplicationHooks - Screenshot capture failed: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[2026-02-24 14:09:04] ERROR ApplicationHooks - Screenshot capture failed: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[2026-02-24 14:09:05] ERROR ApplicationHooks - Screenshot capture failed: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[2026-02-24 14:09:04] ERROR ApplicationHooks - Screenshot capture failed: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[2026-02-24 14:09:05] ERROR ApplicationHooks - Screenshot capture failed: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[2026-02-24 14:09:05] ERROR ApplicationHooks - Screenshot capture failed: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[2026-02-24 14:09:05] ERROR ApplicationHooks - Screenshot capture failed: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[2026-02-24 14:10:44] ERROR ApplicationHooks - Screenshot capture failed: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[2026-02-24 14:10:37] INFO  ApplicationHooks - Scenario started: Navigate to Array submodule, access Try Editor, and run code
+[2026-02-24 14:10:37] INFO  ApplicationHooks - Scenario started: Navigate to Array submodule, access Try Editor, and run code
+[2026-02-24 14:10:44] INFO  ApplicationHooks - Scenario started: Navigate to Array submodule, access Try Editor, and run code
+[2026-02-24 14:10:44] INFO  ApplicationHooks - Scenario started: Navigate to Array submodule, access Try Editor, and run code
+[2026-02-24 14:10:45] INFO  ApplicationHooks - Scenario started: Navigate to Array submodule, access Try Editor, and run code
+[2026-02-24 14:10:45] ERROR ApplicationHooks - Screenshot capture failed: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[2026-02-24 14:10:54] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-24 14:10:54] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-24 14:10:54] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-24 14:10:54] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-24 14:10:54] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-24 14:11:52] INFO  ApplicationHooks - Running tests on browser: firefox
+[2026-02-24 14:11:52] INFO  ApplicationHooks - Running tests on browser: firefox
+[2026-02-24 14:11:52] INFO  ApplicationHooks - Running tests on browser: firefox
+[2026-02-24 14:11:52] INFO  ApplicationHooks - Running tests on browser: firefox
+[2026-02-24 14:11:52] INFO  ApplicationHooks - Running tests on browser: firefox
+[2026-02-24 14:11:52] INFO  ApplicationHooks - Running tests on browser: firefox
+[2026-02-24 14:11:52] INFO  ApplicationHooks - Running tests on browser: firefox
+[2026-02-24 14:11:52] INFO  ApplicationHooks - Running tests on browser: firefox
+[2026-02-24 14:11:52] INFO  ApplicationHooks - Running tests on browser: firefox
+[2026-02-24 14:11:52] INFO  ApplicationHooks - Running tests on browser: firefox
+[2026-02-24 14:11:52] INFO  ApplicationHooks - Running tests on browser: firefox
+[2026-02-24 14:11:52] INFO  ApplicationHooks - Running tests on browser: firefox
+[2026-02-24 14:11:52] INFO  ApplicationHooks - Running tests on browser: firefox
+[2026-02-24 14:11:52] INFO  ApplicationHooks - Running tests on browser: firefox
+[2026-02-24 14:11:52] INFO  ApplicationHooks - Running tests on browser: firefox
+[2026-02-24 14:11:52] INFO  ApplicationHooks - Running tests on browser: firefox
+[2026-02-24 14:11:52] INFO  ApplicationHooks - Running tests on browser: firefox
+[2026-02-24 14:11:52] INFO  ApplicationHooks - Running tests on browser: firefox
+[2026-02-24 14:11:52] INFO  ApplicationHooks - Running tests on browser: firefox
+[2026-02-24 14:11:52] INFO  ApplicationHooks - Running tests on browser: firefox
+[2026-02-24 14:11:52] INFO  ApplicationHooks - Running tests on browser: firefox
+[2026-02-24 14:11:52] INFO  ApplicationHooks - Running tests on browser: firefox
+[2026-02-24 14:11:52] INFO  ApplicationHooks - Running tests on browser: firefox
+[2026-02-24 14:11:52] INFO  ApplicationHooks - Running tests on browser: firefox
+[2026-02-24 14:11:52] INFO  ApplicationHooks - Running tests on browser: firefox
+[2026-02-24 14:45:54] ERROR ApplicationHooks - Screenshot capture failed: java.net.http.HttpTimeoutException: request timed out
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [12f1a85c-fc3f-43c1-8481-86db9b75f633, screenshot {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 148.0, moz:accessibilityChecks: false, moz:buildID: 20260216153405, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 34832, moz:profile: C:\Users\gayat\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 12f1a85c-fc3f-43c1-8481-86db9b75f633
+[2026-02-24 14:45:54] ERROR ApplicationHooks - Screenshot capture failed: java.net.http.HttpTimeoutException: request timed out
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [1aac7504-1beb-4d45-aea9-32e5844351ee, screenshot {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 148.0, moz:accessibilityChecks: false, moz:buildID: 20260216153405, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 26844, moz:profile: C:\Users\gayat\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 1aac7504-1beb-4d45-aea9-32e5844351ee
+[2026-02-24 14:45:54] ERROR ApplicationHooks - Screenshot capture failed: java.net.http.HttpTimeoutException: request timed out
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [cbd85239-565b-404e-abc6-e261e2b83af0, screenshot {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 148.0, moz:accessibilityChecks: false, moz:buildID: 20260216153405, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 14932, moz:profile: C:\Users\gayat\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: cbd85239-565b-404e-abc6-e261e2b83af0
+[2026-02-24 14:45:54] ERROR ApplicationHooks - Screenshot capture failed: java.net.http.HttpTimeoutException: request timed out
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [7ba7fea7-8515-4954-879e-26101e7bbc74, screenshot {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 148.0, moz:accessibilityChecks: false, moz:buildID: 20260216153405, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 10524, moz:profile: C:\Users\gayat\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 7ba7fea7-8515-4954-879e-26101e7bbc74
+[2026-02-24 16:22:11] ERROR ApplicationHooks - Scenario failed: Navigate to Array submodule, access Try Editor, and run code
+[2026-02-24 16:22:53] ERROR ApplicationHooks - Screenshot capture failed: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[2026-02-24 16:23:20] INFO  ApplicationHooks - Running tests on browser: firefox
+[2026-02-24 16:23:20] INFO  ApplicationHooks - Running tests on browser: firefox
+[2026-02-24 16:23:20] INFO  ApplicationHooks - Running tests on browser: firefox
+[2026-02-24 16:23:28] ERROR ApplicationHooks - Screenshot capture failed: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[2026-02-24 16:23:31] ERROR ApplicationHooks - Screenshot capture failed: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[2026-02-24 16:23:31] ERROR ApplicationHooks - Screenshot capture failed: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[2026-02-24 16:23:31] ERROR ApplicationHooks - Screenshot capture failed: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[2026-02-24 16:23:31] ERROR ApplicationHooks - Screenshot capture failed: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[2026-02-24 16:23:31] INFO  ApplicationHooks - Running tests on browser: firefox
+[2026-02-24 16:23:32] INFO  ApplicationHooks - Running tests on browser: firefox
+[2026-02-24 16:23:32] INFO  ApplicationHooks - Running tests on browser: firefox
+[2026-02-24 16:23:32] INFO  ApplicationHooks - Running tests on browser: firefox
+[2026-02-24 16:23:32] ERROR ApplicationHooks - Screenshot capture failed: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[2026-02-24 16:23:32] ERROR ApplicationHooks - Screenshot capture failed: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[2026-02-24 16:23:34] INFO  ApplicationHooks - Running tests on browser: firefox
+[2026-02-24 16:23:34] INFO  ApplicationHooks - Running tests on browser: firefox
+[2026-02-24 16:23:35] INFO  ApplicationHooks - Running tests on browser: firefox
+[2026-02-24 16:23:35] INFO  ApplicationHooks - Running tests on browser: firefox
+[2026-02-24 16:23:35] INFO  ApplicationHooks - Running tests on browser: firefox
+[2026-02-24 16:23:35] INFO  ApplicationHooks - Running tests on browser: firefox
+[2026-02-24 16:24:37] ERROR ApplicationHooks - Screenshot capture failed: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[2026-02-24 16:24:37] ERROR ApplicationHooks - Screenshot capture failed: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[2026-02-24 16:25:16] INFO  ApplicationHooks - Running tests on browser: firefox
+[2026-02-24 16:25:16] INFO  ApplicationHooks - Running tests on browser: firefox
+[2026-02-24 16:25:19] ERROR ApplicationHooks - Screenshot capture failed: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[2026-02-24 16:25:49] INFO  ApplicationHooks - Running tests on browser: firefox
+[2026-02-24 16:25:50] ERROR ApplicationHooks - Screenshot capture failed: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[2026-02-24 16:25:50] ERROR ApplicationHooks - Screenshot capture failed: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[2026-02-24 16:25:50] ERROR ApplicationHooks - Screenshot capture failed: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[2026-02-24 16:25:50] ERROR ApplicationHooks - Screenshot capture failed: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[2026-02-24 16:25:50] ERROR ApplicationHooks - Screenshot capture failed: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[2026-02-24 16:25:50] ERROR ApplicationHooks - Screenshot capture failed: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[2026-02-24 16:25:50] ERROR ApplicationHooks - Screenshot capture failed: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[2026-02-24 16:25:50] ERROR ApplicationHooks - Screenshot capture failed: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[2026-02-24 16:25:52] ERROR ApplicationHooks - Screenshot capture failed: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[2026-02-24 16:25:52] ERROR ApplicationHooks - Screenshot capture failed: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[2026-02-24 16:25:52] ERROR ApplicationHooks - Screenshot capture failed: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[2026-02-24 16:25:53] ERROR ApplicationHooks - Screenshot capture failed: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[2026-02-24 16:25:53] ERROR ApplicationHooks - Screenshot capture failed: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[2026-02-24 16:25:53] ERROR ApplicationHooks - Screenshot capture failed: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[2026-02-24 16:25:53] ERROR ApplicationHooks - Screenshot capture failed: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[2026-02-24 16:25:53] INFO  ApplicationHooks - Running tests on browser: firefox
+[2026-02-24 16:25:53] ERROR ApplicationHooks - Screenshot capture failed: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[2026-02-24 16:25:53] INFO  ApplicationHooks - Running tests on browser: firefox
+[2026-02-24 16:25:53] INFO  ApplicationHooks - Running tests on browser: firefox
+[2026-02-24 16:25:54] ERROR ApplicationHooks - Screenshot capture failed: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[2026-02-24 16:25:56] INFO  ApplicationHooks - Running tests on browser: firefox
+[2026-02-24 16:25:56] INFO  ApplicationHooks - Running tests on browser: firefox
+[2026-02-24 16:25:58] INFO  ApplicationHooks - Running tests on browser: firefox
+[2026-02-24 16:25:58] INFO  ApplicationHooks - Running tests on browser: firefox
+[2026-02-24 16:25:58] INFO  ApplicationHooks - Running tests on browser: firefox
+[2026-02-24 16:25:58] INFO  ApplicationHooks - Running tests on browser: firefox
+[2026-02-24 16:25:58] INFO  ApplicationHooks - Running tests on browser: firefox
+[2026-02-24 16:25:58] INFO  ApplicationHooks - Running tests on browser: firefox
+[2026-02-24 16:25:58] INFO  ApplicationHooks - Running tests on browser: firefox
+[2026-02-24 16:25:58] INFO  ApplicationHooks - Running tests on browser: firefox
+[2026-02-24 16:25:58] INFO  ApplicationHooks - Running tests on browser: firefox
+[2026-02-24 16:25:58] INFO  ApplicationHooks - Running tests on browser: firefox
+[2026-02-24 16:25:59] INFO  ApplicationHooks - Running tests on browser: firefox
+[2026-02-24 16:25:59] INFO  ApplicationHooks - Running tests on browser: firefox
+[2026-02-24 16:27:16] ERROR ApplicationHooks - Screenshot capture failed: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[2026-02-24 16:27:16] ERROR ApplicationHooks - Screenshot capture failed: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[2026-02-24 16:27:16] ERROR ApplicationHooks - Screenshot capture failed: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[2026-02-24 16:27:18] ERROR ApplicationHooks - Screenshot capture failed: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[2026-02-24 16:27:19] ERROR ApplicationHooks - Screenshot capture failed: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[2026-02-24 16:27:19] ERROR ApplicationHooks - Screenshot capture failed: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[2026-02-24 16:27:20] ERROR ApplicationHooks - Screenshot capture failed: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[2026-02-24 16:27:21] INFO  ApplicationHooks - Running tests on browser: firefox
+[2026-02-24 16:27:21] INFO  ApplicationHooks - Running tests on browser: firefox
+[2026-02-24 16:27:21] INFO  ApplicationHooks - Running tests on browser: firefox
+[2026-02-24 16:27:21] INFO  ApplicationHooks - Running tests on browser: firefox
+[2026-02-24 16:27:21] INFO  ApplicationHooks - Running tests on browser: firefox
+[2026-02-24 16:27:21] ERROR ApplicationHooks - Screenshot capture failed: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[2026-02-24 16:27:21] ERROR ApplicationHooks - Screenshot capture failed: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[2026-02-24 16:27:21] INFO  ApplicationHooks - Running tests on browser: firefox
+[2026-02-24 16:27:21] INFO  ApplicationHooks - Running tests on browser: firefox
+[2026-02-24 16:27:22] INFO  ApplicationHooks - Running tests on browser: firefox
+[2026-02-24 16:27:22] ERROR ApplicationHooks - Screenshot capture failed: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[2026-02-24 16:27:22] INFO  ApplicationHooks - Running tests on browser: firefox
+[2026-02-24 16:27:22] INFO  ApplicationHooks - Running tests on browser: firefox
+[2026-02-24 16:28:16] ERROR ApplicationHooks - Screenshot capture failed: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[2026-02-24 16:28:16] ERROR ApplicationHooks - Screenshot capture failed: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[2026-02-24 16:28:36] ERROR ApplicationHooks - Screenshot capture failed: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[2026-02-24 16:28:37] ERROR ApplicationHooks - Screenshot capture failed: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[2026-02-24 16:28:37] ERROR ApplicationHooks - Screenshot capture failed: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[2026-02-24 16:28:37] ERROR ApplicationHooks - Screenshot capture failed: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[2026-02-24 16:28:37] ERROR ApplicationHooks - Screenshot capture failed: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[2026-02-24 16:28:38] ERROR ApplicationHooks - Screenshot capture failed: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[2026-02-24 16:28:38] ERROR ApplicationHooks - Screenshot capture failed: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[2026-02-24 16:28:40] ERROR ApplicationHooks - Screenshot capture failed: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[2026-02-24 16:28:40] ERROR ApplicationHooks - Screenshot capture failed: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[2026-02-24 16:28:41] ERROR ApplicationHooks - Screenshot capture failed: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[2026-02-24 16:28:41] ERROR ApplicationHooks - Screenshot capture failed: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[2026-02-24 16:28:41] ERROR ApplicationHooks - Screenshot capture failed: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[2026-02-24 16:28:41] ERROR ApplicationHooks - Screenshot capture failed: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[2026-02-24 16:28:41] ERROR ApplicationHooks - Screenshot capture failed: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[2026-02-24 16:28:41] INFO  ApplicationHooks - Running tests on browser: firefox
+[2026-02-24 16:28:41] INFO  ApplicationHooks - Running tests on browser: firefox
+[2026-02-24 16:28:41] INFO  ApplicationHooks - Running tests on browser: firefox
+[2026-02-24 16:28:41] INFO  ApplicationHooks - Running tests on browser: firefox
+[2026-02-24 16:28:41] INFO  ApplicationHooks - Running tests on browser: firefox
+[2026-02-24 16:28:41] ERROR ApplicationHooks - Screenshot capture failed: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[2026-02-24 16:28:41] ERROR ApplicationHooks - Screenshot capture failed: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[2026-02-24 16:28:41] ERROR ApplicationHooks - Screenshot capture failed: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[2026-02-24 16:28:41] ERROR ApplicationHooks - Screenshot capture failed: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[2026-02-24 16:28:41] INFO  ApplicationHooks - Running tests on browser: firefox
+[2026-02-24 16:28:41] INFO  ApplicationHooks - Running tests on browser: firefox
+[2026-02-24 16:28:41] INFO  ApplicationHooks - Running tests on browser: firefox
+[2026-02-24 16:28:41] INFO  ApplicationHooks - Running tests on browser: firefox
+[2026-02-24 16:28:41] INFO  ApplicationHooks - Running tests on browser: firefox
+[2026-02-24 16:28:41] INFO  ApplicationHooks - Running tests on browser: firefox
+[2026-02-24 16:28:41] ERROR ApplicationHooks - Screenshot capture failed: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[2026-02-24 16:28:42] INFO  ApplicationHooks - Running tests on browser: firefox
+[2026-02-24 16:28:42] INFO  ApplicationHooks - Running tests on browser: firefox
+[2026-02-24 16:28:42] ERROR ApplicationHooks - Screenshot capture failed: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[2026-02-24 16:28:42] INFO  ApplicationHooks - Running tests on browser: firefox
+[2026-02-24 16:28:42] INFO  ApplicationHooks - Running tests on browser: firefox
+[2026-02-24 16:28:42] INFO  ApplicationHooks - Running tests on browser: firefox
+[2026-02-24 16:28:42] INFO  ApplicationHooks - Running tests on browser: firefox
+[2026-02-24 16:28:42] INFO  ApplicationHooks - Running tests on browser: firefox
+[2026-02-24 16:28:42] INFO  ApplicationHooks - Running tests on browser: firefox
+[2026-02-24 16:28:42] INFO  ApplicationHooks - Running tests on browser: firefox
+[2026-02-24 16:28:42] INFO  ApplicationHooks - Running tests on browser: firefox
+[2026-02-24 16:28:42] INFO  ApplicationHooks - Running tests on browser: firefox
+[2026-02-24 16:30:51] INFO  ApplicationHooks - Scenario started: Verify Data-structures Introduction page loads without errors
+[2026-02-24 16:30:52] INFO  ApplicationHooks - Scenario started: Verify that the time complexity page load time
+[2026-02-24 16:30:52] INFO  ApplicationHooks - Scenario started: Verify that the time complexity page loads using Https protocol
+[2026-02-24 16:30:51] INFO  ApplicationHooks - Scenario started: Verify Data-structures Introduction page loads without errors
+[2026-02-24 16:30:52] INFO  ApplicationHooks - Scenario started: Verify that the time complexity page loads using Https protocol
+[2026-02-24 16:30:51] INFO  ApplicationHooks - Scenario started: Verify that the try editor page load time
+[2026-02-24 16:30:51] INFO  ApplicationHooks - Scenario started: Verify time complexity page loads without errors
+[2026-02-24 16:30:51] INFO  ApplicationHooks - Scenario started: Verify that the time complexity page loads using Https protocol
+[2026-02-24 16:31:10] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-24 16:31:10] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-24 16:31:10] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-24 16:31:10] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-24 16:31:10] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-24 16:31:10] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-24 16:31:10] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-24 16:31:10] INFO  DashboardSteps - Launching application URL: https://dsportalapp.herokuapp.com/
+[2026-02-24 16:32:32] ERROR ApplicationHooks - Screenshot capture failed: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[2026-02-24 16:32:32] ERROR ApplicationHooks - Screenshot capture failed: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[2026-02-24 16:32:32] ERROR ApplicationHooks - Screenshot capture failed: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[2026-02-24 16:32:32] ERROR ApplicationHooks - Screenshot capture failed: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[2026-02-24 16:32:32] ERROR ApplicationHooks - Screenshot capture failed: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[2026-02-24 16:32:32] ERROR ApplicationHooks - Screenshot capture failed: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[2026-02-24 16:32:32] ERROR ApplicationHooks - Screenshot capture failed: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[2026-02-24 16:32:32] ERROR ApplicationHooks - Screenshot capture failed: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[2026-02-24 16:32:32] ERROR ApplicationHooks - Screenshot capture failed: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[2026-02-24 16:32:32] ERROR ApplicationHooks - Screenshot capture failed: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[2026-02-24 16:32:32] ERROR ApplicationHooks - Screenshot capture failed: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[2026-02-24 16:32:32] ERROR ApplicationHooks - Screenshot capture failed: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[2026-02-24 16:32:32] ERROR ApplicationHooks - Screenshot capture failed: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[2026-02-24 16:32:32] ERROR ApplicationHooks - Screenshot capture failed: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[2026-02-24 16:32:32] ERROR ApplicationHooks - Screenshot capture failed: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[2026-02-24 16:32:33] ERROR ApplicationHooks - Screenshot capture failed: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[2026-02-24 16:32:33] ERROR ApplicationHooks - Screenshot capture failed: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[2026-02-24 16:32:33] ERROR ApplicationHooks - Screenshot capture failed: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[2026-02-24 16:32:40] ERROR ApplicationHooks - Screenshot capture failed: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[2026-02-24 16:32:42] ERROR ApplicationHooks - Screenshot capture failed: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+[2026-02-24 16:34:14] INFO  ApplicationHooks - Running tests on browser: firefox
+[2026-02-24 16:34:20] INFO  ApplicationHooks - Running tests on browser: firefox
+[2026-02-24 16:34:41] INFO  ApplicationHooks - Running tests on browser: firefox
+[2026-02-24 16:34:41] INFO  ApplicationHooks - Running tests on browser: firefox
+[2026-02-24 16:34:41] ERROR ApplicationHooks - Scenario failed: Verify time complexity page loads without errors
+[2026-02-24 16:34:41] INFO  ApplicationHooks - Running tests on browser: firefox
+[2026-02-24 16:34:41] INFO  ApplicationHooks - Running tests on browser: firefox
+[2026-02-24 16:34:41] ERROR ApplicationHooks - Screenshot capture failed: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null

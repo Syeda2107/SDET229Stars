@@ -32,8 +32,6 @@ public class ApplicationHooks {
         this.context = context;
     }
 
-    // ---------------- BEFORE ----------------
-
     @Before(order = 0)
     public void getProperty() throws IOException {
       //  cr = new ConfigReader();
@@ -122,7 +120,6 @@ public class ApplicationHooks {
             log.info("Scenario passed: {}", scenario.getName());
         }
     }
-    // ---------------- CLEANUP ----------------
 
     @After(order = 0)
     public void quitBrowser() {
