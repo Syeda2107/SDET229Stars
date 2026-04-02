@@ -74,7 +74,7 @@ public class TestContext {
     //public static String browserName;
 
     public TestContext() {
-        this.configReader = new ConfigReader();  // ✅ initialize here
+        this.configReader = new ConfigReader();  // initialize here
         this.faker=new Faker(); // new Faker() creates a new Faker object,this.faker refers to instance variable.
 
     }
