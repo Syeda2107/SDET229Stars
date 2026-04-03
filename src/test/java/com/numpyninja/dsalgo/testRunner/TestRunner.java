@@ -13,10 +13,10 @@ import org.testng.annotations.Parameters;
 //          "src/test/resources/Features/Home.feature",
 //          "src/test/resources/Features/Registration.feature",
 //          "src/test/resources/Features/Login.feature",
-          "src/test/resources/Features/DSIntroduction.feature",
-          "src/test/resources/Features/Array.feature",
+//          "src/test/resources/Features/DSIntroduction.feature",
+//          "src/test/resources/Features/Array.feature",
 //          "src/test/resources/Features/LinkedList.feature",
-//          "src/test/resources/Features/Graph.feature",
+          "src/test/resources/Features/Graph.feature",
 //          "src/test/resources/Features/Stack.feature",
 //          "src/test/resources/Features/Queue.feature",
 //          "src/test/resources/Features/Tree.feature"
